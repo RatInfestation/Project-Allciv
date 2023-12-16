@@ -34,23 +34,22 @@
 	    "uniques": ["[+25]% [Culture] from Trade Routes",
 	    "[+1 Gold, +1 Culture] from [Luxury resource] tiles [in this city]"],
 	    "requiredTech": "Currency"
-	  },
-		//Cyprus
-		{
-					"name": "Olive Oil Vineyard",
-					"uniqueTo": "Cyprus",
-					"cost": 100,
-		"uniques": ["Provides [1] [Olive Oil]","Unsellable","Destroyed when the city is captured","Unbuildable"],
-		},
-		{
-			"name": "Fortifications of Famagusta",
-			"replaces": "Walls",
-			"uniqueTo": "Cyprus",
-			"cityStrength": 10,
-			"cityHealth": 75,
-			"culture": 1,
-			"hurryCostModifier": 25,
-			"requiredTech": "Masonry",
-			"uniques": ["[+1 Culture, +1 Gold] <after discovering [Flight]>"]
-		},
+	},
+	{
+	     "name": "Olive Oil Vineyard",
+	     "uniqueTo": "Cyprus",
+	     "cost": 100,
+	     "uniques": ["Provides [1] [Olive Oil]","Unsellable","Destroyed when the city is captured","Unbuildable"],
+	},
+	{
+	"name": "Fortifications of Famagusta",
+	"replaces": "Walls",
+	"uniqueTo": "Cyprus",
+	"cityStrength": 10,
+	"cityHealth": 75,
+	"culture": 1,
+	"hurryCostModifier": 25,
+	"requiredTech": "Masonry",
+	"uniques": ["[+1 Culture, +1 Gold] <after discovering [Flight]>"]
+	},
 ]
