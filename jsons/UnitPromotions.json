@@ -1,0 +1,22 @@
+[
+	{
+		"name": "[Mountie] ability",
+		"uniques": ["[+25]% Strength <when fighting in [Friendly Land] tiles>"]
+	},
+	{
+		"name": "[Combat Engineer] ability",
+		"uniques": ["[+50]% Strength <vs [Armored] units>"]
+	},
+	{
+		"name": "[BT-42] ability",
+		"uniques": ["[+15]% Strength <when fighting in [Snow] tiles>",
+			"[+15]% Strength <when fighting in [Tundra] tiles>",
+			"Double movement in [Snow]",
+			"Double movement in [Tundra]",
+			"[+35]% Strength <vs [Armor] units>"]
+	},
+	{
+		"name": "Field Medic",
+		"uniques": ["[+5] HP when healing <in [Foreign Land] tiles>", "All adjacent units heal [+10] HP when healing"],
+	},
+]
