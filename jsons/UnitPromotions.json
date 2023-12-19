@@ -19,4 +19,32 @@
 		"name": "Field Medic",
 		"uniques": ["[+5] HP when healing <in [Foreign Land] tiles>", "All adjacent units heal [+10] HP when healing"],
 	},
+	//The USSR
+	{
+		"name": "Reliable Parts",
+		"uniques": ["[+15] HP when healing"],
+	},
+	{
+		"name": "Siberian Home",
+		"uniques": ["[+20]% Strength <when fighting in [Snow] tiles>",
+			"[+20]% Strength <when fighting in [Tundra] tiles>",]
+	},
+	//Nauru
+	{
+		"name": "[Egatow] ability",
+		"uniques": ["Earn [50]% of killed [Military] unit's [Strength] as [Faith]","Earn [50]% of killed [Military] unit's [Strength] as [Culture]"],
+	},
+	//New Zealand
+	{
+		"name": "Maori Heritage",
+		"uniques": ["[+20]% Strength <in [Foreign Land] tiles>", "Defense bonus when embarked", "[1] Movement point cost to embark", "[1] Movement point cost to disembark"]
+	},
+	{
+		"name": "[Zealand Defender-ship] ability",
+		"uniques": ["[+20]% Strength decreasing with distance from the capital", "Ignores Zone of Control"],
+	},
+	{
+		"name": "[Red Djong] ability",
+		"uniques": ["Heals [10] damage if it kills a unit", "[+15]% Strength <vs [Wounded] units>"],
+	},
 ]
