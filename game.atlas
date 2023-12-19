@@ -375,23 +375,30 @@ TileSets/AbsoluteUnits/Units/Red Army Infantry
   orig: 95, 81
   offset: 0, 0
   index: -1
+TileSets/AbsoluteUnits/Units/Red Army T-34-85
+  rotate: false
+  xy: 1948, 437
+  size: 77, 65
+  orig: 77, 65
+  offset: 0, 0
+  index: -1
 TileSets/FantasyHex/Tiles/Cabin Village
   rotate: false
-  xy: 1948, 434
+  xy: 76, 28
   size: 32, 32
   orig: 32, 32
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Units/BT-42
   rotate: false
-  xy: 1948, 474
+  xy: 1732, 185
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Units/Mountie
   rotate: false
-  xy: 1988, 474
+  xy: 1772, 185
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
