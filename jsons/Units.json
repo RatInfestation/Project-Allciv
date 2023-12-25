@@ -260,14 +260,10 @@
 	"uniqueTo": "Norway",
 	"unitType": "Civilian",
 	"uniques": [
-					"Empire enters a [10]-turn Golden Age <by consuming this unit>",
-					"Can instantly construct a [Landmark] improvement <by consuming this unit> <if it hasn't used other actions yet>",
-					"Can Spread Religion <[4] times> <after which this unit is consumed>",
-					"Takes your religion over the one in their birth city",
-					"Removes other religions when spreading religion",
-					"May enter foreign tiles without open borders",
-					"Religious Unit", "Hidden when religion is disabled",
+					"Empire enters a [8]-turn Golden Age <by consuming this unit>",
+					"Can instantly construct a [Landmark] improvement <by consuming this unit>",
+					"Founds a new city <by consuming this unit>",
 					"Great Person - [Culture]", "Unbuildable", "Uncapturable",],
-	"movement": 2
+	"movement": 4
 },
 ]

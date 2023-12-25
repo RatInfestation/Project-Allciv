@@ -386,7 +386,7 @@
 			"outerColor": [218, 65, 103],
 			"favoredReligion": "Asatro",
 			"uniqueName": "Great Northern Poetry",
-			"uniques": ["[Skald] is earned [33]% faster", "[+4 Faith] from [Landmark] tiles [in all cities] <before discovering [Archaeology]>", "[+2 Culture] from [Landmark] tiles [in all cities] <after discovering [Archaeology]>"],
+			"uniques": ["Enables [Skald] units to enter ocean tiles", "[Skald] is earned [33]% faster", "[+4 Faith] from [Landmark] tiles [in all cities] <before discovering [Archaeology]>", "[+2 Culture] from [Landmark] tiles [in all cities] <after discovering [Archaeology]>"],
 			"cities": ["Oslo", "Bergen", "Trondheim", "Stavanger", "Drammen", "Fredrikstad", "Kristiansand", "Sandnes", "Tromsø", "Sarpsborg", "Skien", "Ålesund", "Sandefjord", "Haugesund", "Tønsberg", "Moss", "Porsgrunn", "Bodø", "Arendal", "Hamar"],
 	},
 ]
