@@ -145,6 +145,6 @@
 			"maintenance": 2,
 			"hurryCostModifier": 25,
 			"requiredTech": "Philosophy",
-			"uniques": ["Hidden when religion is disabled", "Destroyed when the city is captured", "[-15]% Culture cost of natural border growth [in this city]", "[+15]% Great Person generation [in this city]"]
+			"uniques": ["Hidden when religion is disabled", "Destroyed when the city is captured", "[+10]% Production when constructing [{Military} {Water}] units [in this city]", "[+15]% Great Person generation [in this city]"]
 		},
 ]
