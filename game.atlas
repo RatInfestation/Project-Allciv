@@ -1,523 +1,691 @@
 
 game.png
-size: 2048, 512
+size: 2048, 1024
 format: RGBA8888
 filter: MipMapLinearLinear, MipMapLinearLinear
 repeat: none
+BuildingIcons/Bird Watching Center
+  rotate: false
+  xy: 4, 472
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
 BuildingIcons/Casemate
   rotate: false
-  xy: 328, 294
+  xy: 328, 806
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 BuildingIcons/Dragon Dock
   rotate: false
-  xy: 436, 186
+  xy: 4, 256
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 BuildingIcons/Fortifications of Famagusta
   rotate: false
-  xy: 760, 402
+  xy: 652, 914
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 BuildingIcons/Haus Tambaran
   rotate: false
-  xy: 868, 402
+  xy: 328, 482
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+BuildingIcons/Heitt Bad
+  rotate: false
+  xy: 436, 590
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+BuildingIcons/Inukshuk
+  rotate: false
+  xy: 112, 158
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+BuildingIcons/Lavvu Camps
+  rotate: false
+  xy: 652, 698
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 BuildingIcons/Olive Oil Vineyard
   rotate: false
-  xy: 1300, 402
+  xy: 436, 266
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 BuildingIcons/Phosphate Corporation
   rotate: false
-  xy: 1408, 402
+  xy: 868, 698
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 BuildingIcons/Rug Market
   rotate: false
-  xy: 1516, 294
+  xy: 976, 698
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+BuildingIcons/Stave Church
+  rotate: false
+  xy: 652, 266
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 ImprovementIcons/Cabin Village
   rotate: false
-  xy: 112, 78
+  xy: 112, 590
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+ImprovementIcons/Kawi
+  rotate: false
+  xy: 328, 374
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 ImprovementIcons/Nature Preserve
   rotate: false
-  xy: 1084, 294
+  xy: 652, 590
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+ImprovementIcons/Tropical Reserve
+  rotate: false
+  xy: 544, 50
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 NationIcons/Afghanistan
   rotate: false
-  xy: 4, 402
+  xy: 4, 914
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 NationIcons/Albania
   rotate: false
-  xy: 4, 284
+  xy: 4, 796
   size: 100, 110
   orig: 100, 110
   offset: 0, 0
   index: -1
 NationIcons/Argentina
   rotate: false
-  xy: 112, 294
+  xy: 112, 806
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 NationIcons/Canada
   rotate: false
-  xy: 220, 186
+  xy: 220, 698
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+NationIcons/Christmas Island
+  rotate: false
+  xy: 328, 698
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 NationIcons/Cyprus
   rotate: false
-  xy: 328, 78
+  xy: 544, 914
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 NationIcons/Finland
   rotate: false
-  xy: 652, 294
+  xy: 544, 806
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 NationIcons/Hong Kong
   rotate: false
-  xy: 652, 78
+  xy: 544, 698
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+NationIcons/Iceland
+  rotate: false
+  xy: 760, 914
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 NationIcons/Luxembourg
   rotate: false
-  xy: 760, 78
+  xy: 868, 914
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 NationIcons/Nauru
   rotate: false
-  xy: 1192, 402
+  xy: 760, 698
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 NationIcons/New Zealand
   rotate: false
-  xy: 976, 78
+  xy: 868, 806
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+NationIcons/Norway
+  rotate: false
+  xy: 220, 50
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 NationIcons/Papua New Guinea
   rotate: false
-  xy: 1192, 186
+  xy: 652, 482
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+NationIcons/The Inuit
+  rotate: false
+  xy: 868, 482
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+NationIcons/The Sami
+  rotate: false
+  xy: 976, 590
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+NationIcons/The Selk'nam
+  rotate: false
+  xy: 1084, 698
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 NationIcons/The USSR
   rotate: false
-  xy: 1732, 402
+  xy: 1192, 806
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 ReligionIcons/Animism
   rotate: false
-  xy: 112, 402
+  xy: 112, 914
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 ReligionIcons/Arctolatry
   rotate: false
-  xy: 4, 176
+  xy: 4, 688
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 ReligionIcons/Asatro
   rotate: false
-  xy: 220, 402
+  xy: 220, 914
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 ReligionIcons/Aztec Polytheism
   rotate: false
-  xy: 4, 68
+  xy: 4, 580
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 ReligionIcons/Babism
   rotate: false
-  xy: 220, 294
+  xy: 220, 806
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 ReligionIcons/Babylonian Polytheism
   rotate: false
-  xy: 328, 402
+  xy: 328, 914
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 ReligionIcons/Catholicism
   rotate: false
-  xy: 436, 402
+  xy: 436, 914
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 ReligionIcons/Celtic Paganism
   rotate: false
-  xy: 220, 78
+  xy: 4, 364
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 ReligionIcons/Celtic Polytheism
   rotate: false
-  xy: 328, 186
+  xy: 112, 482
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 ReligionIcons/Chinese Folk Religion
   rotate: false
-  xy: 436, 294
+  xy: 220, 590
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 ReligionIcons/Eastern Orthodox
   rotate: false
-  xy: 544, 294
+  xy: 112, 374
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 ReligionIcons/Egyptian Polytheism
   rotate: false
-  xy: 436, 78
+  xy: 328, 590
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 ReligionIcons/Germanic Polytheism
   rotate: false
-  xy: 652, 186
+  xy: 112, 266
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 ReligionIcons/Greek Polytheism
   rotate: false
-  xy: 760, 294
+  xy: 220, 374
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 ReligionIcons/Incan Polytheism
   rotate: false
-  xy: 760, 186
+  xy: 4, 40
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 ReligionIcons/Jainism
   rotate: false
-  xy: 868, 294
+  xy: 220, 266
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 ReligionIcons/Mahayana
   rotate: false
-  xy: 868, 186
+  xy: 112, 50
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 ReligionIcons/Mayan Polytheism
   rotate: false
-  xy: 1084, 402
+  xy: 328, 266
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 ReligionIcons/Monotheism
   rotate: false
-  xy: 868, 78
+  xy: 436, 374
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 ReligionIcons/Norse Paganism
   rotate: false
-  xy: 1084, 186
+  xy: 976, 914
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 ReligionIcons/Paganism
   rotate: false
-  xy: 1084, 78
+  xy: 544, 374
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 ReligionIcons/Phoenician Polytheism
   rotate: false
-  xy: 1300, 294
+  xy: 760, 590
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 ReligionIcons/Polytheism
   rotate: false
-  xy: 1192, 78
+  xy: 976, 806
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 ReligionIcons/Protestantism
   rotate: false
-  xy: 1300, 186
+  xy: 1084, 914
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 ReligionIcons/Shaivism
   rotate: false
-  xy: 1624, 402
+  xy: 1084, 806
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 ReligionIcons/Shamanism
   rotate: false
-  xy: 1408, 78
+  xy: 1192, 914
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 ReligionIcons/Sumerian Polytheism
   rotate: false
-  xy: 1624, 294
+  xy: 760, 374
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 ReligionIcons/Vajrayana
   rotate: false
-  xy: 1624, 186
+  xy: 652, 158
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 ResourceIcons/Olive Oil
   rotate: false
-  xy: 1192, 294
+  xy: 328, 158
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 TileSets/AbsoluteUnits/Units/BT-42
   rotate: false
-  xy: 1732, 221
+  xy: 1084, 625
   size: 77, 65
   orig: 77, 65
   offset: 0, 0
   index: -1
 TileSets/AbsoluteUnits/Units/Mountie
   rotate: false
-  xy: 1840, 329
+  xy: 1192, 733
   size: 77, 65
   orig: 77, 65
   offset: 0, 0
   index: -1
 TileSets/AbsoluteUnits/Units/Red Army Infantry
   rotate: false
-  xy: 1624, 97
+  xy: 976, 501
   size: 95, 81
   orig: 95, 81
   offset: 0, 0
   index: -1
 TileSets/AbsoluteUnits/Units/Red Army T-34-85
   rotate: false
-  xy: 1948, 437
+  xy: 1300, 841
   size: 77, 65
   orig: 77, 65
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Tiles/Cabin Village
   rotate: false
-  xy: 76, 28
-  size: 32, 32
-  orig: 32, 32
+  xy: 976, 465
+  size: 32, 28
+  orig: 32, 28
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Units/BT-42
   rotate: false
-  xy: 1732, 185
+  xy: 4, 4
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Units/Mountie
   rotate: false
-  xy: 1772, 185
+  xy: 1408, 922
+  size: 32, 28
+  orig: 32, 28
+  offset: 0, 0
+  index: -1
+TileSets/FantasyHex/Units/Red Army Infantry
+  rotate: false
+  xy: 1480, 986
+  size: 32, 28
+  orig: 32, 28
+  offset: 0, 0
+  index: -1
+TileSets/FantasyHex/Units/Red Army T-34-85
+  rotate: false
+  xy: 652, 58
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
 TileSets/HexaRealm/Tiles/Cabin Village
   rotate: false
-  xy: 4, 4
+  xy: 1408, 958
+  size: 64, 56
+  orig: 64, 56
+  offset: 0, 0
+  index: -1
+TileSets/HexaRealm/Tiles/Cabin Village-Industrial era
+  rotate: false
+  xy: 652, 94
+  size: 64, 56
+  orig: 64, 56
+  offset: 0, 0
+  index: -1
+TileSets/HexaRealm/Tiles/Cabin VillageT
+  rotate: false
+  xy: 760, 202
+  size: 64, 56
+  orig: 64, 56
+  offset: 0, 0
+  index: -1
+TileSets/HexaRealm/Tiles/Cabin VillageT-Industrial era
+  rotate: false
+  xy: 868, 310
   size: 64, 56
   orig: 64, 56
   offset: 0, 0
   index: -1
 UnitIcons/BT-42
   rotate: false
-  xy: 112, 186
+  xy: 112, 698
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 UnitIcons/Combat Engineer
   rotate: false
-  xy: 544, 402
+  xy: 436, 806
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 UnitIcons/Egatow
   rotate: false
-  xy: 652, 402
+  xy: 220, 482
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 UnitIcons/Genoese Crossbowman
   rotate: false
-  xy: 544, 78
+  xy: 4, 148
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+UnitIcons/Kian-seren
+  rotate: false
+  xy: 436, 482
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 UnitIcons/Kokoda Trailman
   rotate: false
-  xy: 976, 402
+  xy: 544, 590
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+UnitIcons/Longship
+  rotate: false
+  xy: 760, 806
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 UnitIcons/Mountie
   rotate: false
-  xy: 976, 186
+  xy: 544, 482
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+UnitIcons/Qamutiik
+  rotate: false
+  xy: 328, 50
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 UnitIcons/Red Army Infantry
   rotate: false
-  xy: 1408, 294
+  xy: 436, 158
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 UnitIcons/Red Army T-34-85
   rotate: false
-  xy: 1516, 402
+  xy: 544, 266
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 UnitIcons/Red Djong
   rotate: false
-  xy: 1300, 78
+  xy: 652, 374
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+UnitIcons/Reindeer Rider
+  rotate: false
+  xy: 760, 482
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+UnitIcons/Skald
+  rotate: false
+  xy: 544, 158
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 UnitIcons/Toa
   rotate: false
-  xy: 1516, 78
+  xy: 1300, 914
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 UnitIcons/Zamburak
   rotate: false
-  xy: 1732, 294
+  xy: 760, 266
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 UnitIcons/Zealand Defender-ship
   rotate: false
-  xy: 1840, 402
+  xy: 868, 374
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 UnitPromotionIcons/Field Medic
   rotate: false
-  xy: 544, 186
+  xy: 436, 698
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+UnitPromotionIcons/Ice-Walker
+  rotate: false
+  xy: 652, 806
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 UnitPromotionIcons/Maori Heritage
   rotate: false
-  xy: 976, 294
+  xy: 220, 158
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 UnitPromotionIcons/Reliable Parts
   rotate: false
-  xy: 1408, 186
+  xy: 868, 590
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 UnitPromotionIcons/Siberian Home
   rotate: false
-  xy: 1516, 186
+  xy: 436, 50
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
