@@ -37,14 +37,30 @@
 	//New Zealand
 	{
 		"name": "Maori Heritage",
-		"uniques": ["[+20]% Strength <in [Foreign Land] tiles>", "Defense bonus when embarked", "[1] Movement point cost to embark", "[1] Movement point cost to disembark"]
+		"uniques": ["Defense bonus when embarked", "[1] Movement point cost to embark", "[1] Movement point cost to disembark"]
 	},
 	{
 		"name": "[Zealand Defender-ship] ability",
 		"uniques": ["[+20]% Strength decreasing with distance from the capital", "Ignores Zone of Control"],
 	},
+	//Hong Kong
 	{
 		"name": "[Red Djong] ability",
 		"uniques": ["Heals [10] damage if it kills a unit", "[+15]% Strength <vs [Wounded] units>"],
+	},
+	//Inuit
+	{
+		"name": "Ice-Walker",
+		"uniques": ["Can enter ice tiles"],
+	},
+	//The Selk'nam
+	{
+	"name": "[Kian-seren] ability",
+	"uniques": ["Can see over obstacles", "Ranged attacks may be performed over obstacles", "[+5] HP when healing <in [Foreign Land] tiles>"],
+	},
+	//Iceland
+	{
+	"name": "[Longship] ability",
+	"uniques": ["Earn [20]% of the damage done to [Water] units as [Gold]","[+10]% Strength <when adjacent to a [Water] unit>"],
 	},
 ]

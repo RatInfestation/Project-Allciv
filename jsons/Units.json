@@ -23,7 +23,7 @@
 		"replaces": "Infantry",
 		"unitType": "Gunpowder",
 		"movement": 2,
-		"strength": 75,
+		"strength": 70,
 		"cost": 375,
 		"requiredTech": "Plastics",
 		"upgradesTo": "Mechanized Infantry",
@@ -146,6 +146,7 @@
 	"movement": 2,
 	"strength": 16,
 	"cost": 75,
+	"requiredResource": "Iron",
 	"promotions": ["Maori Heritage"],
 	"uniques": ["[+15]% Strength <when defending>"],
 	"requiredTech": "Iron Working",
@@ -186,5 +187,87 @@
 	"promotions": ["[Red Djong] ability"],
 	"hurryCostModifier": 30,
 	"attackSound": "cannon"
+},
+//The Inuit
+{
+	"name": "Qamutiik",
+	"replaces": "Scout",
+	"uniqueTo": "The Inuit",
+	"unitType": "Scout",
+	"movement": 3,
+	"strength": 4,
+	"rangedStrength": 7,
+	"cost": 25,
+	"obsoleteTech": "Scientific Theory",
+	"uniques": ["Never appears as a Barbarian unit"],
+	"promotions": ["Ignore terrain cost"],
+	"attackSound": "arrow"
+},
+//The Selk'nam
+{
+	"name": "Kian-seren",
+	"replaces": "Composite Bowman",
+	"uniqueTo": "The Selk'nam",
+	"unitType": "Archery",
+	"movement": 2,
+	"strength": 5,
+	"rangedStrength": 10,
+	"cost": 75,
+	"promotions": ["[Kian-seren] ability"],
+	"uniques": ["[+1] Sight"],
+	"requiredTech": "Trapping",
+	"obsoleteTech": "Machinery",
+	"upgradesTo": "Crossbowman",
+	"attackSound": "arrow"
+},
+//The Sámi
+{
+	"name": "Reindeer Rider",
+	"replaces": "Horseman",
+	"uniqueTo": "The Sami",
+	"unitType": "Mounted",
+	"movement": 3,
+	"strength": 16,
+	"cost": 70,
+	"requiredTech": "Horseback Riding",
+	"upgradesTo": "Knight",
+	"obsoleteTech": "Chivalry",
+	"uniques": ["Can move after attacking","[-33]% Strength <vs cities> <when attacking>","Double movement in [Snow]","Double movement in [Tundra]"],
+	"hurryCostModifier": 20,
+	"attackSound": "horse"
+},
+//Iceland
+{
+	"name": "Longship",
+	"replaces": "Galleass",
+	"uniqueTo": "Iceland",
+	"unitType": "Melee Water",
+	"movement": 3,
+	"strength": 20,
+	"rangedStrength": 0,
+	"cost": 100,
+	"requiredTech": "Metal Casting",
+	"obsoleteTech": "Navigation",
+	"upgradesTo": "Frigate",
+	"uniques": ["May capture killed [Water] units"],
+	"promotions": ["[Longship] ability"],
+	"attackSound": "sword"
+},
+//Norway
+{
+	"name": "Skald",
+	"replaces": "Great Artist",
+	"uniqueTo": "Norway",
+	"unitType": "Civilian",
+	"uniques": [
+					"Empire enters a [10]-turn Golden Age <by consuming this unit>",
+					"Can instantly construct a [Landmark] improvement <by consuming this unit> <if it hasn't used other actions yet>",
+					"Can Spread Religion <[4] times> <after which this unit is consumed>",
+					"Takes your religion over the one in their birth city",
+					"Removes other religions when spreading religion",
+					"May enter foreign tiles without open borders",
+					"Religious Unit", "Hidden when religion is disabled",
+					"Great Person - [Culture]", "Unbuildable", "Uncapturable",],
+	"movement": 2
 },
 ]

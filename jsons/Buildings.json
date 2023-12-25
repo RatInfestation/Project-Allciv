@@ -31,8 +31,7 @@
 	    "specialistSlots": {"Merchant": 1},
 	    "hurryCostModifier": 25,
 	    "percentStatBonus": {"gold": 25},
-	    "uniques": ["[+25]% [Culture] from Trade Routes",
-	    "[+1 Gold, +1 Culture] from [Luxury resource] tiles [in this city]"],
+	    "uniques": ["[+1 Gold, +1 Culture] from [Luxury resource] tiles [in this city]"],
 	    "requiredTech": "Currency"
 	  },
 		//Cyprus
@@ -53,7 +52,6 @@
 			"requiredTech": "Masonry",
 			"uniques": ["[+1 Culture, +1 Gold] <after discovering [Flight]>"]
 		},
-		//The USSR
 		//Nauru
 		{
 			"name": "Phosphate Corporation",
@@ -84,5 +82,69 @@
 			  "[+1 Culture, +1 Gold] from [Lake] tiles [in this city]",
 				"Connects trade routes over water","Must be next to [Water]"],
 			"requiredTech": "Compass"
+		},
+		//The Inuit
+		{
+			"name": "Inukshuk",
+			"replaces": "Monument",
+			"uniqueTo": "The Inuit",
+			"culture": 2,
+			"faith": 1,
+			"cost": 30,
+			"hurryCostModifier": 40,
+			"maintenance": 0,
+			"uniques": ["Destroyed when the city is captured"]
+		},
+		//The Sámi
+		{
+			"name": "Lavvu Camps",
+			"replaces": "Circus",
+			"uniqueTo": "The Sami",
+			"requiredNearbyImprovedResources": ["Deer"],
+			"happiness": 2,
+			"culture": 1,
+			"food": 1,
+			"uniques": ["[+10]% growth [in this city]"],
+			"hurryCostModifier": 25,
+			"requiredTech": "Trapping"
+		},
+		//Iceland
+		{
+			"name": "Heitt Bad",
+			"replaces": "Aqueduct",
+			"uniqueTo": "Iceland",
+			"maintenance": 2,
+			"hurryCostModifier": 0,
+			"happiness": 2,
+			"faith": 2,
+			"uniques": ["[40]% Food is carried over after population increases [in this city]"],
+			"requiredTech": "Masonry"
+		},
+		//Christmas Island
+		{
+			"name": "Bird Watching Center",
+			"replaces": "Museum",
+			"uniqueTo": "Christmas Island",
+			"culture": 5,
+			"science": 2,
+			"specialistSlots": {"Artist": 2},
+			"requiredBuilding": "Opera House",
+			"maintenance": 4,
+			"hurryCostModifier": 0,
+			"requiredTech": "Archaeology",
+			"uniques": ["Destroyed when the city is captured","[+2 Science] from [Jungle] tiles [in this city]"]
+		},
+		//Norway
+		{
+			"name": "Stave Church",
+			"replaces": "Temple",
+			"uniqueTo": "Norway",
+			"faith": 2,
+			"culture": 2,
+			"requiredBuilding": "Shrine",
+			"maintenance": 2,
+			"hurryCostModifier": 25,
+			"requiredTech": "Philosophy",
+			"uniques": ["Hidden when religion is disabled", "Destroyed when the city is captured", "[-15]% Culture cost of natural border growth [in this city]", "[+15]% Great Person generation [in this city]"]
 		},
 ]
