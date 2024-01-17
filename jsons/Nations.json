@@ -389,4 +389,124 @@
 			"uniques": ["Enables [Skald] units to enter ocean tiles", "[Skald] is earned [33]% faster", "[+4 Faith] from [Landmark] tiles [in all cities] <before discovering [Archaeology]>", "[+2 Culture] from [Landmark] tiles [in all cities] <after discovering [Archaeology]>"],
 			"cities": ["Oslo", "Bergen", "Trondheim", "Stavanger", "Drammen", "Fredrikstad", "Kristiansand", "Sandnes", "Tromsø", "Sarpsborg", "Skien", "Ålesund", "Sandefjord", "Haugesund", "Tønsberg", "Moss", "Porsgrunn", "Bodø", "Arendal", "Hamar"],
 	},
+	//Argentina
+	{
+		"name": "Argentina",
+		"leaderName": "San Martín",
+		"startBias": ["Plains"],
+		"preferredVictoryType": "Diplomatic",
+		"favoredReligion": "Catholicism",
+
+		"outerColor": [87, 129, 167],
+		"innerColor": [252, 209, 22],
+
+		"uniqueName": "Asados",
+		"uniques": ["[+1 Food] from every [Pasture]","[+1 Gold] from every [Pasture] <starting from the [Industrial era]>"],
+
+		"cities": ["Buenos Aires","Cordoba","Rosario","La Plata","Tucuman","Salta","Mendoza","Vera Cruz","Corrientes","Pilar","Bahia Blanca",
+                            "Resistencia","Posadas","Jujuy","Parana","Merlo","Neuquen","Quilmes","Banfield","Formosa","Lanus",
+                            "La Rioja","Comodora","Rivadavia","San Luis","Ituzaingo","Santa Fe","Rio Cuarto","San Rafael","Bariloche"]
+	},
+	//Colombia
+	{
+		"name": "Colombia",
+		"leaderName": "Alberto Lleras",
+		"startBias": ["Hill"],
+		"preferredVictoryType": "Diplomatic",
+		"favoredReligion": "Catholicism",
+
+		"outerColor": [252,209,22],
+		"innerColor": [1,57,150],
+
+		"uniqueName": "Paramos",
+		"uniques": ["[+1 Food] from [All] tiles [in all cities] <within [1] tiles of a [Mountain]>"],
+
+		"cities": ["Bogota","Cartagena","Medellin","Cali","Barranquilla","Bucaramanga","Cucuta","Buenaventura","Ibague","Santa Marta",
+				"Tunja","Valledupar","Villavicencio","Pereira","Barrancabermaja","Popayan","Pasto","Manizales","Armenia","Arauca",
+				"Florencia","Villa de Leyva","Guatavita","Neiva","Riohacha","Monteria","Yopal","Buga","Sogamoso","San Andres","Leticia"]
+	},
+	//Peru
+	{
+		"name": "Peru",
+		"leaderName": "Valentin Paniagua",
+		"startBias": ["Coast","Hill"],
+		"preferredVictoryType": "Diplomatic",
+		"favoredReligion": "Catholicism",
+
+		"outerColor": [204, 0, 0],
+		"innerColor": [242, 231, 212],
+
+		"uniqueName": "Quena Flutists",
+		"uniques": ["[+1 Culture] [in all cities] <in [Hill] tiles>"],
+
+		"cities": ["Lima","Cusco","Arequipa","Trujillo","Iquitos","Chiclayo","Puno","Tacna","Huancayo","Chimbote", "Juliaca","Ayacucho","Ica","Pucallpa","Huaraz","Cajamarca","Tarapoto","Piura","Sullana","Callao", "Maldonado Port","Chincha Alta","Tumbes","Abancay","Talara","Pasco Hill","Jaen","Moyobamba","Catacaos","Moquegua"]
+	},
+	//Mexico
+	{
+		"name": "Mexico",
+		"leaderName": "Benito Juarez",
+		"preferredVictoryType": "Diplomatic",
+		"favoredReligion": "Catholicism",
+
+		"outerColor": [0, 88, 60],
+		"innerColor": [206, 119, 78],
+
+		"uniqueName": "Trigarantia",
+		"uniques": ["[+30]% Strength <for [{Military} {Land}] units> <when fighting in [Friendly Land] tiles> <when below [35] HP>"],
+
+		"cities": ["Mexico City","Tijuana","Ecatepec","Leon","Puebla","Juarez City","Guadalajara","Zapopan","Monterrey","Nezahualcoyotl",
+                            "Merida","Cancun","Chihuahua","Durango","Tampico","Saltillo","Acapulco","Villahermosa","Veracruz","Mazatlan",
+                            "Naucalpan","Aguascalientes","Hermosillo","Mexicali","Culiacan","Queretaro","Morelia","Reynosa","Guadalupe","San Luis Potosi"]
+	},
+	//Brazil
+	{
+		"name": "Brazil",
+		"leaderName": "Getulio Vargas",
+		"startBias": ["Coast"],
+		"preferredVictoryType": "Diplomatic",
+		"favoredReligion": "Christianity",
+
+		"outerColor": [0, 147, 55],
+		"innerColor": [254, 224, 12],
+
+		"uniqueName": "Bossa Nova",
+		"uniques": ["[+20]% Culture cost of natural border growth [in all cities]","[+1 Culture] from [Coast] tiles [in all cities] <within [1] tiles of a [City center]>"],
+
+		"cities": ["Brasilia","Rio de Janeiro","Sao Paulo","Salvador","Fortalezaq","Belo Horizonte","Manaus","Curitiba","Recife","Porto Alegre",
+			    "Belém","Goiania","Guarulhos","Campinas","São Luis","Maceió","Duque de Caxias","Natal","Campo Grande","Teresina",
+                            "Florianópolis","Nova Iguaçu","Sao Bernardo do Campo","João Pessoa","Osasco","Jaboatão dos Guararapes",
+							"São José dos Campos","Contagem","Uberlândia","Aracaju"]
+	},
+	//Cuba
+	{
+		"name": "Cuba",
+		"leaderName": "Carlos Quesada",
+		"startBias": ["Coast"],
+		"preferredVictoryType": "Cultural",
+		"favoredReligion": "Catholicism",
+		
+		"outerColor": [36, 140, 164],
+		"innerColor": [142, 9, 9],
+
+		"uniqueName": "Guerrilleros",
+		"uniques": ["All newly-trained [{Land] {Melee}] units [in capital] receive the [Guerrilla] promotion"],
+
+		"cities": ["Havana","Santiago de Cuba","Camaguey","Holguin","Guantanamo","Santa Clara","Las Tunas","Bayamo","Cienfuegos","Pinar del Rio","Matanzas","Ciego de Avila","Sancti Spiritus","Manzanillo","Cardenas","Palma Soriano","Moa","Florida","Moron","Nueva Gerona"]
+	},
+	//Chile
+	{
+		"name": "Chile",
+		"leaderName": "Salvador Allende",
+		"startBias": ["Coast","Desert"],
+		"preferredVictoryType": "Domination",
+		"favoredReligion": "Catholicism",
+
+		"outerColor": [239, 52, 52],
+		"innerColor": [104, 38, 11],
+
+		"uniqueName": "Atacama Telescopes",
+		"uniques": ["[+1 Science] [in all cities] <within [1] tiles of a [Desert]>", "[+1 Science] [in all cities] <within [1] tiles of a [Desert]> <starting from the [Industrial era]>"],
+
+		"cities": ["Santiago","Valparaiso","Copiapo","Antofagasta","Iquique","Valdivia","Rancagua","Concepcion","La Serena","Temuco","Osorno","Port Montt", "Arica","Calama","Valparaiso","Talca","Chillan","Quellon","Chaiten","Puerto Aysen","Cochrane","Natales Port","Punta Arenas", "Los Angeles","Quillota","Coronel-Lota","Curico","San Antonio","Melipilla","Ovalle","Los Andes"]
+	}
 ]

@@ -38,4 +38,17 @@
 		"uniques": ["[+1 Science] for each adjacent [Water resource]", "[+1 Science] for each adjacent [Jungle]"],
 		"techRequired": "Biology",
 	},
+	{
+		"name": "Avocado Plantation",
+		"uniqueTo": "Mexico",
+		"food": 1,
+		"gold": 1,
+		"techRequired": "Calendar",
+		"terrainsCanBeBuiltOn": ["Land"],
+		"turnsToBuild": 8,
+		"uniques": ["Can only be built on [{Bananas} {Citrus} {Sugar} {Wine} {Dyes} {Cotton} {Incense} {Silk} {Spices}] tiles",
+			"Provides [1] [Avocado]",
+			"[+1 Production] for each adjacent [Farm]"]
+
+	}
 ]
