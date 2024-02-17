@@ -790,8 +790,6 @@
 		"uniqueName": "Trigarantia",
 		"uniques": ["[+25]% Strength <for [{Wounded} {Military} {Land}] units> <when fighting in [Friendly Land] tiles>", "[+15]% Food [in all cities] <during We Love The King Day>"],
 
-		"civilopediaText": [{"text": "The Argentinian TAM (Tanque Argentino Mediano) tank was developed in the 1970s as a response to the country's need for a modern armored vehicle. It played a significant role in the Falklands War in 1982, where its mobility and firepower were showcased. The TAM's strengths included its agility, firepower, and adaptability to different terrains. It was armed with a 105mm main gun and had a top speed of around 75 km/h. The TAM tank remains an important part of Argentina's military history and continues to be a symbol of the country's defense capabilities."}],
-
 		"cities": ["Mexico City","Tijuana","Ecatepec","Leon","Puebla","Juarez City","Guadalajara","Zapopan","Monterrey","Nezahualcoyotl",
 														"Merida","Cancun","Chihuahua","Durango","Tampico","Saltillo","Acapulco","Villahermosa","Veracruz","Mazatlan",
 														"Naucalpan","Aguascalientes","Hermosillo","Mexicali","Culiacan","Queretaro","Morelia","Reynosa","Guadalupe","San Luis Potosi"]
