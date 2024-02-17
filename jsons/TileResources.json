@@ -5,4 +5,25 @@
 		"gold": 1,
 		"culture": 1,
 	},
+	{
+		"name": "Great Pottery",
+		"resourceType": "Luxury",
+		"gold": 1,
+		"culture": 2,
+		"science": 1,
+		"food": 1,
+	},
+	{
+		"name":"Avocado",
+		"resourceType": "Luxury"
+		"gold": 1,
+		"food": 1,
+	}
+	{
+		"name":"Pisco",
+		"resourceType": "Luxury",
+		"gold": 1,
+		"food": 1,
+		"culture": 1,
+	}
 ]

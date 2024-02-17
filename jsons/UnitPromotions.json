@@ -32,7 +32,7 @@
 	//Nauru
 	{
 		"name": "[Egatow] ability",
-		"uniques": ["Earn [50]% of killed [Military] unit's [Strength] as [Faith]","Earn [50]% of killed [Military] unit's [Strength] as [Culture]"],
+		"uniques": ["Earn [75]% of killed [Military] unit's [Strength] as [Faith]","Earn [75]% of killed [Military] unit's [Strength] as [Culture]"],
 	},
 	//New Zealand
 	{
@@ -63,4 +63,27 @@
 	"name": "[Longship] ability",
 	"uniques": ["Earn [20]% of the damage done to [Water] units as [Gold]","[+10]% Strength <when adjacent to a [Water] unit>"],
 	},
+	{
+	//Mapuche
+	"name": "[Maloon] ability",
+	"uniques": ["Ignores Zone of Control", "No movement cost to pillage"],
+	},
+	//Zapotecs
+	{
+	"name": "Follower of Cociyo",
+	"uniques": ["Double movement in [Plains]", "Heals [15] damage if it kills a unit", "Earn [25]% of killed [Military] unit's [Strength] as [Culture]",],
+	},
+	//Taino
+	{
+	"name": "Blunt Force",
+	"uniques": ["[+15]% Strength <when attacking>"],
+	},
+	{
+		"name": "Guerrilla Tactics",
+		"uniques": ["May withdraw before melee ([10]%)", "Invisible <in [Forest] tiles>", "Invisible <in [Jungle] tiles>", "Ignores Zone of Control", "[-10]% strength <when defending>"]
+	},
+	{
+		"name": "Capoeira",
+		"uniques": ["May withdraw before melee ([15]%)", "Can move after attacking"]
+	}
 ]
