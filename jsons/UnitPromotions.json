@@ -79,7 +79,6 @@
 	"uniques": ["[+15]% Strength <when attacking>"],
 	},
 	{
-	{
 		"name": "Guerrilla Tactics",
 		"uniques": ["May withdraw before melee ([10]%)", "Invisible to non-adjacent units <in [Forest] tiles>", "Invisible to non-adjacent units <in [Jungle] tiles>", "Ignores Zone of Control", "[-10]% Strength <when defending>"]
 	},
