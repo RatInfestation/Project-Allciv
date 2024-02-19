@@ -772,7 +772,7 @@
 	{
 		"name": "Mexico",
 		"leaderName": "Benito Juarez",
-		"startBias": ["Hill", "Avoid [Tundra]",],
+		"startBias": ["Hill", "Avoid [Tundra]"],
 		"preferredVictoryType": "Diplomatic",
 		"favoredReligion": "Catholicism",
 
