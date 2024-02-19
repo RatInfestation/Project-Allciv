@@ -788,7 +788,7 @@
 		"innerColor": [206, 119, 78],
 
 		"uniqueName": "Trigarantia",
-		"uniques": ["[+25]% Strength <for [{Wounded} {Military} {Land}] units> <when fighting in [Friendly Land] tiles>", "[+15]% Food [in all cities] <during We Love The King Day>"],
+		"uniques": ["[+25]% Strength <for [{Wounded} {Military} {Land}] units> <when fighting in [Friendly Land] tiles>", "[+1 Food] [in all cities] <with a garrison>"],
 
 		"cities": ["Mexico City","Tijuana","Ecatepec","Leon","Puebla","Juarez City","Guadalajara","Zapopan","Monterrey","Nezahualcoyotl",
 														"Merida","Cancun","Chihuahua","Durango","Tampico","Saltillo","Acapulco","Villahermosa","Veracruz","Mazatlan",
@@ -920,7 +920,7 @@
 		"innerColor": [147, 3, 46],
 
 		"uniqueName": "The Great Gold Rush",
-		"uniques": ["Double quantity of [Gold Ore] produced", "Double quantity of [Silver] produced", "Double quantity of [Copper] produced", "[-15]% tile improvement construction time"],
+		"uniques": ["Double quantity of [Gold Ore] produced", "Double quantity of [Silver] produced", "Double quantity of [Copper] produced", "[+1 Gold] from every [Mine] <within [1] tiles of a [City center]>"],
 
 		"cities": ["Sacramento", "Los Angeles", "San Francisco", "San Diego", "San Jose", "Fresno", "Long Beach", "Oakland", "Bakersfield", "Anaheim", "Santa Ana", "Riverside", "Stockton", "Irvine", "Chula Vista", "Fremont", "San Bernardino", "Modesto", "Fontana", "Santa Clarita"]
 
@@ -948,7 +948,7 @@
 		"innerColor": [10, 35, 56],
 
 		"uniqueName": "Birthplace of Aviation",
-		"uniques": ["[+15]% strength <for [Air] units>", "[+33]% XP gained from combat <for [Air] units>", "[+20]% Production when constructing [Air] units [in all cities]", "[+1 Science] [in capital] <before discovering [Flight]>"],
+		"uniques": ["[+15]% Strength <for [Air] units>", "[+33]% XP gained from combat <for [Air] units>", "[+20]% Production when constructing [Air] units [in all cities]", "[+1 Science] [in capital] <before discovering [Flight]>"],
 
 		"cities": ["Sacramento", "Los Angeles", "San Francisco", "San Diego", "San Jose", "Fresno", "Long Beach", "Oakland", "Bakersfield", "Anaheim", "Santa Ana", "Riverside", "Stockton", "Irvine", "Chula Vista", "Fremont", "San Bernardino", "Modesto", "Fontana", "Santa Clarita"]
 
