@@ -18,12 +18,24 @@
 		"resourceType": "Luxury"
 		"gold": 1,
 		"food": 1,
-	}
+	},
 	{
 		"name":"Pisco",
 		"resourceType": "Luxury",
 		"gold": 1,
 		"food": 1,
 		"culture": 1,
-	}
+	},
+	{
+		"name":"Spiral Pottery",
+		"resourceType": "Luxury",
+		"food": 1,
+		"culture": 1,
+	},
+	{
+		"name":"Cognac",
+		"resourceType": "Luxury",
+		"food": 1,
+		"gold": 1,
+	},
 ]

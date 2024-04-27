@@ -159,7 +159,7 @@
 			"maintenance": 2,
 			"hurryCostModifier": 25,
 			"cost": 100,
-			"uniques": ["[+1 Faith] per [2] population [in this city]", "Can only be built [in capital]","Can only be built [in this city] <in cities without a [Sunken Plaza (Coastal)]>"],
+			"uniques": ["[+1 Faith] per [2] population [in this city]", "Can only be built <in [in capital] cities>","Can only be built <in [in this city] cities> <in cities without a [Sunken Plaza (Coastal)]>"],
 			"requiredTech": "Construction"
 		},
 		{
@@ -173,7 +173,7 @@
 			"maintenance": 2,
 			"hurryCostModifier": 25,
 			"cost": 100,
-			"uniques": ["[+2 Food, +1 Production] from [Fishing Boats] tiles [in this city]", "Can only be built [in all coastal cities]","Can only be built [in this city] <in cities without a [Sunken Plaza (Capital)]>"],
+			"uniques": ["[+1 Food, +1 Production] from [Fishing Boats] tiles [in this city]", "Can only be built <in [in all coastal cities] cities>","Can only be built <in [in this city] cities> <in cities without a [Sunken Plaza (Capital)]>"],
 			"requiredTech": "Construction"
 		},
 		//Nazca
@@ -324,12 +324,12 @@
 			"uniqueTo": "Michigan",
 			"replaces": "Factory",
 			"cost": 360,
-			"production": 4,
+			"production": 5,
 			"uniques": ["[+15]% Production when constructing [Armour] units [in this city]", "[+15]% Production when constructing [Air] units [in this city]", "[+15]% Production when constructing [{Military} {Water}] units [in this city]", "[+10]% Production when constructing [Gunpowder] units [in this city]", "[+10]% Production when constructing [Ranged Gunpowder] units [in this city]"],
 			"percentStatBonus": {"production": 10},
 			"specialistSlots": {"Engineer": 2},
 			"requiredBuilding": "Workshop",
-			"maintenance": 5,
+			"maintenance": 4,
 			"hurryCostModifier": 0,
 			"requiredResource": "Coal",
 			"requiredTech": "Industrialization"
@@ -360,8 +360,149 @@
 			"requiredTech": "Archaeology",
 			"uniques": ["Destroyed when the city is captured", "[+2 Happiness, +2 Culture] from [Great Improvement] tiles [in this city]", "[+20]% Great Person generation [in this city]"]
 		},
+		//The Kievan Rus
+		{
+			"name": "Wooden Palace",
+			"uniqueTo": "The Kievan Rus",
+			"replaces": "Castle",
+			"cost": 120,
+			"cityStrength": 7,
+			"cityHealth": 20,
+			"hurryCostModifier": 25,
+			"gold": 2,
+			"requiredBuilding": "Walls",
+			"requiredTech": "Metal Casting",
+			"uniques": ["Destroyed when the city is captured", "[Wounded] Units adjacent to this city heal [10] HP per turn when healing", "[+1 Happiness, +1 Production] [in this city] <with a garrison>"]
+		},
+		//Manchuria
+		{
+			"name": "Mukden Palace",
+			"uniqueTo": "Manchuria",
+			"replaces": "National Epic",
+			"cost": 150,
+			"culture": 1,
+			"isNationalWonder": true,
+			"uniques": ["Can only be built <in [in capital] cities>", "[+1 Gold] [in all cities]", "[+25]% Great Person generation [in this city]", "[-25]% Culture cost of natural border growth [in capital]", "All newly-trained [Mounted] units [in capital] receive the [Volley] promotion", "All newly-trained [Armour] units [in capital] receive the [Volley] promotion"],
+			"requiredTech": "Drama and Poetry"
+		},
+		//The Goths
+		{
+			"name": "Basilica",
+			"uniqueTo": "The Goths",
+			"replaces": "Temple",
+			"faith": 2,
+			"requiredBuilding": "Shrine",
+			"cost": 115,
+			"hurryCostModifier": 25,
+			"requiredTech": "Philosophy",
+			"uniques": ["Hidden when religion is disabled", "[+1 Gold, +1 Faith] per [4] population [in this city]"]
+		},
+		//Novgorod
+		{
+			"name": "Veche Bell Tower",
+			"uniqueTo": "Novgorod Republic",
+			"replaces": "Courthouse",
+			"happiness": 1,
+			"maintenance": 2,
+			"hurryCostModifier": 50,
+			"uniques": ["Remove extra unhappiness from annexed cities", "[+2 Science] <after discovering [Education]>", "Can only be built <in [in all cities] cities>"],
+			"requiredTech": "Mathematics"
+		},
+		//Vandals
+		{
+			"name": "Arian Church",
+			"uniqueTo": "The Vandals",
+			"replaces": "Temple",
+			"faith": 3,
+			"cost": 90,
+			"requiredBuilding": "Shrine",
+			"maintenance": 2,
+			"hurryCostModifier": 25,
+			"requiredTech": "Philosophy",
+			"uniques": ["Hidden when religion is disabled", "Destroyed when the city is captured"]
+		},
+		//Ukraine
+		{
+			"name": "Chumak Guild",
+			"uniqueTo": "Ukraine",
+			"replaces": "Market",
+			"gold": 2,
+			"maintenance": 1,
+			"uniques": ["[+1 Gold] from every [Luxury Resource]", "[+1 Gold] from every [Bonus Resource]"],
+			"specialistSlots": {"Merchant": 1},
+			"hurryCostModifier": 25,
+			"percentStatBonus": {"gold": 25},
+			"requiredTech": "Mathematics"
+		},
+		//Francia
+		{
+			"name": "Religious Studies",
+			"uniqueTo": "Francia",
+			"replaces": "University",
+			"maintenance": 2,
+			"hurryCostModifier": 15,
+			"percentStatBonus": {"science": 33},
+			"specialistSlots": {"Scientist": 2},
+			"requiredBuilding": "Library",
+			"uniques": ["Gain a free [Monastery] [in this city]", "[+15]% Natural religion spread [in this city]"],
+			"requiredTech": "Education"
+		},
+		//Trypillia Culture
+		{
+			"name": "Public House",
+			"uniqueTo": "Trypillia Culture",
+			"replaces": "Temple",
+			"faith": 2,
+			"culture": 1,
+			"requiredBuilding": "Shrine",
+			"maintenance": 3,
+			"hurryCostModifier": 25,
+			"requiredTech": "Philosophy",
+			"uniques": ["Hidden when religion is disabled", "[-10]% Unhappiness from [Population] [in this city]", "Provides [1] [Spiral Pottery]", "Destroyed when the city is captured"]
+		},
+		//Moldova
+		{
+			"name": "Colossal Wine Cellar",
+			"uniqueTo": "Moldova",
+			"replaces": "Bank",
+			"cost": 225,
+			"food": 1,
+			"gold": 2,
+			"specialistSlots": {"Merchant": 1},
+			"hurryCostModifier": 15,
+			"percentStatBonus": {"gold": 25},
+			"requiredBuilding": "Market",
+			"requiredTech": "Banking",
+			"uniques": ["[+1 Gold] from [Plantation] tiles [in this city]", "Provides [1] [Wine]"]
+		},
+		//Transnistria
+		{
+			"name": "Cognac Distillery",
+			"uniqueTo": "Transnistria",
+			"replaces": "Windmill",
+			"production": 2,
+			"gold": 1,
+			"specialistSlots": {"Engineer": 1},
+			"hurryCostModifier": 25,
+			"uniques": ["[+10]% Production when constructing [All] buildings [in this city]", "Provides [1] [Cognac]"],
+			"requiredTech": "Economics"
+		},
+		//Romania
+		{
+			"name": "Painted Monastery",
+			"uniqueTo": "Romania",
+			"replaces": "Garden",
+			"faith": 2,
+			"specialistSlots": {"Artist": 1},
+			"uniques": ["[+25]% Great Person generation [in this city]", "Must be next to [Mountain]"],
+			"hurryCostModifier": 25,
+			"maintenance": 1,
+			"requiredTech": "Theology"
+		},
+
+		/*
+
 		//Troy
-/*
 		{
 			"name": "Cyclopian Walls",
 			"uniqueTo": "Troy",
@@ -372,5 +513,194 @@
 			"requiredTech": "Masonry",
 			"uniques": ["Destroyed when the city is captured", "[+20]% Production when constructing [{Military} {Water}] units [in this city]", "Doubles Gold given to enemy if city is captured"]
 		},
-*/
+		//Athens
+		{
+			"name": "Parthenon",
+			"uniqueTo": "Athens",
+			"replaces": "Temple",
+			"faith": 1,
+			"maintenance": 2,
+			"hurryCostModifier": 25,
+			"requiredTech": "Philosophy",
+			"uniques": ["Hidden when religion is disabled", "Destroyed when the city is captured", "[+1 Culture, +1 Science] per [2] social policies adopted", "[+10]% Great Person generation [in this city]"]
+		},
+		//Sparta
+		{
+			"name": "Syssitia",
+			"uniqueTo": "Sparta",
+			"replaces": "Circus",
+			"happiness": 2,
+			"hurryCostModifier": 25,
+			"requiredTech": "Trapping",
+			"uniques": ["[+1 Happiness, +1 Culture] [in this city] <with a garrison>"]
+		},
+		//Pergamon
+		{
+			"name": "Asklepion",
+			"uniqueTo": "Pergamon",
+			"replaces": "Temple",
+			"faith": 2,
+			"maintenance": 2,
+			"cityHealth": 50,
+			"hurryCostModifier": 25,
+			"requiredTech": "Philosophy",
+			"uniques": ["Hidden when religion is disabled", "Destroyed when the city is captured", "All newly-trained [Land] units [in this city] receive the [Enlightened Medicine] promotion", "[+1 Science, +1 Faith] per [4] population [in this city]"]
+		},
+		//Corinth
+		{
+			"name": "Diolkos",
+			"uniqueTo": "Corinth",
+			"replaces": "Harbor",
+			"cost": 100,
+			"maintenance": 1,
+			"hurryCostModifier": 25,
+			"uniques": ["[+1 Production] from [Water resource] tiles [in this city]",
+				"Connects trade routes over water","Must be next to [Coast]", "[+15]% Production when constructing [Water] units [in this city]"],
+			"requiredTech": "Compass"
+		},
+		//Olympia
+		{
+			"name": "Pantheon Temple",
+			"uniqueTo": "Olympia",
+			"replaces": "Temple",
+			"faith": 2,
+			"maintenance": 2,
+			"cityHealth": 50,
+			"hurryCostModifier": 25,
+			"requiredTech": "Philosophy",
+			"uniques": ["Hidden when religion is disabled", "Destroyed when the city is captured", "[+25]% Natural religion spread [in this city]", "[+15]% Great Person generation [in this city]"]
+		},
+		//Argos
+		{
+			"name": "Classical Greek Theater",
+			"uniqueTo": "Argos",
+			"replaces": "Theatre",
+			"happiness": 3,
+			"culture": 3,
+			"specialistSlots": {"Artist": 2},
+			"hurryCostModifier": 10,
+			"maintenance": 2,
+			"requiredBuilding": "Colosseum",
+			"requiredTech": "Printing Press"
+		},
+		//Rhodes
+		{
+			"name": "Statue of Helios",
+			"uniqueTo": "Rhodes",
+			"replaces": "Lighthouse",
+			"cost": 85,
+			"hurryCostModifier": 25,
+			"maintenance": 1,
+			"uniques": ["Must be next to [Coast]", "[+1 Food] from [Ocean] tiles [in this city]",
+				"[+1 Food] from [Coast] tiles [in this city]", "[+1 Food] from [Fish] tiles [in this city]",
+				"[+1 Gold] from [Ocean] tiles [in this city]",
+					"[+1 Gold] from [Coast] tiles [in this city]"],
+			"requiredTech": "Optics"
+		},
+
+		//Fujiwara
+		{
+			"name": "Kazoku Estates",
+			"uniqueTo": "Fujiwara Clan",
+			"replaces": "Castle",
+			"cityStrength": 7,
+			"cityHealth": 25,
+			"culture": 1,
+			"happiness": 1,
+			"specialistSlots": {"Artist": 1},
+			"hurryCostModifier": 25,
+			"requiredBuilding": "Walls",
+			"requiredTech": "Chivalry",
+			"uniques": ["Destroyed when the city is captured", "[+15]% Great Person generation [in this city]"]
+		},
+		//Hojo
+		{
+			"name": "Hikyaku Post Station",
+			"uniqueTo": "Hojo Clan",
+			"replaces": "Market",
+			"gold": 2,
+			"specialistSlots": {"Merchant": 1},
+			"hurryCostModifier": 25,
+			"percentStatBonus": {"gold": 25},
+			"uniques": ["[-5]% City-State Influence degradation", "[+25]% [Gold] from Trade Routes"],
+			"requiredTech": "Currency"
+		},
+		//Ashikaga
+		{
+			"name": "Zen Garden",
+			"uniqueTo": "Ashikaga Clan",
+			"replaces": "Garden",
+			"faith": 1,
+			"culture": 1,
+			"uniques": ["[+25]% Great Person generation [in this city]"],
+			"hurryCostModifier": 25,
+			"maintenance": 2,
+			"requiredTech": "Theology"
+		},
+		//Sanada
+		{
+			"name": "Kendo Dojo",
+			"uniqueTo": "Sanada Clan",
+			"replaces": "Armory",
+			"hurryCostModifier": 25,
+			"maintenance": 2,
+			"requiredBuilding": "Barracks",
+			"uniques": ["New [Military] units start with [15] Experience [in this city]", "[+20]% Production when constructing [Melee] units [in this city]", "Destroyed when the city is captured"],
+			"requiredTech": "Metal Casting"
+		},
+		//Minamoto
+		{
+			"name": "Shoin",
+			"uniqueTo": "Minamoto Clan",
+			"replaces": "Library",
+			"hurryCostModifier": 25,
+			"specialistSlots": {"Scientist": 1},
+			"culture": 1,
+			"happiness": 1,
+			"maintenance": 2,
+			"uniques": ["[+1 Science] per [2] population [in this city]"],
+			"requiredTech": "Writing"
+		},
+		//Tachibana
+		{
+			"name": "Noh Theatre",
+			"uniqueTo": "Tachibana Clan",
+			"replaces": "Theatre",
+			"happiness": 3,
+			"culture": 2,
+			"faith": 1,
+			"hurryCostModifier": 10,
+			"maintenance": 2,
+			"requiredBuilding": "Colosseum",
+			"requiredTech": "Printing Press"
+		},
+		//Takeda
+		{
+			"name": "Jin'ya",
+			"uniqueTo": "Takeda Clan",
+			"replaces": "Castle",
+			"culture": 1,
+			"happiness": 1,
+			"cityStrength": 7,
+			"cityHealth": 30,
+			"hurryCostModifier": 25,
+			"requiredBuilding": "Walls",
+			"requiredTech": "Chivalry",
+			"uniques": ["Destroyed when the city is captured"]
+		},
+		//Uesugi
+		{
+			"name": "Gunpowder Arsenal",
+			"uniqueTo": "Uesugi Clan",
+			"replaces": "Arsenal",
+			"cost": 300,
+			"cityStrength": 9,
+			"cityHealth": 25,
+			"gold": 1,
+			"hurryCostModifier": 25,
+			"requiredBuilding": "Castle",
+			"requiredTech": "Gunpowder",
+			"uniques": ["New [Gunpowder] units start with [15] Experience [in this city]", "New [Ranged Gunpowder] units start with [15] Experience [in this city]", "New [Siege] units start with [15] Experience [in this city]", "Destroyed when the city is captured"]
+		},
+		*/
 ]
