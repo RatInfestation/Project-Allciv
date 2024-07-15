@@ -50,7 +50,7 @@
 			"leaderName": "Carl Mannerheim",
 			"adjective": ["Finnish"],
 			"startBias": ["Tundra"],
-			"preferredVictoryType": "Science",
+			"preferredVictoryType": "Scientific",
 			"declaringWar": "I must declare that our nation can no longer bear the weight of the aggression we face. We shall crush you with the weight of a granite mountain!",
 			"attacked": "You dare anger the bear? Fine! Let's see what these claws do to your flesh!",
 			"defeated": "Our land... peaceful as ever. Even as I depart.",
@@ -72,7 +72,7 @@
 			"leaderName": "Archbishop Makarios III",
 			"adjective": ["Cypriot"],
 			"startBias": ["Coast"],
-			"preferredVictoryType": "Culture",
+			"preferredVictoryType": "Cultural",
 			"declaringWar": "I will not let my people be divided!",
 			"attacked": "Our walls have more integrity then what you will ever have! ",
 			"defeated": "You have divided a once united culture. May the pain of my people haunt you for the rest of time.",
@@ -94,7 +94,7 @@
 			"leaderName": "Michael Somare",
 			"adjective": ["Papuan"],
 			"startBias": ["Coast","Jungle"],
-			"preferredVictoryType": "Culture",
+			"preferredVictoryType": "Cultural",
 			"declaringWar": "We stand resolute and will defend our sovereignty.",
 			"attacked": "The aggressor will soon realize the futility of their actions...",
 			"defeated": "The legacy of Papua New Guinea will endure, for our people are forged in the crucible of adversity.",
@@ -158,8 +158,7 @@
 			"outerColor": [225, 0, 0],
 			"favoredReligion": "Eastern Orthodox",
 			"uniqueName": "Our Tomorrow",
-			"uniqueText":"Starts with [Order] adopted,
-[Great Engineer] is earned [50]% faster",
+			"uniqueText":"Starts with [Order] adopted,[Great Engineer] is earned [50]% faster",
 			"uniques": ["Adopt [Order]",
 					 "[Great Engineer] is earned [+50]% faster",],
 			"cities": ["Moscow", "Saint Petersburg", "Kyiv", "Minsk", "Tashkent", "Tbilisi", "Baku", "Yerevan", "Almaty", "Novosibirsk", "Nizhny Novgorod", "Samara", "Omsk", "Kazan", "Ufa", "Volgograd", "Perm", "Rostov-on-Don", "Vladivostok", "Yekaterinburg"],
@@ -598,7 +597,7 @@
 	},
 	//Mississippian
 	{
-			"name": "The Mississippian",
+			"name": "The Mississippians",
 			"leaderName": "Hešucka",
 			"adjective": ["Mississippian"],
 			"startBias": ["Grassland", "Plains"],
@@ -979,12 +978,7 @@
 
 		"outerColor": [4, 67, 137],
 		"innerColor": [247, 184, 1],
-
-"uniqueText":
-"[+1 Gold, +1 Happiness] in cities on [River] tiles,
-Roads connect tiles across rivers,
-[Land] units gain the [River Walker] promotion,
-Druzhina military unit uses a unique promotion tree",
+                "uniqueText":"[+1 Gold, +1 Happiness] in cities on [River] tiles,Roads connect tiles across rivers,[Land] units gain the [River Walker] promotion,Druzhina military unit uses a unique promotion tree",
 
 		"uniqueName": "Volosts of The Dnieper",
 		"uniques": ["[+1 Gold, +1 Happiness] in cities on [River] tiles", "Roads connect tiles across rivers", "[Land] units gain the [River Walker] promotion"],
@@ -1148,8 +1142,7 @@ Druzhina military unit uses a unique promotion tree",
 	"uniques": ["[Military] units gain the [Horde Mobilization] promotion"],
 
 	"uniqueText":
-	"[Military] units gain the [Horde Mobilization] promotion,
-	Military units with the [Horde Mobilization] promotion:
+	"[Military] units gain the [Horde Mobilization] promotion, Military units with the [Horde Mobilization] promotion:
 	- Have +15 strength when attacking when adjacent to a friendly military unit
 	- Can move after attacking when adjacent to a friendly military unit,
 	- Have no movement cost to pillage when adjacent to a friendly military unit",
