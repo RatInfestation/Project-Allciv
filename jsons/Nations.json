@@ -452,7 +452,7 @@
 			"leaderName": "Viracocha",
 			"adjective": ["Caral–Supian"],
 			"startBias": ["River"],
-			"preferredVictoryType": "Religious",
+			"preferredVictoryType": "Cultural",
 
 			"declaringWar": "Getting rid of you will make this realm fit my first true vison of the world!",
 			"attacked": "I shall mete out my judgment upon your trespasses! Prepare to be slain!",
@@ -518,7 +518,7 @@
 			"outerColor": [255, 237, 101],
 			"favoredReligion": "Pachamama",
 			"uniqueName": "Amazon Delta",
-			"uniques": ["[+1 Food, +1 Gold] from [Jungle] tiles [in all cities]", "[+1 Science] [in all cities] <with [1] to [2] neighboring [unimproved] [Jungle] tiles>", "[+2 Science] [in all cities] <with [3] to [6] neighboring [unimproved] [Jungle] tiles>"],
+			"uniques": ["[+1 Food, +1 Gold] from [Jungle] tiles [in all cities]", "[+1 Science] [in all cities] <with [1] to [2] neighboring [Jungle] tiles>", "[+2 Science] [in all cities] <with [3] to [6] neighboring [Jungle] tiles>"],
 			"cities": ["Marajó Island", "São Jerônimo", "Os Camutins", "Soure", "Salvaterra", "Joanes", "Cachoeira do Arari", "Portel", "Breves", "Anajás", "Curralinho", "Santa Cruz do Arari", "Chaves", "Afua", "Gurupa", "Bagre", "Melgaço", "Muaná", "Ponta de Pedras", "Santarém Novo" ],
 	},
 	//Mapuche
@@ -627,7 +627,7 @@
 			"leaderName": "Toto",
 			"adjective": ["Zenu"],
 			"startBias": ["Avoid [Tundra]", "River"],
-			"preferredVictoryType": "Religious",
+			"preferredVictoryType": "Cultural",
 
 			"declaringWar": "Listen, outsiders! The Zenu people stand as guardians of our ancestral lands, and we will not yield to the shadow of tyranny. Your aggression has ignited the flames of conflict, and we shall rise as one, wielding the spirit of our forefathers and the courage of our children.",
 			"attacked": "Your unprovoked assault upon our people has left a scar upon our hearts and a stain upon our lands.",
@@ -652,7 +652,7 @@
 			"leaderName": "U Kix Chan",
 			"adjective": ["Olmec"],
 			"startBias": ["Stone", "Jungle", "Forest"],
-			"preferredVictoryType": "Religious",
+			"preferredVictoryType": "Cultural",
 
 			"declaringWar": "TBA",
 			"attacked": "TBA",
@@ -1179,7 +1179,7 @@ Druzhina military unit uses a unique promotion tree",
 	"innerColor": [245, 224, 149],
 
 	"uniqueName": "Chernozem Soils",
-	"uniques": ["[+50]% Yield from every [Farm]", "[+1 Gold] from every [Wheat] <after discovering [The Wheel]>", "[Gold] cost of purchasing [Spearman] units [-33]%", "[Gold] cost of purchasing [Pikeman] units [-33]%"],
+	"uniques": ["[+1 Food, +1 Gold] from every [Wheat] <after discovering [The Wheel]>", "[Gold] cost of purchasing [Spearman] units [-33]%", "[Gold] cost of purchasing [Pikeman] units [-33]%"],
 
 	"cities": ["Kyiv", "Kharkiv", "Odesa", "Lviv", "Dnipro", "Donetsk", "Zaporizhzhia", "Mykolaiv", "Luhansk", "Mariupol", "Kryvyi Rih", "Sevastopol", "Vinnytsia", "Simferopol", "Poltava", "Chernihiv", "Sumy", "Chernivtsi", "Cherkasy", "Zhytomyr", "Rivne", "Khmelnytskyi", "Ternopil", "Lutsk", "Kamianets-Podilskyi", "Bila Tserkva", "Melitopol", "Kremenchuk", "Nikopol", "Berdiansk"]
 },
@@ -1318,7 +1318,7 @@ Druzhina military unit uses a unique promotion tree",
 	"adjective": ["Romanian"],
 	"leaderName": "Vlad III",
 	"startBias": ["Mountain","Hill"],
-	"preferredVictoryType": "Religious",
+	"preferredVictoryType": "Cultural",
 	"favoredReligion": "Eastern Orthodox",
 
 	"declaringWar": "Hark, thou shalt feel the wrath of my impaling stakes, for I, Vlad III, have declared war upon thee! My armies shall descend upon your lands like darkness upon the earth, leaving naught but terror in their wake!",
@@ -1612,7 +1612,7 @@ Druzhina military unit uses a unique promotion tree",
 	"adjective": ["Japanese"],
 	"leaderName": "Ashikaga Yoshimitsu",
 	"startBias": ["Coast"],
-	"preferredVictoryType": "Religious",
+	"preferredVictoryType": "Cultural",
 	"favoredReligion": "Buddhism",
 
 	"declaringWar": "Your insolence brings disgrace upon my ancestors; my men shall now paint the fields crimson with your transgressions.",
