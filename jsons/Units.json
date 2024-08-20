@@ -309,7 +309,7 @@
 	"unitType": "Civilian",
 	"uniques": [
 					"Empire enters a [8]-turn Golden Age <by consuming this unit>",
-					"Instantly provides [2] [Great Pottery] <by consuming this unit>",
+					"Can hurry technology research",
 					"Can instantly construct a [Landmark] improvement <by consuming this unit>",
 					"Great Person - [Culture]", "Unbuildable", "Uncapturable"],
 	"movement": 2
