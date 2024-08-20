@@ -50,7 +50,7 @@
 			"leaderName": "Carl Mannerheim",
 			"adjective": ["Finnish"],
 			"startBias": ["Tundra"],
-			"preferredVictoryType": "Science",
+			"preferredVictoryType": "Scientific",
 			"declaringWar": "I must declare that our nation can no longer bear the weight of the aggression we face. We shall crush you with the weight of a granite mountain!",
 			"attacked": "You dare anger the bear? Fine! Let's see what these claws do to your flesh!",
 			"defeated": "Our land... peaceful as ever. Even as I depart.",
@@ -72,7 +72,7 @@
 			"leaderName": "Archbishop Makarios III",
 			"adjective": ["Cypriot"],
 			"startBias": ["Coast"],
-			"preferredVictoryType": "Culture",
+			"preferredVictoryType": "Cultural",
 			"declaringWar": "I will not let my people be divided!",
 			"attacked": "Our walls have more integrity then what you will ever have! ",
 			"defeated": "You have divided a once united culture. May the pain of my people haunt you for the rest of time.",
@@ -94,7 +94,7 @@
 			"leaderName": "Michael Somare",
 			"adjective": ["Papuan"],
 			"startBias": ["Coast","Jungle"],
-			"preferredVictoryType": "Culture",
+			"preferredVictoryType": "Cultural",
 			"declaringWar": "We stand resolute and will defend our sovereignty.",
 			"attacked": "The aggressor will soon realize the futility of their actions...",
 			"defeated": "The legacy of Papua New Guinea will endure, for our people are forged in the crucible of adversity.",
@@ -427,7 +427,7 @@
 			"leaderName": "Saguamanchica",
 			"adjective": ["Muiscan"],
 			"startBias": ["Hill"],
-			"preferredVictoryType": "Culture",
+			"preferredVictoryType": "Cultural",
 
 			"declaringWar": "Bochica will guide us to victory over the threat I have in front of me! Prepare to pay!",
 			"attacked": "You already know it Güechas, no stepping back now!",
@@ -493,7 +493,7 @@
 			"outerColor": [215, 129, 106],
 			"favoredReligion": "Pachamama",
 			"uniqueName": "Trophy Heads",
-			"uniques": ["Upon capturing a city, receive [10] times its [Food] production as [Culture] immediately", "Free [Great General] appears <upon discovering [Bronze Working]>"],
+			"uniques": ["Upon capturing a city, receive [10] times its [Food] production as [Culture] immediately", "Free [Great General] appears <upon discovering [Bronze Working] technology>"],
 			"cities": ["Cahuachi", "Chauchilla", "Cantalloc", "Paredones", "Tambo Colorado", "Los Paredones", "Esteban", "La Muña"],
 	},
 	//Marajoara
@@ -643,7 +643,7 @@
 			"innerColor": [9, 129, 74],
 			"favoredReligion": "Polytheism",
 			"uniqueName": "Finzenu",
-			"uniques": ["[+1 Gold] from every [Shrine]", "[+1 Food] from [Farm] tiles without [Fresh water] [in all cities] <within [1] tiles of a [Sinu Canal]> <after discovering [Civil Service]>"],
+			"uniques": ["[+1 Gold] from every [Shrine]", "[+1 Food] from [Farm] tiles without [Fresh water] [in all cities] <within [1] tiles of a [Sinu Canal]> <after discovering [Civil Service] technology>"],
 			"cities": ["Zenufana", "Finzenú", "San Jacinto", "Turbaco", "Momil", "Tuchín", "Chinú", "San Andrés de Sotavento", "Ayapel", "Cereté", "Ciénaga de Oro", "San Pelayo", "Sahagún", "Montería", "Tierradentro", "San Agustín", "Popayán", "Bogotá", "Cartagena", "Santa Marta"],
 	},
 	//Olmec
@@ -768,7 +768,7 @@
 		"innerColor": [242, 231, 212],
 
 		"uniqueName": "Quena Flutists",
-		"uniques": ["[+35]% Great Person generation [in all cities] <within [3] tiles of a [Landmark]>", "Free [Great Artist] appears <upon discovering [Drama and Poetry]>"],
+		"uniques": ["[+35]% Great Person generation [in all cities] <within [3] tiles of a [Landmark]>", "Free [Great Artist] appears <upon discovering [Drama and Poetry] technology>"],
 
 		"cities": ["Lima","Cusco","Arequipa","Trujillo","Iquitos","Chiclayo","Puno","Tacna","Huancayo","Chimbote", "Juliaca","Ayacucho","Ica","Pucallpa","Huaraz","Cajamarca","Tarapoto","Piura","Sullana","Callao", "Maldonado Port","Chincha Alta","Tumbes","Abancay","Talara","Pasco Hill","Jaen","Moyobamba","Catacaos","Moquegua"]
 	},
@@ -1427,7 +1427,7 @@ Druzhina military unit uses a unique promotion tree",
 	"adjective": ["Greek"],
 	"leaderName": "Eumenes II",
 	"startBias": ["Coast"],
-	"preferredVictoryType": "Science",
+	"preferredVictoryType": "Scientific",
 	"favoredReligion": "Hellenism",
 
 	"declaringWar": "Hear me, o' adversary! I, Eumenes II, the Great King of Pergamon, have seen your transgressions against our sacred lands and our people's honor.",
@@ -1505,7 +1505,7 @@ Druzhina military unit uses a unique promotion tree",
 	"adjective": ["Greek"],
 	"leaderName": "Timoleon",
 	"startBias": ["Coast"],
-	"preferredVictoryType": "Culture",
+	"preferredVictoryType": "Cultural",
 	"favoredReligion": "Hellenism",
 
 	"declaringWar": "By the divine will of the gods! I Timoleon commander of Corinth, declare this sacred conflict upon your lands!",
@@ -1522,7 +1522,7 @@ Druzhina military unit uses a unique promotion tree",
 	"innerColor": [5, 5, 23],
 
 	"uniqueName": "Cradle of Mythos",
-	"uniques": ["[+4 Culture] whenever a Great Person is expended", "Free Great Person <upon discovering [Drama and Poetry]>", "[+25]% Great Person generation [in all cities]", "Cannot build [Settler] units"],
+	"uniques": ["[+4 Culture] whenever a Great Person is expended", "Free Great Person <upon discovering [Drama and Poetry] technology>", "[+25]% Great Person generation [in all cities]", "Cannot build [Settler] units"],
 
 	"cities": ["Argos", "Néos Argos"]
 },
@@ -1548,7 +1548,7 @@ Druzhina military unit uses a unique promotion tree",
 	"innerColor": [167, 47, 55],
 
 	"uniqueName": "Colossus of Rhodes",
-	"uniques": ["Free [Great Merchant] appears <upon discovering [Optics]>", "[+1 Gold] [in all coastal cities] <upon discovering [Optics]>", "[+1] Sight <for [{Water}] units>"],
+	"uniques": ["Free [Great Merchant] appears <upon discovering [Optics] technology>", "[+1 Gold] [in all coastal cities] <upon discovering [Optics] technology>", "[+1] Sight <for [{Water}] units>"],
 
 	"cities": ["Rhodes", "Ialysos", "Camirus", "Lindos", "Faliraki", "Lardos", "Afandou", "Archangelos", "Haraki", "Embona", "Asklipio", "Koskinou", "Kremasti", "Kalathos", "Kalavarda", "Salakos", "Siana", "Mesanagros", "Paradisi", "Pefkos", "Pylona", "Fournoi", "Lachania", "Monolithos", "Profitis Ilias", "Theologos", "Trianta", "Afantou",]
 },
