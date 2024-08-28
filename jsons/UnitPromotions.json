@@ -84,7 +84,7 @@
 	},
 	{
 		"name": "Capoeira",
-		"uniques": ["May withdraw before melee ([15]%)", "Can move after attacking"]
+		"uniques": ["May withdraw before melee ([15]%)", "Can move after attacking <with [50]% chance>"]
 	},
 	{
 		"name": "River Walker",
@@ -117,42 +117,56 @@
 	"name": "[Bessarabia Border Guard] ability",
 	"uniques": ["[+15]% Strength <when adjacent to a [Military] unit> <when defending>", "[+17]% Strength <when defending>"],
 	},
-
-	/*
-
-	//Sparta
+	//Samoa
 	{
-	"name": "Spartan Training",
-	"uniques": ["[+15]% Strength <when adjacent to a [Melee] unit> <when defending>", "[+15]% Strength <when attacking>", "[+25]% XP gained from combat"],
+	"name": "Island Navigation",
+	"uniques": ["Double movement in [Water] <in [Friendly Land] tiles> <upon discovering [Optics] technology>"],
 	},
-	//Pergamon
+	//Sri Lanka
 	{
-	"name": "Enlightened Medicine",
-	"uniques": ["[+10] HP when healing"],
+	"name": "[Aetaruva] ability",
+	"uniques": ["[+15] HP when healing <in [River] tiles>"],
 	},
-	//Corinth
+	//Malaysia
 	{
-	"name": "[Corinthian Trireme] ability",
-	"uniques": ["May withdraw before melee ([50]%)", "Can see over obstacles"],
+	"name": "[Lancaran] ability",
+	"uniques": ["Heals [30] damage if it kills a unit", "May create improvements on water resources"],
 	},
-	//Fujiwara
+	//Fiji
 	{
-	"name": "[Naginata] ability",
-	"uniques": ["[+15]% Strength <vs [Melee] units>", "[+33]% Strength <when fighting in [Friendly Land] tiles>"],
+	"name": "Bau Domination",
+	"uniques": ["Heal this unit by [25] HP <upon being promoted>", "[+1] Movement <for [3] turns> <upon being promoted>", "[+15]% Strength <for [3] turns> <upon being promoted>"],
 	},
-	//Sanada
+	//Australia
 	{
-	"name": "Sanada Honor",
-	"uniques": ["Heals [35] damage if it kills a unit", "Unit will heal every turn, even if it performs an action", "[-5] HP when healing"],
+	"name": "[Digger] ability",
+	"uniques": ["[+20]% Strength <when fighting in [Coastal] tiles>", "[+15]% Strength <when defending> <in [Coastal] tiles>"],
 	},
-	//Tokugawa
+	//Cameroon
 	{
-	"name": "Electronics Factory Builder",
-	"uniques": ["Can instantly construct a [Electronics Factory] improvement <by consuming this unit>"],
+	"name": "[Talking Drummer] ability",
+	"uniques": ["[+10]% Strength bonus for [Land] units within [1] tiles"],
 	},
-
-	*/
-
+	//Pakistan
+	{
+	"name": "[Pakistani Ghazi] ability",
+	"uniques": ["Earn [10]% of killed [Military] unit's [Cost] as [Faith]"],
+	},
+	//Barbados
+	{
+	"name": "[Bussa's Revolutionary] ability",
+	"uniques": ["[-50]% maintenance costs", "[+20]% Strength <when fighting in [Plantation] tiles>", "[+20]% Strength <when defending> <in [Plantation] tiles>"],
+	},
+	//Kiribati
+	{
+	"name": "[Shark-Tooth Swordsman] ability",
+	"uniques": ["[-10]% Strength for enemy [Military] units in adjacent [All] tiles", "[+15]% Strength <when fighting in [Coastal] tiles>"],
+	},
+	//Belize
+	{
+	"name": "[Garifuna Guerrilla] ability",
+	"uniques": ["May withdraw before melee ([50]%)", "Invisible to non-adjacent units <in [Friendly Land] tiles>"],
+	},
 	//Druzhina promotions
 	{
 		"name": "Royal Guard I",

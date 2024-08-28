@@ -310,55 +310,164 @@
 			"replaces": "Broadcast Tower",
 			"culture": 4,
 			"happiness": 2,
-			"greatPersonPoints": {"Great Artist": 1},
+			"greatPersonPoints": {"Great Artist": 2},
 			"specialistSlots": {"Artist": 1},
 			"percentStatBonus": {"culture": 33},
 			"requiredBuilding": "Museum",
 			"maintenance": 3,
 			"requiredTech": "Radio",
-			"uniques": ["Destroyed when the city is captured"]
+			"uniques": ["Destroyed when the city is captured",
+			"Comment [+2 [Great Artist] points in this city]",
+			]
 		},
-		//Michigan
+		//Vanuatu
 		{
-			"name": "Assembly Line",
-			"uniqueTo": "Michigan",
-			"replaces": "Factory",
-			"cost": 360,
-			"production": 5,
-			"uniques": ["[+15]% Production when constructing [Armour] units [in this city]", "[+15]% Production when constructing [Air] units [in this city]", "[+15]% Production when constructing [{Military} {Water}] units [in this city]", "[+10]% Production when constructing [Gunpowder] units [in this city]", "[+10]% Production when constructing [Ranged Gunpowder] units [in this city]"],
-			"percentStatBonus": {"production": 10},
-			"specialistSlots": {"Engineer": 2},
-			"requiredBuilding": "Workshop",
-			"maintenance": 4,
-			"hurryCostModifier": 0,
-			"requiredResource": "Coal",
-			"requiredTech": "Industrialization"
+			"name": "Nakamal",
+			"replaces": "Water Mill",
+			"uniqueTo": "Vanuatu",
+			"maintenance": 2,
+			"culture": 1,
+			"happiness": 1,
+			"food": 2,
+			"production": 1,
+			"hurryCostModifier": 25,
+			"uniques": ["Must be on [Coastal]"],
+			"requiredTech": "The Wheel"
 		},
-		//California
+		//Solomon Islands
 		{
-			"name": "Film Studio",
-			"uniqueTo": "California",
+			"name": "Premium Seafood Resturant",
+			"uniqueTo": "Solomon Islands",
+			"cost": -1,
+			"cannotBeBuiltWith": "Shellfish Fertilizer Manufactory",
+			"uniques": ["Consumes [1] [Reef Product]", "Provides [1] [Premium Seafood]", "Unsellable", "Only available <with [Reef Product]>","Destroyed when the city is captured"],
+			"requiredTech": "Refrigeration"
+		},
+		{
+			"name": "Shellfish Fertilizer Manufactory",
+			"uniqueTo": "Solomon Islands",
+			"cost": -1,
+			"cannotBeBuiltWith": "Premium Seafood Resturant",
+			"uniques": ["Consumes [1] [Reef Product]", "Provides [1] [Shellfish Fertilizer]", "Unsellable", "Only available <with [Reef Product]>","Destroyed when the city is captured"],
+			"requiredTech": "Fertilizer"
+		},
+		//Samoa
+		{
+			"name": "Fale Tele",
+			"replaces": "Harbor",
+			"uniqueTo": "Samoa",
+			"faith": 1,
+			"cost": 90,
+			"maintenance": 2,
+			"hurryCostModifier": 25,
+			"uniques": ["[+1 Production] from [Water resource] tiles [in this city]",
+				"Connects trade routes over water","Must be next to [Coast]"],
+			"requiredTech": "Theology"
+		},
+		//Fiji
+		{
+			"name": "Bottled Water Corporation",
+			"replaces": "Ironworks",
+			"uniqueTo": "Fiji",
+			"cost": 140,
+			"production": 8,
+			"gold": 4,
+			"culture": 1,
+			"isNationalWonder": true,
+			"uniques": ["Provides [5] [Premium Bottled Water]"],
+			"requiredTech": "Economics"
+		},
+		//Sri Lanka
+		{
+			"name": "Vatadage",
+			"replaces": "Temple",
+			"uniqueTo": "Sri Lanka",
+			"faith": 2,
+			"culture": 1,
+			"requiredBuilding": "Shrine",
+			"maintenance": 2,
+			"hurryCostModifier": 25,
+			"requiredTech": "Philosophy",
+			"uniques": ["Hidden when religion is disabled", "Destroyed when the city is captured", "[-15]% Culture cost of natural border growth [in this city]", "[+15]% Great Person generation [in this city]"]
+		},
+		//Malaysia
+		{
+			"name": "Dermaga",
+			"replaces": "Harbor",
+			"uniqueTo": "Malaysia",
+			"cost": 120,
+			"maintenance": 2,
+			"culture": 1,
+			"hurryCostModifier": 25,
+			"uniques": ["[+1 Production, +1 Gold] from [Water resource] tiles [in this city]",
+				"Connects trade routes over water","Must be next to [Coast]"],
+			"requiredTech": "Compass"
+		},
+		//Singapore
+		{
+			"name": "HDB Flat",
+			"replaces": "Stadium",
+			"uniqueTo": "Singapore",
+			"happiness": 4,
+			"requiredBuilding": "Theatre",
+			"uniques": ["[+2 Gold] per [1] population [in all cities]"],
+			"maintenance": 6,
+			"requiredTech": "Refrigeration"
+		},
+		//Dominica
+		{
+			"name": "Cruise Line",
+			"replaces": "Seaport",
+			"uniqueTo": "Dominica",
+			"hurryCostModifier": 25,
+			"maintenance": 0,
+			"gold": 4,
+			"culture": 1,
+			"requiredBuilding": "Harbor",
+			"uniques": ["[+1 Production, +1 Gold] from [Water resource] tiles [in this city]",
+				"Must be next to [Coast]", "[+15]% Production when constructing [Water] units [in this city]"],
+			"requiredTech": "Navigation"
+		},
+		{
+			"name": "Mala'e",
+			"replaces": "Granary",
+			"uniqueTo": "Tonga",
+			"food": 2,
+			"faith": 1,
+			"maintenance": 1,
+			"hurryCostModifier": 25,
+			"uniques": ["[+1 Food] from [Deer] tiles [in this city]",
+				"[+1 Food] from [Bananas] tiles [in this city]",
+				"[+1 Food] from [Wheat] tiles [in this city]",
+				"[+1 Food] from [Ocean] tiles [in this city]",
+				"[+1 Food] from [Fishing Boats] tiles [in this city]"],
+			"requiredTech": "Pottery"
+		},
+		{
+			"name": "CRTV Network",
 			"replaces": "Broadcast Tower",
+			"uniqueTo": "Cameroon",
 			"culture": 3,
+			"happiness": 2,
 			"percentStatBonus": {"culture": 33},
 			"requiredBuilding": "Museum",
 			"maintenance": 3,
-			"greatPersonPoints": {"Great Artist": 1},
 			"requiredTech": "Radio",
-			"uniques": ["Destroyed when the city is captured", "[+4 Culture] from [Landmark] tiles [in this city]",]
+			"uniques": ["Destroyed when the city is captured", "[+1 Culture, +1 Science] per [4] population [in this city]"]
 		},
-		//Ohio
+		//Rhodes
 		{
-			"name": "Hall of Fame",
-			"uniqueTo": "Ohio",
-			"replaces": "Museum",
-			"culture": 5,
-			"specialistSlots": {"Artist": 2},
-			"requiredBuilding": "Opera House",
-			"maintenance": 3,
-			"hurryCostModifier": 0,
-			"requiredTech": "Archaeology",
-			"uniques": ["Destroyed when the city is captured", "[+2 Happiness, +2 Culture] from [Great Improvement] tiles [in this city]", "[+20]% Great Person generation [in this city]"]
+			"name": "Statue of Helios",
+			"uniqueTo": "Rhodes",
+			"replaces": "Lighthouse",
+			"cost": 85,
+			"hurryCostModifier": 25,
+			"maintenance": 1,
+			"uniques": ["Must be next to [Coast]", "[+1 Food] from [Ocean] tiles [in this city]",
+				"[+1 Food] from [Coast] tiles [in this city]", "[+1 Food] from [Fish] tiles [in this city]",
+				"[+1 Gold] from [Ocean] tiles [in this city]",
+					"[+1 Gold] from [Coast] tiles [in this city]"],
+			"requiredTech": "Optics"
 		},
 		//The Kievan Rus
 		{
@@ -372,7 +481,7 @@
 			"gold": 2,
 			"requiredBuilding": "Walls",
 			"requiredTech": "Metal Casting",
-			"uniques": ["Destroyed when the city is captured", "[Wounded] Units adjacent to this city heal [10] HP per turn when healing", "[+1 Happiness, +1 Production] [in this city] <with a garrison>"]
+			"uniques": ["Destroyed when the city is captured", "[Wounded] Units adjacent to this city heal [5] HP per turn when healing", "[+1 Happiness, +1 Production] [in this city] <with a garrison>"]
 		},
 		//Manchuria
 		{
@@ -499,208 +608,150 @@
 			"maintenance": 1,
 			"requiredTech": "Theology"
 		},
-
-		/*
-
-		//Troy
+		//Pakistan
 		{
-			"name": "Cyclopian Walls",
-			"uniqueTo": "Troy",
-			"replaces": "Walls",
-			"cityStrength": 5,
-			"cityHealth": 125,
-			"hurryCostModifier": 25,
-			"requiredTech": "Masonry",
-			"uniques": ["Destroyed when the city is captured", "[+20]% Production when constructing [{Military} {Water}] units [in this city]", "Doubles Gold given to enemy if city is captured"]
-		},
-		//Athens
-		{
-			"name": "Parthenon",
-			"uniqueTo": "Athens",
-			"replaces": "Temple",
-			"faith": 1,
-			"maintenance": 2,
-			"hurryCostModifier": 25,
-			"requiredTech": "Philosophy",
-			"uniques": ["Hidden when religion is disabled", "Destroyed when the city is captured", "[+1 Culture, +1 Science] per [2] social policies adopted", "[+10]% Great Person generation [in this city]"]
-		},
-		//Sparta
-		{
-			"name": "Syssitia",
-			"uniqueTo": "Sparta",
-			"replaces": "Circus",
-			"happiness": 2,
-			"hurryCostModifier": 25,
-			"requiredTech": "Trapping",
-			"uniques": ["[+1 Happiness, +1 Culture] [in this city] <with a garrison>"]
-		},
-		//Pergamon
-		{
-			"name": "Asklepion",
-			"uniqueTo": "Pergamon",
-			"replaces": "Temple",
-			"faith": 2,
-			"maintenance": 2,
-			"cityHealth": 50,
-			"hurryCostModifier": 25,
-			"requiredTech": "Philosophy",
-			"uniques": ["Hidden when religion is disabled", "Destroyed when the city is captured", "All newly-trained [Land] units [in this city] receive the [Enlightened Medicine] promotion", "[+1 Science, +1 Faith] per [4] population [in this city]"]
-		},
-		//Corinth
-		{
-			"name": "Diolkos",
-			"uniqueTo": "Corinth",
-			"replaces": "Harbor",
-			"cost": 100,
-			"maintenance": 1,
-			"hurryCostModifier": 25,
-			"uniques": ["[+1 Production] from [Water resource] tiles [in this city]",
-				"Connects trade routes over water","Must be next to [Coast]", "[+15]% Production when constructing [Water] units [in this city]"],
-			"requiredTech": "Compass"
-		},
-		//Olympia
-		{
-			"name": "Pantheon Temple",
-			"uniqueTo": "Olympia",
-			"replaces": "Temple",
-			"faith": 2,
-			"maintenance": 2,
-			"cityHealth": 50,
-			"hurryCostModifier": 25,
-			"requiredTech": "Philosophy",
-			"uniques": ["Hidden when religion is disabled", "Destroyed when the city is captured", "[+25]% Natural religion spread [in this city]", "[+15]% Great Person generation [in this city]"]
-		},
-		//Argos
-		{
-			"name": "Classical Greek Theater",
-			"uniqueTo": "Argos",
-			"replaces": "Theatre",
-			"happiness": 3,
-			"culture": 3,
-			"specialistSlots": {"Artist": 2},
-			"hurryCostModifier": 10,
-			"maintenance": 2,
-			"requiredBuilding": "Colosseum",
-			"requiredTech": "Printing Press"
-		},
-		//Rhodes
-		{
-			"name": "Statue of Helios",
-			"uniqueTo": "Rhodes",
-			"replaces": "Lighthouse",
-			"cost": 85,
-			"hurryCostModifier": 25,
-			"maintenance": 1,
-			"uniques": ["Must be next to [Coast]", "[+1 Food] from [Ocean] tiles [in this city]",
-				"[+1 Food] from [Coast] tiles [in this city]", "[+1 Food] from [Fish] tiles [in this city]",
-				"[+1 Gold] from [Ocean] tiles [in this city]",
-					"[+1 Gold] from [Coast] tiles [in this city]"],
-			"requiredTech": "Optics"
-		},
-
-		//Fujiwara
-		{
-			"name": "Kazoku Estates",
-			"uniqueTo": "Fujiwara Clan",
-			"replaces": "Castle",
-			"cityStrength": 7,
-			"cityHealth": 25,
-			"culture": 1,
+			"name": "Urdu School",
+			"uniqueTo": "Pakistan",
+			"replaces": "Public School",
+			"science": 3,
 			"happiness": 1,
-			"specialistSlots": {"Artist": 1},
-			"hurryCostModifier": 25,
-			"requiredBuilding": "Walls",
-			"requiredTech": "Chivalry",
-			"uniques": ["Destroyed when the city is captured", "[+15]% Great Person generation [in this city]"]
-		},
-		//Hojo
-		{
-			"name": "Hikyaku Post Station",
-			"uniqueTo": "Hojo Clan",
-			"replaces": "Market",
-			"gold": 2,
-			"specialistSlots": {"Merchant": 1},
-			"hurryCostModifier": 25,
-			"percentStatBonus": {"gold": 25},
-			"uniques": ["[-5]% City-State Influence degradation", "[+25]% [Gold] from Trade Routes"],
-			"requiredTech": "Currency"
-		},
-		//Ashikaga
-		{
-			"name": "Zen Garden",
-			"uniqueTo": "Ashikaga Clan",
-			"replaces": "Garden",
-			"faith": 1,
-			"culture": 1,
-			"uniques": ["[+25]% Great Person generation [in this city]"],
-			"hurryCostModifier": 25,
-			"maintenance": 2,
-			"requiredTech": "Theology"
-		},
-		//Sanada
-		{
-			"name": "Kendo Dojo",
-			"uniqueTo": "Sanada Clan",
-			"replaces": "Armory",
-			"hurryCostModifier": 25,
-			"maintenance": 2,
-			"requiredBuilding": "Barracks",
-			"uniques": ["New [Military] units start with [15] Experience [in this city]", "[+20]% Production when constructing [Melee] units [in this city]", "Destroyed when the city is captured"],
-			"requiredTech": "Metal Casting"
-		},
-		//Minamoto
-		{
-			"name": "Shoin",
-			"uniqueTo": "Minamoto Clan",
-			"replaces": "Library",
-			"hurryCostModifier": 25,
 			"specialistSlots": {"Scientist": 1},
-			"culture": 1,
-			"happiness": 1,
-			"maintenance": 2,
-			"uniques": ["[+1 Science] per [2] population [in this city]"],
-			"requiredTech": "Writing"
+			"requiredBuilding": "University",
+			"maintenance": 1,
+			"hurryCostModifier": 0,
+			"uniques": ["[+1 Science] per [2] population [in this city]", "[+15]% Natural religion spread [in this city]"],
+			"requiredTech": "Scientific Theory"
 		},
-		//Tachibana
+		//Tuvalu
 		{
-			"name": "Noh Theatre",
-			"uniqueTo": "Tachibana Clan",
-			"replaces": "Theatre",
-			"happiness": 3,
-			"culture": 2,
-			"faith": 1,
-			"hurryCostModifier": 10,
-			"maintenance": 2,
-			"requiredBuilding": "Colosseum",
-			"requiredTech": "Printing Press"
-		},
-		//Takeda
-		{
-			"name": "Jin'ya",
-			"uniqueTo": "Takeda Clan",
-			"replaces": "Castle",
-			"culture": 1,
-			"happiness": 1,
-			"cityStrength": 7,
-			"cityHealth": 30,
+			"name": "Pulaka Pit",
+			"uniqueTo": "Tuvalu",
+			"replaces": "Water Mill",
+			"maintenance": 0,
+			"food": 3,
+			"production": 1,
 			"hurryCostModifier": 25,
-			"requiredBuilding": "Walls",
-			"requiredTech": "Chivalry",
-			"uniques": ["Destroyed when the city is captured"]
+			"requiredTech": "Calendar"
 		},
-		//Uesugi
+		//Botswana
 		{
-			"name": "Gunpowder Arsenal",
-			"uniqueTo": "Uesugi Clan",
-			"replaces": "Arsenal",
-			"cost": 300,
-			"cityStrength": 9,
-			"cityHealth": 25,
+			"name": "Kgotla",
+			"uniqueTo": "Botswana",
+			"replaces": "Courthouse",
+			"maintenance": 2,
+			"hurryCostModifier": 50,
+			"uniques": ["Remove extra unhappiness from annexed cities",
+			"[+1 Culture, +1 Science] from every specialist [in this city]"],
+			"requiredTech": "Mathematics"
+		},
+		//Barbados
+		{
+			"name": "Rum Distillery",
+			"uniqueTo": "Barbados",
+			"replaces": "Windmill",
+			"production": 2,
 			"gold": 1,
+			"specialistSlots": {"Engineer": 1},
 			"hurryCostModifier": 25,
-			"requiredBuilding": "Castle",
-			"requiredTech": "Gunpowder",
-			"uniques": ["New [Gunpowder] units start with [15] Experience [in this city]", "New [Ranged Gunpowder] units start with [15] Experience [in this city]", "New [Siege] units start with [15] Experience [in this city]", "Destroyed when the city is captured"]
+			"maintenance": 0,
+			"uniques": ["Must not be on [Hill]", "[+2 Gold] from [Sugar] tiles [in this city]", "[+10]% Production when constructing [All] buildings [in this city]", "Provides [2] [Rum]"],
+			"requiredTech": "Economics"
 		},
-		*/
+		{
+			"name": "Crop Over Ability",
+			"cost": 1,
+			"uniqueTo": "Barbados",
+			"uniques": ["Cannot be purchased", "Destroyed when the city is captured", "Will not be displayed in Civilopedia", "[+25]% [Food] [in all cities] <during We Love The King Day>", "[+25]% [Gold] [in all cities] <during We Love The King Day>"],
+		},
+
+		//Bangladesh
+		{
+			"name": "Jute Mill",
+			"uniqueTo": "Bangladesh",
+			"replaces": "Factory",
+			"cost": 240,
+			"production": 5,
+			"gold": 2,
+			"percentStatBonus": {"production": 10},
+			"specialistSlots": {"Engineer": 2},
+			"requiredBuilding": "Workshop",
+			"maintenance": 0,
+			"uniques": ["[+1 Production] from [Plantation] tiles [in this city]"],
+			"hurryCostModifier": 0,
+			"requiredResource": "Coal",
+			"requiredTech": "Industrialization"
+		},
+		//The Bahamas
+		{
+			"name": "Beach Resort",
+			"uniqueTo": "The Bahamas",
+			"replaces": "Stock Exchange",
+			"gold": 3,
+			"happiness": 1,
+			"uniques": ["[+1 Gold, +1 Culture] from [Coastal] tiles [in this city]"],
+			"percentStatBonus": {"gold": 25},
+			"specialistSlots": {"Merchant": 2},
+			"hurryCostModifier": 15,
+			"requiredBuilding": "Bank",
+			"requiredTech": "Electricity"
+		},
+		//Antigua and Barbuda
+		{
+			"name": "Snake Conservation Centre",
+			"uniqueTo": "Antigua and Barbuda",
+			"replaces": "Museum",
+			"culture": 5,
+			"percentStatBonus": {"science": 25},
+			"specialistSlots": {"Artist": 2},
+			"requiredBuilding": "Opera House",
+			"uniques": ["[+2 Culture, +2 Happiness, +2 Science, -2 Production, -2 Food] from [{unimproved} {Jungle}] tiles [in this city]", "[+2 Culture, +4 Science] from [Natural Wonder] tiles [in this city]", "Destroyed when the city is captured"],
+			"maintenance": 3,
+			"hurryCostModifier": 0,
+			"requiredTech": "Archaeology",
+		},
+		//Kiribati
+		{
+			"name": "Maneaba",
+			"uniqueTo": "Kiribati",
+			"replaces": "Amphitheater",
+			"culture": 4,
+			"specialistSlots": {"Artist": 1},
+			"requiredBuilding": "Monument",
+			"maintenance": 2,
+			"hurryCostModifier": 25,
+			"uniques": ["Destroyed when the city is captured", "[+1 Faith] from [Coastal] tiles [in this city] <within [1] tiles of a [City center]>"],
+			"requiredTech": "Drama and Poetry"
+		},
+		//Kushan
+		{
+			"name": "Gandhara Masonry",
+			"uniqueTo": "Kushan",
+			"replaces": "Stone Works",
+			"happiness": 1,
+			"production": 1,
+			"faith": 3,
+			"requiredNearbyImprovedResources": ["Marble", "Stone"],
+			"greatPersonPoints": {"Great Artist": 2},
+			"maintenance": 1,
+			"hurryCostModifier": 0,
+			"uniques": [
+				"Comment [+2 [Great Artist] points in this city]",
+				"Must not be on [Plains]",
+				"[+1 Production] from [Stone] tiles [in this city]",
+				"[+1 Production] from [Marble] tiles [in this city]"],
+			"requiredTech": "Calendar"
+		},
+		//Yucatan
+		{
+			"name": "Casa de Montejo",
+			"uniqueTo": "Yucatan",
+			"replaces": "Hermitage",
+			"cost": 125,
+			"percentStatBonus": {"culture": 50},
+			"greatPersonPoints": {"Great Artist": 2},
+			"culture": 7,
+			"isNationalWonder": true,
+			"uniques": ["Free [Great Artist] appears", "Free [Great General] appears", "Cost increases by [30] per owned city"],
+			"requiredTech": "Architecture"
+		},
 ]

@@ -38,4 +38,40 @@
 		"food": 1,
 		"gold": 1,
 	},
+	{
+		"name":"Reef Product",
+		"resourceType": "Luxury",
+		"food": 1,
+		"gold": 1,
+	},
+	{
+		"name":"Premium Seafood",
+		"resourceType": "Luxury",
+		"food": 1,
+		"gold": 2,
+	},
+	{
+		"name":"Shellfish Fertilizer",
+		"resourceType": "Luxury",
+		"food": 2,
+		"production": 1,
+	},
+	{
+		"name":"Premium Bottled Water",
+		"resourceType": "Luxury",
+		"food": 1,
+		"gold": 1,
+	},
+	{
+		"name":"Rum",
+		"resourceType": "Luxury",
+		"culture": 1,
+		"gold": 2,
+	},
+	{
+		"name":"Nutmeg",
+		"resourceType": "Luxury",
+		"food": 1,
+		"gold": 2,
+	},
 ]
