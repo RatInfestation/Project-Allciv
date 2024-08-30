@@ -80,11 +80,11 @@
 	},
 	{
 		"name": "Guerrilla Tactics",
-		"uniques": ["May withdraw before melee ([10]%)", "Invisible to non-adjacent units <in [Forest] tiles>", "Invisible to non-adjacent units <in [Jungle] tiles>", "Ignores Zone of Control", "[-10]% Strength <when defending>"]
+		"uniques": ["May withdraw before melee <with [20]% chance>", "Invisible to non-adjacent units <in [Forest] tiles>", "Invisible to non-adjacent units <in [Jungle] tiles>", "Ignores Zone of Control", "[-10]% Strength <when defending>"]
 	},
 	{
 		"name": "Capoeira",
-		"uniques": ["May withdraw before melee ([15]%)", "Can move after attacking <with [50]% chance>"]
+		"uniques": ["May withdraw before melee <with [15]% chance>", "Can move after attacking"]
 	},
 	{
 		"name": "River Walker",
@@ -165,7 +165,7 @@
 	//Belize
 	{
 	"name": "[Garifuna Guerrilla] ability",
-	"uniques": ["May withdraw before melee ([50]%)", "Invisible to non-adjacent units <in [Friendly Land] tiles>"],
+	"uniques": ["May withdraw before melee <with [50]% chance>", "Invisible to non-adjacent units <in [Friendly Land] tiles>"],
 	},
 	//Druzhina promotions
 	{
