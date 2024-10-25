@@ -27,8 +27,6 @@
     "Vajrayana",
     "Mahayana",
     "Chinese Folk Religion",
-
-    //New
     "Angakkunngurniq",
     "Amathongo",
     "Ashurism",
@@ -40,5 +38,19 @@
     "Noaidevuohta",
     "Pajelanca",
     "Voodoo",
-
+    //New
+    "Monolith Cult",
+    "Peyotism",
+    "Adamism",
+    "Humanism",
+    "Atheism",
+    "Baha'I",
+    "Candomble",
+    "Seicho-No-Ie",
+    "Oomoto",
+    "Tenrikyo",
+    "Umbanda",
+    "Zalmoxianism",
+    "Zen",
+    "Mormonism",
 ]

@@ -1,9 +1,50 @@
+//WW1
+Malta
 
-//Community Update
-(X2003)
-kushan empire (riceroll)
-Make all the leader quotes
-make all missing cities
+//Colonies
+canary islands
+madeira
+morocco
+Algeria
+Western Sahara
+Gold Coast
+Togo
+trucial states
+Zulu
+walvis bay
+basutoland
+mozambique
+seychelles
+somaliland
+goa (Portugal)
+Newfoundland
+Congo
+
+//WW2
+Nazi Germany
+Slovak Republic
+Yugoslavia 
+Croatia
+Turkey
+Empire of Japan
+Liechtenstein
+Monaco
+Andorra
+San Marino
+Vatican City
+Free City of Danzig
+Poland
+Lithuania
+Latvia
+Estonia
+Manchukuo
+
+//Cold War and Beyond
+People's Republic of China
+Taiwan
+South Korea
+North Korea
+
 
 //Norse Guys
 Åland Islands
