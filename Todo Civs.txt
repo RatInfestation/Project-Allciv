@@ -1,0 +1,155 @@
+//WW1
+Malta
+
+//Colonies
+canary islands
+madeira
+morocco
+Algeria
+Western Sahara
+Gold Coast
+Togo
+trucial states
+Zulu
+walvis bay
+basutoland
+mozambique
+seychelles
+somaliland
+goa (Portugal)
+Newfoundland
+Congo
+
+//WW2
+Nazi Germany
+Slovak Republic
+Yugoslavia 
+Croatia
+Turkey
+Empire of Japan
+Liechtenstein
+Monaco
+Andorra
+San Marino
+Vatican City
+Free City of Danzig
+Poland
+Lithuania
+Latvia
+Estonia
+Manchukuo
+
+//Cold War and Beyond
+People's Republic of China
+Taiwan
+South Korea
+North Korea
+
+
+//Norse Guys
+Åland Islands
+Falkland Islands
+Faroe Islands
+
+//Island Nations
+Maldives
+Cocos (Keeling) Islands
+Guam
+French Polynesia
+New Caledonia
+Martinique
+American Samoa
+Northern Mariana Islands
+Tokelau
+Aruba
+Anguilla
+Curaçao
+Bermuda
+
+//Balkans 
+Croatia (thegrislygrotto)
+Bulgaria (Basil)
+Serbia
+Bosnia and Herzegovina
+Bulgaria
+Albania
+Slovenia
+Macedonia
+North Macedonia
+Montenegro
+Kosovo
+Türkiye
+Paeonia
+Thracians/Odrysian kingdom
+Illyrians
+Phrygians
+Dacians
+Achaemenid Empire
+Seljuk Empire
+
+//The British Isles
+Wales
+Ireland
+Scotland
+Isle of Man
+Jersey
+Gurnsey
+Normandy
+
+//China
+Xia Dynasty
+Han Dynasty
+Jin Dynasty
+Sui Dynasty
+Tang Dynasty
+Yuan Dynasty
+Ming Dynasty
+Song Dynasty
+Qing Dynasty
+Peoples Republic of China
+
+//Mediteranian
+Italy
+Republic of Venice
+Sicily
+Corsica 
+Sardinia
+
+//Modern Middle East
+Iran
+Yemen
+Jordan
+Lebanon
+Syria
+Palestine
+UAE
+Israel
+Palestine
+Kuwait
+Oman
+Bahrain
+Iraq
+Qatar
+
+//Modern Asia
+Myanmar
+Indonesia
+South Korea
+Thailand
+Philippines
+Vietnam
+Taiwan
+Cambodia
+Myanmar (Burma)
+Laos
+Nepal
+Uzbekistan
+North Korea
+Armenia
+Bhutan
+Brunei
+Kyrgyzstan
+Turkmenistan
+Timor-Leste
+Timor
+Macao
