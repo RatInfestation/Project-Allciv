@@ -102,6 +102,11 @@
 		"name": "Ransom III",
 		"uniques": ["Earn [10]% of killed [Military] unit's [Cost] as [Gold]"]
 	},
+	//Texas
+	{
+		"name": "Ranch Hand",
+		"uniques": ["Can build [Pasture] improvements on tiles <in [Land] tiles>"]
+	},
 	//The Vandals
 	{
 	"name": "Sea Wolves",
@@ -135,7 +140,7 @@
 	//Fiji
 	{
 	"name": "Bau Domination",
-	"uniques": ["Heal this unit by [25] HP <upon being promoted>", "[+1] Movement <for [3] turns> <upon being promoted>", "[+15]% Strength <for [3] turns> <upon being promoted>"],
+	"uniques": ["Heal this unit by [25] HP <upon being promoted>", "[+1] Movement <for [This Unit] units> <for [5] turns> <upon being promoted>", "[+15]% Strength <for [This Unit] units> <for [5] turns> <upon being promoted>"],
 	},
 	//Australia
 	{
@@ -166,6 +171,30 @@
 	{
 	"name": "[Garifuna Guerrilla] ability",
 	"uniques": ["May withdraw before melee <with [50]% chance>", "Invisible to non-adjacent units <in [Friendly Land] tiles>"],
+	},
+	//The UN
+	{
+	"name": "International Agreements",
+	"uniques": ["May enter foreign tiles without open borders", "Unable to capture cities", "Unable to pillage tiles"],
+	},
+	{
+	"name": "[Peacekeeper] ability",
+	"uniques": ["[+20]% Strength <when defending> <in [Foreign Land] tiles>", "[+10] HP when healing"],
+	},
+	//Corsica
+	{
+	"name": "[Macchieri] ability",
+	"uniques": ["[-15]% Strength for enemy [Military] units in adjacent [Hill] tiles", "[+20]% Strength when stacked with [Great General]"],
+	},
+	//Comanche
+	{
+	"name": "Horse Thieves",
+	"uniques": ["May capture killed [Mounted] units <with [100]% chance> <for [Military] units>", "May capture killed [Armoured] units <with [50]% chance> <for [Military] units>"],
+	},
+	//Syria
+	{
+	"name": "Beast of Damascus",
+	"uniques": ["No movement cost to pillage"],
 	},
 	//Druzhina promotions
 	{

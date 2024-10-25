@@ -74,4 +74,23 @@
 		"food": 1,
 		"gold": 2,
 	},
+	{
+		"name":"Roses",
+		"resourceType": "Luxury",
+		"gold": 2,
+		"culture": 1,
+	},
+	{
+		"name":"Exotic Spices",
+		"resourceType": "Luxury",
+		"gold": 1,
+		"food": 1,
+		"uniques": ["Stockpiled"],
+	},
+	{
+		"name":"Exotic Materials",
+		"resourceType": "Luxury",
+		"gold": 2,
+		"uniques": ["Stockpiled"],
+	},
 ]
