@@ -93,4 +93,17 @@
 		"gold": 2,
 		"uniques": ["Stockpiled"],
 	},
+	{
+		"name":"Amber",
+		"resourceType": "Luxury",
+		"gold": 2,
+	},
+	{
+		"name":"Bear",
+		"resourceType": "Luxury",
+	},
+	{
+		"name":"Deutsches Auto",
+		"resourceType": "Luxury",
+	},
 ]

@@ -1,0 +1,8 @@
+[
+	{
+		"name":"Priest",
+		"faith":3,
+		"greatPersonPoints": {"Great Prophet":3},
+		"color": [177, 180, 199]
+	},
+]

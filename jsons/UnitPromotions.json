@@ -37,7 +37,7 @@
 	//New Zealand
 	{
 		"name": "Maori Heritage",
-		"uniques": ["Defense bonus when embarked", "[1] Movement point cost to embark", "[1] Movement point cost to disembark"]
+		"uniques": ["Defense bonus when embarked", "Can instantly construct a [Pa] improvement <once> <for all movement>"]
 	},
 	{
 		"name": "[Zealand Defender-ship] ability",
@@ -81,6 +81,19 @@
 	{
 		"name": "Guerrilla Tactics",
 		"uniques": ["May withdraw before melee <with [20]% chance>", "Invisible to non-adjacent units <in [Forest] tiles>", "Invisible to non-adjacent units <in [Jungle] tiles>", "Ignores Zone of Control", "[-10]% Strength <when defending>"]
+	},
+	//Cuba
+	{
+		"name": "Cuban Revolutionary",
+		"uniques": ["May withdraw before melee <with [20]% chance>",
+		"May withdraw before melee <with [65]% chance> <when adjacent to a [Revolucionario] unit>",
+	 "Invisible to non-adjacent units <in [Forest] tiles>",
+	 "Invisible to non-adjacent units <in [Jungle] tiles>",
+	 "Can build [Rebel Camp] improvements on tiles",
+	 "May enter foreign tiles without open borders <in [Jungle] tiles>",
+	 "May enter foreign tiles without open borders <in [Forest] tiles>",
+	 "Ignores Zone of Control",
+	 "[-10]% Strength <when defending>"]
 	},
 	{
 		"name": "Capoeira",
@@ -140,7 +153,7 @@
 	//Fiji
 	{
 	"name": "Bau Domination",
-	"uniques": ["Heal this unit by [25] HP <upon being promoted>", "[+1] Movement <for [This Unit] units> <for [5] turns> <upon being promoted>", "[+15]% Strength <for [This Unit] units> <for [5] turns> <upon being promoted>"],
+	"uniques": ["[This Unit] heals [25] HP <upon being promoted>", "[+1] Movement <for [This Unit] units> <for [5] turns> <upon being promoted>", "[+15]% Strength <for [This Unit] units> <for [5] turns> <upon being promoted>"],
 	},
 	//Australia
 	{
@@ -195,6 +208,105 @@
 	{
 	"name": "Beast of Damascus",
 	"uniques": ["No movement cost to pillage"],
+	},
+	//The Third German Reich
+	{
+	"name": "Blitzkrieg",
+	"uniques": ["[+1] Movement <for [This Unit] units> <for [5] turns> <upon declaring war with a major Civilization>", "[1] additional attacks per turn <for [This Unit] units> <for [5] turns> <upon declaring war with a major Civilization>",
+							"[+1] Movement <for [This Unit] units> <for [3] turns> <upon conquering a city>", "[1] additional attacks per turn <for [This Unit] units> <for [3] turns> <upon conquering a city>"],
+	},
+	{
+	"name": "[Tiger I] ability",
+	"uniques": ["Destroys tile improvements when attacking <in [Foreign Land] tiles> <with [50]% chance>", "Can move after attacking <with [50]% chance>"],
+	},
+	//Lithuania
+	{
+	"name": "Pagan Faith",
+	"uniques": ["Double movement in [Forest]", "Earn [10]% of killed [Wounded] unit's [Cost] as [Faith]"],
+	},
+	//Latvia
+	{
+	"name": "The Livonian Order",
+	"uniques": ["[+2] Movement <in [Friendly] tiles>", "[+1] Sight <if it hasn't used other actions yet>", "Earn [33]% of killed [Land] unit's [Cost] as [Faith]"],
+	},
+	//Liechtenstein
+	{
+	"name": "[Landespolizei Corp] ability",
+	"uniques": ["[+25]% Strength <when fighting in [All] tiles> <within [1] tiles of a [City center]>", "[+25]% Strength <when fighting in [Friendly Land] tiles>"],
+	},
+	//Belarus
+	{
+		"name": "Man of The Marsh",
+		"uniques": ["[+15]% Strength <when fighting in [Marsh] tiles>", "[+15]% Strength <when fighting in [All] tiles> <within [1] tiles of a [Marsh]>","Double movement in [Marsh]"]
+	},
+	//Manchukuo
+	{
+		"name": "Showa Steel Mill Ability",
+		"uniques": ["Can speed up construction of a building <in cities with a [Showa Steel Mill]>"]
+	},
+	//Nippon Teikoku
+	{
+		"name": "[Yamato Class] ability",
+		"uniques": ["[+35]% Strength <when below [50] HP>", "[+10]% Strength bonus for [Water] units within [1] tiles"]
+	},
+	{
+		"name": "[I-400 Submarine] ability",
+		"uniques": ["Can carry [1] [Aircraft] units", "[+20]% Strength <when defending>"]
+	},
+	//Germania
+	{
+		"name": "Forestman",
+		"uniques": ["Double movement in [Forest]"]
+	},
+	//West Germany
+	{
+		"name": "Autobahn",
+		"uniques": ["Double movement in [Land] <in cities with a [Autobahn]>"]
+	},
+	//Thailand
+	{
+		"name": "[Little Tiger] ability",
+		"uniques": ["[+33]% Strength <when above [50] HP>"]
+	},
+	//Czechoslovakia
+	{
+		"name": "[Legie] ability",
+		"uniques": ["[+15]% Strength <when fighting in [Foreign Land] tiles>", "[+1] Movement <in [Foreign Land] tiles>"],
+	},
+	//Israel
+	{
+		"name": "[Merkava] ability",
+		"uniques": ["[+15]% Strength <when fighting in [Desert] tiles>", "[+2] Movement <in [Desert] tiles>"],
+	},
+	//Hungary
+	{
+		"name": "[Black Army] ability",
+		"uniques": [
+		"[+33]% Strength <vs cities> <when defending>",
+	 	"[+33]% Strength <vs [Barbarian] units>",
+		"[+33]% Strength <vs [City-State] units>"],
+	},
+	{
+		"name": "Yereroc Builder",
+		"uniques": ["Can instantly construct a [Yereroc] improvement <by consuming this unit> <in [Lakes] tiles>"],
+	},
+	//The EU
+	{
+		"name": "[Eurocorps] ability",
+		"uniques": [
+		"[+15]% Strength <in [Friendly Land] tiles>",
+		"[+15]% Strength <in [City-State] tiles>",
+		"[+25]% Strength <in [{Friendly Land} {Foreign Land}] tiles>"],
+	},
+	//Xiongnu
+	{
+		"name": "Hero of The Steppes",
+		"uniques": ["May capture killed [Barbadian] units <with [33]% chance> <before the [Renaissance era]>"],
+	},
+	//Yamnaya
+	{
+		"name": "Burial Archaeology",
+		"uniques": ["Can instantly construct a [Ancient ruins] improvement <in [Pit Burial] tiles> <for all movement> <starting from the [Medieval era]>"],
 	},
 	//Druzhina promotions
 	{
@@ -268,7 +380,7 @@
 	},
 	{
 		"name": "Heal Instantly (Druzhina)",
-		"uniques": ["Heal this unit by [50] HP", "Doing so will consume this opportunity to choose a Promotion"],
+		"uniques": ["[This Unit] heals [50] HP", "Doing so will consume this opportunity to choose a Promotion"],
 		"unitTypes": ["Druzhina"],
 				"row": 0,
 				"column": 30
