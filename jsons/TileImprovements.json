@@ -1,14 +1,4 @@
 [
-	{
-		"name": "Nature Preserve",
-		"uniqueTo": "Canada",
-		"culture": 1,
-		"terrainsCanBeBuiltOn": ["Snow", "Tundra", "Forest", "Hill"],
-		"turnsToBuild": 10,
-		"uniques": ["[+1 Gold, +1 Culture] <after discovering [Flight]>", "[+1 Gold] <after discovering [Ecology]>", "Constructing it will take over the tiles around it and assign them to your closest city"],
-		"techRequired": "Economics",
-		"shortcutKey": "M"
-	},
 	//finland
 	{
 		"name": "Cabin Village",
@@ -16,7 +6,12 @@
 		"production": 1,
 		"terrainsCanBeBuiltOn": ["Snow","Tundra","Forest"],
 		"turnsToBuild": 7,
-		"uniques": ["[+1 Production] for each adjacent [Lumber mill]", "[+2 Science] for each adjacent [Academy]", "[+1 Gold] for each adjacent [Camp] <after discovering [Guilds]>"],
+		"uniques": [
+		"[+1 Production] for each adjacent [Lumber mill]",
+		"[+2 Science] <with [1] to [1] neighboring [Academy] tiles>",
+		"[+4 Science] <with [2] to [6] neighboring [Academy] tiles>",
+		"[+1 Gold] for each adjacent [Camp] <after discovering [Guilds]>",
+		"Cannot be built on [Land] tiles <with [2] to [6] neighboring [Cabin Village] tiles>"],
 		"techRequired": "Construction",
 		"shortcutKey": "M"
 	},
@@ -31,17 +26,6 @@
 		"techRequired": "Construction",
 		"shortcutKey": "M"
 	},
-	//Christmas
-	{
-		"name": "Tropical Reserve",
-		"uniqueTo": "Christmas Island",
-		"science": 2,
-		"terrainsCanBeBuiltOn": ["Land", "Hill", "Forest", "Jungle"],
-		"turnsToBuild": 10,
-		"uniques": ["[+2 Science] for each adjacent [Water resource]", "[+2 Science] for each adjacent [Jungle]"],
-		"techRequired": "Biology",
-		"shortcutKey": "M"
-	},
 	//Muisca
 	{
 		"name": "Sacred Lake",
@@ -54,13 +38,20 @@
 		"techRequired": "Construction",
 		"shortcutKey": "M"
 	},
+	//Cuba
+	{
+		"name": "Rebel Camp",
+		"uniqueTo": "Cuba",
+		"terrainsCanBeBuiltOn": ["Jungle", "Forest"],
+		"turnsToBuild": 4,
+		"uniques": ["Can be built outside your borders", "Gives a defensive bonus of [50]% <in [Enemy Land] tiles>", "Unpillagable"],
+		"techRequired": "Construction",
+	},
 	//Nazca
 	{
 		"name": "Geoglyph",
 		"uniqueTo": "Nazca",
 		"culture": 1,
-		"faith": 1,
-		"production": 1,
 		"terrainsCanBeBuiltOn": ["Desert", "Plains", "Hill"],
 		"turnsToBuild": 7,
 		"uniques": ["[+1 Faith, +1 Culture] for each adjacent [Holy Site]", "[+1 Science, +1 Culture] for each adjacent [Academy]", "[+1 Gold, +1 Culture] for each adjacent [Customs House]", "[+2 Culture] for each adjacent [Landmark]", "[+1 Production, +1 Culture] for each adjacent [Manufactory]"],
@@ -189,7 +180,7 @@
 			"name": "Mekewap",
 			"uniqueTo": "The Cree",
 			"production": 1,
-			"terrainsCanBeBuiltOn": ["Grassland","Plains","Tundra","Snow"],
+			"terrainsCanBeBuiltOn": ["Grassland","Plains","Tundra"],
 			"turnsToBuild": 5,
 			"uniques": ["[+1 Production] <after discovering [Civil Service]>", "[+1 Production] for each adjacent [Strategic Resource]", "[+1 Gold] for each adjacent [Luxury Resource]", "[+1 Gold] for each adjacent [Luxury Resource] <after discovering [Guilds]>", "[+1 Food] for each adjacent [Bonus Resource]"],
 			"techRequired": "Animal Husbandry",
@@ -199,17 +190,13 @@
 			"name": "Oppidum",
 			"uniqueTo": "Gaul",
 			"production": 1,
-			"terrainsCanBeBuiltOn": ["Grassland","Plains","Tundra","Snow"],
+			"terrainsCanBeBuiltOn": ["Grassland","Plains","Tundra"],
 			"turnsToBuild": 8,
 			"uniques": ["Gives a defensive bonus of [25]%",
 			 "[+1 Production] for each adjacent [Strategic Resource]",
 			 "[+1 Production] for each adjacent [Quarry]",
 			 "[+1 Production] for each adjacent [Strategic Resource] <after discovering [Industrialization]>",
-			 "Cannot be built on [Grassland] tiles <with [1] to [6] neighboring [Oppidum] tiles>",
-			 "Cannot be built on [Plains] tiles <with [1] to [6] neighboring [Oppidum] tiles>",
-			 "Cannot be built on [Desert] tiles <with [1] to [6] neighboring [Oppidum] tiles>",
-			 "Cannot be built on [Tundra] tiles <with [1] to [6] neighboring [Oppidum] tiles>",
-		 		"Cannot be built on [Snow] tiles <with [1] to [6] neighboring [Oppidum] tiles>"],
+		 		"Cannot be built on [Land] tiles <with [1] to [6] neighboring [Oppidum] tiles>"],
 			"techRequired": "Iron Working",
 		},
 		//Grenada
@@ -240,7 +227,6 @@
 	"uniqueTo": "Belize",
 	"terrainsCanBeBuiltOn": ["Jungle"],
 	"production": 1,
-	"food": 1,
 	"turnsToBuild": 12,
 	"uniques": ["[+1 Production] <after discovering [Industrialization]>"],
 	"techRequired": "Machinery",
@@ -254,5 +240,172 @@
 	"turnsToBuild": 6,
 	"uniques": ["[+1 Production] <with [1] to [6] neighboring [Quarry] tiles>", "[+1 Culture] <after discovering [Flight]>"],
 	"techRequired": "Mathematics",
+},
+//Maori
+{
+	"name": "Pa",
+	"uniqueTo": "Maori",
+	"terrainsCanBeBuiltOn": ["Hill"],
+	"uniques": ["Can be built outside your borders",
+	"Removes removable features when built",
+	"Will not be replaced by automated units",
+	"Gives a defensive bonus of [35]%", "Will not be displayed in Civilopedia"],
+},
+//Lithuania
+{
+	"name": "Sacred Grove",
+	"faith": 2,
+	"happiness": 2,
+	"uniqueTo": "Lithuania",
+	"terrainsCanBeBuiltOn": ["Forest", "Jungle"],
+	"uniques": [
+	"[-2 Happiness] <in cities with a major religion>"
+	"Great Improvement",
+	"Will not be replaced by automated units",
+	"Gives a defensive bonus of [25]%",
+	"Pillaging this improvement yields approximately [+100 Gold]"],
+},
+//Danzig
+{
+	"name": "Great Seaport of Danzig",
+	"production": 1,
+	"gold": 2,
+	"uniqueTo": "Free City of Danzig",
+	"terrainsCanBeBuiltOn": ["Coast"],
+	"uniques": ["[+2 Gold, +1 Production] for each adjacent [Water resource]", "[+2 Gold, +1 Production] for each adjacent [City center]",
+	"Great Improvement",
+	"Will not be replaced by automated units",
+	"Pillaging this improvement yields approximately [+100 Gold]"],
+},
+//Normandy
+{
+	"name": "Motte and Bailey",
+	"uniqueTo": "Normandy",
+	"terrainsCanBeBuiltOn": ["Land","Hill"],
+	"turnsToBuild": 6,
+	"production": 1,
+	"uniques": ["[+1 Production, +1 Food] <within [1] tiles of a [Pasture]>", "Cannot be built on [All] tiles <with [1] to [6] neighboring [Motte and Bailey] tiles>", "Gives a defensive bonus of [50]%"],
+	"techRequired": "Engineering",
+},
+//The Emishi
+{
+	"name": "Kura",
+	"uniqueTo": "The Emishi",
+	"terrainsCanBeBuiltOn": ["Forest", "Jungle"],
+	"turnsToBuild": 6,
+	"food": 1,
+	"uniques": ["[+1 Production, +1 Food] <in [Deer] tiles>", "[+1 Culture, +1 Happiness] <after discovering [Industrialization]>"],
+	"techRequired": "Trapping",
+},
+//Israel
+{
+	"name": "Kibbutz",
+	"uniqueTo": "Israel",
+	"terrainsCanBeBuiltOn": ["Desert", "Flood plains"],
+	"turnsToBuild": 8,
+	"food": 1,
+	"uniques": ["Cannot be built on [Hill] tiles",
+	"[+1 Food] from [Fresh water] tiles",
+	"[+1 Food] from [non-fresh water] tiles <after discovering [Fertilizer]>",
+	"[+1 Food] <in [Flood plains] tiles>",
+	"[+1 Food] for each adjacent [Oasis]",
+	"[+2 Faith] for each adjacent [Holy site]",
+	"[+1 Culture] <after discovering [Radio]>"],
+	"techRequired": "Civil Service",
+},
+//Palestine
+{
+	"name": "Beit",
+	"uniqueTo": "Palestine",
+	"terrainsCanBeBuiltOn": ["Hill"],
+	"turnsToBuild": 8,
+	"food": 1,
+	"uniques": [
+	"[+1 Food] from [non-fresh water] tiles <after discovering [Fertilizer]>",
+	"[+1 Food] from [Fresh water] tiles <after discovering [Civil Service]>",
+	"[+1 Food] <in cities following our religion>",
+	"[+2 Faith, +1 Culture, +1 Food] <within [1] tiles of a [Holy site]>"],
+	"techRequired": "Theology",
+},
+//Hungary
+{
+	"name": "Vegvar",
+	"uniqueTo": "Hungary",
+	"terrainsCanBeBuiltOn": ["Land","Hill"],
+	"turnsToBuild": 6,
+	"production": 1,
+	"uniques": [
+	"[+1 Happiness, +1 Culture] <within [1] tiles of a [City center]>",
+	"[+1 Food] <in [River] tiles>",
+	"[+1 Production] <in [Hill] tiles>",
+	"Cannot be built on [All] tiles <with [1] to [6] neighboring [Vegvar] tiles>",
+	"Gives a defensive bonus of [50]%"],
+	"techRequired": "Chivalry",
+},
+//Jamaica
+{
+	"name": "Rasta Village",
+	"uniqueTo": "Jamaica",
+	"terrainsCanBeBuiltOn": ["Land"],
+	"culture": 6,
+	"production": -2,
+	"uniques": ["[+1 Culture] for each adjacent [Jungle]",
+	"[+1 Faith] for each adjacent [Luxury resource]",
+	"[+2 Happiness] <within [1] tiles of a [City center]>",
+	"[+1 Culture] <after discovering [Radio]>",
+	"[+1 Culture] <after discovering [Flight]>",
+	"Great Improvement",
+	"Removes removable features when built",
+	"Will not be replaced by automated units",
+	"Pillaging this improvement yields approximately [+20 Gold]"]
+},
+//
+{
+	"name": "Yereroc",
+	"uniqueTo": "The Gunditjmara",
+	"terrainsCanBeBuiltOn": ["Marsh", "Lakes"],
+	"food": 1,
+	"production": 1,
+	"techRequired": "Construction",
+	"uniques": [
+	"[+1 Culture] <after discovering [Archaeology]>",
+	"Pillaging this improvement yields approximately [+5 Gold]"]
+},
+//Yamnaya
+{
+	"name": "Pit Burial",
+	"uniqueTo": "Yamnaya",
+	"terrainsCanBeBuiltOn": ["Plains", "Grassland", "Hill"],
+	"faith": 1,
+	"science": 1,
+	"production": -1,
+	"turnsToBuild": 10,
+	"techRequired": "Bronze Working",
+	"uniques": ["Unbuildable <starting from the [Medieval era]>",
+		"[+2 Culture, +1 Gold] <after discovering [Archaeology]>",
+		"[+2 Culture, +3 Science] <after discovering [Flight]>",
+		"Pillaging this improvement yields approximately [+75 Gold]"
+	],
+},
+{
+	"name": "Ancient ruins",
+	"terrainsCanBeBuiltOn": ["Land"],
+	"uniques": ["Unpillagable", "Provides a random bonus when entered"]
+},
+//Yayoi
+{
+	"name": "Kofun",
+	"uniqueTo": "Yayoi",
+	"terrainsCanBeBuiltOn": ["Land"],
+	"faith": 1,
+	"turnsToBuild": 10,
+	"techRequired": "Construction",
+	"uniques": [
+		"[+1 Happiness, +1 Culture] for each adjacent [City center]",
+		"[+1 Culture, +1 Faith] for each adjacent [Lakes]",
+		"[+3 Culture, +3 Faith] for each adjacent [Natural wonder]",
+		"Cannot be built on [Land] tiles <with [1] to [6] neighboring [Kofun] tiles>",
+		"Pillaging this improvement yields approximately [+100 Gold]"
+	],
 },
 ]

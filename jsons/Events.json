@@ -1,0 +1,40 @@
+[
+    {
+        "name":"Velvet Revolution Era Boost",
+		 	  "text":"Choose a Boost!",
+        "choices":[
+        {
+          "text": "Science",
+          "triggeredUniques": ["[+25]% [Science] [in all cities] <for [8] turns>"]
+        },
+        {
+          "text": "Culture",
+          "triggeredUniques": ["[+20]% [Culture] [in all cities] <for [8] turns>"]
+        },
+        {
+          "text": "Production",
+          "triggeredUniques": ["[+15]% [Production] [in all cities] <for [8] turns>"]
+        },
+        {
+          "text": "Gold",
+          "triggeredUniques": ["[+30]% [Gold] [in all cities] <for [8] turns>"]
+        },
+      ],
+    },
+
+      {
+        "name":"Velvet Revolution Building Boost",
+        "text":"Choose a Boost!",
+        "choices":[
+        {
+          "text": "Science",
+          "triggeredUniques": ["[+5]% [Science] [in all cities] <for [12] turns>"]
+        },
+        {
+          "text": "Great Person",
+          "triggeredUniques": ["[+10]% Great Person generation [in all cities] <for [12] turns>"]
+        },
+      ],
+    }
+
+]
