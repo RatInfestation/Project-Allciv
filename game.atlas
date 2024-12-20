@@ -4065,28 +4065,28 @@ TileSets/AbsoluteUnits/Units/Alpini-2
   index: -1
 TileSets/AbsoluteUnits/Units/BT-42
   rotate: false
-  xy: 1300, 270
+  xy: 1512, 397
   size: 77, 65
   orig: 77, 65
   offset: 0, 0
   index: -1
 TileSets/AbsoluteUnits/Units/BT-42-1
   rotate: false
-  xy: 1295, 197
+  xy: 1624, 594
   size: 77, 65
   orig: 77, 65
   offset: 0, 0
   index: -1
 TileSets/AbsoluteUnits/Units/BT-42-2
   rotate: false
-  xy: 1295, 124
+  xy: 1619, 521
   size: 77, 65
   orig: 77, 65
   offset: 0, 0
   index: -1
 TileSets/AbsoluteUnits/Units/Banner Cavalry
   rotate: false
-  xy: 1408, 373
+  xy: 1619, 443
   size: 77, 70
   orig: 77, 70
   offset: 0, 0
@@ -4100,28 +4100,28 @@ TileSets/AbsoluteUnits/Units/Birdman Warrior
   index: -1
 TileSets/AbsoluteUnits/Units/Black Army
   rotate: false
-  xy: 1403, 295
+  xy: 1597, 365
   size: 77, 70
   orig: 77, 70
   offset: 0, 0
   index: -1
 TileSets/AbsoluteUnits/Units/Black Army-1
   rotate: false
-  xy: 1516, 481
+  xy: 1732, 697
   size: 77, 70
   orig: 77, 70
   offset: 0, 0
   index: -1
 TileSets/AbsoluteUnits/Units/Black Army-2
   rotate: false
-  xy: 1511, 403
+  xy: 1727, 619
   size: 77, 70
   orig: 77, 70
   offset: 0, 0
   index: -1
 TileSets/AbsoluteUnits/Units/Chevalier
   rotate: false
-  xy: 1624, 589
+  xy: 1682, 365
   size: 77, 70
   orig: 77, 70
   offset: 0, 0
@@ -4135,7 +4135,7 @@ TileSets/AbsoluteUnits/Units/Cohort
   index: -1
 TileSets/AbsoluteUnits/Units/Cowboy
   rotate: false
-  xy: 1300, 343
+  xy: 1516, 559
   size: 95, 81
   orig: 95, 81
   offset: 0, 0
@@ -4189,247 +4189,268 @@ TileSets/AbsoluteUnits/Units/Knights Hospitaller-2
   orig: 96, 96
   offset: 0, 0
   index: -1
-TileSets/AbsoluteUnits/Units/Lightning Warrior
-  rotate: false
-  xy: 1408, 451
-  size: 95, 81
-  orig: 95, 81
-  offset: 0, 0
-  index: -1
-TileSets/AbsoluteUnits/Units/Llama Hunter
-  rotate: false
-  xy: 1516, 559
-  size: 95, 81
-  orig: 95, 81
-  offset: 0, 0
-  index: -1
-TileSets/AbsoluteUnits/Units/Maccabee
+TileSets/AbsoluteUnits/Units/Kyudoka
   rotate: false
   xy: 628, 4
   size: 96, 96
   orig: 96, 96
   offset: 0, 0
   index: -1
-TileSets/AbsoluteUnits/Units/Maccabee-1
+TileSets/AbsoluteUnits/Units/Kyudoka-1
   rotate: false
   xy: 1948, 1324
   size: 96, 96
   orig: 96, 96
   offset: 0, 0
   index: -1
-TileSets/AbsoluteUnits/Units/Maccabee-2
+TileSets/AbsoluteUnits/Units/Kyudoka-2
   rotate: false
   xy: 732, 4
   size: 96, 96
   orig: 96, 96
   offset: 0, 0
   index: -1
-TileSets/AbsoluteUnits/Units/Maxim Gun.w
-  rotate: false
-  xy: 1948, 1220
-  size: 96, 96
-  orig: 96, 96
-  offset: 0, 0
-  index: -1
-TileSets/AbsoluteUnits/Units/Mountie
-  rotate: false
-  xy: 1619, 516
-  size: 77, 65
-  orig: 77, 65
-  offset: 0, 0
-  index: -1
-TileSets/AbsoluteUnits/Units/New folder/Red Army Infantry2
-  rotate: false
-  xy: 1745, 488
-  size: 64, 64
-  orig: 64, 64
-  offset: 0, 0
-  index: -1
-TileSets/AbsoluteUnits/Units/Red Army Infantry
-  rotate: false
-  xy: 1745, 488
-  size: 64, 64
-  orig: 64, 64
-  offset: 0, 0
-  index: 2
-TileSets/AbsoluteUnits/Units/Novgorodian Streltsy
-  rotate: false
-  xy: 836, 4
-  size: 96, 96
-  orig: 96, 96
-  offset: 0, 0
-  index: -1
-TileSets/AbsoluteUnits/Units/Pahukoo Na Nishin
-  rotate: false
-  xy: 1732, 697
-  size: 77, 70
-  orig: 77, 70
-  offset: 0, 0
-  index: -1
-TileSets/AbsoluteUnits/Units/Palaeolith Man
-  rotate: false
-  xy: 1948, 1116
-  size: 96, 96
-  orig: 96, 96
-  offset: 0, 0
-  index: -1
-TileSets/AbsoluteUnits/Units/Qamutiik
+TileSets/AbsoluteUnits/Units/Lightning Warrior
   rotate: false
   xy: 1624, 667
   size: 95, 81
   orig: 95, 81
   offset: 0, 0
   index: -1
-TileSets/AbsoluteUnits/Units/Red Army Infantry
+TileSets/AbsoluteUnits/Units/Llama Hunter
   rotate: false
   xy: 1732, 775
   size: 95, 81
   orig: 95, 81
   offset: 0, 0
   index: -1
-TileSets/AbsoluteUnits/Units/Red Army T-34-85
+TileSets/AbsoluteUnits/Units/Maccabee
   rotate: false
-  xy: 1727, 624
-  size: 77, 65
-  orig: 77, 65
+  xy: 1948, 1220
+  size: 96, 96
+  orig: 96, 96
   offset: 0, 0
   index: -1
-TileSets/AbsoluteUnits/Units/Red Djong
+TileSets/AbsoluteUnits/Units/Maccabee-1
   rotate: false
-  xy: 1745, 416
-  size: 64, 64
-  orig: 64, 64
+  xy: 836, 4
+  size: 96, 96
+  orig: 96, 96
   offset: 0, 0
   index: -1
-TileSets/AbsoluteUnits/Units/Red Samurai
+TileSets/AbsoluteUnits/Units/Maccabee-2
+  rotate: false
+  xy: 1948, 1116
+  size: 96, 96
+  orig: 96, 96
+  offset: 0, 0
+  index: -1
+TileSets/AbsoluteUnits/Units/Maxim Gun.w
   rotate: false
   xy: 940, 4
   size: 96, 96
   orig: 96, 96
   offset: 0, 0
   index: -1
-TileSets/AbsoluteUnits/Units/Reindeer Rider
+TileSets/AbsoluteUnits/Units/Mountie
   rotate: false
-  xy: 1817, 488
+  xy: 1835, 721
+  size: 77, 65
+  orig: 77, 65
+  offset: 0, 0
+  index: -1
+TileSets/AbsoluteUnits/Units/New folder/Red Army Infantry2
+  rotate: false
+  xy: 1295, 192
   size: 64, 64
   orig: 64, 64
   offset: 0, 0
   index: -1
-TileSets/AbsoluteUnits/Units/Sabretooth Warrior
+TileSets/AbsoluteUnits/Units/Red Army Infantry
+  rotate: false
+  xy: 1295, 192
+  size: 64, 64
+  orig: 64, 64
+  offset: 0, 0
+  index: 2
+TileSets/AbsoluteUnits/Units/Novgorodian Streltsy
   rotate: false
   xy: 1948, 1012
   size: 96, 96
   orig: 96, 96
   offset: 0, 0
   index: -1
-TileSets/AbsoluteUnits/Units/Spartan
+TileSets/AbsoluteUnits/Units/Pahukoo Na Nishin
+  rotate: false
+  xy: 1709, 541
+  size: 77, 70
+  orig: 77, 70
+  offset: 0, 0
+  index: -1
+TileSets/AbsoluteUnits/Units/Palaeolith Man
   rotate: false
   xy: 1044, 4
   size: 96, 96
   orig: 96, 96
   offset: 0, 0
   index: -1
-TileSets/AbsoluteUnits/Units/Tatar Cavalry
-  rotate: false
-  xy: 1840, 805
-  size: 77, 70
-  orig: 77, 70
-  offset: 0, 0
-  index: -1
-TileSets/AbsoluteUnits/Units/The Werewolf of Polotsk
-  rotate: false
-  xy: 1840, 883
-  size: 95, 81
-  orig: 95, 81
-  offset: 0, 0
-  index: -1
-TileSets/AbsoluteUnits/Units/The Werewolf of Polotsk-1
+TileSets/AbsoluteUnits/Units/Qamutiik
   rotate: false
   xy: 1192, 235
   size: 95, 81
   orig: 95, 81
   offset: 0, 0
   index: -1
-TileSets/AbsoluteUnits/Units/The Werewolf of Polotsk-2
+TileSets/AbsoluteUnits/Units/Red Army Infantry
   rotate: false
-  xy: 1192, 146
+  xy: 1840, 883
   size: 95, 81
   orig: 95, 81
   offset: 0, 0
   index: -1
-TileSets/AbsoluteUnits/Units/Toa
+TileSets/AbsoluteUnits/Units/Red Army T-34-85
   rotate: false
-  xy: 1488, 263
+  xy: 1704, 468
+  size: 77, 65
+  orig: 77, 65
+  offset: 0, 0
+  index: -1
+TileSets/AbsoluteUnits/Units/Red Djong
+  rotate: false
+  xy: 1295, 120
   size: 64, 64
   orig: 64, 64
   offset: 0, 0
   index: -1
-TileSets/AbsoluteUnits/Units/Trypillian Slinger
+TileSets/AbsoluteUnits/Units/Red Samurai
   rotate: false
   xy: 1148, 4
   size: 96, 96
   orig: 96, 96
   offset: 0, 0
   index: -1
+TileSets/AbsoluteUnits/Units/Reindeer Rider
+  rotate: false
+  xy: 1372, 256
+  size: 64, 64
+  orig: 64, 64
+  offset: 0, 0
+  index: -1
+TileSets/AbsoluteUnits/Units/Sabretooth Warrior
+  rotate: false
+  xy: 1948, 908
+  size: 96, 96
+  orig: 96, 96
+  offset: 0, 0
+  index: -1
+TileSets/AbsoluteUnits/Units/Spartan
+  rotate: false
+  xy: 1300, 328
+  size: 96, 96
+  orig: 96, 96
+  offset: 0, 0
+  index: -1
+TileSets/AbsoluteUnits/Units/Tatar Cavalry
+  rotate: false
+  xy: 1794, 541
+  size: 77, 70
+  orig: 77, 70
+  offset: 0, 0
+  index: -1
+TileSets/AbsoluteUnits/Units/The Werewolf of Polotsk
+  rotate: false
+  xy: 1192, 146
+  size: 95, 81
+  orig: 95, 81
+  offset: 0, 0
+  index: -1
+TileSets/AbsoluteUnits/Units/The Werewolf of Polotsk-1
+  rotate: false
+  xy: 1943, 819
+  size: 95, 81
+  orig: 95, 81
+  offset: 0, 0
+  index: -1
+TileSets/AbsoluteUnits/Units/The Werewolf of Polotsk-2
+  rotate: false
+  xy: 1840, 794
+  size: 95, 81
+  orig: 95, 81
+  offset: 0, 0
+  index: -1
+TileSets/AbsoluteUnits/Units/Toa
+  rotate: false
+  xy: 1324, 48
+  size: 64, 64
+  orig: 64, 64
+  offset: 0, 0
+  index: -1
+TileSets/AbsoluteUnits/Units/Trypillian Slinger
+  rotate: false
+  xy: 1408, 436
+  size: 96, 96
+  orig: 96, 96
+  offset: 0, 0
+  index: -1
 TileSets/AbsoluteUnits/Units/Tumikorkur
   rotate: false
-  xy: 1835, 727
+  xy: 1789, 463
   size: 77, 70
   orig: 77, 70
   offset: 0, 0
   index: -1
 TileSets/AbsoluteUnits/Units/Water Shrine Builder
   rotate: false
-  xy: 1565, 324
+  xy: 1396, 64
   size: 64, 56
   orig: 64, 56
   offset: 0, 0
   index: -1
 TileSets/AbsoluteUnits/Units/Water Shrine Builder-1
   rotate: false
-  xy: 1637, 324
+  xy: 1911, 427
   size: 64, 56
   orig: 64, 56
   offset: 0, 0
   index: -1
 TileSets/AbsoluteUnits/Units/Water Shrine Builder-2
   rotate: false
-  xy: 1560, 260
+  xy: 1911, 363
   size: 64, 56
   orig: 64, 56
   offset: 0, 0
   index: -1
 TileSets/AbsoluteUnits/Units/Werejaguar
   rotate: false
-  xy: 1948, 923
+  xy: 1943, 730
   size: 95, 81
   orig: 95, 81
   offset: 0, 0
   index: -1
 TileSets/AbsoluteUnits/Units/Yuezhi Horde
   rotate: false
-  xy: 1252, 46
+  xy: 1812, 619
   size: 77, 70
   orig: 77, 70
   offset: 0, 0
   index: -1
 TileSets/AbsoluteUnits/Units/Zamburak
   rotate: false
-  xy: 1943, 834
+  xy: 1516, 470
   size: 95, 81
   orig: 95, 81
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Tiles/Cabin Village
   rotate: false
-  xy: 1252, 10
+  xy: 1252, 16
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Tiles/Motte and Bailey
   rotate: false
-  xy: 1632, 288
+  xy: 1911, 327
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
@@ -4443,91 +4464,91 @@ TileSets/FantasyHex/Units/BT-42
   index: -1
 TileSets/FantasyHex/Units/Mountie
   rotate: false
-  xy: 1292, 10
+  xy: 1951, 327
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Units/Red Army Infantry
   rotate: false
-  xy: 1672, 288
+  xy: 1396, 28
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Units/Red Army T-34-85
   rotate: false
-  xy: 1704, 524
+  xy: 1436, 28
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
 TileSets/HexaRealm/Tiles/Cabin Village
   rotate: false
-  xy: 1337, 60
+  xy: 1767, 399
   size: 64, 56
   orig: 64, 56
   offset: 0, 0
   index: -1
 TileSets/HexaRealm/Tiles/Cabin Village-Industrial era
   rotate: false
-  xy: 1601, 452
+  xy: 1767, 335
   size: 64, 56
   orig: 64, 56
   offset: 0, 0
   index: -1
 TileSets/HexaRealm/Tiles/Cabin VillageT
   rotate: false
-  xy: 1596, 388
+  xy: 1839, 399
   size: 64, 56
   orig: 64, 56
   offset: 0, 0
   index: -1
 TileSets/HexaRealm/Tiles/Cabin VillageT-Industrial era
   rotate: false
-  xy: 1673, 452
+  xy: 1839, 335
   size: 64, 56
   orig: 64, 56
   offset: 0, 0
   index: -1
 TileSets/HexaRealm/Tiles/Kibbutz
   rotate: false
-  xy: 1668, 388
+  xy: 1879, 555
   size: 64, 56
   orig: 64, 56
   offset: 0, 0
   index: -1
 TileSets/HexaRealm/Tiles/Kibbutz-Industrial era
   rotate: false
-  xy: 1709, 560
+  xy: 1879, 491
   size: 64, 56
   orig: 64, 56
   offset: 0, 0
   index: -1
 TileSets/HexaRealm/Tiles/Motte and Bailey
   rotate: false
-  xy: 1781, 560
+  xy: 1300, 264
   size: 64, 56
   orig: 64, 56
   offset: 0, 0
   index: -1
 TileSets/HexaRealm/Tiles/Sacred Lake
   rotate: false
-  xy: 1817, 424
+  xy: 1367, 192
   size: 64, 56
   orig: 64, 56
   offset: 0, 0
   index: -1
 TileSets/HexaRealm/Tiles/Sinu Canal
   rotate: false
-  xy: 1740, 352
+  xy: 1367, 128
   size: 64, 56
   orig: 64, 56
   offset: 0, 0
   index: -1
 TileSets/HexaRealm/Tiles/Timber Circle
   rotate: false
-  xy: 1493, 335
+  xy: 1252, 52
   size: 64, 60
   orig: 64, 60
   offset: 0, 0
