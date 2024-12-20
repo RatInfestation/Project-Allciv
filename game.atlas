@@ -4119,6 +4119,13 @@ TileSets/AbsoluteUnits/Units/Black Army-2
   orig: 77, 70
   offset: 0, 0
   index: -1
+TileSets/AbsoluteUnits/Units/Chevalier
+  rotate: false
+  xy: 1624, 589
+  size: 77, 70
+  orig: 77, 70
+  offset: 0, 0
+  index: -1
 TileSets/AbsoluteUnits/Units/Cohort
   rotate: false
   xy: 212, 4
@@ -4226,21 +4233,21 @@ TileSets/AbsoluteUnits/Units/Maxim Gun.w
   index: -1
 TileSets/AbsoluteUnits/Units/Mountie
   rotate: false
-  xy: 1624, 594
+  xy: 1619, 516
   size: 77, 65
   orig: 77, 65
   offset: 0, 0
   index: -1
 TileSets/AbsoluteUnits/Units/New folder/Red Army Infantry2
   rotate: false
-  xy: 1637, 316
+  xy: 1745, 488
   size: 64, 64
   orig: 64, 64
   offset: 0, 0
   index: -1
 TileSets/AbsoluteUnits/Units/Red Army Infantry
   rotate: false
-  xy: 1637, 316
+  xy: 1745, 488
   size: 64, 64
   orig: 64, 64
   offset: 0, 0
@@ -4254,7 +4261,7 @@ TileSets/AbsoluteUnits/Units/Novgorodian Streltsy
   index: -1
 TileSets/AbsoluteUnits/Units/Pahukoo Na Nishin
   rotate: false
-  xy: 1619, 516
+  xy: 1732, 697
   size: 77, 70
   orig: 77, 70
   offset: 0, 0
@@ -4282,14 +4289,14 @@ TileSets/AbsoluteUnits/Units/Red Army Infantry
   index: -1
 TileSets/AbsoluteUnits/Units/Red Army T-34-85
   rotate: false
-  xy: 1732, 702
+  xy: 1727, 624
   size: 77, 65
   orig: 77, 65
   offset: 0, 0
   index: -1
 TileSets/AbsoluteUnits/Units/Red Djong
   rotate: false
-  xy: 1560, 252
+  xy: 1745, 416
   size: 64, 64
   orig: 64, 64
   offset: 0, 0
@@ -4303,7 +4310,7 @@ TileSets/AbsoluteUnits/Units/Red Samurai
   index: -1
 TileSets/AbsoluteUnits/Units/Reindeer Rider
   rotate: false
-  xy: 1632, 244
+  xy: 1817, 488
   size: 64, 64
   orig: 64, 64
   offset: 0, 0
@@ -4324,7 +4331,7 @@ TileSets/AbsoluteUnits/Units/Spartan
   index: -1
 TileSets/AbsoluteUnits/Units/Tatar Cavalry
   rotate: false
-  xy: 1727, 624
+  xy: 1840, 805
   size: 77, 70
   orig: 77, 70
   offset: 0, 0
@@ -4352,7 +4359,7 @@ TileSets/AbsoluteUnits/Units/The Werewolf of Polotsk-2
   index: -1
 TileSets/AbsoluteUnits/Units/Toa
   rotate: false
-  xy: 1252, 52
+  xy: 1488, 263
   size: 64, 64
   orig: 64, 64
   offset: 0, 0
@@ -4366,28 +4373,28 @@ TileSets/AbsoluteUnits/Units/Trypillian Slinger
   index: -1
 TileSets/AbsoluteUnits/Units/Tumikorkur
   rotate: false
-  xy: 1840, 805
+  xy: 1835, 727
   size: 77, 70
   orig: 77, 70
   offset: 0, 0
   index: -1
 TileSets/AbsoluteUnits/Units/Water Shrine Builder
   rotate: false
-  xy: 1324, 60
+  xy: 1565, 324
   size: 64, 56
   orig: 64, 56
   offset: 0, 0
   index: -1
 TileSets/AbsoluteUnits/Units/Water Shrine Builder-1
   rotate: false
-  xy: 1709, 560
+  xy: 1637, 324
   size: 64, 56
   orig: 64, 56
   offset: 0, 0
   index: -1
 TileSets/AbsoluteUnits/Units/Water Shrine Builder-2
   rotate: false
-  xy: 1781, 560
+  xy: 1560, 260
   size: 64, 56
   orig: 64, 56
   offset: 0, 0
@@ -4401,7 +4408,7 @@ TileSets/AbsoluteUnits/Units/Werejaguar
   index: -1
 TileSets/AbsoluteUnits/Units/Yuezhi Horde
   rotate: false
-  xy: 1835, 727
+  xy: 1252, 46
   size: 77, 70
   orig: 77, 70
   offset: 0, 0
@@ -4415,14 +4422,14 @@ TileSets/AbsoluteUnits/Units/Zamburak
   index: -1
 TileSets/FantasyHex/Tiles/Cabin Village
   rotate: false
-  xy: 1252, 16
+  xy: 1252, 10
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Tiles/Motte and Bailey
   rotate: false
-  xy: 1704, 524
+  xy: 1632, 288
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
@@ -4436,91 +4443,91 @@ TileSets/FantasyHex/Units/BT-42
   index: -1
 TileSets/FantasyHex/Units/Mountie
   rotate: false
-  xy: 1744, 524
+  xy: 1292, 10
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Units/Red Army Infantry
   rotate: false
-  xy: 1784, 524
+  xy: 1672, 288
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Units/Red Army T-34-85
   rotate: false
-  xy: 1292, 16
+  xy: 1704, 524
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
 TileSets/HexaRealm/Tiles/Cabin Village
   rotate: false
-  xy: 1601, 452
+  xy: 1337, 60
   size: 64, 56
   orig: 64, 56
   offset: 0, 0
   index: -1
 TileSets/HexaRealm/Tiles/Cabin Village-Industrial era
   rotate: false
-  xy: 1596, 388
+  xy: 1601, 452
   size: 64, 56
   orig: 64, 56
   offset: 0, 0
   index: -1
 TileSets/HexaRealm/Tiles/Cabin VillageT
   rotate: false
-  xy: 1673, 452
+  xy: 1596, 388
   size: 64, 56
   orig: 64, 56
   offset: 0, 0
   index: -1
 TileSets/HexaRealm/Tiles/Cabin VillageT-Industrial era
   rotate: false
-  xy: 1668, 388
+  xy: 1673, 452
   size: 64, 56
   orig: 64, 56
   offset: 0, 0
   index: -1
 TileSets/HexaRealm/Tiles/Kibbutz
   rotate: false
-  xy: 1493, 339
+  xy: 1668, 388
   size: 64, 56
   orig: 64, 56
   offset: 0, 0
   index: -1
 TileSets/HexaRealm/Tiles/Kibbutz-Industrial era
   rotate: false
-  xy: 1488, 275
+  xy: 1709, 560
   size: 64, 56
   orig: 64, 56
   offset: 0, 0
   index: -1
 TileSets/HexaRealm/Tiles/Motte and Bailey
   rotate: false
-  xy: 1565, 324
+  xy: 1781, 560
   size: 64, 56
   orig: 64, 56
   offset: 0, 0
   index: -1
 TileSets/HexaRealm/Tiles/Sacred Lake
   rotate: false
-  xy: 1709, 324
+  xy: 1817, 424
   size: 64, 56
   orig: 64, 56
   offset: 0, 0
   index: -1
 TileSets/HexaRealm/Tiles/Sinu Canal
   rotate: false
-  xy: 1740, 388
+  xy: 1740, 352
   size: 64, 56
   orig: 64, 56
   offset: 0, 0
   index: -1
 TileSets/HexaRealm/Tiles/Timber Circle
   rotate: false
-  xy: 1781, 320
+  xy: 1493, 335
   size: 64, 60
   orig: 64, 60
   offset: 0, 0
