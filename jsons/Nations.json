@@ -257,7 +257,7 @@
 			"outerColor": [244, 34, 114],
 			"favoredReligion": "Chinese Folk Religion",
 			"uniqueName": "Fragrant Harbor",
-			"uniques": ["May buy [National Wonder] buildings with [Culture] [in capital]", "[Culture] cost of purchasing items in cities [-50]%"],
+			"uniques": ["May buy [National Wonder] buildings with [Culture] [in capital]"],
 
 			"spyNames": ["Chan Yang", "Leung", "Cheung", "Lau", "Li", "Lo", "Wong", "Ng", "Yip", "Tam"],
 			"cities": ["Hong Kong", "Kowloon", "Mong Kok", "Tsim Sha Tsui", "Causeway Bay", "Wan Chai", "Aberdeen", "Sha Tin", "Tsuen Wan", "Tuen Mun", "Sai Kung", "Yuen Long", "Sheung Shui", "Tung Chung", "Lantau Island", "Cheung Chau", "Lamma Island", "Sai Kung", "Discovery Bay", "Repulse Bay"],
