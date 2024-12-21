@@ -3375,7 +3375,7 @@
 	"uniqueName": "Teutoburg Resistance",
 	"uniques": ["[+66]% to Flank Attack bonuses <for [Land] units> <in [Forest] tiles>",
 	"[Sword] units gain the [Forestman] promotion",
-	"[-50]% maintenance costs <for [Barbarian] units>",
+	"[-50]% maintenance costs <for [Sword] units>",
 	"When conquering an encampment, earn [10] Gold and recruit a Barbarian unit"],
 
 	"spyNames": ["Aringon", "Ahelmil", "Alemanni", "Angrivarii", "Bardes", "Baiuvarii", "Cherusci", "Frisii", "Gepidae", "Vandal"],
