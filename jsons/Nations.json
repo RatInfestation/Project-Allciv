@@ -2058,7 +2058,7 @@
 	"outerColor": [252, 171, 175],
 
 	"uniqueName": "Swiss Banking",
-	"uniques": ["[+2 Gold] from every specialist [in all cities]", "Comment [[+1 Science, +1 Gold] from all non-palace Gold buildings]", "[+1 Science, +1 Gold] from all [Gold] buildings <hidden from users>", "[-1 Science, -1 Gold] from all [Palace] buildings <hidden from users>"],
+	"uniques": ["[+2 Gold] from every specialist [in all cities]"],
 
 	"spyNames": ["Daniel", "Anna", "Liam", "Mia", "Gabriel", "Elena", "Samuel", "Sofia", "Matteo", "Emma"],
 	"cities": ["Bern", "Zurich", "Basel", "Geneva", "Lausanne", "Fribourg", "Lucerne", "Winterthur", "Biel", "Aarau", "Neuchatel", "Lugano", "Sankt Gallen", "Vevey", "Zug", "Schaaffhausen", "Glarus", "Appenzell", "Yverdon"],
