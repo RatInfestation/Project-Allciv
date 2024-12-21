@@ -1300,7 +1300,7 @@
 	"innerColor": [215, 175, 112],
 
 	"uniqueName": "Premium Wine",
-	"uniques": ["[+1 Culture] from [Wine] tiles [in all cities]", "Double quantity of [Wine] produced", "Double quantity of [Wine] produced <after discovering [Economics]>", "[+2 Gold] from [Plantation] tiles [in all cities] <after discovering [Economics]>"],
+	"uniques": ["[+1 Culture] from [Wine] tiles [in all cities]", "Double quantity of [Wine] produced", "[+2 Gold] from [Plantation] tiles [in all cities] <after discovering [Economics]>"],
 
 	"spyNames": ["Andrei", "Ion", "Alexandru", "Vasile", "Dumitru", "Sergiu", "Victor", "Mihai", "Grigore", "Gheorghe"],
 	"cities": ["Chișinău", "Tiraspol", "Bălți", "Bender", "Rîbnița", "Tighina", "Cahul", "Comrat", "Călărași", "Cahul", "Ceadîr-Lunga", "Dubăsari", "Edineo?", "Făleşti", "Floreşti", "Glodeni", "Hînceşti", "Ialoveni", "Leova", "Nisporeni", "Ocniţa", "Orhei", "Rezina", "Slobozia", "Soroca", "Străşeni", "Ştefan Vodo?", "Taraclia", "Teleneşti", "Ungheni"]
