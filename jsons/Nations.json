@@ -2278,7 +2278,7 @@
 	"outerColor": [232, 176, 213],
 
 	"uniqueName": "The Great Black Mountain",
-	"uniques": ["[+2 Production, +1 Culture] from every [Mountain]", "[+15]% Strength <for [Land] units> <in [{Friendly Land} {Hill}] tiles>", "Comment [+25 city health]", "Gain a free [Montenegro Ability] [in all cities] <hidden from users>"],
+	"uniques": ["[+3 Production, +1 Culture] from every [Mountain] <in tiles without [Natural Wonder]>", "[+15]% Strength <for [Land] units> <in [{Friendly Land} {Hill}] tiles>", "Comment [+25 city health]", "Gain a free [Montenegro Ability] [in all cities] <hidden from users>"],
 
 	"spyNames": ["Marko", "Nikola", "Luka", "Petar", "Miloš", "Vuk", "Danilo", "Aleksandar", "Zoran", "Dragan"],
 	"cities": ["Podgorica", "Nikšić", "Herceg Novi", "Pljevlja", "Bar", "Bijelo Polje", "Cetinje", "Berane", "Budva", "Ulcinj", "Tivat", "Kotor", "Žabljak", "Danilovgrad", "Mojkovac", "Šavnik", "Andrijevica", "Plužine", "Gusinje", "Petnjica", "Rožaje", "Plav", "Kolašin", "Žetjelo", "Savnik", "Stari Bar", "Perast", "Risan", "Bijela"],
