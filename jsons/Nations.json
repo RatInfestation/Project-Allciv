@@ -1354,7 +1354,7 @@
 	"innerColor": [147, 3, 46],
 
 	"uniqueName": "Neacșu's Letter",
-	"uniques": ["[+2 Culture] from all [Faith] buildings <after founding a religion>", "[+33]% [Culture] [in holy cities]"],
+	"uniques": ["[+1 Culture] from every [Shrine]", "[+2 Culture] from every [Temple]", "[+33]% [Culture] [in holy cities]"],
 
 	"spyNames": ["Alexandru", "Andrei", "Mihai", "Florin", "Radu", "Maria", "Elena", "Ioana", "Vlad", "Ana-Maria"],
 	"cities": ["Bucharest", "Cluj-Napoca", "Timisoara", "Iași", "Constanța", "Craiova", "Brașov", "Galați", "Ploiești", "Oradea", "Brăila", "Bacău", "Arad", "Pitești", "Sibiu", "Târgu Mureo?", "Botoșani", "Baia Mare", "Buzău", "Drobeta-Turnu Severin", "Focșani", "Giurgiu", "Piatra Neamo?", "Râmnicu Vâlcea", "Satu Mare", "Sfântu Gheorghe", "Târgoviște", "Tulcea", "Zalău"]
