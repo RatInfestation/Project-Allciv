@@ -3860,8 +3860,7 @@
 
 	"uniqueName": "Magyar Majesty",
 	"uniques": [
-	"[-25]% construction time for [All] improvements <in [River] tiles> <within [1] tiles of a [City center]>",
-	"[+1 Production] from [{improved} {River}] tiles [in all cities]",
+	"[-25]% construction time for [All] improvements <in [River] tiles>",
 	"[Gold] cost of purchasing [Mounted] units [-20]%"],
 
 	"spyNames": ["Árpád", "Attila", "Bence", "Ferenc", "Gábor", "István", "László", "Máté", "Tamás", "Zoltán"],
