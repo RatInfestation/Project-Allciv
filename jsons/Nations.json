@@ -448,7 +448,7 @@
 			"outerColor": [42, 42, 114],
 			"favoredReligion": "Animism",
 			"uniqueName": "Nîhithaw",
-			"uniques": ["[+2 Gold] from each Trade Route", "[+1 Food] [in all cities connected to capital]", "[-66]% Gold cost of acquiring tiles [in all cities connected to capital]", "New [Scout] units start with [15] Experience [in all cities]"],
+			"uniques": ["[+1 Food, +2 Gold] from each Trade Route", "[-66]% Gold cost of acquiring tiles [in all cities connected to capital]", "New [Scout] units start with [15] Experience [in all cities]"],
 
 			"spyNames": ["Ahchuchhwahauhhatohapit", "Askiwkiyatotaw", "Kahkewistahaw", "Maskwa", "Mahikan", "Mikisew", "Wapun", "Muskwa", "Kona", "Piyesew Chak"],
 			"cities": ["Pihtokahanapiwiyin", "Mistahi-Sipihk", "Paskwaw-Askhik", "Piyesiw-Awasis", "Mistawasis", "Makwa-Sakahikan", "Ka-Peyakwaskonam", "Ahtahkakoop", "Wihkasko-Kiseyin", "Edmonton", "Calgary", "Saskatoon", "Regina", "Winnipeg", "Prince Albert", "Moose Jaw", "Yorkton", "Swift Current", "The Pas", "Battleford", "Fort Qu'Appelle", "North Battleford", "Melfort", "Tisdale", "Wetaskiwin", "Meadow Lake", "Fort McMurray", "La Ronge", "Buffalo Narrows", "Lloydminster"],
