@@ -1104,7 +1104,7 @@
 	"innerColor": [131, 182, 146],
 
 	"uniqueName": "Augustinian Philosophy",
-	"uniques": ["[+2 Science] from all [Faith] buildings <starting from the [Medieval era]>", "[-50]% Faith cost of generating Great Prophet equivalents <during the [Medieval era]>"],
+	"uniques": ["[+1 Science] from every [Shrine]", "[+2 Science] from every [Temple]", "[-50]% Faith cost of generating Great Prophet equivalents <during the [Medieval era]>"],
 
 	"spyNames": ["Gaiseric", "Hildimer", "Fridamal", "Gunthamunds", "Blumarit", "Vitarit", "Dagila", "Oamer", "Damira"],
 	"cities": ["Hippo Regius", "Carthage", "Caesarea Mauretaniae", "Sicca Veneria", "Thabraca", "Sufetula", "Hadrumetum", "Theveste", "Cirta", "Calama", "Lambaesis", "Timgad", "Tipasa", "Utica", "Hippo Diarrhytus", "Zama Regia", "Lepcis Magna", "Sabratha", "Oea", "Gigthis", "Gafsa", "Thelepte", "Mustis", "Thubursicum Bure", "Thubursicum Numidarum", "Thugga", "Tacape", "Assuras"]
