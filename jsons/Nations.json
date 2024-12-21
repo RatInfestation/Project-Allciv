@@ -1679,7 +1679,7 @@
 	"outerColor": [24, 114, 40],
 
 	"uniqueName": "River of Shrimps",
-	"uniques": ["[+1 Food] in cities on [River] tiles", "[+2 Science] in cities on [River] tiles <after discovering [Biology]>"],
+	"uniques": ["[+1 Food] in cities on [River] tiles", "[+1 Science] from [River] tiles <after discovering [Biology]>"],
 
 	"spyNames": ["Paul", "Emmanuel", "Jean", "Marie", "David", "James", "Sarah", "Claire", "Daniel", "Ibrahim"],
 	"cities": ["Yaoundé", "Douala", "Garoua", "Kousérri", "Bamenda", "Maroua", "Bafossaum", "Mokolo", "Ngaoundéré", "Bertoua", "Edéa", "Loum", "Kumba", "Bafut", "Nkongsamba", "Mbouda", "Dschang", "Foumban", "Ebolowa", "Guider", "Foumbot"],
