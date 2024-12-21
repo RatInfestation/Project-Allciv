@@ -2930,8 +2930,7 @@
 	"outerColor": [208, 34, 36],
 
 	"uniqueName": "Urban Modernization",
-	"uniques": ["[+1 Happiness, +1 Production] [in all cities] <in cities with a major religion>",
-	"[+15]% Production when constructing [Science] buildings [in all cities]", "[+15]% Production when constructing [Production] buildings [in all cities]",
+	"uniques": ["[+15]% Production when constructing [Science] buildings [in all cities]", "[+15]% Production when constructing [Production] buildings [in all cities]",
 	"[+25]% Production when constructing [Science] buildings [in all cities] <after discovering [Electricity]>", "[+25]% Production when constructing [Production] buildings [in all cities] <after discovering [Electricity]>"],
 
 	"spyNames": ["Alparslan", "Yusuf", "Zeynep", "Asel", "Defne", "Göktuğ", "Miraç", "Ömer", "Zümra", "Asya"],
