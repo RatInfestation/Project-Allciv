@@ -3076,7 +3076,7 @@
 	"outerColor": [251, 186, 72],
 
 	"uniqueName": "We Are our Mountains",
-	"uniques": ["[+4 Faith] from every [Mountain]", "[+15]% Strength <for [All] units> <within [1] tiles of a [Mountain]>", "[+15]% Strength <for [All] units> <within [2] tiles of a [Mountain]>"],
+	"uniques": ["[+4 Faith] from every [Mountain] <in tiles without [Natural Wonder]>", "[+15]% Strength <for [All] units> <within [1] tiles of a [Mountain]>", "[+15]% Strength <for [All] units> <within [2] tiles of a [Mountain]>"],
 
 	"spyNames": ["Narek", "Davit", "Hayk", "Tigran", "Aram", "Mikayel", "Ani", "Mane", "Anna", "Milena"],
 	"cities": ["Stepanakert", "Martuni", "Martakert", "Askeran", "Hadrut", "Berdzor", "Karvachar", "Chartar", "Vank", "Kovsakan", "Mijnavan", "Ivanyan", "Khnapat", "Karmir Shuka", "Haterk", "Vaghuhas", "Khndzristan", "Nerkin Horatagh", "Kochoghot", "Kert", "Maghavuz", "Machkalashen", "Khnatsakh", "Khramort", "Tsaghkashen"],
