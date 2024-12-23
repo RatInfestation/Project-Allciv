@@ -88,7 +88,7 @@
 		"faith": 1,
 		"terrainsCanBeBuiltOn": ["Hill"],
 		"turnsToBuild": 2,
-		"uniques": ["[+1 Faith] for each adjacent [Hill]", "Cannot be built on [Hill] tiles <with [1] to [6] neighboring [Timber Circle] tiles>"],
+		"uniques": ["[+1 Faith] for each adjacent [Farm]", "[+1 Science] <after discovering [Astronomy]>", "Cannot be built on [Hill] tiles <with [1] to [6] neighboring [Timber Circle] tiles>"],
 		"techRequired": "Construction",
 		"shortcutKey": "M"
 	},
