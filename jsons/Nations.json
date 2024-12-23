@@ -3021,7 +3021,7 @@
 	"outerColor": [108, 63, 173],
 
 	"uniqueName": "The Digital State",
-	"uniques": ["[+1 Science, +1 Happiness] per [1] social policies adopted <starting from the [Information era]>", "[-25]% Culture cost of adopting new Policies <starting from the [Information era]>", "[+75]% Great Person generation [in all cities] <starting from the [Information era]>", "[+75]% spy effectiveness [in all cities] <upon discovering [Computers] technology>", "Gain a free [Great Firewall] [in capital] <upon discovering [Computers] technology>"],
+	"uniques": ["[+1 Science, +1 Happiness] per [1] social policies adopted <starting from the [Information era]>", "[+75]% Great Person generation [in all cities] <starting from the [Information era]>", "[+75]% spy effectiveness [in all cities] <upon discovering [Computers] technology>", "Gain a free [Great Firewall] [in capital] <upon discovering [Computers] technology>"],
 
 	"spyNames": ["Aivar", "Andres", "Mark", "Robin", "Oskar", "Martin", "Sofia", "Mia", "Eva", "Kadri"],
 	"cities": ["Tallinn", "Tartu", "Narva", "Pärnu", "Kohtla-Järve", "Viljandi", "Rakvere", "Maardu", "Sillamäe", "Kuressaare", "Võru", "Valga", "Haapsalu", "Jõhvi", "Keila", "Paide", "Elva", "Saue", "Kiviõli", "Tapa", "Põlva", "Türi", "Rapla", "Jõgeva", "Kunda"],
