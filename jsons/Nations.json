@@ -2834,7 +2834,7 @@
 	"outerColor": [19, 44, 142],
 
 	"uniqueName": "Titoism",
-	"uniques": ["[+1 Culture, +1 Happiness, +1 Production] from every specialist [in all cities]", "[+2 Culture, +1 Production, +2 Happiness] [in all cities] <in cities with a [Spomenik]> <if [Spomenik] is constructed in at least [3] of [in all cities] cities>", "Rebel units may spawn <when below [10] Happiness>"],
+	"uniques": ["[+2 Production, +2 Culture, +2 Happiness] [in all cities] <in cities with at least [4] [Specialists]>", "Rebel units may spawn <when below [0] Happiness>"],
 
 	"spyNames": ["Jelena", "Dragan", "Milica", "Aleksandar", "Marija", "Milan", "Luka", "Zoran", "Ana", "Stefan"],
 	"cities": ["Belgrade", "Zagreb", "Sarajevo", "Ljubljana", "Skopje", "Novi Sad", "Split", "Rijeka", "Niš", "Pristina", "Podgorica", "Banja Luka", "Osijek", "Maribor", "Mostar", "Subotica", "Kragujevac", "Pula", "Zadar", "Tuzla", "Bitola", "Dubrovnik", "Karlovac", "Cetinje", "Smederevo"],
