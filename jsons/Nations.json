@@ -3603,8 +3603,8 @@
 	"uniqueName": "Wirtschaftswunder",
 	"uniques": ["May buy [Autobahn] buildings with [Gold] [in all cities connected to capital]",
 	"[Land] units gain the [Autobahn] promotion <hidden from users>",
-	"[+1 Gold, +1 Science] from all [Production] buildings",
-	"[+2 Science, +2 Gold] from every [Manufactory]",
+	"[+4 Science, +4 Gold] from every [Manufactory]",
+|	"[+1 Science, +1 Gold] from every [Manufactory] <after discovering [Chemistry]>",
 	"Science gained from research agreements [+50]%"],
 
 	"spyNames": ["Leon", "Jonas", "Lucas", "Luca", "Maximilian", "Felix", "Luis", "Tim", "Ben", "Finn"],
