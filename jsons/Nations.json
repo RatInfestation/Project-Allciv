@@ -965,7 +965,7 @@
 		"innerColor": [38, 97, 56],
 
 		"uniqueName": "First Spaniard Treaty",
-		"uniques": ["[+15]% Production when constructing [Military] units [in all cities] <when not at war>", "[+15]% Production when constructing [Gunpowder] units [in all cities] <when not at war>", "[+25]% of excess happiness converted to [Production] <in cities with a [Castle]> <when not at war>"],
+		"uniques": ["[+15]% Production when constructing [Gunpowder] units [in all cities] <when not at war>", "[+25]% of excess happiness converted to [Production] <in cities with a [Castle]> <when not at war>"],
 
 		"spyNames": ["Yaxkin", "Kawiil", "Kan", "Xibalba", "Zipacna", "Chaac", "Kinich", "Sak", "Tikal", "Balam"],
 		"cities": ["Merida","Izamal","Valladolid","Tekax","Tizimin","Chetumal","Espita","Celestun","Motul","Mani","Progreso","Hunucma","Maxcanu","Peto","Victoria","Buctzotz","Mococha","Sahcaba","Acanceh","Chemax","Calotmul","Halacho","Tecoh","Isla Mujeres","Felipe Carrillo Puerto","Dzidzantun","Tixcacalcupul","Tekit","Sucila","Tihosuco"]
