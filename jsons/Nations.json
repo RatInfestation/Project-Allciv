@@ -3277,10 +3277,10 @@
 	"favoredReligion": "Catholicism",
 	"startBias": ["Avoid [Coast]"],
 
-	"declaringWar": "Greetings, I am Pope John Paul II, the Bishop of Rome and the leader of the Vatican City. May our paths be guided by wisdom, compassion, and the pursuit of peace. May the Father bless your soul.",
+	"declaringWar": "It is my duty as Pope that I defend the house of god from those who seek to destroy!",
 	"attacked": "Why do you resort to violence? Is it not in our shared humanity that we find the greatest strength?",
 	"defeated": "If He asks much of you, it is because He knows you can give much.",
-	"introduction": "Salutations, distinguished leader! I, Bolesław, Duke of the Polans, greet you with the hospitality of our vast forests and the richness of our fields. May our meeting be as fruitful as the mighty Vistula.",
+	"introduction": "Greetings, I am Pope John Paul II, the Bishop of Rome and the leader of the Vatican City. May our paths be guided by wisdom, compassion, and the pursuit of peace. May the Father bless your soul.",
 
 	"neutralHello": "Freedom consists not in doing what we like, but in having the right to do what we ought.",
 	"hateHello": "Do not be afraid. Do not be satisfied with mediocrity. Put out into the deep and let down your nets for a catch.",
