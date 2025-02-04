@@ -35,6 +35,77 @@
           "triggeredUniques": ["[+10]% Great Person generation [in all cities] <for [12] turns>"]
         },
       ],
-    }
+    },
 
+    {
+        "name":"Eightfold Path",
+        "text":"Choose a path...",
+        "choices":[
+        {
+          "text": "Right View
+          +1 [Science] from all [Faith] buildings for 8 turns",
+          "triggeredUniques": ["[+1 Science] from all [Faith] buildings <for [8] turns>"]
+        },
+        {
+          "text": "Right Intention
+          +3 [Gold] from each Trade Route for 8 turns",
+          "triggeredUniques": ["[+3 Gold] from each Trade Route <for [8] turns>"]
+        },
+        {
+          "text": "Right Speech
+          Resting point for Influence with City-States is increased by 30 for 8 turns,
+          City-State Influence recovers at twice the normal rate for 8 turns",
+          "triggeredUniques": ["Resting point for Influence with City-States is increased by [30] <for [8] turns>",
+          "City-State Influence recovers at twice the normal rate <for [8] turns>"]
+        },
+        {
+          "text": "Right Action
+          Empire enters a 8-turn Golden Age
+          +50% [Happiness] [in all cities] for 8 turns",
+          "triggeredUniques": ["Empire enters a [8]-turn Golden Age", "[+50]% [Happiness] [in all cities] <for [8] turns>"]
+        },
+        {
+          "text": "Right Livelihood
+          +25% growth in all cities for 8 turns",
+          "triggeredUniques": ["[+25]% growth [in all cities] <for [8] turns>"]
+        },
+        {
+          "text": "Right Effort
+          +15% [Production] when constructing Wonder buildings for 8 turns
+          +25% [Production] when constructing Culture buildings for 8 turns
+          +50% [Production] when constructing Faith buildings for 8 turns",
+
+          "triggeredUniques": ["[+15]% Production when constructing [Wonder] buildings [in all cities] <for [8] turns>",
+          "[+25]% Production when constructing [Culture] buildings [in all cities] <for [8] turns>",
+          "[+50]% Production when constructing [Faith] buildings [in all cities] <for [8] turns>",]
+        },
+        {
+          "text": "Right Mindfulness
+          +1 [Culture] from every specialist for 8 turns",
+          "triggeredUniques": ["[+1 Culture] from every specialist [in all cities] <for [8] turns>"]
+        },
+        {
+          "text": "Right Concentration
+          -50% [Culture] cost of natural border growth for 8 turns
+          -25% [Gold] cost of acquiring tiles for 8 turns",
+          "triggeredUniques": ["[-50]% Culture cost of natural border growth [in all cities] <for [8] turns>",
+          "[-25]% Gold cost of acquiring tiles [in all cities] <for [8] turns>"]
+        },
+      ],
+    },
+
+    {
+      "name":"Khmer Boost",
+      "text":"Choose a Boost!",
+      "choices":[
+      {
+        "text": "Food",
+        "triggeredUniques": ["[+10]% [Food] [in all cities] <for [12] turns>"]
+      },
+      {
+        "text": "Faith",
+        "triggeredUniques": ["[+20]% [Faith] [in all cities] <for [12] turns>"]
+      },
+    ],
+  },
 ]

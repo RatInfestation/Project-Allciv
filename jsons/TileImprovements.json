@@ -52,6 +52,8 @@
 		"name": "Geoglyph",
 		"uniqueTo": "Nazca",
 		"culture": 1,
+		"faith": 1,
+		"production": 1,
 		"terrainsCanBeBuiltOn": ["Desert", "Plains", "Hill"],
 		"turnsToBuild": 7,
 		"uniques": ["[+1 Faith, +1 Culture] for each adjacent [Holy Site]", "[+1 Science, +1 Culture] for each adjacent [Academy]", "[+1 Gold, +1 Culture] for each adjacent [Customs House]", "[+2 Culture] for each adjacent [Landmark]", "[+1 Production, +1 Culture] for each adjacent [Manufactory]"],
@@ -97,10 +99,9 @@
         "name": "Sinu Canal",
         "uniqueTo": "The Zenu",
         "terrainsCanBeBuiltOn": ["Land"],
-	"food": 1,
+				"food": 1,
         "turnsToBuild": 4,
-        "uniques": ["Can only be built on [Fresh Water] tiles","Can only be built on [Open terrain] tiles",
-            "[+1 Food] <with [3] to [6] neighboring [Farm] tiles>",
+        "uniques": ["[+1 Food] <with [3] to [6] neighboring [Farm] tiles>",
             "[+1 Culture] <with [4] to [6] neighboring [Farm] tiles>",
             "[+1 Production] <with [5] to [6] neighboring [Farm] tiles>",
             "[+1 Production] for each adjacent [Pasture]"],
@@ -159,16 +160,6 @@
 		"terrainsCanBeBuiltOn": ["Plains", "Desert", "Grassland"],
 		"turnsToBuild": 8,
 		"uniques": ["[+1 Food] <within [1] tiles of a [Pasture]>", "[+1 Food] <within [1] tiles of a [Farm]>"],
-		"techRequired": "Fertilizer",
-	},
-	//Arizona
-	{
-		"name": "Industrial Greenhouse",
-		"uniqueTo": "Arizona",
-		"food": 2,
-		"terrainsCanBeBuiltOn": ["Desert"],
-		"turnsToBuild": 12,
-		"uniques": ["[+1 Food] for each adjacent [Industrial Greenhouse]"],
 		"techRequired": "Fertilizer",
 	},
 		//The Cree
@@ -355,7 +346,7 @@
 	"Will not be replaced by automated units",
 	"Pillaging this improvement yields approximately [+20 Gold]"]
 },
-//
+//Gunditjmara
 {
 	"name": "Yereroc",
 	"uniqueTo": "The Gunditjmara",
@@ -371,16 +362,18 @@
 {
 	"name": "Pit Burial",
 	"uniqueTo": "Yamnaya",
-	"terrainsCanBeBuiltOn": ["Plains", "Grassland", "Hill"],
-	"faith": 1,
-	"science": 1,
-	"production": -1,
+	"terrainsCanBeBuiltOn": ["Plains", "Grassland"],
+	"faith": 2,
+	"production": -2,
+	"food": -2,
 	"turnsToBuild": 10,
 	"techRequired": "Bronze Working",
 	"uniques": ["Unbuildable <starting from the [Medieval era]>",
-		"[+2 Culture, +1 Gold] <after discovering [Archaeology]>",
-		"[+2 Culture, +3 Science] <after discovering [Flight]>",
-		"Pillaging this improvement yields approximately [+75 Gold]"
+		"[+1 Food, +1 Production] <starting from the [Medieval era]>",
+		"[+1 Culture, +1 Food, +1 Production] <after discovering [Archaeology]>",
+		"[+1 Culture] <after discovering [Flight]>",
+		"Pillaging this improvement yields approximately [+75 Gold]",
+		"Cannot be built on [Land] tiles <with [1] to [6] neighboring [Pit Burial] tiles>"
 	],
 },
 {
@@ -403,5 +396,117 @@
 		"Cannot be built on [Land] tiles <with [1] to [6] neighboring [Kofun] tiles>",
 		"Pillaging this improvement yields approximately [+100 Gold]"
 	],
+},
+//Apache
+{
+	"name": "Medicine Wheel",
+	"uniqueTo": "The Apache",
+	"techRequired": "Theology",
+	"turnsToBuild": 6,
+	"science": 1,
+	"terrainsCanBeBuiltOn": ["Grassland", "Plains", "Desert", "Tundra"],
+	"uniques": ["Comment [+10 HP when healing in [Medicine Wheel] tiles]",
+	"Comment [+33% Strength when in [Medicine Wheel] tiles]",
+	"Cannot be built on [Land] tiles <with [1] to [6] neighboring [Medicine Wheel] tiles>",
+	"Can be built outside your borders"]
+},
+//The Philippines
+{
+	"name": "Nipa Hut",
+	"uniqueTo": "The Philippines",
+	"techRequired": "The Wheel",
+	"turnsToBuild": 6,
+	"food": 1,
+	"terrainsCanBeBuiltOn": ["Grassland", "Plains", "Desert"],
+	"uniques": [
+	"Can only be built on [Open terrain] tiles <with [1] to [6] neighboring [Resource] tiles>",
+	"[+1 Gold, +1 Production] <with [1] to [6] neighboring [Coast] tiles>",
+	"[+1 Food] <with [1] to [2] neighboring [Jungle] tiles>",
+	"[+1 Food, +1 Production] <with [3] to [6] neighboring [Jungle] tiles>",
+	"[+1 Gold] for each adjacent [Trading post]",
+	"[+1 Culture, +1 Gold] <after discovering [Flight]>"]
+},
+//Maldives
+{
+	"name": "Bungalow Resort",
+	"uniqueTo": "Maldives",
+	"techRequired": "Acoustics",
+	"turnsToBuild": 8,
+	"culture": 1,
+	"gold": 1,
+	"terrainsCanBeBuiltOn": ["Water"],
+	"uniques": [
+	"[-1 Gold] <in [Ocean] tiles>",
+	"[+1 Culture, +2 Gold] <after discovering [Flight]>",
+	"[+2 Culture, +1 Happiness] <with [1] to [6] neighboring [{unimproved} {Land}] tiles>",
+	"Cannot be built on [Water] tiles <with [1] to [6] neighboring [Bungalow Resort] tiles>"]
+},
+//Brunei
+{
+	"name": "Water Village",
+	"uniqueTo": "Brunei",
+	"techRequired": "Civil Service",
+	"food": 1,
+	"turnsToBuild": 8,
+	"terrainsCanBeBuiltOn": ["Coast"],
+	"uniques": [
+	"Can only be built on [Coast] tiles <with [1] to [6] neighboring [City center] tiles>",
+	"[+1 Food] <with [1] to [6] neighboring [Work Boats] tiles>",
+	"[+1 Food] <with [1] to [1] neighboring [Water Village] tiles>",
+	"[+1 Food, +1 Happiness] <with [2] to [6] neighboring [Water Village] tiles>",
+	"[+2 Culture, +2 Gold] <after discovering [Flight]>"]
+},
+//Great Viet
+{
+	"name": "Thanh",
+	"uniqueTo": "Great Viet",
+	"techRequired": "Bronze Working",
+	"production": 1,
+	"turnsToBuild": 6,
+	"terrainsCanBeBuiltOn": ["Jungle", "Forest"],
+	"uniques": ["Adjacent enemy units ending their turn take [15] damage",
+	"[+1 Culture] <after discovering [Flight]>",
+ 	"Can be built outside your borders",
+  "Gives a defensive bonus of [35]%"]
+},
+//South Vietnam
+{
+	"name": "Tunnel Network",
+	"uniqueTo": "South Vietnam",
+	"techRequired": "Plastics",
+	"turnsToBuild": 7,
+	"terrainsCanBeBuiltOn": ["Jungle", "Forest"],
+	"uniques": ["Comment [+4 Movement for units on [Tunnel Network]]", "Comment [Only Gunpowder units controled by South Vietnam can use Tunnel Networks]"]
+},
+//Great Moravia
+{
+	"name": "Hill Bastion",
+	"uniqueTo": "Great Moravia",
+	"terrainsCanBeBuiltOn": ["Hill"],
+	"turnsToBuild": 6,
+	"culture": 1,
+	"techRequired": "Chivalry",
+	"uniques": [
+	"[+1 Culture] <after discovering [Archaeology]>",
+	"Can be built outside your borders",
+	"Gives a defensive bonus of [50]%",
+	"[+1 Production] <with [0] to [0] neighboring [City center] tiles>",
+	"Cannot be built on [Hill] tiles <with [1] to [6] neighboring [Hill Bastion] tiles>"],
+},
+//The Khmer
+{
+	"name": "Baray",
+	"uniqueTo": "The Khmer",
+	"terrainsCanBeBuiltOn": ["Marsh", "Lakes"],
+	"faith": 1,
+	"culture": 2,
+	"gold": 1,
+	"techRequired": "Machinery",
+	"uniques": [
+	"Cannot be built on [Land] tiles <with [1] to [6] neighboring [Water] tiles>",
+	"Cannot be built on [Land] tiles <with [1] to [6] neighboring [Mountain] tiles>",
+	"[+1 Culture, +1 Faith] <with [1] to [2] neighboring [Jungle] tiles>",
+	"[+2 Culture, +1 Faith] <with [3] to [6] neighboring [Jungle] tiles>",
+	"Pillaging this improvement yields approximately [+20 Gold]"]
 },
 ]

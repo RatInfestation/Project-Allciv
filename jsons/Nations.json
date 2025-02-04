@@ -140,7 +140,7 @@
 			"outerColor": [30, 30, 30],
 			"favoredReligion": "Islam",
 			"uniqueName": "Saffron Harvest",
-			"uniques": ["[+1 Food, +1 Culture] from [Luxury resource] tiles [in all cities]",
+			"uniques": ["[+2 Food] from [Luxury resource] tiles [in all cities]",
 					 "[+1 Culture] from each Trade Route"],
 
 		 	"spyNames": ["Aaban", "Abdul-Karim", "Ahmad", "Ali", "Farid", "Gulzar", "Khyber", "Mahmud", "Rahman", "Zia"],
@@ -207,7 +207,7 @@
 	//New Zealand
 	{
 			"name": "New Zealand",
-			"leaderName": "Richard John Seddon",
+			"leaderName": "Richard Seddon",
 			"adjective": ["New Zealander"],
 			"startBias": ["Coast", "Sheep"],
 			"preferredVictoryType": "Diplomatic",
@@ -692,7 +692,7 @@
 			"innerColor": [9, 129, 74],
 			"favoredReligion": "Polytheism",
 			"uniqueName": "Finzenu",
-			"uniques": ["[+1 Gold] from every [Shrine]", "[+1 Food] from [Farm] tiles without [Fresh water] [in all cities] <within [1] tiles of a [Sinu Canal]> <after discovering [Civil Service]>"],
+			"uniques": ["[+2 Gold] from every [Shrine]", "[+1 Food] from [Farm] tiles without [Fresh water] [in all cities] <within [1] tiles of a [Sinu Canal]> <after discovering [Civil Service]>"],
 
 			"spyNames": ["Zenobia", "Zena", "Xenia", "Zennith", "Zenaida", "Zenan", "Zinny", "Zenita", "Zennie", "Zenah"],
 			"cities": ["Zenufana", "Finzenú", "San Jacinto", "Turbaco", "Momil", "Tuchín", "Chinú", "San Andrés de Sotavento", "Ayapel", "Cereté", "Ciénaga de Oro", "San Pelayo", "Sahagún", "Montería", "Tierradentro", "San Agustín", "Popayán", "Bogotá", "Cartagena", "Santa Marta"],
@@ -880,7 +880,12 @@
 		"innerColor": [254, 224, 12],
 
 		"uniqueName": "Bossa Nova",
-		"uniques": ["[-15]% Culture cost of natural border growth [in all cities]", "[+1 Culture] from [Coast] tiles [in all cities] <within [1] tiles of a [City center]>", "[+1 Culture] from [Coast] tiles [in all cities] <within [1] tiles of a [City center]> <after discovering [Acoustics]>", "[+15]% Great Person generation [in all cities] <within [1] tiles of a [Jungle]>"],
+		"uniques": ["[-15]% Culture cost of natural border growth [in all cities]",
+		"[+1 Culture] from [Coast] tiles [in all cities] <within [1] tiles of a [City center]>",
+	 	"[+1 Culture] from [Coast] tiles [in all cities] <within [1] tiles of a [City center]> <after discovering [Acoustics]>",
+		"[+1 Culture] from [Jungle] tiles [in all cities] <within [1] tiles of a [City center]>",
+		"[+1 Culture] from [Jungle] tiles [in all cities] <within [1] tiles of a [City center]> <after discovering [Acoustics]>",
+	 	"[+20]% Great Person generation [in all cities] <within [1] tiles of a [Jungle]>"],
 
 		"spyNames": ["Helena", "Miguel", "Alice", "Arthur", "Gael", "Laura", "Theo", "Cecilia", "Heitor", "Davi"],
 		"cities": ["Brasília","Rio de Janeiro","São Paulo","Salvador","Fortaleza","Belo Horizonte","Manaus","Curitiba","Recife","Porto Alegre",
@@ -965,11 +970,12 @@
 		"innerColor": [38, 97, 56],
 
 		"uniqueName": "First Spaniard Treaty",
-		"uniques": ["[+15]% Production when constructing [Gunpowder] units [in all cities] <when not at war>", "[+25]% of excess happiness converted to [Production] <in cities with a [Castle]> <when not at war>"],
+		"uniques": ["[+15]% Production when constructing [Military] units [in all cities] <when not at war>", "[+15]% Production when constructing [Gunpowder] units [in all cities] <when not at war>", "[+25]% of excess happiness converted to [Production] <in cities with a [Castle]> <when not at war>"],
 
 		"spyNames": ["Yaxkin", "Kawiil", "Kan", "Xibalba", "Zipacna", "Chaac", "Kinich", "Sak", "Tikal", "Balam"],
 		"cities": ["Merida","Izamal","Valladolid","Tekax","Tizimin","Chetumal","Espita","Celestun","Motul","Mani","Progreso","Hunucma","Maxcanu","Peto","Victoria","Buctzotz","Mococha","Sahcaba","Acanceh","Chemax","Calotmul","Halacho","Tecoh","Isla Mujeres","Felipe Carrillo Puerto","Dzidzantun","Tixcacalcupul","Tekit","Sucila","Tihosuco"]
 	},
+	//American States
 	//Basil Stuff
 	//Kievan rus
 	{
@@ -1104,7 +1110,7 @@
 	"innerColor": [131, 182, 146],
 
 	"uniqueName": "Augustinian Philosophy",
-	"uniques": ["[+1 Science] from every [Shrine]", "[+2 Science] from every [Temple]", "[-50]% Faith cost of generating Great Prophet equivalents <during the [Medieval era]>"],
+"uniques": ["[+1 Science] from every [Shrine]", "[+2 Science] from every [Temple]", "[-50]% Faith cost of generating Great Prophet equivalents <during the [Medieval era]>"],
 
 	"spyNames": ["Gaiseric", "Hildimer", "Fridamal", "Gunthamunds", "Blumarit", "Vitarit", "Dagila", "Oamer", "Damira"],
 	"cities": ["Hippo Regius", "Carthage", "Caesarea Mauretaniae", "Sicca Veneria", "Thabraca", "Sufetula", "Hadrumetum", "Theveste", "Cirta", "Calama", "Lambaesis", "Timgad", "Tipasa", "Utica", "Hippo Diarrhytus", "Zama Regia", "Lepcis Magna", "Sabratha", "Oea", "Gigthis", "Gafsa", "Thelepte", "Mustis", "Thubursicum Bure", "Thubursicum Numidarum", "Thugga", "Tacape", "Assuras"]
@@ -1144,8 +1150,10 @@
 	"preferredVictoryType": "Domination",
 	"favoredReligion": "Islam",
 
-	"declaringWar": "By the Eternal Blue Sky, I, Öz Beg, Khan of the Golden Horde, declare this day as the first day of your demise! As my mighty horde thunders across your lands, may your cities tremble, your rivers run red, and your skies be filled with arrows!",
-	"attacked": "Daring to attack The Golden Horde? You have unleashed a storm upon yourself! I will gather my mighty warriors, our horses' hooves beating like thunder upon your borders! Your people will know fear, as our arrows blacken your skies, and our swords cut through your defenses like a hot knife through kumis! Prepare, for your doom approaches!",
+	"declaringWar": "By the Eternal Blue Sky, I, Öz Beg, Khan of the Golden Horde, declare this day as the first day of your demise!
+	As my mighty horde thunders across your lands, may your cities tremble, your rivers run red, and your skies be filled with arrows!",
+	"attacked": "Daring to attack The Golden Horde? You have unleashed a storm upon yourself! I will gather my mighty warriors, our horses' hooves beating like thunder upon your borders!
+	Your people will know fear, as our arrows blacken your skies, and our swords cut through your defenses like a hot knife through kumis! Prepare, for your doom approaches!",
 	"defeated": "I have fought valiantly, but alas, it was not enough... Perhaps, one day, you may grow to appreciate our ways, as we ride together under the Eternal Blue Sky!",
 	"introduction": "Greetings, noble ruler! I am Öz Beg, Khan of the Golden Horde, descendant of Genghis Khan, chosen by Tengri himself! If you show your use to me perhaps I shall spare you.",
 
@@ -1679,7 +1687,7 @@
 	"outerColor": [24, 114, 40],
 
 	"uniqueName": "River of Shrimps",
-	"uniques": ["[+1 Food] in cities on [River] tiles", "[+2 Science] from [River] tiles [in all cities] <after discovering [Biology]>"],
+	"uniques": ["[+1 Food] in cities on [River] tiles", "[+2 Science] in cities on [River] tiles <after discovering [Biology]>"],
 
 	"spyNames": ["Paul", "Emmanuel", "Jean", "Marie", "David", "James", "Sarah", "Claire", "Daniel", "Ibrahim"],
 	"cities": ["Yaoundé", "Douala", "Garoua", "Kousérri", "Bamenda", "Maroua", "Bafossaum", "Mokolo", "Ngaoundéré", "Bertoua", "Edéa", "Loum", "Kumba", "Bafut", "Nkongsamba", "Mbouda", "Dschang", "Foumban", "Ebolowa", "Guider", "Foumbot"],
@@ -1976,7 +1984,7 @@
 	"outerColor": [0, 16, 34],
 
 	"uniqueName": "Pax Kushanica",
-	"uniques": ["[+15]% Strength <for [Mounted] units>", "[+1 Faith, +1 Gold] from each Trade Route"],
+	"uniques": ["[+15]% Strength <for [Mounted] units>", "[+2 Faith, +2 Gold] from each Trade Route"],
 
 	"spyNames": ["Kanishka", "Vima", "Huvishka", "Ashvaghosha", "Kanika", "Vasudeva", "Gandhara", "Saka", "Yuezhi"],
 	"cities": ["Purushapura", "Taxila", "Mathura", "Kapisa", "Bactra", "Surkh Kotal", "Kampir Tepe", "Ayaz Kala", "Koonadeano", "Ozeno", "Kozambo", "Zagedo", "Palabotro", "Ziri-Tambo", "Varanasi", "Khotan", "Kashgar", "Kucha", "Turfan", "Barbaricum", "Toprak Kala", "Sanchi", "Sarnath", "Malwa", "Pushklavati"],
@@ -2058,7 +2066,7 @@
 	"outerColor": [252, 171, 175],
 
 	"uniqueName": "Swiss Banking",
-	"uniques": ["[+2 Gold] from every specialist [in all cities]", "Comment [[+1 Science, +1 Gold] from all non-palace Gold buildings]", "[+1 Science, +1 Gold] from all [Gold] buildings <hidden from users>", "[-1 Science, -1 Gold] from all [Palace] buildings <hidden from users>"],
+	"uniques": ["[+2 Gold] from every specialist [in all cities]", "Comment [[+1 Science] from all non-palace Gold buildings]", "[+1 Science] from all [Gold] buildings <hidden from users>", "[-1 Science] from all [Palace] buildings <hidden from users>"],
 
 	"spyNames": ["Daniel", "Anna", "Liam", "Mia", "Gabriel", "Elena", "Samuel", "Sofia", "Matteo", "Emma"],
 	"cities": ["Bern", "Zurich", "Basel", "Geneva", "Lausanne", "Fribourg", "Lucerne", "Winterthur", "Biel", "Aarau", "Neuchatel", "Lugano", "Sankt Gallen", "Vevey", "Zug", "Schaaffhausen", "Glarus", "Appenzell", "Yverdon"],
@@ -2112,21 +2120,7 @@
 	"outerColor": [241, 15, 31],
 
 	"uniqueName": "Dual Crown Authority",
-	"uniques": [
-	"Provides a [Palace] in your first [2] cities for free <hidden from users>",
-	"Comment [Provides a [Palace] in your first [2] cities for free (Your second city also becomes a capital)]",
-	"Comment [Building a National Wonder building in your capital provides a copy in your other capital]",
-	"[-1 Science, -1 Production, -1 Gold] from every [Palace]",
-	"Gain a free [Circus Maximus] [in capital] <upon constructing [Circus Maximus] [in capital]> <hidden from users>",
-	"Gain a free [National College] [in capital] <upon constructing [National College] [in capital]> <hidden from users>",
-	"Gain a free [National Epic] [in capital] <upon constructing [National Epic] [in capital]> <hidden from users>",
-	"Gain a free [Heroic Epic] [in capital] <upon constructing [Heroic Epic] [in capital]> <hidden from users>",
-	"Gain a free [Grand Temple] [in capital] <upon constructing [Grand Temple] [in capital]> <hidden from users>",
-	"Gain a free [National Treasury] [in capital] <upon constructing [National Treasury] [in capital]> <hidden from users>",
-	"Gain a free [Oxford University] [in capital] <upon constructing [Oxford University] [in capital]> <hidden from users>",
-	"Gain a free [Ironworks] [in capital] <upon constructing [Ironworks] [in capital]> <hidden from users>",
-	"Gain a free [Hermitage] [in capital] <upon constructing [Hermitage] [in capital]> <hidden from users>",
-	"Gain a free [National Intelligence Agency] [in capital] <upon constructing [National Intelligence Agency] [in capital]> <hidden from users>"],
+	"uniques": ["Comment [Provides a [Palace] in your first [2] cities for free (Your second city also becomes a capital)]", "Provides a [Palace] in your first [2] cities for free <hidden from users>"],
 
 	"spyNames": ["Paul", "Anna", "Jakob", "Emilia", "Ludwig", "Georg", "Mihály", "Ferenc", "Leopold", "Therese"],
 	"cities": ["Vienna", "Budapest", "Ghent", "Bruges", "Leuven", "Charleroi", "Liege", "Kortrijk", "Hasselt", "Sint-Niklaas", "Genk", "Mechelen", "Aalst", "Mons", "Ostend", "Waregem", "Sint-Truiden", "Lokeren", "Roeselare", "Deinze", "Turnhout", "Binche", "Woluwe-Saint-Pierre", "Edegem", "Grimbergen", "Ottignies-Louvain-la-Neuve", "Chaussée-Notre-Dame-Louvignies", "Geel"],
@@ -2251,7 +2245,7 @@
 	"outerColor": [109, 12, 75],
 
 	"uniqueName": "Coloniae Maris Mediterranei",
-	"uniques": ["Gain a free [Harbor] [in capital]", "Gain a free [Harbor] [in all coastal cities] <on foreign continents>", "Enables [Settler] units to enter ocean tiles", "[Settler] units gain the [Mobility] promotion <after discovering [Optics]>", "[1] Movement point cost to disembark <for [Settler] units>", "[+4 Gold] from [Luxury resource] tiles [in all cities] <on foreign continents>", "[-1 Gold] from [Luxury resource] tiles [in capital] <on foreign continents> <hidden from users>"],
+	"uniques": ["Gain a free [Harbor] [in capital]", "Free [Great Merchant] appears <upon entering a Golden Age>", "[Great Merchant] units gain the [Luxury Control] promotion"],
 
 	"spyNames": ["Filippo", "Pietro", "Alessandro", "Lorenzo", "Leonardo", "Giovanni", "Federico", "Giacomo", "Davide", "Giorgio"],
 	"cities": ["Genoa", "Savona", "Rapallo", "Chiavari", "La Spezia", "Sestri Levante", "Voltri", "Nervi", "Pegli", "Arenzano", "Recco", "Finale Ligure", "Albenga", "Imperia", "San Remo", "Ventimiglia", "Cogoleto", "Varazze", "Loano", "Ovada", "Novi Ligure", "Alessandria", "Acqui Terme", "Casale Monferrato", "Asti", "Cuneo", "Alba", "Mondovì", "Savigliano"],
@@ -3858,9 +3852,11 @@
 	"outerColor": [61, 65, 4],
 
 	"uniqueName": "Magyar Majesty",
-	"uniques": [
-	"[-25]% construction time for [All] improvements <in [River] tiles>",
-	"[Gold] cost of purchasing [Mounted] units [-20]%"],
+		"uniques": [
+			"[-25]% construction time for [All] improvements <in [River] tiles> <within [1] tiles of a [City center]>",
+			"[+1 Production] from [{improved} {River}] tiles [in all cities]",
+			"[-25]% construction time for [All] improvements <in [River] tiles>",
+			"[Gold] cost of purchasing [Mounted] units [-20]%"],
 
 	"spyNames": ["Árpád", "Attila", "Bence", "Ferenc", "Gábor", "István", "László", "Máté", "Tamás", "Zoltán"],
 	"cities": ["Budapest", "Debrecen", "Szeged", "Miskolc", "Pécs", "Győr", "Nyíregyháza", "Kecskemét", "Székesfehérvár", "Szombathely", "Eger", "Dunaújváros", "Sopron", "Veszprém", "Kaposvár", "Nagykanizsa", "Békéscsaba", "Tatabánya", "Zalaegerszeg", "Hódmezővásárhely", "Cegléd", "Siófok", "Budaörs", "Dunakeszi"],
@@ -4009,7 +4005,7 @@
 	"innerColor": [255, 226, 36],
 
 	"uniqueName": "Single European Act",
-	"uniques": ["[+50]% of excess happiness converted to [Production] <in [in all cities connected to capital] cities>", "[+1 Gold, +1 Happiness] from each Trade Route", "[+1 Gold] from [Strategic Resource] tiles [in all cities]"],
+	"uniques": ["[+25]% of excess happiness converted to [Production] <in [in all cities connected to capital] cities>"],
 
 	"spyNames": ["Jacob", "Noah", "Emma", "Mia", "Alexander", "Jakub", "George", "Sofija", "Ema", "Ana-Maria"],
 	"cities": ["Paris", "Madrid", "Barcelona", "Berlin", "Rome", "Vienna", "Hamburg", "Warsaw", "Bucharest", "Budapest", "Munich", "Prague", "Milan", "Brussels", "Amsterdam", "Frankfurt", "Copenhagen", "Helsinki", "Lisbon", "Stockholm", "Athens", "Marseille", "Rotterdam", "Dublin", "Cologne"],
@@ -4137,6 +4133,1662 @@
 
 	"spyNames": ["Haruka", "Kazuki", "Sakura", "Renji", "Aiko", "Tsubasa", "Yuki", "Kaito", "Emiko", "Riku"],
 	"cities": ["Asahi", "Yoshinogari", "Toro", "Sōgaike", "Kita Naikaku", "Minami Naikaku", "Fujikawa", "Mizunomori", "Hoshikawa", "Tsubaki", "Kawaguchi", "Nishikawa", "Tachikawa", "Kōbō", "Yamato", "Shirogane", "Aoyama", "Higashimura", "Tachibanakyo", "Kurogane"],
+},
+{
+	"name": "Faroe Islands",
+	"adjective": ["Faroese"],
+	"leaderName": "Tróndur í Gøtu",
+	"preferredVictoryType": "Cultural",
+	"favoredReligion": "Odinism",
+	"startBias": ["Coast", "Avoid [Desert]"],
+
+	"declaringWar": "We shall sweep you away like the tempests of the North Atlantic!",
+	"attacked": "Our islands are forged by fire and ice, and so are our warriors. Your foolish aggression will be your undoing!",
+	"defeated": "The spirit of the Faroes may bend, but it will never break.",
+	"introduction": "Hail, stranger from distant shores. Treat us with respect, and you may find an ally in these northern waters.",
+
+	"neutralHello": "The mists part to reveal your presence once more.",
+	"hateHello": "Your stench fouls the air.",
+
+	"tradeRequest": "The bounty of our islands overflows like mead from Odin's cup.",
+
+	"outerColor": [215, 205, 168],
+	"innerColor": [84, 66, 142],
+
+	"uniqueName": "Jólafundurin",
+	"uniques": ["[+2 Culture, +1 Food] from every [Whales]", "[+1 Culture] from every [Sheep]", "[+2] Movement <for [{Military} {Water}] units> <in [Friendly Land] tiles>", "[+2] Movement <for [Embarked] units> <in [Friendly Land] tiles>"],
+
+	"spyNames": ["Jákup", "Reiley", "Eivør", "Anna", "Pætur", "Lív", "Jónas", "Annika", "Sverri", "Maria"],
+	"cities": ["Tórshavn", "Klaksvík", "Hoyvík", "Argir", "Fuglafjørður", "Vágur", "Vestmanna", "Tvøroyri", "Sørvágur", "Kollafjørður", "Miðvágur", "Eiði", "Sandur", "Hvalba", "Glyvrar", "Saltangará", "Skála", "Strendur", "Norðragøta", "Leirvík", "Skálafjørður", "Hvannasund", "Funningur", "Kirkjubøur", "Gásadalur"],
+},
+{
+	"name": "Greenland",
+	"adjective": ["Greenlandic"],
+	"leaderName": "Erik Thorvaldsson",
+	"preferredVictoryType": "Domination",
+	"favoredReligion": "Christianity",
+	"startBias": ["Coast", "Tundra"],
+
+	"declaringWar": "The ice in my veins runs colder than the fjords of Greenland! Prepare yourself, for you have become an enemy of Erik the Red!",
+	"attacked": "Your bones will bleach under the northern sun!",
+	"defeated": "My settlements may crumble, but the saga of Erik the Red will echo through my lands!",
+	"introduction": "I am Erik the Red, discoverer of bountiful Greenland! Will you sail with me to new horizons, or cower in your inferior harbors?",
+
+	"neutralHello": "May your axes be sharp and your ships be swift.",
+	"hateHello": "Your presence offends me more than a three-year exile...",
+
+	"tradeRequest": "I offer you the fruits of Greenland. Surely you're not foolish enough to refuse such bounty?",
+
+	"outerColor": [92, 138, 54],
+	"innerColor": [24, 40, 37],
+
+	"uniqueName": "The Vinland Sagas",
+	"uniques": ["[+2 Food] in cities on [Snow] tiles", "[+1 Food] in cities on [Tundra] tiles", "[+15]% Strength <for [{Land} {Melee}] units> <on foreign continents> <in [Snow] tiles>", "[+15]% Strength <for [{Land} {Melee}] units> <on foreign continents> <in [Tundra] tiles>"],
+
+	"spyNames": ["Hans", "Knud", "Rasmus", "Erik", "Naja", "Leif", "Ole", "Jens", "Aviâja", "Minik"],
+	"cities": ["Nuuk", "Sisimiut", "Ilulissat", "Qaqortoq", "Aasiaat", "Maniitsoq", "Tasiilaq", "Paamiut", "Narsaq", "Nanortalik", "Uummannaq", "Qasigiannguit", "Upernavik", "Kangaatsiaq", "Qaanaaq", "Qeqertarsuaq", "Ittoqqortoormiit", "Kangerlussuaq", "Narsarsuaq", "Kullorsuaq", "Kulusuk", "Alluitsup Paa", "Qassiarsuk", "Igaliku", "Ivittuut"],
+},
+{
+	"name": "Svalbard",
+	"adjective": ["Svalbardic"],
+	"leaderName": "Olsen Ingerø",
+	"preferredVictoryType": "Scientific",
+	"favoredReligion": "Christianity",
+	"startBias": ["Coast", "Tundra"],
+
+	"declaringWar": "You've left me no choice but to defend Svalbard's sovereignty.",
+	"attacked": "You!? Attacking Svalbard? I never thought I would see the day...",
+	"defeated": "Governing this land requires more paperwork than you can ever imagine. Good luck with that.",
+	"introduction": "Welcome to Svalbard, where the polar bears roam and the bureaucracy thrives. I'm Odd Olsen Ingerø, governor of this icy realm. Mind the environmental regulations, won't you?",
+
+	"neutralHello": "Ah, back again? Remember, in Svalbard, we take relations as seriously as our glacier measurements.",
+	"hateHello": "Your disregard for our pristine Arctic environment is as unwelcome. Please reconsider your actions.",
+
+	"tradeRequest": "I have a proposal of both our benefit. After all, in the Arctic, cooperation is key to survival. Shall we negotiate over a glass of Svalbard's finest whisky?",
+
+	"outerColor": [33, 137, 126],
+	"innerColor": [173, 189, 255],
+
+	"uniqueName": "Global Science Partnership",
+	"uniques": ["[+1] population [in all coastal cities] <in [Tundra] tiles>", "[+1] population [in all coastal cities] <in [Snow] tiles>", "[+1 Science] from each Trade Route", "Science gained from research agreements [+33]%"],
+
+	"spyNames": ["Willem", "Roald", "Henry", "John", "Thor", "Hilmar", "Erik", "Søren", "Fridtjof", "Salomon"],
+	"cities": ["Longyearbyen", "Barentsburg", "Ny-Ålesund", "Pyramiden", "Smeerenburg", "Grumant", "Svea", "Bjørnøya", "Hornsund", "Sveagruva", "Colesbukta", "Pyramiden", "Isfjord Radio", "Calypsobyen", "Hiorthhamn", "Advent City", "Brucebyen", "Rijpsburg", "Virgohamna", "Trygghamna", "Kvalrossbukta", "Herwighamna", "Tunheim", "Gråhuken", "Kapp Wijk"],
+},
+{
+	"name": "Aland",
+	"adjective": ["Ålandic"],
+	"leaderName": "August Karlsson",
+	"preferredVictoryType": "Scientific",
+	"favoredReligion": "Christianity",
+	"startBias": ["Coast", "Forest"],
+
+	"declaringWar": "Åland will not bow to your aggression. For we belong to no other land.",
+	"attacked": "Your attack on Åland is an affront to our peaceful ways.",
+	"defeated": "Remember, conqueror, that true autonomy can never be truly extinguished.",
+	"introduction": "Greetings! We stand as a beacon of autonomy in the Baltic sea. What brings you to our lands?",
+
+	"neutralHello": "How fares your journey through these turbulent times?",
+	"hateHello": "Your disregard for our autonomy and culture is troubling...",
+
+	"tradeRequest": "Perhaps an exchange of goods would strengthen the bridges between our peoples?",
+
+	"innerColor": [255, 221, 0],
+	"outerColor": [47, 6, 138],
+
+	"uniqueName": "Archipelagic Rebound",
+	"uniques": ["[+1] population [in all coastal cities] <every [50] turns>", "[+1 Culture, +1 Gold] [in all cities] <within [2] tiles of a [{unimproved} {Forest}]>"],
+
+	"spyNames": ["Lars", "Erik", "Sven", "Axel", "Mikael", "Johan", "Peter", "Anders", "Carl", "Magnus"],
+	"cities": ["Mariehamn", "Jomala", "Kastelholm", "Godby", "Saltvik", "Bomarsund", "Kökar", "Sottunga", "Lemland", "Eckerö", "Önningby", "Frebbenby", "Saggö", "Börkö", "Sålis", "Mellantrop", "Kungsö", "Korsö", "Herrö", "Storklobb", "Boxö", "Hamnö", "Lemströms", "Nystad", "Orrdals"],
+},
+{
+	"name": "The Jomsvikings",
+	"adjective": ["Jomsviking"],
+	"leaderName": "Thorkell",
+	"preferredVictoryType": "Domination",
+	"favoredReligion": "Odinism",
+	"startBias": ["Coast", "Tundra"],
+
+	"declaringWar": "HAHAHAHA! FINALLY! A chance to spill some blood and test my mighty axes! The Jomsvikings are coming, and we fight not just for victory, but for the thrill of battle!",
+	"attacked": "You dare strike first? How DELIGHTFUL! I was hoping for a more exciting challenge. Come then - let's see if you can survive my onslaught!",
+	"defeated": "What a MAGNIFICENT fight! Even in defeat, I am honored to have crossed weapons with such worthy opponents! May Odin have a seat for you!",
+	"introduction": "Ah, potential friends or future enemies - which shall you be today?",
+
+	"neutralHello": "May the kami guide our meeting.",
+	"hateHello": "I've been WAITING to meet you.",
+
+	"tradeRequest": "I propose a trade - but if the deal bores me, I might just throw my axe at your head instead!",
+
+	"innerColor": [115, 80, 29],
+	"outerColor": [14, 59, 67],
+
+	"uniqueName": "Brotherhood of Odin",
+	"uniques": [
+	"[Gold] cost of purchasing [Sword] units [-22]%",
+	"[+8]% Strength <for [Sword] units> <when adjacent to a [Sword] unit>",
+	"[+7]% Strength <for [Sword] units> <when adjacent to a [Sword] unit> <after founding a Pantheon>",
+	"\"Borrows\" city names from other civilizations in the game"],
+
+	"spyNames": ["Thorkell", "Harald", "Magnus", "Pálna", "Sigvaldi", "Styrbjörn", "Sweyn", "Olaf", "Björn", "Ragnar"],
+	"cities": ["Jomsborg"],
+},
+{
+	"name": "The North Sea Empire",
+	"adjective": ["Anglo-Norse"],
+	"leaderName": "Canute",
+	"preferredVictoryType": "Domination",
+	"favoredReligion": "Odinism",
+	"startBias": ["Coast", "Tundra"],
+
+	"declaringWar": "The tides of war are rising, and unlike the sea, I command them. Prepare to be swept away by the might of Canute!",
+	"attacked": "You challenge the ruler of land and sea? Very well. Let the sagas remember your foolishness and my victory.",
+	"defeated": "My empire has fallen like sand before the tide. But remember, conqueror, that all earthly power is fleeting.",
+	"introduction": "I am Canute, King of England, Denmark, and Norway. My longships rule the waves, and my word is law from shore to shore. Will you be friend or foe to the great empire I have forged?",
+
+	"neutralHello": "Hail.",
+	"hateHello": "You reak more than the stench of rotting fish.",
+
+	"tradeRequest": "The lifeblood of my empire flows through trade.",
+
+	"innerColor": [50, 14, 59],
+	"outerColor": [76, 42, 133],
+
+	"uniqueName": "Thalassocracy",
+	"uniques": ["[+4 Production] [in annexed cities] <in cities without a [Courthouse]> <in [Coastal] tiles>", "[+2 Production, +1 Gold, +1 Food] [in annexed cities] <in cities with a [Courthouse]> <in [Coastal] tiles>", "[+1 Food] from every [Fishing Boats]"],
+
+	"spyNames": ["Sweyn", "Harald", "Olaf", "Edmund", "Håkon", "Æthelred", "Magnus", "Erik", "Canute", "Harthacnut"],
+	"cities": ["Winchester", "London", "York", "Trondheim", "Roskilde", "Dublin", "Bergen", "Bruges", "Ribe", "Hedeby", "Lübeck", "Hamburg", "Schleswig", "Norwich", "Sigtuna", "Visby", "Aalborg", "Tønsberg", "Skara", "Odense", "Stamford", "Limerick", "Waterford", "Helsingborg", "Danzig"],
+},
+{
+	"name": "Kalmar",
+	"adjective": ["Anglo-Norse"],
+	"leaderName": "Margaret",
+	"preferredVictoryType": "Domination",
+	"favoredReligion": "Odinism",
+	"startBias": ["Coast", "Tundra"],
+
+	"declaringWar": "Now, feel the fury of the united Scandinavian kingdoms!",
+	"attacked": "The fjords will echo with your regret, and the aurora will dance upon your defeat.",
+	"defeated": "The dream of a united North fades like the midnight sun. May your reign be as wise as it is undeserved.",
+	"introduction": "I am Margaret, sovereign of the Kalmar Union and guardian of the North.",
+
+	"neutralHello": "Speak, and may your words be as crisp as our winter air.",
+	"hateHello": "Speak quickly, lest my patience melts faster than spring ice.",
+
+	"tradeRequest": "The bounty of the North could be yours to share. Shall we weave our fortunes together, as intricate as a Norse tapestry?",
+
+	"innerColor": [238, 186, 11],
+	"outerColor": [135, 0, 88],
+
+	"uniqueName": "Union of Nordic Crowns",
+	"uniques": ["[+50]% [Gold] [in all coastal cities] <during a Golden Age>", "[+2 Happiness] [in all coastal cities]"],
+
+	"spyNames": ["Dag", "Sven", "Nils", "Carl", "Gustav", "Axel", "Erik", "Magnus", "Sten", "Björn"],
+	"cities": ["Kalmar", "Copenhagen", "Stockholm", "Oslo", "Roskilde", "Uppsala", "Bergen", "Visby", "Lund", "Trondheim", "Malmö", "Turku", "Ribe", "Viborg", "Odense", "Linköping", "Skara", "Västerås", "Stavanger", "Jönköping", "Aalborg", "Helsingør", "Tønsberg", "Strängnäs", "Växjö"],
+},
+{
+	"name": "The Sentinelese",
+	"adjective": ["Sentinelese"],
+	"leaderName": "White Flower",
+	"preferredVictoryType": "Cultural",
+	"favoredReligion": "Animism",
+	"startBias": ["Coast", "Jungle"],
+
+	"declaringWar": "Your presence threatens our sacred isolation. We will defend our shores with every arrow!",
+	"attacked": "You dare violate our island? Our ancestors' spirits will guide our aim true!",
+	"defeated": "You may occupy our land, but our spirit remains unbroken. We will resist you until the last of us falls.",
+	"introduction": "I am White Flower, guardian of the North Sentinel. Speak quickly, then leave our waters forever.",
+
+	"neutralHello": "You linger at the edge of our world. State your purpose and be gone.",
+	"hateHello": "Your ships pollute our horizon. Leave now, or face the consequences of your trespass.",
+
+	"tradeRequest": "We have no need for your trinkets, but if you must persist, offer something of true value to our people.",
+
+	"innerColor": [6, 144, 143],
+	"outerColor": [246, 174, 45],
+
+	"uniqueName": "Eternal Isolation",
+	"uniques": ["[+13]% Strength <in [Friendly Land] tiles>", "[+12]% Strength <when fighting units from a Civilization with more Cities than you>", "Earn [100]% of killed [Military] unit's [Strength] as [Culture] <in [Friendly Land] tiles>", "[-1] Movement <in [Foreign Land] tiles>", "Cannot build [Settler] units"],
+
+	"spyNames": ["Pandit", "Madhu", "Sentinel", "Nicobar", "Andaman", "Tarmugli", "Trinok", "Portman", "Chattopadhyay", "Awaradi"],
+	"cities": ["Sentinel Island"],
+},
+{
+	"name": "The Apache",
+	"adjective": ["Apache"],
+	"leaderName": "Cochise",
+	"preferredVictoryType": "Domination",
+	"favoredReligion": "Animism",
+	"startBias": ["Plains", "Avoid [Coast]"],
+
+	"declaringWar": "The eagle does not seek war with the hawk, but when its nest is threatened, it must strike.",
+	"attacked": "Very well. The Apache arrows will blot out your sun, and our war cries will echo in your dreams.",
+	"defeated": "Our spirits may bend like the willow in the storm, but we will not break.",
+	"introduction": "I am Cochise, voice of the Apache people. We are as ancient as the rocks and as free as the eagle. May our paths cross in peace, lest they cross in war.",
+
+	"neutralHello": "The day is long, and the desert sun unforgiving. What words do you bring to the Apache?",
+	"hateHello": "Your presence here is like a scorpion in my boot.",
+
+	"tradeRequest": "The coyote and the badger hunt together for mutual benefit.",
+
+	"innerColor": [47, 72, 130],
+	"outerColor": [255, 232, 18],
+
+	"uniqueName": "Guardian Spirits",
+	"uniques": ["Comment [After founding a Pantheon gain access to the construction of Guardian Spirit Shrines that provides special city bonuses and grant a unique promotion to new units trained]", "[+1 Faith] from every [{unimproved} {Horses}]"],
+
+	"spyNames": ["Geronimo", "Cochise", "Mangas", "Victorio", "Naiche", "Carlos", "Miguel", "Antonio", "Rafael", "Taza"],
+	"cities": ["Chiricahua", "Tsokanende", "Jicarilla", "Lipan", "Mescalero", "Naʼishandine", "Tonto", "Cibecue", "Tiiis Tseba", "Teehach", "Tichio", "Chichiil Bidagoteel", "T' Yadnlin", "Neurontin", "Tchihende", "Ndendahe", "Carlana", "Pelones", "Aravaipa", "Izee Dighin", "Chinle", "Teec Nos Pos", "Lukachukai", "Teehach", "Dzi Likesilan", "T’ Nadidoh", "Ts Shid", "Iyah Hajin", "Tii Ch’ogi"],
+},
+{
+	"name": "The Philippines",
+	"adjective": ["Filipino"],
+	"leaderName": "Jose Rizal",
+	"preferredVictoryType": "Cultural",
+	"favoredReligion": "Catholicism",
+	"startBias": ["Coast", "Jungle"],
+
+	"declaringWar": " I must now defend my beloved Philippines. May our pens become mightier than your swords.",
+	"attacked": "You attack not just a nation, but the very ideals of freedom and progress.",
+	"defeated": "Our struggle for liberty will echo through generations... My pen will mark my words.",
+	"introduction": "Greetings, I am José Rizal of the Philippines. Let us engage in a dialogue of cultures and ideas, for in understanding lies the path to peace.",
+
+	"neutralHello": "Welcome, friend.",
+	"hateHello": "Your actions betray a lack of wisdom and compassion. I had hoped for better from a fellow leader.",
+
+	"tradeRequest": "Shall we discuss literature, science, or perhaps exchange knowledge in one of the many languages we share?",
+
+	"innerColor": [252, 207, 75],
+	"outerColor": [51, 101, 138],
+
+	"uniqueName": "Bayanihan",
+	"uniques": ["Comment [Coastal cities connect over water after discovering [Optics]]",
+	"Gain a free [Philippines Ability] [in all cities] <after discovering [Optics]> <hidden from users>",
+	"[+1 Happiness, +2 Production, +1 Culture, +1 Science] [in all cities connected to capital]",
+	"[-1 Happiness, -2 Production, -1 Culture, -1 Science] [in capital] <hidden from users>",
+	"[+1 Production, +1 Science] from every [Trading post]"],
+
+	"spyNames": ["Rizal", "Andres", "Gabriela", "Diego", "Emilio", "Kudarat", "Christian", "Daniel", "Bayani", "Miguel"],
+	"cities": ["Manila", "Cebu City", "Quezon City", "Davao City", "Zamboanga City", "Baguio", "Iloilo City", "Bacolor", "Laoag", "Vigan", "Naga", "Tacloban", "Cagayan de Oro", "Legazpi", "Butuan", "Cotabato City", "Tagbilaran", "Lucena", "Olongapo", "Angeles", "Taguig", "Antipolo", "Caloocan", "General Santos", "Puerto Princesa"],
+},
+{
+	"name": "Brunei",
+	"adjective": ["Bruneian"],
+	"leaderName": "Hassanal Bolkiah",
+	"preferredVictoryType": "Diplomatic",
+	"favoredReligion": "Islam",
+	"startBias": ["Coast"],
+
+	"declaringWar": "The wealth of Brunei shall not be trifled with. Our golden domes will shine upon your ruins.",
+	"attacked": "The wrath of Allah and the might of Brunei shall be your undoing.",
+	"defeated": "The sun sets on Brunei's golden age. May Allah forgive me for failing my people.",
+	"introduction": "I am Hassanal Bolkiah, Sultan and Yang Di-Pertuan of Brunei Darussalam. Our nation's wealth is matched only by our devotion to Allah.",
+
+	"neutralHello": "Greetings. Brunei welcomes you with the courtesy befitting your station.",
+	"hateHello": "Your presence offends both my royal sensibilities and our very values.",
+
+	"tradeRequest": "The coffers of Brunei overflow with riches. Perhaps you would like a share of this wealth?",
+
+	"innerColor": [202, 44, 62],
+	"outerColor": [225, 221, 123],
+
+	"uniqueName": "Sultanate of the Seas",
+	"uniques": ["[+1 Gold, +2 Faith] from each Trade Route", "No Maintenance costs for improvements in [Coastal] tiles", "[Work Boats] units gain the [Water Village Builder] promotion"],
+
+	"spyNames": ["Hassanal", "Omar", "Azim", "Haji", "Bolkiah", "Muhammad", "Pengiran", "Ahmad", "Dayang", "Wu"],
+	"cities": ["Bandar Seri Begawan", "Kota Batu", "Kampong Ayer", "Kuala Belait", "Seria", "Tutong", "Muara", "Jerudong", "Gadong", "Kiudang", "Lamunin", "Labi", "Kuala Lurah", "Bangar", "Pekan Tutong", "Telisai", "Lumut", "Kuala Balai", "Merangking", "Sukang", "Rampayoh", "Bukit Sawat", "Liang", "Pangkalan Batu", "Mentiri"],
+},
+{
+	"name": "Laos",
+	"adjective": ["Laoatian"],
+	"leaderName": "Fa Ngum",
+	"preferredVictoryType": "Cultural",
+	"favoredReligion": "Buddhism",
+	"startBias": ["Jungle", "River"],
+
+	"declaringWar": "A million elephants shall trample your pitiful kingdom. Prepare to be united under the white parasol.",
+	"attacked": "Your foolishness will be your downfall, just as the bamboo walls of Vientiane crumbled before me.",
+	"defeated": "May Buddha grant you wisdom in victory that I lacked in defeat.",
+	"introduction": "I am Fa Ngum, unifier of the Lao people and founder of Lan Xang. Will you stand with us in harmony, or fall before our might?",
+
+	"neutralHello": "May our realms prosper side by side, like the mighty Mekong and its tributaries.",
+	"hateHello": "My patience wanes like the moon.",
+
+	"tradeRequest": "Surely, your compliance will benefit us both? Consider this offer wisely.",
+
+	"outerColor": [234, 139, 160],
+	"innerColor": [31, 17, 53],
+
+	"uniqueName": "Land of a Million Elephants",
+	"uniques": ["[+3 Faith] [in annexed cities]", "Free [Uparaja] appears <upon discovering [Horseback Riding] technology>", "Free [Laos War Elephant] appears <upon discovering [Horseback Riding] technology>", "[+1 Food, +1 Culture] from [Farm] tiles [in all cities] <in [Hill] tiles>"],
+
+	"spyNames": ["Souphanouvong", "Thongloun", "Sengphet", "Phayvanh", "Thanwa", "Khamla", "Fa", "Kaysone", "Vissay", "Phankham"],
+	"cities": ["Luang Prabang", "Vientiane", "Xieng Khouang", "Savannakhet", "Pakse", "Thakhek", "Muang Xai", "Champasak", "Xam Neua", "Vang Vieng", "Muang Pakxan", "Phongsali", "Sainyabuli", "Attapeu", "Salavan", "Sekong", "Houayxay", "Muang Sing", "Pak Lay", "Xayaboury", "Pak Beng", "Muang Khua", "Nong Khiaw", "Viengxay", "Boten"],
+},
+{
+	"name": "Bhutan",
+	"adjective": ["Bhutanese"],
+	"leaderName": "Jigme Khesar Namgyel",
+	"preferredVictoryType": "Cultural",
+	"favoredReligion": "Buddhism",
+	"startBias": ["Jungle", "Hill", "Avoid [Coast]"],
+
+	"declaringWar": "May this conflict be as brief as a passing cloud.",
+	"attacked": "You have disturbed our peaceful mountains. We shall respond with the strength of the thunder dragon!",
+	"defeated": "Our happiness may be conquered, but our spirit remains unbroken. May you find wisdom in victory.",
+	"introduction": "Shall we measure our success in smiles rather than gold?",
+
+	"neutralHello": "Ah, a visitor to our Himalayan haven.",
+	"hateHello": "Your actions bring sorrow to our peaceful kingdom. Perhaps a course in mindfulness would serve you well.",
+
+	"tradeRequest": "What say you to this happier bargain?",
+
+	"outerColor": [255, 76, 40],
+	"innerColor": [255, 225, 86],
+
+	"uniqueName": "The Last Shangri-La",
+	"uniques": ["[+1 Happiness, +1 Faith] per [3] population [in all cities] <in cities following our religion>", "[+25]% of excess happiness converted to [Culture]", "[+1 Faith] from [{unimproved} {Jungle}] tiles [in all cities]", "[+1 Faith] from [{unimproved} {Hill}] tiles [in all cities]"],
+
+	"spyNames": ["Jigme", "Ugyen", "Dorji", "Pema", "Khyentse", "Tshering", "Namgyel", "Chokling", "Sangay", "Wangchuck"],
+	"cities": ["Punakha", "Thimphu", "Trongsa", "Bumthang", "Paro", "Phuntsholing", "Trashigang", "Wangdue Phodrang", "Jakar", "Samdrup Jongkhar", "Mongar", "Ha", "Lhuntshi", "Samtse", "Gasa", "Damphu", "Gelephu", "Pemagatsel", "Zhemgang", "Chhukha", "Daga", "Nganglam", "Tongsa", "Geylegphug", "Khaling"],
+},
+{
+	"name": "Nepal",
+	"adjective": ["Nepalese"],
+	"leaderName": "Prithvi Narayan",
+	"preferredVictoryType": "Cultural",
+	"favoredReligion": "Buddhism",
+	"startBias": ["Mountain"],
+
+	"declaringWar": "The time for diplomacy has passed. Prepare to face the might of the Gurkha!",
+	"attacked": "Your aggression will be met with the full force of our mountains and the valor of our people.",
+	"defeated": "The dream of a unified Nepal may fade for now, but remember this: our spirit, like the eternal peaks of the Himalayas, will never be truly conquered.",
+	"introduction": "I am Prithvi Narayan Shah, unifier of Nepal. We stand as the yam between two boulders, ever vigilant.",
+
+	"neutralHello": "Welcome to the realm of the Gurkha.",
+	"hateHello": "My patience, like the mountain air, is thin.",
+
+	"tradeRequest": "The wealth of Nepal flows like the sacred rivers from our mountains.",
+
+	"outerColor": [218, 32, 57],
+	"innerColor": [53, 80, 112],
+
+	"uniqueName": "King of the Himalayas",
+	"uniques": ["Gain control over [Mountain] tiles in a [3]-tile radius <upon founding a city>", "[+1 Science, +1 Culture, +1 Faith] from every [Mountain] <in tiles without [Natural Wonder]>", "[+1 Science, +1 Culture, +1 Faith] from every [Mountain] <in tiles without [Natural Wonder]> <after discovering [Printing Press]>"],
+
+	"spyNames": ["Prithvi", "Ram", "Tenzing", "Krishna", "Mahendra", "Chandra", "Amar", "Siddhartha", "Dipesh", "Tribhuwan"],
+	"cities": ["Kathmandu", "Patan", "Bhaktapur", "Janakpur", "Pokhara", "Banepa", "Gorkha", "Kirtipur", "Nuwakot", "Palpa", "Madhyapur Thimi", "Panauti", "Biratnagar", "Birgunj", "Nepalgunj", "Dharan", "Butwal", "Hetauda", "Dhangadhi", "Bharatpur", "Itahari", "Ghorahi", "Tulsipur", "Siddharthanagar", "Birendranagar"],
+},
+{
+	"name": "Tibet",
+	"adjective": ["Tibetese"],
+	"leaderName": "Trisong Detsen",
+	"preferredVictoryType": "Cultural",
+	"favoredReligion": "Buddhism",
+	"startBias": ["Mountain"],
+
+	"declaringWar": "May the wisdom of the Buddha guide our actions. Your resistance to the Dharma leaves us no choice but to bring enlightenment through conquest.",
+	"attacked": "Our warriors will defend the Dharma with unshakeable resolve.",
+	"defeated": "The wheel of karma turns for all. Today, Tibet falls, but the eternal truths of Buddhism will outlast any empire.",
+	"introduction": "I am Trisong Detsen, Dharma King of Tibet. May our meeting bring mutual understanding and spiritual growth to both our realms.",
+
+	"neutralHello": "May your visit to Tibet bring you closer to enlightenment.",
+	"hateHello": "Every moment in your company is a test of my faith.",
+
+	"tradeRequest": "Let us engage in the noble path of exchange. By sharing our resources, we cultivate compassion and interdependence.",
+
+	"outerColor": [137, 21, 133],
+	"innerColor": [0, 145, 110],
+
+	"uniqueName": "The Noble Eightfold Path",
+	"uniques": ["Comment [Allows the choice of 8 unique paths that provide a empire wide boost for 8 turns whenever a [Great Prophet] is expended]",
+	"[-33]% Faith cost of generating Great Prophet equivalents <while the empire is happy>",
+	"Triggers a [Eightfold Path] event <upon expending a [Great Prophet] unit> <hidden from users>",],
+
+	"spyNames": ["Songtsen", "Jamyang", "Karma", "Ngawang", "Dawa", "Namri", "Rinzen", "Trisong", "Pema", "Dechen"],
+	"cities": ["Lhasa", "Shigatse", "Gyantse", "Tsedang", "Chamdo", "Nagqu", "Bayi", "Shiquan River Town", "Zhangmu", "Sima", "Nyingchi", "Gyangze", "Kangding", "Thimphu", "Yatung", "Xigaze", "Samye", "Sakya", "Gartok", "Tingri", "Dartsedo", "Pelbar", "Lhatse", "Ruthok", "Purang"],
+},
+{
+	"name": "Indonesia",
+	"adjective": ["Indonesian"],
+	"leaderName": "Gajah Mada",
+	"favoredReligion": "Hinduism",
+	"startBias": ["Coast"],
+
+	"declaringWar": "The time for unity has come. If you will not join us willingly, then the archipelago shall be united by I!",
+	"attacked": "Your lands will become part of my great empire.",
+	"defeated": "The dream of a unified archipelago fades...",
+	"introduction": "I am Gajah Mada, mahapatih of Majapahit. My archipelago is vast and rich. Let us discuss how our nations may prosper together... under the guidance of Majapahit, of course.",
+
+	"neutralHello": "Ah, it is you.",
+	"hateHello": "Your lands would be better served under Majapahit rule.",
+
+	"tradeRequest": "The wealth of the archipelago flows through Majapahit. Perhaps you would like to partake in our abundance? For a fair price, of course.",
+
+	"outerColor": [45, 208, 230],
+	"innerColor": [155, 73, 72],
+
+	"uniqueName": "Spice Islanders",
+	"uniques": ["Comment [Cities founded on different continents not including where [Indonesia] starts each provide 2 unique Luxury Resources]",
+	"Comment [Cities that produce unique luxury resources will continue to produce luxury resources when captured]",
+	"Gain a free [Spice Islanders Ability] [in all cities] <on foreign continents> <hidden from users>"],
+
+	"spyNames": ["Zulkifli", "Soebandrio", "Nicklany", "Sukarno", "Aditya", "Elang", "Guntur", "Reza", "Cahya", "Walter"],
+	"cities": ["Jakarta", "Yogyakarta", "Surabaya", "Palembang", "Bandung", "Medan", "Semarang", "Makassar", "Malang", "Surakarta", "Denpasar", "Padang", "Bogor", "Ambon", "Cirebon", "Pekanbaru", "Banjarmasin", "Manado", "Samarinda", "Pontianak", "Jambi", "Kupang", "Palangkaraya", "Mataram", "Jayapura"],
+},
+{
+	"name": "Pohnpei",
+	"adjective": ["Pohnpeian"],
+	"leaderName": "Isokelekel",
+	"preferredVictoryType": "Domination",
+	"favoredReligion": "Manaism",
+	"startBias": ["Coast"],
+
+	"declaringWar": "The Thunder God's wrath echoes in my veins. Prepare to face the storm that will wash away your tyranny, as I once cleansed Pohnpei of the Saudeleurs' oppression!",
+	"attacked": "Your audacity will be your downfall, just as it was for those who stood against me at Nan Madol.",
+	"defeated": "The winds of fate have turned against me. Like the fallen Saudeleurs, I must now yield to a new order.",
+	"introduction": "I am Isokelekel, born of thunder and destiny. My people are the waves of Pohnpei, ever-changing yet eternal.",
+
+	"neutralHello": "May our meeting be as fruitful as the breadfruit that once nourished my warriors.",
+	"hateHello": "Tread carefully, lest you incur the wrath that toppled the mighty Saudeleur dynasty.",
+
+	"tradeRequest": " Shall we exchange the fruits of our lands and the treasures of our minds?",
+
+	"outerColor": [34, 116, 165],
+	"innerColor": [79, 0, 11],
+
+	"uniqueName": "Upon a Stone Altar",
+	"uniques": ["[+1 Production, +1 Faith] from [Jungle] tiles [in all cities]",
+	"Comment [25% of [Happiness] is converted into [Culture] and -25% [Unhappiness] in annexed cities for 8 turns upon conquering a city]",
+	"Gain a free [Upon a Stone Altar Ability] [in capital] <hidden from users>"],
+
+	"spyNames": ["Olisihpa", "Olosohpa", "Luhk", "Nanparadak", "Debra", "Leo", "Iris", "Kerson", "Sohl"],
+	"cities": ["Nan Madol", "Onohnleng", "Kepihleng", "Lehnpwel", "Ant Atoll", "Palikir", "Sokehs", "Tipwen", "Dongalap", "Kahmar", "Nan Mair", "Pakin", "U", "Nett"],
+},
+{
+	"name": "New Caledonia",
+	"adjective": ["Caledonian"],
+	"leaderName": "Jean-Marie",
+	"preferredVictoryType": "Scientific",
+	"favoredReligion": "Animism",
+	"startBias": ["Coast", "Jungle"],
+
+	"declaringWar": "Our patience has worn thin, and the time for words has passed. We Kanaks will no longer be silenced.",
+	"attacked": "We shall resist, for we have been here for tens of thousands of years.",
+	"defeated": "True victory lies not in subjugation, but in understanding.",
+	"introduction": "I am Jean-Marie Tjibaou, voice of the Kanak people.",
+
+	"neutralHello": "Ah, you return.",
+	"hateHello": "Do you seek to colonize and control my people?",
+
+	"tradeRequest": "The bounty of our land is matched only by the richness of our culture.",
+
+	"outerColor": [211, 70, 73],
+	"innerColor": [46, 63, 40],
+
+	"uniqueName": "Cretaceous Bounty",
+	"uniques": [
+ "[+3 Science] from [{unimproved} {Strategic resource}] tiles [in all cities]",
+ "Provides [2] [Iron] <after discovering [Iron Working]>",
+ "Provides [2] [Coal] <after discovering [Industrialization]>",
+ "Provides [2] [Aluminum] <after discovering [Electricity]>",
+ "Provides [2] [Uranium] <after discovering [Atomic Theory]>"],
+
+	"spyNames": ["Christian", "Antoine", "Georges", "Jacques", "Pierre", "Henri", "Francis", "Gaël", "Jean-Louis", "Bertrand"],
+	"cities": ["Nouméa", "Balade", "Koné", "Lifou", "Bourail", "Poindimié", "Le Mont-Dore", "Dumbéa", "Païta", "Maré", "Houaïlou", "Thio", "Moindou", "Ouvéa", "La Foa", "Koumac", "Pouébo", "Hienghène", "Canala", "Voh", "Poya", "Ponérihouen", "Touho", "Yaté", "Boulouparis"],
+},
+{
+	"name": "Myanmar",
+	"adjective": ["Myanmarian"],
+	"leaderName": "Aung San Suu Kyi",
+	"preferredVictoryType": "Cultural",
+	"favoredReligion": "Buddhism",
+	"startBias": ["Jungle"],
+
+	"declaringWar": "May this conflict be brief, and may peace soon prevail.",
+	"attacked": "You mistake our commitment to non-violence for weakness. The spirit of Myanmar will not be broken by force.",
+	"defeated": "The wheel of karma turns for all. Today, it is our turn to face its consequences... And yours is next.",
+	"introduction": "I am Aung San Suu Kyi. Leader of the golden lands of Myanmar.",
+
+	"neutralHello": "Welcome, friend.",
+	"hateHello": "I hope, for both our sakes, you will reconsider your path.",
+
+	"tradeRequest": "I propose an exchange that will strengthen the bonds between our nations. What say you?",
+
+	"outerColor": [195, 162, 5],
+	"innerColor": [92, 71, 66],
+
+	"uniqueName": "The Golden Land of Pagodas",
+	"uniques": ["Gain a free [Pagoda] [in all cities] <in cities with at least [5] [Followers of the Majority Religion]>",
+	"Comment [Follower belief buildings have 1 [Food], 1 [Production], 1 [Gold], 1 [Science], 1 [Culture], 1 [Faith], 1 [Happiness] while under your rule]",
+	"[+1 Food, +1 Production, +1 Gold, +1 Science, -1 Culture, -1 Faith, -1 Happiness] from all [Pagoda] buildings <hidden from users>",
+	"[+1 Food, +1 Production, +1 Gold, +1 Science, -1 Culture, -2 Faith] from all [Mosque] buildings <hidden from users>",
+	"[+1 Food, +1 Production, +1 Gold, +1 Science, -2 Culture] from all [Cathedral] buildings <hidden from users>",
+	"[+1 Food, +1 Production, +1 Gold, +1 Science, -1 Culture, -1 Faith, +1 Happiness] from all [Monastery] buildings <hidden from users>"],
+
+	"spyNames": ["Aung", "Khin", "Soe", "Zaw", "Thein", "Myint", "Tin", "Nay", "Kyaw", "Hla"],
+	"cities": ["Yangon", "Mandalay", "Naypyidaw", "Bagan", "Ava", "Pegu", "Amarapura", "Sagaing", "Mrauk-U", "Thaton", "Shwebo", "Toungoo", "Mawlamyine", "Sittwe", "Prome", "Myinsaing", "Pinya", "Martaban", "Donwun", "Launggyet", "Pinle", "Mekkhaya", "Hanthawaddy", "Tagaung", "Sri Ksetra"],
+},
+{
+	"name": "Burma",
+	"adjective": ["Burmese"],
+	"leaderName": "Anawrahta",
+	"preferredVictoryType": "Domination",
+	"favoredReligion": "Buddhism",
+	"startBias": ["Jungle"],
+
+	"declaringWar": "Your disunity and weakness offend the very foundations of nationhood. Burma shall bring order to your chaos, by force if necessary.",
+	"attacked": "We will defend our unity with unmatched ferocity.",
+	"defeated": "The light of Burma dims, but it shall never be extinguished. Our spirit, like the eternal cycle of rebirth, will rise again.",
+	"introduction": "I am Anawrahta, unifier of Burma and servant of the Dharma. Will you stand with us in harmony, or fall before our righteous might?",
+
+	"neutralHello": "Speak, but know that every word shall be weighed against the interests of Burma and the teachings of the Buddha.",
+	"hateHello": "My patience wears as thin as your worth.",
+
+	"tradeRequest": "Burma's bounty is as vast as the Irrawaddy. A trade to benefit both our nations would be wise – refuse, and you may find yourself cut off from our prosperity.",
+
+	"outerColor": [12, 192, 12],
+	"innerColor": [4, 15, 41],
+
+	"uniqueName": "Ahmudan Conscription",
+	"uniques": [
+	"Comment [Free Mounted/Armoured unit from the current era appears when expending a [Great Prophet] or [Great Artist]]",
+	"Comment [+15% Strength for Military units on your home continent when attacking]",
+	"Free [Horseman] appears <hidden from users> <upon expending a [Great Prophet] unit> <during the [Ancient era]>",
+	"Free [Horseman] appears <hidden from users> <upon expending a [Great Prophet] unit> <during the [Classical era]>",
+	"Free [Knight] appears <hidden from users> <upon expending a [Great Prophet] unit> <during the [Medieval era]>",
+	"Free [Lancer] appears <hidden from users> <upon expending a [Great Prophet] unit> <during the [Renaissance era]>",
+	"Free [Cavalry] appears <hidden from users> <upon expending a [Great Prophet] unit> <during the [Industrial era]>",
+	"Free [Landship] appears <hidden from users> <upon expending a [Great Prophet] unit> <during the [Modern era]>",
+	"Free [Tank] appears <hidden from users> <upon expending a [Great Prophet] unit> <during the [Atomic era]>",
+	"Free [Modern Armor] appears <hidden from users> <upon expending a [Great Prophet] unit> <during the [Information era]>",
+	"Free [Modern Armor] appears <hidden from users> <upon expending a [Great Prophet] unit> <during the [Future era]>",
+
+	"Free [Horseman] appears <hidden from users> <upon expending a [Great Artist] unit> <during the [Ancient era]>",
+	"Free [Horseman] appears <hidden from users> <upon expending a [Great Artist] unit> <during the [Classical era]>",
+	"Free [Knight] appears <hidden from users> <upon expending a [Great Artist] unit> <during the [Medieval era]>",
+	"Free [Lancer] appears <hidden from users> <upon expending a [Great Artist] unit> <during the [Renaissance era]>",
+	"Free [Cavalry] appears <hidden from users> <upon expending a [Great Artist] unit> <during the [Industrial era]>",
+	"Free [Landship] appears <hidden from users> <upon expending a [Great Artist] unit> <during the [Modern era]>",
+	"Free [Tank] appears <hidden from users> <upon expending a [Great Artist] unit> <during the [Atomic era]>",
+	"Free [Modern Armor] appears <hidden from users> <upon expending a [Great Artist] unit> <during the [Information era]>",
+	"Free [Modern Armor] appears <hidden from users> <upon expending a [Great Artist] unit> <during the [Future era]>",
+
+	"[+15]% Strength <when attacking> <for [Military] units> <hidden from users>",
+	"[-15]% Strength <when attacking> <for [Military] units> <on foreign continents> <hidden from users>"],
+
+	"spyNames": ["Khin", "Aung", "Soe", "Kyaw", "Zaw", "Thant", "Tin", "Myint", "Ne", "Thet"],
+	"cities": ["Bagan", "Yangon", "Mandalay", "Ava", "Amarapura", "Naypyidaw", "Thaton", "Mrauk U", "Bago", "Tagaung", "Sagaing", "Toungoo", "Shwebo", "Mawlamyine", "Pyay", "Sriksetra", "Bhamo", "Myitkyina", "Pathein", "Sittwe", "Taunggyi", "Meiktila", "Monywa", "Dawei", "Hpa-An"],
+},
+{
+	"name": "Maldives",
+	"adjective": ["Maldivian"],
+	"leaderName": "Mohammed Thakurufaan",
+	"preferredVictoryType": "Cultural",
+	"favoredReligion": "Islam",
+	"startBias": ["Coast", "Atoll"],
+
+	"declaringWar": "Beware, for even the smallest atoll in our chain can become the eye of a devastating hurricane.",
+	"attacked": "The calm before the storm ends now.",
+	"defeated": "Our islands sink beneath the waves of your conquest. May the spirits of our ancestors forgive me for letting our pearl necklace be shattered.",
+	"introduction": "I am Muhammad Thakurufaanu, the coral heart of the Maldives. Our islands may seem scattered, but we are united by currents stronger than you can fathom.",
+
+	"neutralHello": "Ah, you return like the monsoon winds.",
+	"hateHello": "Your presence here is as welcome as sand in a pearl oyster.",
+
+	"tradeRequest": "The bounty of our lagoons could fill your coffers like the sweetest coconut milk.",
+
+	"outerColor": [47, 79, 53],
+	"innerColor": [5, 130, 202],
+
+	"uniqueName": "Atholhu Beauty",
+	"uniques": ["Comment [+1 [Gold], +1 [Food] for every 2 adjacent [Coast] tiles in all cities]",
+	"[+1 Gold, +1 Food] [in all cities] <with [2] to [3] neighboring [Coast] tiles> <hidden from users>",
+	"[+2 Gold, +2 Food] [in all cities] <with [4] to [5] neighboring [Coast] tiles> <hidden from users>",
+	"[+3 Gold, +3 Food] [in all cities] <with [6] to [6] neighboring [Coast] tiles> <hidden from users>",
+	"[+1 Culture, +1 Gold] from [Atoll] tiles [in all cities]"],
+
+	"spyNames": ["Ibrahim", "Mohamed", "Maumoon", "Ameen", "Fareed", "Nasheed", "Ali", "Hassan", "Faisal", "Thakurufaanu"],
+	"cities": ["Malé", "Utheemu", "Fuvahmulah", "Hithadhoo", "Kulhudhuffushi", "Isdhoo", "Gan", "Feydhoo", "Meedhoo", "Thinadhoo", "Foammulah", "Maradhoo", "Hulhumale", "Villingili", "Guraidhoo", "Dhigurah", "Maamigili", "Naifaru", "Kudahuvadhoo", "Veymandoo", "Funadhoo", "Eydhafushi", "Thulusdhoo", "Mahibadhoo", "Hinnavaru"],
+},
+{
+	"name": "Great Viet",
+	"adjective": ["Vietnamese"],
+	"leaderName": "Le Loi",
+	"preferredVictoryType": "Domination",
+	"favoredReligion": "Buddhism",
+	"startBias": ["River", "Jungle", "Avoid [Desert]"],
+
+	"declaringWar": "The heavens have spoken, and the golden turtle has shown me the path. I wield the sword of justice against you!",
+	"attacked": "You dare to challenge the chosen of the Dragon King? Very well, let the rivers run red with the blood of those who threaten Great Viet!",
+	"defeated": "The sword returns to the lake, and I to the earth.",
+	"introduction": "I am Le Loi, forged in the crucible of resistance, tempered by Heaven's mandate. Great Viet stands before you – a tapestry of heroes woven with threads of iron will.",
+
+	"neutralHello": "Greetings, neighbor.",
+	"hateHello": "Your presence offends me more than a thousand Ming invaders.",
+
+	"tradeRequest": "The markets of Thang Long buzz with opportunity.",
+
+	"outerColor": [44, 22, 81],
+	"innerColor": [255, 145, 0],
+
+	"uniqueName": "Nam Quốc Sơn Hà",
+	"uniques": [
+	"Comment [Military Land units gain the [Woodsman] promotion and ignore terrain costs when starting their turn in [Jungle] tiles]",
+	"Comment [Civilian units are able to be expended to plant [Jungle] tiles after discovering [Civil Service]]",
+	"[+1 Culture, +1 Production] from [{improved} {River}] tiles [in all cities] <with [1] to [6] neighboring [Jungle] tiles>",
+	"[{Military} {Land}] units gain the [Woodsman] promotion <hidden from users>",
+	"[Civilian] units gain the [Great Viet Civilian Ability] promotion <hidden from users>",
+	"[[{Military} {Land}] units gain the [Great Viet Military Ability] promotion <hidden from users>"],
+
+	"spyNames": ["Xuan", "Anh", "Minh", "Quang", "Hien", "Khanh", "Phong", "Bao", "Linh", "Tran"],
+	"cities": ["Hanoi", "Hue", "Ho Chi Minh City", "Hoa Lư", "Ninh Binh", "Thanh Hoa", "Hoi An", "Huế", "Da Nang", "Haiphong", "Can Tho", "Bien Hoa", "Vinh", "Nam Dinh", "Hai Duong", "Quy Nhon", "Nha Trang", "Vung Tau", "My Tho", "Phan Thiet", "Buon Ma Thuot", "Pleiku", "Cao Bang", "Ha Long", "Da Lat"],
+},
+{
+	"name": "North Vietnam",
+	"adjective": ["Vietnamese"],
+	"leaderName": "Hồ Chí Minh",
+	"preferredVictoryType": "Domination",
+	"favoredReligion": "Buddhism",
+	"startBias": ["River", "Jungle", "Avoid [Desert]"],
+
+	"declaringWar": "The path to peace is sometimes paved with struggle.",
+	"attacked": "Your aggression awakens the spirit of resistance in every Vietnamese heart. We have weathered many storms; this too shall pass.",
+	"defeated": "The wheel of history turns, and today it is not in our favor.",
+	"introduction": "Greetings, friend. I am Ho Chi Minh, a simple man who serves the Vietnamese people.",
+
+	"neutralHello": "Welcome. Let us sit together and share a cup of tea.",
+	"hateHello": "Reflect on your path, for it leads only to isolation and dishonor.",
+
+	"tradeRequest": "The strength of nations lies in cooperation.",
+
+	"outerColor": [164, 36, 59],
+	"innerColor": [88, 200, 117],
+
+	"uniqueName": "Đường mòn Hồ Chí Minh",
+	"uniques": [
+	"[+22]% Strength <for [Land] units> <in [Jungle] tiles>",
+	"[+33]% to Flank Attack bonuses <for [Land] units> <in [Jungle] tiles>",
+	"[+1 Production, +1 Science] from each Trade Route",
+	"Comment [[Great Generals] can construct roads instantly in [Jungle] tiles]",
+	"Comment [Civilian units are able to be expended to plant [Jungle] tiles after discovering [Civil Service]]",
+	"[Civilian] units gain the [Great Viet Civilian Ability] promotion <hidden from users>",
+	"[Great Generals] units gain the [Vietnam Ability] promotion <hidden from users>",],
+
+	"spyNames": ["Minh", "Giap", "Anh", "Quang", "Khanh", "Linh", "Phong", "Tran", "Diem", "Bao"],
+	"cities": ["Hanoi", "Hue", "Haiphong", "Ha Long", "Dien Bien Phu", "Thai Nguyen", "Vinh", "Nam Dinh", "Hai Duong", "Bac Ninh", "Hoa Binh", "Lang Son", "Ha Giang", "Cao Bang", "Lao Cai", "Son La", "Thai Binh", "Ninh Binh", "Thanh Hoa", "Viet Tri", "Bac Giang", "Bac Kan", "Tuyen Quang", "Yen Bai", "Phu Tho"],
+},
+{
+	"name": "South Vietnam",
+	"adjective": ["Vietnamese"],
+	"leaderName": "Ngo Dinh Diem",
+	"preferredVictoryType": "Domination",
+	"favoredReligion": "Buddhism",
+	"startBias": ["River", "Jungle", "Avoid [Desert]"],
+
+	"declaringWar": "The scourge of communism must be eradicated. South Vietnam will not fall to the red tide. Prepare for war!",
+	"attacked": "We will fight to the last man, with the support of our American allies!",
+	"defeated": "History will judge the folly of your actions.",
+	"introduction": "I am Ngo Dinh Diem, President of the Republic of Vietnam. We stand as a bastion against the treat of communism in Southeast Asia. Where do you stand in this great struggle?",
+
+	"neutralHello": "Greetings. What business brings you to Saigon today?",
+	"hateHello": "I have a nation to protect from subversive elements, so leave.",
+
+	"tradeRequest": "South Vietnam seeks to strengthen its economy in these turbulent times.",
+
+	"outerColor": [255, 46, 43],
+	"innerColor": [221, 226, 42],
+
+	"uniqueName": "Jungle Insurgency",
+	"uniques": [
+	"[+22]% Strength <for [Land] units> <in [Jungle] tiles>",
+	"[Gunpowder] units gain the [Invisiblilty Sight] promotion",
+	"Comment [Civilian units are able to be expended to plant [Jungle] tiles after discovering [Civil Service]]",
+	"[Gunpowder] units gain the [Tunnel User] promotion <hidden from users>",
+	"[Civilian] units gain the [Great Viet Civilian Ability] promotion <hidden from users>",
+	"Militaristic City-States grant units [2] times as fast when you are at war with a common nation"],
+
+	"spyNames": ["Minh", "Giap", "Anh", "Quang", "Khanh", "Linh", "Phong", "Tran", "Diem", "Bao"],
+	"cities": ["Saigon", "Hue", "Can Tho", "Da Nang", "Nha Trang", "Vung Tau", "My Tho", "Bien Hoa", "Da Lat", "Qui Nhon", "Rach Gia", "Long Xuyen", "Cam Ranh", "Phan Thiet", "Vinh Long", "Soc Trang", "Tuy Hoa", "Phan Rang", "Ca Mau", "Bac Lieu", "Tra Vinh", "Ben Tre", "Tay Ninh", "Chau Doc", "Ha Tien"],
+},
+{
+	"name": "The Romani",
+	"adjective": ["Romani"],
+	"leaderName": "Ian Hancock",
+	"preferredVictoryType": "Cultural",
+	"favoredReligion": "Catholicism",
+
+	"declaringWar": "Our people have endured persecution for centuries. Today, we stand united against your oppression. The Romani will no longer be silent in the face of injustice!",
+	"attacked": "You dare to threaten the Romani? We have survived countless attempts to erase us from history.",
+	"defeated": "Our culture will endure, carried in the hearts and minds of our people wherever they may go.",
+	"introduction": "Greetings, I am Ian Hancock, representative of the Romani people. We have traveled far and wide, carrying with us a rich tapestry of culture and knowledge. I wish you safe travel.",
+
+	"neutralHello": "Welcome, friend. The Romani extend our hospitality to you.",
+	"hateHello": "The Romani have long memories, and we have not forgotten the injustices you have perpetrated against us.",
+
+	"tradeRequest": "The Romani have always been skilled in the art of trade and negotiation.",
+
+	"outerColor": [78, 136, 130],
+	"innerColor": [255, 0, 43],
+
+	"uniqueName": "Latcho Drom",
+	"uniques": [
+	"Comment [Free Melee unit from the current era appears whenever a [Vardo] is gained]",
+	"Comment [Military units gain +15% Strength when stacked with Civilian units]",
+	"Comment [All units gain additional +33% strength for 6 turns when defending upon declaring war with a major Civilization]",
+	"[All] units gain the [Romani Ability] promotion <hidden from users>",
+
+	"Free [Warrior] appears <upon gaining a [Vardo] unit> <during the [Ancient era]> <hidden from users>",
+	"Free [Spearman] appears <upon gaining a [Vardo] unit> <during the [Classical era]> <hidden from users>",
+	"Free [Pikeman] appears <upon gaining a [Vardo] unit> <during the [Medieval era]> <hidden from users>",
+	"Free [Musketman] appears <upon gaining a [Vardo] unit> <during the [Renaissance era]> <hidden from users>",
+	"Free [Rifleman] appears <upon gaining a [Vardo] unit> <during the [Industrial era]> <hidden from users>",
+	"Free [Great War Infantry] appears <upon gaining a [Vardo] unit> <during the [Modern era]> <hidden from users>",
+	"Free [Infantry] appears <upon gaining a [Vardo] unit> <during the [Atomic era]> <hidden from users>",
+	"Free [Infantry] appears <upon gaining a [Vardo] unit> <during the [Information era]> <hidden from users>",
+	"Free [Mechanized Infantry] appears <upon gaining a [Vardo] unit> <during the [Future era]> <hidden from users>",
+],
+
+	"spyNames": ["Stefan", "Nicolae", "Rodney", "Sofia", "Panna", "Django", "Michaela", "Antonio", "Ronald", "Viktória"],
+	"cities": ["Šuto Orizari", "Sulukule", "Sacromonte", "Ayvansaray", "Stolipinovo", "Hacıhüsrev", "Ayrancılar", "Örnekköy", "Šangaj", "Jarovnice", "Alsószentmárton", "Strmec Podravski", "Bangladeš", "Csenyéte", "Gilvánfa", "Cojasca", "Armășești", "Slobozia Bradului", "Vâlcele",
+	"Fakulteta", "Tokaito", "Nadezhda", "Ungra", "Brdarica", "Letanovský Mlyn", "Kerinov Grm", "Caneira Montijo", "Triana", "Nou Barris", "Marinkova Bara", "Deponija", "Buzescu", "Depresija", "Bolintin-Vale", "Goveđi Brod", "Jatagan Mala"],
+},
+{
+	"name": "Great Moravia",
+	"adjective": ["Moravian"],
+	"leaderName": "Princess Libushe",
+	"startBias": ["Hill"],
+	"preferredVictoryType": "Domination",
+	"favoredReligion": "Catholicism",
+
+	"declaringWar": "The stars have shown me the path of conflict. I shall seek mercy no longer, for the might of Great Moravia shall sweep across your lands like the Vltava in spring flood.",
+	"attacked": "You dare to challenge the vision I have foreseen!?",
+	"defeated": "The glory of Prague fades from Moravian hands... My castle is yours.",
+	"introduction": "I am Libushe, daughter of Krok and mother of the Moravian people. My eyes see far beyond the horizon, and my judgment is as fair as it is firm.",
+
+	"neutralHello": "What counsel do you seek from the throne of Vysehrad?",
+	"hateHello": "Your presence darkens the skies over Bohemia...",
+
+	"tradeRequest": "Like two oxen pulling a single plow. Let us copoarate.",
+
+	"outerColor": [75, 141, 182],
+	"innerColor": [193, 46, 78],
+
+	"uniqueName": "Legend of Prague",
+	"uniques": [
+	"[+1] population [in capital] <upon entering a new era>"
+],
+
+	"spyNames": ["Svatopluk", "Leoš", "Jaromír", "Jan", "Sigmund", "Tomáš", "Petr", "Zdeněk", "Ludvík", "Gregor"],
+	"cities": ["Mikulčice", "Staré Město", "Uherské Hradiště", "Devin", "Olomouc", "Nitra", "Brno", "Veligrad", "Bratislava", "Znojmo", "Kroměříž", "Přerov", "Ostrava", "Zlín", "Jihlava", "Prostějov", "Třebíč", "Vsetín", "Šumperk", "Břeclav", "Hodonín", "Nový Jičín", "Valašské Meziříčí", "Vyškov", "Blansko"],
+},
+{
+	"name": "Micronesia",
+	"adjective": ["Micronesian"],
+	"startBias": ["Coast", "Atoll"],
+	"leaderName": "Tosiwo Nakayama",
+	"preferredVictoryType": "Cultural",
+	"favoredReligion": "Catholicism",
+
+	"declaringWar": "The ocean has taught us patience, but it has also shown us how to weather storms.",
+	"attacked": "You have made a grave mistake.",
+	"defeated": "We are broken. Our final sanctuary falls, and with it, the dream of Micronesian independence dies. The ocean will remember us long after we are gone.",
+	"introduction": "Greetings from the Federated States of Micronesia. I am Tosiwo Nakayama. May our nations find common ground as vast as the ocean that connects us all.",
+
+	"neutralHello": "Welcome. The winds bring you to our shores once again.",
+	"hateHello": "State your business quickly and be on your way.",
+
+	"tradeRequest": "The bounty of our islands is plentiful. Perhaps an exchange of goods would benefit both our nations?",
+
+	"innerColor": [36, 103, 160],
+	"outerColor": [250, 250, 250],
+
+	"uniqueName": "The Reef of Heaven",
+	"uniques": [
+		"[+1 Food, +1 Culture] from [Atoll] tiles [in all cities]",
+		"[+1 Culture] from [Water] tiles [in all cities] <with [1] to [6] neighboring [Atoll] tiles>",
+		"Comment [All land units may attack when embarked]",
+		"[Land] units gain the [Micronesia Ability] promotion <hidden from users>",],
+
+	"spyNames": ["Tosiwo", "Bailey", "Jacob", "Leo", "Mihter", "Sebastian", "Masao", "Joseph", "John", "Alik"],
+	"cities": ["Nan Madol", "Lelu", "Palikir", "Kolonia", "Moen", "Colonia", "Weno", "Hagåtña", "Saipan", "Koror", "Melekeok", "Garapan", "Tofol", "Tol", "Pohnpei Island", "Yap Island", "Kosrae Island", "Chuuk Lagoon", "Ulithi", "Falalop", "Woleai", "Ifalik", "Pingelap", "Kapingamarangi", "Nukuoro"],
+},
+{
+	"name": "Niue",
+	"adjective": ["Niuean"],
+	"startBias": ["Coast", "Jungle"],
+	"leaderName": "Puni-mata",
+	"preferredVictoryType": "Cultural",
+	"favoredReligion": "Manaism",
+
+	"declaringWar": "The coconut crab has been patient, but now it must defend its home.",
+	"attacked": "Our limestone cliffs will break your waves of aggression.",
+	"defeated": "The star of Niue fades from the night sky. Our people, once as numerous as the stars, now scatter to the winds. Even the stongest rock must crumble with time.",
+	"introduction": "I am Puni-mata, guardian of the Rock of Polynesia. May your visit to Niue be as brief as our daylight, for we cherish our solitude.",
+
+	"neutralHello": "Has the sea brought you news from distant shores?",
+	"hateHello": "State your business and depart.",
+
+	"tradeRequest": "Even the mighty coconut crab must venture from its burrow.",
+
+	"innerColor": [1, 22, 39],
+	"outerColor": [245, 204, 62],
+
+	"uniqueName": "The Rock of Polynesia",
+	"uniques": [
+	"[+1 Production] from [{Coastal} {Hill}] tiles [in all cities]",
+	"[+1 Production] from [{Coastal} {Jungle}] tiles [in all cities]",
+	"[+15]% Strength <for [All] units> <in [{Coastal} {Hill}] tiles>",
+	"[+15]% Strength <for [All] units> <in [{Coastal} {Jungle}] tiles>"],
+
+	"spyNames": ["Robert", "Mataio", "Fataaiki", "Ihuga", "Dalton", "Young", "Puni", "Togia", "Tui", "John"],
+	"cities": ["Alofi", "Hakupu", "Avatele", "Mutalau", "Liku", "Hikutavake", "Namukulu", "Tuapa", "Makefu", "Lakepa", "Tamakautoga", "Vaiea", "Hakupu Atua", "Toi", "Nikaupara", "Fatiau", "Alofi South", "Alofi North", "Fonuakula", "Uluvehi", "Fapani", "Tapeu", "Paluki", "Tuapa Alofi", "Vaipapahi"],
+},
+{
+	"name": "Norfolk Island",
+	"adjective": ["Norfolk Islander"],
+	"startBias": ["Coast", "Forest"],
+	"leaderName": "Fletcher Christian",
+	"preferredVictoryType": "Domination",
+	"favoredReligion": "Catholicism",
+
+	"declaringWar": "We've charted our course, and it leads to war... To arms, my crew!",
+	"attacked": "So, you've chosen to test the mettle of Norfolk's finest? Very well.",
+	"defeated": "Our island paradise... lost. The mutiny was for naught. I suppose Bligh will have his revenge at last. Farewell, my dear Norfolk.",
+	"introduction": "Hello there! Fletcher Christian, at your service. Captain of Norfolk Island and... well, let's just say we have a complicated history with the Royal Navy. Welcome to our shores.",
+
+	"neutralHello": "Fair winds to you.",
+	"hateHello": "I'd sooner face another tempest than deal with the likes of you... You are no better than the Royal Navy who imprisoned my people.",
+
+	"tradeRequest": "I propose an exchange of goods, much like the breadfruit we once sought.",
+
+	"innerColor": [61, 110, 59],
+	"outerColor": [190, 201, 157],
+
+	"uniqueName": "Mutineer Convicts",
+	"uniques": [
+	"Comment [Killed City-State units join your empire with a 88% chance]",
+	"Comment [Start with a free [Scout]]",
+	"Free [Scout] appears <hidden from users>",
+	"[Military] units gain the [Norfolk Ability] promotion <hidden from users>"],
+
+	"spyNames": ["Philip", "Fletcher", "Colleen", "Alexander", "Julia", "Thomas", "Helen", "Malcolm", "Maria", "Richard"],
+	"cities": ["Kingston", "Burnt Pine", "Longridge", "Sydney Bay", "Arthur's Vale", "Cascade", "Anson Bay", "Ball Bay", "Duncombe Bay", "Emily Bay", "Slaughter Bay", "Steels Point", "Headstone", "Rocky Point", "Point Hunter", "Point Ross", "Mount Pitt", "Bloody Bridge", "Bumboras", "Puppies Point", "Crystal Pool", "Cockpit", "Middlegate", "Shortridge", "Stockyard"],
+},
+{
+	"name": "The Khmer",
+	"adjective": ["Khmer"],
+	"startBias": ["Jungle", "Lakes"],
+	"leaderName": "Jayavarman VII",
+	"favoredReligion": "Buddhism",
+
+	"declaringWar": "May Buddha forgive me for the suffering I must now inflict upon you.",
+	"attacked": "Our mighty armies will crush your foolish invasion.",
+	"defeated": "The great Khmer Empire falls. May our legacy live on in the temples and roads we built.",
+	"introduction": "Greetings, I am Jayavarman VII, ruler of the Khmer. Our empire stretches far and wide, built on the foundations of compassion and strength.",
+
+	"neutralHello": "Welcome to Angkor. What brings you to our lands?",
+	"hateHello": "Your presence brings discomfort to our people.",
+
+	"tradeRequest": "The Khmer seek to trade. Our goods for yours - a fair exchange to benefit both our nations.",
+
+	"outerColor": [23, 48, 28],
+	"innerColor": [147, 129, 255],
+
+	"uniqueName": "Greater Angkor",
+	"uniques": [
+	"Comment [Receive a empire wide boost of 10% [Food] or 20% [Faith] for 12 turns upon constructing a world wonder]",
+	"Comment [[Worker] units can be expended to create [Lakes] in tiles not adjacent to water and [Mountain] tiles after discovering [Machinery]]",
+	"Triggers a [Khmer Boost] event <upon constructing [World Wonder]> <hidden from users>",
+	"[+10]% [Culture] [in all cities] <in cities with a [World Wonder]>",
+	"[+10]% [Faith] [in all cities] <in cities with a [World Wonder]>",
+	"[Worker] units gain the [Baray Builder] promotion <after discovering [Machinery]> <hidden from users>"],
+
+	"spyNames": ["Sihanouk", "Chieu", "Dara", "Jayavarman", "Mey", "Arun", "Ary", "Samnang", "Sida", "Chakra"],
+	"cities": ["Angkor Thom", "Yasodharapura", "Hariharalaya", "Mahendraparvata", "Koh Ker", "Indrapura", "Phnom Penh", "Longvek", "Udong", "Banteay Chhmar", "Banteay Prei Nokor", "Sambor Prei Kuk", "Preah Khan of Kompong Svay", "Banteay Srei", "Ta Prohm", "Preah Khan", "Beng Mealea", "Prasat Preah Vihear", "Wat Phu", "Phimai", "Muang Sing", "Sdok Kok Thom", "Banteay Kdei", "Neak Pean", "Srah Srang"],
+},
+{
+	"name": "Cambodia",
+	"adjective": ["Cambodian"],
+	"startBias": ["Jungle", "Plains"],
+	"leaderName": "Norodom Sihamoni",
+	"preferredVictoryType": "Cultural",
+	"favoredReligion": "Buddhism",
+
+	"declaringWar": "With a heavy heart, we must defend our people. Cambodia prepares for battle.",
+	"attacked": "You dare assault the Kingdom of Cambodia?",
+	"defeated": "The final stone of Angkor has fallen. Our once-mighty empire returns to the embrace of the jungle.",
+	"introduction": "I am Norodom Sihamoni, King of Cambodia. May our nations dance to the rhythm of peace and prosperity.",
+
+	"neutralHello": "Welcome to the land of Angkor.",
+	"hateHello": "Your presence here is as welcome as a drought in our rice paddies.",
+
+	"tradeRequest": "Let us exchange more than words. Cambodia offers the fruits of our land and the crafts of our people.",
+
+	"outerColor": [14, 124, 123],
+	"innerColor": [231, 90, 124],
+
+	"uniqueName": "Restored Monarchy",
+	"uniques": [
+	"Comment [Gain 1 extra luxuries from improved luxury resource tiles in the capital]",
+	"Comment [Gain a free great person upon entering a we love the king day in the capital]",
+	"Gain a free [Cambodia Ability] [in capital] <hidden from users>"],
+
+	"spyNames": ["Pol", "Norodom", "Lon", "Nuon", "Vita", "Chanda", "Dara", "Samnang", "Sokha", "Leap"],
+	"cities": ["Phnom Penh", "Yasodharapura", "Angkor", "Longvek", "Oudong", "Lovek", "Hariharalaya", "Siem Reap", "Battambang", "Ishanapura", "Koh Ker", "Banteay Srei", "Sambor Prei Kuk", "Kampong Cham", "Prey Nokor", "Kampot", "Kratie", "Pursat", "Kampong Thom", "Takeo", "Preah Vihear", "Kep", "Suong", "Doun Kaev", "Khemarak Phoumin"],
+},
+{
+	"name": "The Khmer Rouge",
+	"adjective": ["Cambodian"],
+	"startBias": ["Jungle"],
+	"leaderName": "Pol Pot",
+	"preferredVictoryType": "Domination",
+	"favoredReligion": "Atheism",
+
+	"declaringWar": "Your decadent ways threaten the purity of our revolution. We will purge your corruption from this land!",
+	"attacked": "You dare assault my revolution?",
+	"defeated": "The revolution has fallen. Our vision of a pure Kampuchea dies here. History will judge the folly of your capitalist ways.",
+	"introduction": "I am Pol Pot, leader of Democratic Kampuchea. We seek to build a pure, self-reliant nation. Your ways are not ours. Tread carefully.",
+
+	"neutralHello": "You come to Kampuchea again. What business do you bring?",
+	"hateHello": "You are but a foreign parasite...",
+
+	"tradeRequest": "We have surplus rice from our collectives. Perhaps an exchange would be... tolerable.",
+
+	"outerColor": [255, 37, 64],
+	"innerColor": [49, 16, 14],
+
+	"uniqueName": "Look at the Owl",
+	"uniques": [
+	"Comment [-1 population and +1 [Production] in all cities for completing Policy Trees]",
+	"[-50]% [Science] [in all cities] <in cities with at least [6] [Population]>",
+	"[-50]% [Culture] [in all cities] <in cities with at least [6] [Population]>",
+
+	"[-1] population [in al cities] <upon adopting [Tradition Complete]> <hidden from users>",
+	"[-1] population [in al cities] <(modified by game speed)> <upon adopting [Liberty Complete]> <hidden from users>",
+	"[-1] population [in al cities] <(modified by game speed)> <upon adopting [Honor Complete]> <hidden from users>",
+	"[-1] population [in al cities] <(modified by game speed)> <upon adopting [Piety Complete]> <hidden from users>",
+	"[-1] population [in al cities] <(modified by game speed)> <upon adopting [Patronage Complete]> <hidden from users>",
+	"[-1] population [in al cities] <(modified by game speed)> <upon adopting [Commerce Complete]> <hidden from users>",
+	"[-1] population [in al cities] <(modified by game speed)> <upon adopting [Order Complete]> <hidden from users>",
+	"[-1] population [in al cities] <(modified by game speed)> <upon adopting [Autocracy Complete]> <hidden from users>",
+	"[-1] population [in al cities] <(modified by game speed)> <upon adopting [Freedom Complete]> <hidden from users>",
+	"[-1] population [in al cities] <(modified by game speed)> <upon adopting [Rationalism Complete]> <hidden from users>",
+
+	"[+1 Production] [in al cities] <upon adopting [Tradition Complete]> <hidden from users>",
+	"[+1 Production] [in al cities] <(modified by game speed)> <upon adopting [Liberty Complete]> <hidden from users>",
+	"[+1 Production] [in al cities] <(modified by game speed)> <upon adopting [Honor Complete]> <hidden from users>",
+	"[+1 Production] [in al cities] <(modified by game speed)> <upon adopting [Piety Complete]> <hidden from users>",
+	"[+1 Production] [in al cities] <(modified by game speed)> <upon adopting [Patronage Complete]> <hidden from users>",
+	"[+1 Production] [in al cities] <(modified by game speed)> <upon adopting [Commerce Complete]> <hidden from users>",
+	"[+1 Production] [in al cities] <(modified by game speed)> <upon adopting [Order Complete]> <hidden from users>",
+	"[+1 Production] [in al cities] <(modified by game speed)> <upon adopting [Autocracy Complete]> <hidden from users>",
+	"[+1 Production] [in al cities] <(modified by game speed)> <upon adopting [Freedom Complete]> <hidden from users>",
+	"[+1 Production] [in al cities] <(modified by game speed)> <upon adopting [Rationalism Complete]> <hidden from users>",],
+
+	"spyNames": ["Pol", "Duch", "Saloth", "Thirith", "Samnang", "Sokha", "Phirun", "Sophal", "Vannak", "Borai", "Ratanak"],
+	"cities": ["Angkor", "Yasodharapura", "Phnom Penh", "Longvek", "Oudong", "Lovek", "Hariharalaya", "Siem Reap", "Battambang", "Ishanapura", "Koh Ker", "Banteay Srei", "Sambor Prei Kuk", "Kampong Cham", "Prey Nokor", "Kampot", "Kratie", "Pursat", "Kampong Thom", "Takeo", "Preah Vihear", "Kep", "Suong", "Doun Kaev", "Khemarak Phoumin"],
+},
+{
+	"name": "People's Republic of China",
+	"adjective": ["Chinese"],
+	"leaderName": "Mao Zedong",
+	"favoredReligion": "Chinese Folk Religion",
+
+	"declaringWar": "You imperialist dogs have pushed us too far. The people of China rise to crush you under the weight of our revolutionary might!",
+	"attacked": "You dare attack the great People's Republic? Your capitalist aggression will be your downfall. The Chinese people will resist to the last man!",
+	"defeated": "The red flag falls, and with it, the dreams of a billion. Our revolution is silenced, but history will remember the People's Republic. Farewell, foreign dog.",
+	"introduction": "I am Mao Zedong, Chairman of the Communist Party and leader of the Chinese people. Our revolution watches your actions with great interest.",
+
+	"neutralHello": "Ah, you return.",
+	"hateHello": " Speak, if you must, but know that paper tigers do not scare us.",
+
+	"tradeRequest": "Let us forge an iron rice bowl together. Your rice for our steel – a fair trade to fill the bellies of both our peoples, no?",
+
+	"outerColor": [154, 0, 0],
+	"innerColor": [208, 146, 0],
+
+	"uniqueName": "The Long March",
+	"uniques": [
+	"Comment [All healing effects doubled for 12 turns upon declaring war with a major civilization]",
+	"Comment [Completing Policy Trees increase unit HP healing by 4]",
+	"Comment [Completing Policy Trees grant +1 [Culture], +1 [Gold] from every [Manufacturing Sector]]",
+	"[All] units gain the [PRC Ability] promotion <hidden from users>",
+
+	"[+1 Gold, +1 Culture] from every [Manufacturing Sector] <upon adopting [Tradition Complete]> <hidden from users>",
+	"[+1 Gold, +1 Culture] from every [Manufacturing Sector] <upon adopting [Liberty Complete]> <hidden from users>",
+	"[+1 Gold, +1 Culture] from every [Manufacturing Sector] <(modified by game speed)> <upon adopting [Honor Complete]> <hidden from users>",
+	"[+1 Gold, +1 Culture] from every [Manufacturing Sector] <(modified by game speed)> <upon adopting [Piety Complete]> <hidden from users>",
+	"[+1 Gold, +1 Culture] from every [Manufacturing Sector] <(modified by game speed)> <upon adopting [Patronage Complete]> <hidden from users>",
+	"[+1 Gold, +1 Culture] from every [Manufacturing Sector] <(modified by game speed)> <upon adopting [Commerce Complete]> <hidden from users>",
+	"[+1 Gold, +1 Culture] from every [Manufacturing Sector] <(modified by game speed)> <upon adopting [Order Complete]> <hidden from users>",
+	"[+1 Gold, +1 Culture] from every [Manufacturing Sector] <(modified by game speed)> <upon adopting [Autocracy Complete]> <hidden from users>",
+	"[+1 Gold, +1 Culture] from every [Manufacturing Sector] <(modified by game speed)> <upon adopting [Freedom Complete]> <hidden from users>",
+	"[+1 Gold, +1 Culture] from every [Manufacturing Sector] <(modified by game speed)> <upon adopting [Rationalism Complete]> <hidden from users>",
+
+	"[+4] HP when healing <upon adopting [Tradition Complete]> <hidden from users>",
+	"[+4] HP when healing <upon adopting [Liberty Complete]> <hidden from users>",
+	"[+4] HP when healing <upon adopting [Honor Complete]> <hidden from users>",
+	"[+4] HP when healing <upon adopting [Piety Complete]> <hidden from users>",
+	"[+4] HP when healing <upon adopting [Patronage Complete]> <hidden from users>",
+	"[+4] HP when healing <upon adopting [Commerce Complete]> <hidden from users>",
+	"[+4] HP when healing <upon adopting [Order Complete]> <hidden from users>",
+	"[+4] HP when healing <upon adopting [Autocracy Complete]> <hidden from users>",
+	"[+4] HP when healing <upon adopting [Freedom Complete]> <hidden from users>",
+	"[+4] HP when healing <upon adopting [Rationalism Complete]> <hidden from users>",
+
+],
+
+	"spyNames": ["Bai", "Xudong", "Yanqing", "Wei", "Fang", "Ming", "Jie", "Qian", "Xuesen", "Zhou"],
+	"cities": ["Beijing", "Xi'an", "Nanjing", "Luoyang", "Hangzhou", "Kaifeng", "Anyang", "Shanghai", "Chengdu", "Guangzhou", "Suzhou", "Wuhan", "Chongqing", "Zhengzhou", "Datong", "Lhasa", "Harbin", "Quanzhou", "Xining", "Changsha", "Fuzhou", "Kunming", "Nanchang", "Shenzhen", "Urumqi"],
+},
+{
+	"name": "North Korea",
+	"adjective": ["North Korean"],
+	"leaderName": "Kim Jong-Il",
+	"preferredVictoryType": "Domination",
+	"favoredReligion": "Atheism",
+
+	"declaringWar": "Now, you'll witness the cinematic masterpiece of your own destruction, directed by the Dear Leader himself!",
+	"attacked": "Our mighty nuclear arsenal will teach you the true meaning of 'fire and fury'!",
+	"defeated": "Why must the invincible fall? There was no way we could of failed...",
+	"introduction": "Greetings, inferior leader. I am Kim Jong-Il, the sun around which the world revolves. Bask in my radiance, if you dare.",
+
+	"neutralHello": "Ah, you again. I was just discussing juche philosophy with my team of scientists.",
+	"hateHello": "Speak quickly, before I decide to test my latest missile on your pathetic lands.",
+
+	"tradeRequest": "My economic genius has produced a surplus of the finest hennessy and lobster. Perhaps you have something worthy to trade? And no, we don't need more food aid.",
+
+	"outerColor": [46, 119, 255],
+	"innerColor": [163, 32, 40],
+
+	"uniqueName": "Juche",
+	"uniques": [
+	"Comment [-100% maintenance costs for Seige, Armoured, and Nuclear Weapon units when not at war]",
+	"Comment [+1 [Happiness], +1 [Production], +1 [Culture] from [Fort] and [Citadel] improvements within 2 tiles of a [City center]]",
+	"[+1 Happiness, +1 Production, +1 Culture] from [Fort] tiles [in all cities] <within [2] tiles of a [City center]> <hidden from users>",
+	"[+1 Happiness, +1 Production, +1 Culture] from [Citadel] tiles [in all cities] <within [2] tiles of a [City center]> <hidden from users>",
+	"[-25]% construction time for [Fort] improvements",
+	"[-100]% maintenance costs <for [Seige] units> <when not at war> <hidden from users>",
+	"[-100]% maintenance costs <for [Armoured] units> <when not at war> <hidden from users>",
+	"[-100]% maintenance costs <for [Nuclear Bomber] units> <when not at war> <hidden from users>",
+	"[-100]% maintenance costs <for [Nuclear Missile] units> <when not at war> <hidden from users>"],
+
+	"spyNames": ["Hyon-hui", "Il-sung", "Jong-il", "Sun-sil", "Jeong-hwa", "Chae-so", "Min-jun", "Ji-hoon", "Ga-in", "Dong-hyun"],
+	"cities": ["Pyongyang", "Kaesong", "Hamhung", "Chongjin", "Wonsan", "Sinuiju", "Nampo", "Sariwon", "Haeju", "Kanggye", "Hungnam", "Sunchon", "Hyesan", "Songnim", "Manpo", "Anju", "Hoeryong", "Kimchaek", "Rason", "Kusong", "Yongbyon", "Onsong", "Musan", "Pakchon", "Chongju"],
+},
+{
+	"name": "South Korea",
+	"adjective": ["South Korean"],
+	"leaderName": "Park Chung-hee",
+	"preferredVictoryType": "Scientific",
+	"favoredReligion": "Buddhism",
+
+	"declaringWar": "South Korea's industrial might will crush you like steel under a hydraulic press!",
+	"attacked": "Our people eat bitterness for breakfast. Your aggression will only fuel our pride!",
+	"defeated": "Seoul has fallen... Our economic miracle ends in ruins. But remember, invader - you've only destroyed our cities, not our spirit. Korea will rise again, long after your name is forgotten.",
+	"introduction": "I am Park Chung-hee. I've dragged Korea from poverty to prosperity with my own two hands. If you seek an ally in progress and anti-communist resolve, you've found one.",
+
+	"neutralHello": "Ah, you again. Unless you're here to discuss export quotas or anti-subversion strategies, make it quick.",
+	"hateHello": "Speak your piece and leave - Korea's Five-Year Plan doesn't account for time wasters.",
+
+	"tradeRequest": "Will you seize this opportunity for progress, or remain mired in economic stagnation?",
+
+	"outerColor": [42, 157, 143],
+	"innerColor": [156, 52, 184],
+
+	"uniqueName": "Korean Wave",
+	"uniques": [
+	"Comment [Creating cultural buildings in cities provide a boost of 10% [Science] and 10% [Culture] in that city for 4 turns]",
+	"Comment [Some [Science] carries over upon researching a technology (modified by game speed and era)]",
+	"Gain [5] [Science] <upon discovering [Ancient Era] technology> <(modified by game speed)> <hidden from users>",
+	"Gain [15] [Science] <upon discovering [Classical Era] technology> <(modified by game speed)> <hidden from users>",
+	"Gain [35] [Science] <upon discovering [Medieval Era] technology> <(modified by game speed)> <hidden from users>",
+	"Gain [85] [Science] <upon discovering [Renaissance Era] technology> <(modified by game speed)> <hidden from users>",
+	"Gain [150] [Science] <upon discovering [Industrial Era] technology> <(modified by game speed)> <hidden from users>",
+	"Gain [250] [Science] <upon discovering [Modern Era] technology> <(modified by game speed)> <hidden from users>",
+	"Gain [400] [Science] <upon discovering [Atomic Era] technology> <(modified by game speed)> <hidden from users>",
+	"Gain [1000] [Science] <upon discovering [Information Era] technology> <(modified by game speed)> <hidden from users>",
+	"Gain a free [South Korea Ability] [in all cities] <hidden from users>"],
+
+	"spyNames": ["Hyon-hui", "Jeong-hwa", "Sun-sil", "Chae-so", "Dae-jung", "Soo-yeon", "Ji-eun", "Sang-mi", "Min-soo", "Yeon-hee"],
+	"cities": ["Seoul", "Gyeongju", "Busan", "Incheon", "Kaesong", "Daegu", "Daejeon", "Gwangju", "Suwon", "Ulsan", "Jeonju", "Andong", "Ganghwa Island", "Chuncheon", "Mokpo", "Changwon", "Jinju", "Yeosu", "Pohang", "Cheongju", "Seongnam", "Gunsan", "Iksan", "Tongyeong"],
+},
+{
+	"name": "Taiwan",
+	"adjective": ["Taiwanese"],
+	"leaderName": "Chiang Kai-shek",
+	"preferredVictoryType": "Scientific",
+	"startBias": ["Coast"],
+	"favoredReligion": "Buddhism",
+
+	"declaringWar": "The bamboo bends but does not break. Today, we show our strength against tyranny. For the Three Principles of the People, we fight!",
+	"attacked": "You attack Taiwan? Foolish! Our island is a fortress, and every citizen a soldier. The spirit of the White Sun will prevail!",
+	"defeated": "Taipei has fallen... The dream of retaking the mainland dies with me. History will judge the true China.",
+	"introduction": "I am Chiang Kai-shek, President of the Republic of China. We stand as the beacon of Chinese democracy. Choose your allegiances wisely.",
+
+	"neutralHello": "Ah, you return. Has the world finally recognized the legitimacy of our government?",
+	"hateHello": "Speak quickly, before I decide you're another communist sympathizer.",
+
+	"tradeRequest": "The future of Free China depends on a strong economy.",
+
+	"outerColor": [27, 51, 129],
+	"innerColor": [179, 222, 193],
+
+	"uniqueName": "Island of Technology",
+	"uniques": [
+		"Enter a 2-turn Golden Age upon discovering a technology with the Golden Age length increasing by 1-turn for every 2 eras",
+		"Empire enters a [2]-turn Golden Age <upon discovering [Ancient Era] technology> <hidden from users>",
+		"Empire enters a [2]-turn Golden Age <upon discovering [Classical Era] technology> <hidden from users>",
+		"Empire enters a [3]-turn Golden Age <upon discovering [Medieval Era] technology> <hidden from users>",
+		"Empire enters a [3]-turn Golden Age <upon discovering [Renaissance Era] technology> <hidden from users>",
+		"Empire enters a [4]-turn Golden Age <upon discovering [Industrial Era] technology> <hidden from users>",
+		"Empire enters a [4]-turn Golden Age <upon discovering [Modern Era] technology> <hidden from users>",
+		"Empire enters a [5]-turn Golden Age <upon discovering [Atomic Era] technology> <hidden from users>",
+		"Empire enters a [5]-turn Golden Age <upon discovering [Information Era] technology> <hidden from users>",
+		"[+1 Science] per [3] social policies adopted",
+
+	],
+
+	"spyNames": ["Chia-hao", "Mei-ling", "Teng-hui", "Chien-shiung", "Jay", "Shui-bian", "Ching-kuo", "Teresa", "Chih-ming", "Shu-fen"],
+	"cities": ["Tainan", "Taipei", "Kaohsiung", "Taichung", "Keelung", "Hsinchu", "Chiayi", "New Taipei City", "Taoyuan", "Anping", "Tamsui", "Lukang", "Banka", "Changhua", "Dadaocheng", "Fengshan", "Miaoli", "Pingtung", "Yilan", "Hualien", "Taitung", "Magong", "Zhubei", "Douliou", "Puzi"],
+},
+{
+	"name": "Great Zimbabwe",
+	"adjective": ["Zimbabwean"],
+	"leaderName": "Nyatsimba Mutota",
+	"preferredVictoryType": "Diplomatic",
+	"startBias": ["Avoid [Tundra]"],
+	"favoredReligion": "Animism",
+
+	"declaringWar": "My warriors will march forth, and our empire will grow with your defeat.",
+	"attacked": "Fool! Our warriors are as numerous as the stars and as fierce as the Zambezi rapids!",
+	"defeated": "The great walls of our Zimbabwe have fallen. Mutapa's light fades, but know this - our spirit will endure in the very stones you now claim.",
+	"introduction": "I am Nyatsimba Mutota, founder of the Mutapa Empire. Our realm stretches from the great Zimbabwe to the seas. What lands do you command, stranger?",
+
+	"neutralHello": "Has the scent of our gold drawn you back to Mutapa's lands?",
+	"hateHello": "You are as unwelcome as sand in our gold pans.",
+
+	"tradeRequest": "The ivory of our elephants for the cloth of your lands? Come, let us strengthen both our realms through trade.",
+
+	"outerColor": [254, 129, 17],
+	"innerColor": [255, 240, 240],
+
+	"uniqueName": "Walls of Zimbabwe",
+	"uniques": [
+		"Comment [Permanently gain +1 [Gold] from trade routes upon entering a Golden Age]",
+		"Comment [+1 copy of luxuries improved in your capital and cities connected to your capital during a Golden Age]",
+		"[+1 Gold] from each Trade Route <upon entering a Golden Age> <hidden from users>",
+		"Gain a free [Great Zimbabwe Ability] [in all cities connected to capital] <hidden from users>"],
+
+	"spyNames": ["Nyatsimba", "Chikura", "Mutota", "Mambo", "Dzimba", "Shona", "Tavara", "Tonga", "Robert", "Nkomo"],
+	"cities": ["Zimbabwe", "Sulukule", "Sacromonte", "Ayvansaray", "Stolipinovo", "Hacıhüsrev", "Ayrancılar", "Örnekköy", "Šangaj", "Jarovnice", "Alsószentmárton", "Strmec Podravski", "Bangladeš", "Csenyéte", "Gilvánfa", "Cojasca", "Armășești", "Slobozia Bradului", "Vâlcele",
+	"Fakulteta", "Tokaito", "Nadezhda", "Ungra", "Brdarica", "Letanovský Mlyn", "Kerinov Grm", "Caneira Montijo", "Triana", "Nou Barris", "Marinkova Bara", "Deponija", "Buzescu", "Depresija", "Bolintin-Vale", "Goveđi Brod", "Jatagan Mala"],
+},
+{
+	"name": "Bougainville",
+	"adjective": ["Bougainvillean"],
+	"leaderName": "John Momis",
+	"preferredVictoryType": "Diplomatic",
+	"startBias": ["Coast", "Jungle"],
+	"favoredReligion": "Catholicism",
+
+	"declaringWar": "For too long, Bougainville has sought peace. But you leave us no choice. Our people, from the mountains to the coast, will defend what is rightfully ours.",
+	"attacked": "You attack Bougainville? Have you learned nothing from history?!",
+	"defeated": "The flame of Bougainville's independence flickers out. Our struggle, from the days of the crisis to our dreams of autonomy, ends here. May our story be a lesson to all who cherish freedom.",
+	"introduction": "I am John Momis, voice of Bougainville. Our islands have known conflict and seek peace. We offer you kakau as a gesture of goodwill. Let us talk as equals.",
+
+	"neutralHello": "Ah, welcome back to our shores.",
+	"hateHello": "Speak your piece and go. Bougainville has no time for those who disrespect our autonomy.",
+
+	"tradeRequest": "Bougainville's copper and gold have long attracted outsiders. But we seek fair trade, not exploitation. What say you to an exchange that benefits both our peoples?",
+
+	"outerColor": [0, 71, 171],
+	"innerColor": [190, 110, 70],
+
+	"uniqueName": "The Coconut Revolution",
+	"uniques": ["Comment [Mines on strategic and luxury resources gain +1 [Gold] and +1 [Production]]",
+	"[+1 Production, +1 Gold] from every [Mine] <in [Strategic resource] tiles> <hidden from users>",
+	"[+1 Production, +1 Gold] from every [Mine] <in [Luxury resource] tiles> <hidden from users>",
+	"[+20]% Strength <for [Land] units> <in [{Friendly Land} {Mine}] tiles> <when defending>"],
+
+	"spyNames": ["Francis", "Joseph", "Alexis", "John", "Sam", "Peter", "Michael", "James", "Paul", "Simon"],
+	"cities": ["Arawa", "Buka", "Kieta", "Panguna", "Torokina", "Sohano", "Buin", "Tinputz", "Wakunai", "Roreinang", "Kokopau", "Selau", "Kunua", "Sipai", "Kesa", "Manetai", "Aropa", "Kangu Beach", "Tonolei Harbour", "Koromira", "Toimanapu", "Sovele", "Gogohe", "Hanahan", "Tearouki"],
+},
+{
+	"name": "Tajikistan",
+	"adjective": ["Tajikistani"],
+	"leaderName": "Emomali Rahmon",
+	"preferredVictoryType": "Scientific",
+	"startBias": ["Desert", "Avoid [Coast]"],
+	"favoredReligion": "Islam",
+
+	"declaringWar": "For 30 years, I've guided Tajikistan through troubled waters. Now, you force my hand to conflict!",
+	"attacked": "Foolish! We Tajiks survived civil war and great poverty that your nation could not possibly fathom!",
+	"defeated": "May Allah have mercy on us all, for you surely won't.",
+	"introduction": "I am Emomali Rahmon. I've led Tajikistan since before many of my people were born. Treat us with respect, and you'll find no better friend in Central Asia.",
+
+	"neutralHello": "Ah, welcome. Care for some tea and osh? Let's discuss matters as neighbors should – with full stomachs and open minds.",
+	"hateHello": "You again? I've spent decades dealing with troublemakers.",
+
+	"tradeRequest": "Our bazaars overflow with the finest goods. Surely we can strike a deal that benefits us both? Tajikistan needs strong and worthy trade partners.",
+
+	"outerColor": [67, 82, 14],
+	"innerColor": [214, 209, 205],
+
+	"uniqueName": "The Transoxiana Passage",
+	"uniques": [
+	"Comment [Allows the construction of [Road] and [Railroad] improvements for cities upon discovering their required techs]",
+	"Comment [[Road] and [Railroad] improvements provide [+1 Gold, +1 Production] when passing through [Desert] tiles]",
+
+	"[+1 Production, +1 Gold] from every [Road] <in [Desert] tiles> <hidden from users>",
+	"[+1 Production, +1 Gold] from every [Railroad] <in [Desert] tiles> <hidden from users>",
+
+	"[-30]% Gold cost of acquiring tiles [in all cities connected to capital]",
+
+	"Sell [Construct Road] buildings [in all cities] <upon turn end> <hidden from users>",
+	"Sell [Construct Railroad] buildings [in all cities] <upon turn end> <hidden from users>"],
+
+	"spyNames": ["Emomali", "Bobojon", "Rustam", "Ahmad", "Ismail", "Jamshed", "Kokhir", "Sherali", "Abdullo", "Latif"],
+	"cities": ["Dushanbe", "Khujand", "Sarazm", "Penjikent", "Istaravshan", "Khorog", "Kulob", "Bokhtar", "Isfara", "Hisor", "Panjakent", "Vahdat", "Nurek", "Qurghonteppa", "Konibodom", "Tursunzoda", "Murghab", "Shahrituz", "Vose", "Farkhor", "Vanj", "Ishkoshim", "Rogun", "Gharm", "Tavildara"],
+},
+{
+	"name": "Macedon",
+	"adjective": ["Macedonian"],
+	"leaderName": "Alexander The Great",
+	"preferredVictoryType": "Domination",
+	"favoredReligion": "Hellenism",
+
+	"declaringWar": "From the Hellespont to the Indus, all have bowed before me. Now, it's your turn. My Cavalry rides for your lands!",
+	"attacked": "Ha! Another would-be Darius? I've conquered empires vaster than yours before breakfast. Come, let's see if you fight better than the Persians!",
+	"defeated": "Is this how the son of Zeus falls? No... Alexander's legacy is etched in the very earth I've trod. My empire may crumble, but my legend will outlast your petty victory.",
+	"introduction": "I am Alexander, king of Macedon, student of Aristotle, and descendant of Achilles. They call me 'Great' - perhaps you'll see why.",
+
+	"neutralHello": "Hail, fellow ruler. Any news from the edges of the world? I'm always eager to hear of lands yet unconquered.",
+	"hateHello": "Speak, before I decide Bucephalus needs new lands to gallop through.",
+
+	"tradeRequest": "The spoils of my conquests overflow our treasuries. Surely we can strike a deal that will benefit Macedon... and leave you feeling not entirely cheated?",
+
+	"outerColor": [79, 77, 77],
+	"innerColor": [232, 172, 5],
+
+	"uniqueName": "The Son of Zeus",
+	"uniques": ["Comment [Gain a boost of [Science] upon conquering a city depending on the city's [Culture] and [Science] output]",
+	"Upon capturing a city, receive [3] times its [Science] production as [Science] immediately <hidden from users>",
+	"Upon capturing a city, receive [3] times its [Culture] production as [Science] immediately <hidden from users>",
+	"[+10]% [Faith] [in annexed cities]",
+	"[Gold] cost of purchasing [Basilikoi Paides] buildings [-50]% <in [in annexed cities] cities> <hidden from users>",
+	"[+50]% Production when constructing [Basilikoi Paides] buildings [in anexed cities] <hidden from users>"],
+
+	"spyNames": ["Gjorgi", "Zoran", "Toshe", "Duško", "Philip", "Kiro", "Rexhep", "Simon", "Archelaus"],
+	"cities": ["Pella", "Vergina", "Thessaloniki", "Amphipolis", "Pydna", "Dion", "Philippi", "Heraclea Lyncestis", "Stobi", "Beroia", "Edessa", "Olynthus", "Stageira", "Cassandreia", "Methone", "Demetrias", "Potidaea", "Apollonia", "Aenea", "Alcomenae", "Amydon", "Antania", "Atalanta", "Berge", "Bouneima"],
+},
+{
+	"name": "Kazakhstan",
+	"adjective": ["Kazakh"],
+	"leaderName": "Nursultan Nazarbayev",
+	"preferredVictoryType": "Scientific",
+	"favoredReligion": "Tengriism",
+	"startBias": ["Plains", "Avoid [Forest]"],
+
+	"declaringWar": "For 30 years, I've steered Kazakhstan to prosperity. Your actions threaten that legacy. The steppes will run red with your defeat!",
+	"attacked": "Kazakh eagles will soar, our Baikonur rockets will fly, and our unity will prevail.",
+	"defeated": "My life's work... gone. But mark my words: the idea of Kazakhstan will outlive us all.",
+	"introduction": "I am Nursultan Nazarbayev, the First President of Kazakhstan. For decades, I've transformed a Soviet republic into a modern nation. Let's discuss how your country can benefit from our friendship... and our resources.",
+
+	"neutralHello": "What do you think of our golden towers? Impressive, no?",
+	"hateHello": "You again? I've led this nation longer than some countries have existed.",
+
+	"tradeRequest": "Let's talk business. Kazakhstan can fuel your nation's growth. In return, we seek to diversify our economy. After all, a wise leader always plans for the future, wouldn't you agree?",
+
+	"outerColor": [47, 188, 255],
+	"innerColor": [243, 234, 83],
+
+	"uniqueName": "Nurly Zhol",
+	"uniques": ["[+1 Science] from every [Land] <with [1] to [6] neighboring [{improved} {Strategic resource}] tiles>",
+	"[+1 Science, +1 Gold] from every [{improved} {Strategic resource}]",
+	"[+15]% Production when constructing [Science] buildings [in all cities]"],
+
+	"spyNames": ["Abylai", "Olzhas", "Mukhtar", "Kenesary", "Alikhan", "Dinmukhamed", "Makhambet", "Mustafa", "Turar", "Talgat"],
+	"cities": ["Almaty", "Astana", "Taraz", "Shymkent", "Turkistan", "Oral", "Atyrau", "Sygnak", "Otrar", "Sauran", "Asanas", "Jankent", "Barshynkent", "Karaganda", "Aktobe", "Taldykorgan", "Kyzylorda", "Semey", "Pavlodar", "Kostanay", "Ust-Kamenogorsk", "Petropavl", "Aktau", "Kokshetau", "Zhanaozen"],
+},
+{
+	"name": "The Kazakhs",
+	"adjective": ["Kazakh"],
+	"leaderName": "Ablai Khan",
+	"preferredVictoryType": "Domination",
+	"favoredReligion": "Tengriism",
+	"startBias": ["Plains", "Avoid [Jungle]"],
+
+	"declaringWar": "You have mistaken our patience for weakness. Now, feel the thunder of Kazakh hooves across your lands. May the spirit of Baidibek guide our warriors!",
+	"attacked": "Our ancestors rode with Genghis Khan, and their blood runs in our veins. Prepare to face the wrath of the steppe!",
+	"defeated": "The Kazakh spirit is not bound by walls or fortresses. Though our cities fall, our people will live on - in the whisper of the wind, in the grass of the steppe, in the hearts of every free soul. This is not an end, but a new beginning.",
+	"introduction": "I am Ablai Khan, the bridge between East and West. Our people have thrived where others perished, taming the wild steppe and forging a nation of warriors and poets.",
+
+	"neutralHello": "Come, share a bowl of kumis and tell me of your journey across the vast lands that separate us.",
+	"hateHello": "You are but a scorpion in a yurt.",
+
+	"tradeRequest": "The caravan routes of old linked our peoples in chains of gold and silk. Let us revive this ancient tradition.",
+
+	"outerColor": [59, 110, 149],
+	"innerColor": [246, 188, 45],
+
+	"uniqueName": "Fervour of the Eagle",
+	"uniques": [
+	"Comment [Whenever a Land unit kills an enemy unit it recovers 15 HP, gains +1 Movement, and gains 10% strength for 1 turn (Double these bonuses for mounted units)]",
+	"Double quantity of [Horses] produced <in [in capital] cities>",
+	"Earn [10]% of killed [Barbarian] unit's [Strength] as [Science]",
+	"[{non-[Mounted]} {non-[Civilian]}] units gain the [Kazakh Ability] promotion <hidden from users>",
+	"[Mounted] units gain the [Kazakh Mounted Ability] promotion <hidden from users>"],
+
+	"spyNames": ["Kenesary", "Mustafa", "Olzhas", "Aidos", "Kanat", "Nursultan", "Ablay", "Zhumabay", "Talgat", "Turar"],
+	"cities": ["Almaty", "Astana", "Taraz", "Shymkent", "Turkistan", "Oral", "Atyrau", "Sygnak", "Otrar", "Sauran", "Asanas", "Jankent", "Barshynkent", "Karaganda", "Aktobe", "Taldykorgan", "Kyzylorda", "Semey", "Pavlodar", "Kostanay", "Ust-Kamenogorsk", "Petropavl", "Aktau", "Kokshetau", "Zhanaozen"],
+},
+{
+	"name": "The Secwepemc",
+	"adjective": ["Secwepemc"],
+	"leaderName": "Chief Louis",
+	"preferredVictoryType": "Cultural",
+	"favoredReligion": "Animism",
+	"startBias": ["Forest", "Hill"],
+
+	"declaringWar": "The salmon no longer run in our rivers because of your greed. The Secwepemc have no choice but to fight.",
+	"attacked": "The Secwepemc stand ready, as we have for thousands of years.",
+	"defeated": "I am Louis, Chief of the Secwepemc, keepers of the Shuswap waters. Our land stretches from the Columbia to the Fraser. What brings you to the land of the sun?",
+	"introduction": "The last fire of the Secwepemc has been extinguished. Our songs will fade into the wind, our stories lost to time. May the spirits forgive us for failing to protect our sacred lands.",
+
+	"neutralHello": "The huckleberries are ripe this season. Have you come to trade or to listen to the stories of our elders?",
+	"hateHello": "Leave our territory. You have already done much harm to my people.",
+
+	"tradeRequest": "Our hunters have brought in a bountiful catch of sockeye. Perhaps you have something to offer in exchange? The Secwepemc are always open to fair trade.",
+
+	"outerColor": [232, 210, 174],
+	"innerColor": [28, 15, 19],
+
+	"uniqueName": "Seasonal Round",
+	"uniques": ["Unimproved resources will grain a bonus stat as if they were improved if the tech required for the improvement is research",
+	"[+20]% growth [in all cities] <with [0] to [0] neighboring [Improvement] tiles>",
+	"[+1 Food] from every [{unimproved} {non-[resource]} {Open terrain}] <after discovering [Agriculture]> <hidden from users>",
+	"[+1 Gold] from every [{unimproved} {Luxury resource}] <after discovering [Calendar]> <hidden from users>",
+	"[+1 Food] from every [{unimproved} {Bonus resource}] <after discovering [Animal Husbandry]> <hidden from users>",
+	"[+1 Production] from every [{unimproved} {Strategic resource}] <after discovering [Mining]> <hidden from users>",
+	"[+1 Production] from every [{unimproved} {Hill}] <after discovering [Mining]> <hidden from users>",
+	"[+1 Production] from every [{unimproved} {Forest}] <after discovering [Construction]> <hidden from users>",],
+
+	"spyNames": ["Louis", "Grace", "Arthur", "George", "Vera", "Bev", "Tania", "Sarah", "Marie", "Thomas"],
+	"cities": ["Tkʼemlúps", "Secwepemcúĺecw", "Fish Lake", "North Thompson River", "South Thompson River", "Fraser River", "Columbia River valley", "Arrow Lakes", "Chilcotin Plateau", "Revelstoke area", "Fort Kamloops", "Shuswap Lake", "Adams Lake", "Chase", "Salmon Arm", "Williams Lake", "100 Mile House", "Enderby", "Clearwater", "Barriere", "Little Shuswap", "Bonaparte River", "Deadman River valley", "Nicola Valley", "Louis Creek"],
+},
+{
+	"name": "Rhodesia",
+	"adjective": ["Rhodesian"],
+	"leaderName": "Ian Douglas Smith",
+	"preferredVictoryType": "Diplomatic",
+	"favoredReligion": "Protestantism",
+	"startBias": ["Avoid [Forest]", "Avoid [Jungle]"],
+
+	"declaringWar": "You leave us no choice but to take up arms. Rhodesia will not be bullied by terrorists or foreign powers. We'll fight to the last man to preserve our civilization in Africa.",
+	"attacked": "Well, let me tell you this - Rhodesians never die. We'll fight tooth and nail for our homeland.",
+	"defeated": "History will vindicate us, long after your so-called 'liberation' turns to ashes.",
+	"introduction": "Ian Smith, Prime Minister of Rhodesia. I hope you're not here to lecture us on how to run our affairs.",
+
+	"neutralHello": "Rhodesia's still standing, despite what the UN might wish.",
+	"hateHello": "I see the bleeding hearts have sent another emissary. Let's skip the platitudes about majority rule, shall we? I've a country to run.",
+
+	"tradeRequest": "Rhodesia's economy is robust. We've got quality goods. Fancy a trade that'll benefit us both?",
+
+	"outerColor": [241, 222, 222],
+	"innerColor": [48, 50, 28],
+
+	"uniqueName": "Breadbasket of Africa",
+	"uniques": [
+		"Comment [[Road] and [Railroad] improvements provide +1 [Food], +1 [Production] when passing through [Desert] [Farm] tiles]",
+		"Comment [[Road] and [Railroad] improvements provide +1 [Food] when passing through [Farm] tiles]",
+		"[+10]% [Food] from Trade Routes",
+
+		"[+1 Food, +1 Production] from every [Road] <in [{Desert} {Farm}] tiles> <hidden from users>",
+		"[+1 Food] from every [Railroad] <in [Farm] tiles> <hidden from users>",],
+
+	"spyNames": ["Cecil", "Ian", "Peter", "Wilbur", "Michael", "Roy", "Godfrey", "Robert", "John", "David"],
+	"cities": ["Salisbury", "Bulawayo", "Zimbabwe", "Mapungubwe", "Fort Victoria", "Gwelo", "Umtali", "Que Que", "Gatooma", "Wankie", "Bindura", "Shabani", "Enkeldoorn", "Sinoia", "Gwanda", "Beitbridge", "Chipinga", "Chiredzi", "Triangle", "Rusape", "Shamva", "Redcliff", "Kariba", "Victoria Falls", "Marandellas"],
+},
+{
+	"name": "Cook Islands",
+	"adjective": ["Cook Islander"],
+	"leaderName": "Makea Takau Ariki",
+	"preferredVictoryType": "Diplomatic",
+	"favoredReligion": "Manaism",
+	"startBias": ["Coast", "Atoll"],
+
+	"declaringWar": "The peaceful waves of Rarotonga have been disturbed by your actions.",
+	"attacked": "You mistake our paradise for weakness? Fool!",
+	"defeated": "As the last palm falls, so does the legacy of Makea. Our once-proud vaka will sail no more, and the Cook Islands fade into legend.",
+	"introduction": "Kia orana! I am Makea Takau Ariki, descendant of the great navigator Tangiia. May our meeting be blessed by Tangaroa, god of the sea.",
+
+	"neutralHello": "The trade winds bring you to our shores again. What tidings do you carry from beyond the horizon?",
+	"hateHello": "State your business and depart.",
+
+	"tradeRequest": "Our islands offer pearls that shine like stars and fruits sweet as victory. Surely, an exchange would benefit us both, as it did in the days of our seafaring ancestors?",
+
+	"outerColor": [151, 223, 252],
+	"innerColor": [47, 37, 4],
+
+	"uniqueName": "Te Atua Mou E",
+	"uniques": ["Gain control over [Ocean] tiles in a [2]-tile radius <upon founding a city>", "[+2 Faith] from every [Ocean]", "[+1 Culture] from every [Ocean] <after discovering [Flight]>",],
+
+	"spyNames": ["Albert", "Geoffrey", "Tom", "Makea", "Jim", "Joseph", "Henry", "Alistair", "Nikorima", "Takau"],
+	"cities": ["Rarotonga", "Avarua", "Aitutaki", "Pukapuka", "Mangaia", "Atiu", "Manuae", "Palmerston", "Rakahanga", "Penrhyn", "Manihiki", "Takutea", "Mauke", "Mitiaro", "Arorangi", "Muri", "Titikaveka", "Ngatangiia", "Matavera", "Tupapa", "Nikao", "Avatiu", "Toi", "Nassau", "Suwarrow"],
+},
+{
+	"name": "San Marino",
+	"adjective": ["Sammarinese"],
+	"leaderName": "Saint Marinus",
+	"preferredVictoryType": "Diplomatic",
+	"favoredReligion": "Catholicism",
+	"startBias": ["Hill", "Avoid [Coast]"],
+
+	"declaringWar": "Now, like a sculptor revealing the statue within the stone, we'll carve out our place in this world - even if it means going through you.",
+	"attacked": "You attack the rock upon which liberty is built? Foolish.",
+	"defeated": "The Republic of San Marino falls at last. Our centuries of freedom end here, our legacy crumbling like the very stones I once shaped.",
+	"introduction": "Salve, traveler. I am Marinus, a simple stonemason who found refuge on this mountain. Now, we've built more than just walls - we've founded a republic that will stand for centuries.",
+
+	"neutralHello": "Our hospitality is as solid as the stone beneath our feet. What brings you to our lofty abode?",
+	"hateHello": "State your business and depart, before I'm forced to use my hammer for more than masonry.",
+
+	"tradeRequest": "Let's build something together, friend. Good trade, like a well-constructed wall, supports both sides equally.",
+
+	"outerColor": [255, 255, 210],
+	"innerColor": [116, 175, 235],
+
+	"uniqueName": "The Most Serene Republic",
+	"uniques": [
+	"Comment [[Holy site] tiles on [Hill] tiles gain +50% [Faith] yield and +100% [Culture] and [Gold] yield]",
+	"Comment [[Great Prophet] units may settle cities]",
+
+	"[-33]% Faith cost of generating Great Prophet equivalents <during a Golden Age>",
+
+	"[Great Prophet] units gain the [San Marino Ability] promotion <hidden from users>",
+
+	"[+50]% [Faith] from every [Holy site] <in [Hill] tiles> <hidden from users>",
+	"[+100]% [Culture] from every [Holy site] <in [Hill] tiles> <hidden from users>",
+	"[+100]% [Gold] from every [Holy site] <in [Hill] tiles> <hidden from users>",],
+
+	"spyNames": ["Antonio", "Giuseppe", "Marino", "Alessandro", "Fabio", "Nicoletta", "Anita", "Stefano", "Mirko", "Clelia"],
+	"cities": ["San Marino", "Borgo Maggiore", "Serravalle", "Domagnano", "Fiorentino", "Acquaviva", "Faetano", "Chiesanuova", "Montegiardino", "Dogana", "Falciano", "Murata", "Valdragone", "Cailungo", "Gualdicciolo", "Rovereta", "Fiorina", "Ventoso", "Ponte Mellini", "Torraccia", "Cà Ragni", "Cerbaiola", "Montalbo", "Lesignano", "Spaccio Giannoni"],
+},
+{
+	"name": "The Cherokee",
+	"adjective": ["Cherokee"],
+	"leaderName": "Kowisguwi",
+	"preferredVictoryType": "Scientific",
+	"favoredReligion": "Animism",
+
+	"declaringWar": "You leave us no choice but to take up arms.",
+	"attacked": "So, you choose the path of violence?",
+	"defeated": "Our land is lost, our people scattered. But know this - the spirit of the Cherokee cannot be conquered. We will endure, even if only in memory.",
+	"introduction": "I am Kowisguwi of the Cherokee. We have adapted to new ways while honoring our past. Let's see if you too can keep up in this changing world.",
+
+	"neutralHello": "Back again? Very well.",
+	"hateHello": "Your presence is as welcome as a drought.",
+
+	"tradeRequest": "The Cherokee propose a trade. We've learned to thrive in your world without losing ourselves. Perhaps you could learn something from us too.",
+
+	"outerColor": [1, 79, 81],
+	"innerColor": [255, 178, 60],
+
+	"uniqueName": "Adaptation",
+	"uniques": [
+	"Comment [Gain a random free tech when entering a new era]",
+	"[1] free random researchable Tech(s) from the [Classical era] <upon entering the [Classical era]> <hidden from users>",
+	"[1] free random researchable Tech(s) from the [Medieval era] <upon entering the [Medieval era]> <hidden from users>",
+	"[1] free random researchable Tech(s) from the [Renaissance era] <upon entering the [Renaissance era]> <hidden from users>",
+	"[1] free random researchable Tech(s) from the [Industrial era] <upon entering the [Industrial era]> <hidden from users>",
+	"[1] free random researchable Tech(s) from the [Modern era] <upon entering the [Modern era]> <hidden from users>",
+	"[1] free random researchable Tech(s) from the [Atomic era] <upon entering the [Atomic era]> <hidden from users>",
+	"[1] free random researchable Tech(s) from the [Information era] <upon entering the [Information era]> <hidden from users>",],
+
+	"spyNames": ["John", "Elias", "Charles", "William", "Joseph", "Clement", "James", "Nimrod", "Frank", "Thomas"],
+	"cities": ["Chota", "New Echota", "Tugaloo", "Tanasi", "Kituhwa", "Tellico", "Keowee", "Chilhowee", "Tuskegee", "Citico", "Tallassee", "Chatuga", "Hiwassee Old Town", "Nikwasi", "Echota", "Tomotley", "Toqua", "Great Tellico", "Ustanali", "Mialoquo", "Chestowee", "Tahlequah", "Etowah", "Chickamauga Town", "Turkeytown"],
+},
+{
+	"name": "Xavantes",
+	"adjective": ["Xavantes"],
+	"leaderName": "Mário Dzuruna",
+	"preferredVictoryType": "Cultural",
+	"favoredReligion": "Animism",
+	"startBias": ["Avoid [Tundra]", "Avoid [Desert]"],
+
+	"declaringWar": "The river of peace has run dry between us.",
+	"attacked": "You strike at us like a cowardly snake in the grass!",
+	"defeated": "Our last fire is extinguished, our last drum silenced. The Xavante spirit returns to the earth...",
+	"introduction": "I am Mário Dzuruna, voice of the Xavante people. Our roots run deep in this land, like the ancient jatobá tree. Let us see if your words are as true as our forests are old.",
+
+	"neutralHello": "Ah, you return like the seasons.",
+	"hateHello": "Speak your piece and be gone, before we mistake you for the prey in our hunt.",
+
+	"tradeRequest": "Let us trade, not just goods, but knowledge and respect. It is through such bonds that true wealth grows.",
+
+	"outerColor": [211, 64, 57],
+	"innerColor": [57, 11, 22],
+
+	"uniqueName": "Bloody Roots",
+	"uniques": [
+	"[Gold] cost of purchasing [Culture] buildings [-30]%",
+	"[Faith] cost of purchasing [Great Artist] units [-30]%",
+	"[+2 Culture] from every [{unimproved} {Forest}] <in cities with a [Museum]>",
+ 	"[+2 Culture] from every [{unimproved} {Jungle}] <in cities with a [Museum]>",
+	"[+3 Culture] from every [{unimproved} {Forest}] <in cities with a [Broadcast Tower]>",
+	"[+3 Culture] from every [{unimproved} {Jungle}] <in cities with a [Broadcast Tower]>"],
+
+	"spyNames": ["Apoena", "Juruna", "Roncador", "Meirelles", "Vargas", "Araguaia", "Tsõrepre", "Kuluene", "Auwe", "Runa"],
+	"cities": ["Tsõrepre", "Parabubu", "Teresa Cristina", "Roncador", "Marãiwatsede", "Ribeirão Preto", "Brasília", "Goiás", "Tocantinia", "Xavantina", "Cuiabá", "São Paulo", "Rio das Mortes", "Suiá-Missu", "Kuluene", "Couto Magalhães", "Araguaia", "Tocantins", "Mato Grosso", "Goiânia", "Barra do Garças", "Nova Xavantina", "Água Boa", "Campinápolis", "Canarana"],
+},
+{
+	"name": "Kanem",
+	"adjective": ["Kanem"],
+	"leaderName": "Aissa Koli",
+	"preferredVictoryType": "Diplomatic",
+	"favoredReligion": "Islam",
+	"startBias": ["Desert"],
+
+	"declaringWar": "The patience of Kanem-Bornu has its limits. Our Camel are swift, our spears sharp. You will learn why the Sefuwa dynasty has endured for centuries.",
+	"attacked": "You mistake our love of trade for weakness? Fool. The sands of the Sahara will drink your blood before they see Kanem-Bornu fall.",
+	"defeated": "The walls of Ngazargamu have fallen, and with them, the last bastion of Kanem-Bornu.",
+	"introduction": "I am Aissa Koli, daughter of the Sefuwa, ruler of Kanem-Bornu. Our empire has stood at the crossroads of the Sahara for a thousand years. What winds bring you to our lands?",
+
+	"neutralHello": "Ah, you return. Have you tasted our dates?",
+	"hateHello": "Speak and leave, before I set my mai's guard upon you.",
+
+	"tradeRequest": "The caravans of Kanem-Bornu reach the farthest corners of the known world. Surely, an exchange of goods would benefit us both? Or do you prefer to remain isolated and poor?",
+
+	"outerColor": [20, 108, 47],
+	"innerColor": [121, 223, 118],
+
+	"uniqueName": "None to Fear but God",
+	"uniques": ["[+1 Food] from every [{improved} {Desert}]", "[+2 Gold] from every [Oasis] <in cities connected to the capital>", "Gain an extra spy <upon entering the [Renaissance era]>"],
+
+	"spyNames": ["Rabah", "Mai", "Idris", "Khalil", "Zara", "Omar", "Fatima", "Hassan", "Amina", "Ibrahim"],
+	"cities": ["Njimi", "Ngazargamu", "Mānān", "Birni Ngazargamu", "Nijmi", "Dirku", "Siggidim", "Zeila", "Bilma", "Zawila", "Ali Gajiri", "Damasak", "Diffa", "Yo", "Duji", "Wudi", "Gashagar", "Jil1n Adhlan", "Aidab", "Tié", "Kawar", "Borno", "Tripoli", "Fezzan", "Hausa Kingdoms"],
+},
+{
+	"name": "Fernando de Noronha",
+	"adjective": ["Noronhense"],
+	"leaderName": "José Truda Palazzo Jr",
+	"preferredVictoryType": "Scientific",
+	"favoredReligion": "Catholicism",
+	"startBias": ["Coast", "Jungle"],
+
+	"declaringWar": "You've pushed us too far! The dolphins will leap and the frigatebirds will soar as we defend our marine sanctuary. Fernando de Noronha não vai cair!",
+	"attacked": "Atacar Fernando de Noronha? Ha! Our sea turtles swim faster than your ships sail.",
+	"defeated": "The last grain of our golden sand slips through my fingers. Fernando de Noronha, our jewel of the Atlantic, is lost.",
+	"introduction": "Bem-vindo to the emerald of Brazil! I'm José Truda Palazzo Jr, guardian of Fernando de Noronha's marine wonders. Treat our waters with respect, and you'll find yourself swimming with our dolphins and laying on our beaches!",
+
+	"neutralHello": "Olá! The manta rays are gliding peacefully today.",
+	"hateHello": "State your business quickly, before our lemon sharks mistake you for lunch.",
+
+	"tradeRequest": "Fernando de Noronha offers eco-tourism experiences like no other. In exchange, we seek sustainable technologies.",
+
+	"outerColor": [68, 106, 228],
+	"innerColor": [252, 254, 252],
+
+	"uniqueName": "Dolphin Island",
+	"uniques": ["Comment [non-[Lakes] Water tiles will have their stats and subsequent stat additions replaced with [Culture], [Science], or [Happiness] instead]",
+	"Comment [Double [Culture] and [Science] yield from non-[Lakes] Water tiles after discovering [Ecology]]",
+
+	"[-2 Food, -2 Gold, +1 Culture, +1 Science] from every [Coast] <hidden from users>",
+	"[-2 Food, -2 Gold, +2 Culture, +1 Science] from every [Ocean] <hidden from users>",
+	"[-2 Production, +2 Happiness] from every [Atoll] <hidden from users>",
+
+	"[-1 Food, +1 Science] from every [Fish] <in cities with a [Lighthouse]> <hidden from users>",
+	"[-1 Food, +1 Science] from every [Coast] <in cities with a [Lighthouse]> <hidden from users>",
+	"[-1 Food, +1 Science] from every [Ocean] <in cities with a [Lighthouse]> <hidden from users>",
+
+	"[-1 Production, +1 Happiness] from every [Water resource] <in cities with a [Harbor]> <hidden from users>",
+
+	"[+100]% Yield from every [Coast] <hidden from users> <after discovering [Ecology]>",
+	"[+100]% Yield from every [Ocean] <hidden from users> <after discovering [Ecology]>",
+
+	"[-1 Production, -1 Food, +1 Happiness, +1 Culture] from every [Water resource] <in cities with a [Seaport]> <hidden from users>",
+
+	"Cannot build [Settler] units"],
+
+	"spyNames": ["Fernão", "Gonçalo", "Amerigo", "Claude", "João", "Pedro", "Maria", "Carlos", "Ana", "Miguel"],
+	"cities": ["Vila dos Remédios"],
+},
+{
+	"name": "The Safavids",
+	"adjective": ["Safavid"],
+	"leaderName": "Abbas I",
+	"preferredVictoryType": "Domination",
+	"favoredReligion": "Islam",
+
+	"declaringWar": "The brushes of our painters will now sketch your demise, and the looms of Isfahan will weave your defeat. Jang āghāz mishavad! (The war begins!)",
+	"attacked": "Come then, let us dance this deadly raqs-e shamshir! (dance of swords!)",
+	"defeated": "The fountains of Naqsh-e Jahan Square run dry, and the domes of the Shah Mosque fall silent. My dream of a greater Persia dies with me. Khoda hafez, Iran-e man. (Goodbye, my Iran.)",
+	"introduction": "Greetings, I am Shah Abbas, the Saffron of Persia and Architect of a New Iran. Our empire stretches from the Caucasus to the warm waters of the Gulf. But be warned – cross me, and you'll taste cold steel instead.",
+
+	"neutralHello": "Shall we discuss matters of state over a game of nard, or would you prefer to admire the latest additions to my royal library?",
+	"hateHello": "Begone, before I decide to add your head to the Qaysariya gate!",
+
+	"tradeRequest": "Let us forge a trade agreement as strong as Damascene steel and as valuable as Hormuz pearls. What say you, doost-e man? (my friend?)",
+
+	"outerColor": [21, 108, 48],
+	"innerColor": [225, 178, 60],
+
+	"uniqueName": "Safaviyeh",
+	"uniques": [
+	"Comment [+15% Strength for all units fighting in cities following your religion]",
+	"[+15]% Strength <for [All] units> <in cities following our religion> <hidden from users>",
+	"[+1 Science] from every [{improved} {Strategic resource}]",
+	"Comment [+50% [Production] when constructing Seige units from the Renaissance era and beyond]",
+	"Comment [+20% [Production] when constructing Gunpowder units]",
+	"[+20]% Production when constructing [Gunpowder] units [in all cities] <hidden from users>",
+	"[+50]% Production when constructing [Seige] units [in all cities] <hidden from users>",
+	"[-50]% Production when constructing [Catapult] units [in all cities] <hidden from users>",
+	"[-50]% Production when constructing [Trebuchet] units [in all cities] <hidden from users>"],
+
+	"spyNames": ["Abbas", "Ismail", "Tahmasp", "Safi", "Suleiman", "Husayn", "Rostam", "Taqi", "Ali", "Muzaffar"],
+	"cities": ["Isfahan", "Tabriz", "Qazvin", "Tehran", "Baghdad", "Herat", "Mashhad", "Shiraz", "Kerman", "Hamadan", "Erzincan", "Erzurum", "Diyarbakır", "Najaf", "Karbala", "Van", "Derbent", "Hormuz", "Bahrain", "Tbilisi", "Telavi", "Ardabil", "Kashan", "Yazd", "Qom"],
 },
 //British Isles Update
 

@@ -106,4 +106,20 @@
 		"name":"Deutsches Auto",
 		"resourceType": "Luxury",
 	},
+	{
+		"name":"Pepper",
+		"resourceType": "Luxury",
+	},
+	{
+		"name":"Fossil",
+		"resourceType": "Luxury",
+	},
+	{
+		"name":"Manufactured Goods",
+		"resourceType": "Luxury",
+	},
+	{
+		"name":"Rhodesian Tobacco",
+		"resourceType": "Luxury",
+	},
 ]
