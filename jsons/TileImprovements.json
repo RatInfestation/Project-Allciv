@@ -498,6 +498,7 @@
 	"name": "Baray",
 	"uniqueTo": "The Khmer",
 	"terrainsCanBeBuiltOn": ["Marsh", "Lakes"],
+	"turnsToBuild": 7,
 	"faith": 1,
 	"culture": 2,
 	"gold": 1,
