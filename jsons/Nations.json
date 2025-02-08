@@ -5783,7 +5783,7 @@
 	"Comment [+50% [Production] when constructing Seige units from the Renaissance era and beyond]",
 	"Comment [+20% [Production] when constructing Gunpowder units]",
 	"[+20]% Production when constructing [Gunpowder] units [in all cities] <hidden from users>",
-	"[+50]% Production when constructing [Seige] units [in all cities] <hidden from users>",
+	"[+50]% Production when constructing [Siege] units [in all cities] <hidden from users>",
 	"[-50]% Production when constructing [Catapult] units [in all cities] <hidden from users>",
 	"[-50]% Production when constructing [Trebuchet] units [in all cities] <hidden from users>"],
 
@@ -5815,7 +5815,7 @@
 	"innerColor": [167, 47, 55],
 
 	"uniqueName": "Colossus of Rhodes",
-	"uniques": ["Free [Great Merchant] appears <upon discovering [Optics] technology>", "[+1 Gold] [in all coastal cities] <upon discovering [Optics] technology>", "[+1] Sight <for [{Water}] units>"],
+	"uniques": ["Free [Great Merchant] appears <upon discovering [Optics] technology>", "[+1 Gold] [in all coastal cities] <after discovering [Optics]>", "[+1] Sight <for [{Water}] units>"],
 
 	"spyNames": ["James", "William", "Michael", "Alexander", "Benjamin", "Ethan", "Daniel", "Matthew", "David", "Joseph"],
 	"cities": ["Rhodes", "Ialysos", "Camirus", "Lindos", "Faliraki", "Lardos", "Afandou", "Archangelos", "Haraki", "Embona", "Asklipio", "Koskinou", "Kremasti", "Kalathos", "Kalavarda", "Salakos", "Siana", "Mesanagros", "Paradisi", "Pefkos", "Pylona", "Fournoi", "Lachania", "Monolithos", "Profitis Ilias", "Theologos", "Trianta", "Afantou",]
