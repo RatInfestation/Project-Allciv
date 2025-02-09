@@ -428,6 +428,7 @@
 	"uniques": [
 	"[+2 Gold] <after discovering [Flight]>",
 	"[+2 Culture] <with [1] to [6] neighboring [{unimproved} {Land}] tiles>",
+	"Cannot be built on [Bonus resource] tiles",
 	"Cannot be built on [Water] tiles <with [1] to [6] neighboring [Bungalow Resort] tiles>"]
 },
 //Brunei
@@ -441,7 +442,8 @@
 	"uniques": [
 	"[+1 Food] <with [1] to [6] neighboring [Fishing Boats] tiles>",
 	"[+1 Culture] <with [1] to [6] neighboring [Water Village] tiles>",
-	"[+1 Gold] <after discovering [Flight]>"]
+	"[+1 Gold] <after discovering [Flight]>",
+	"Cannot be built on [Bonus resource] tiles"]
 },
 //Great Viet
 {
