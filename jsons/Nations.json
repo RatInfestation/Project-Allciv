@@ -5809,7 +5809,7 @@
 	"innerColor": [167, 47, 55],
 
 	"uniqueName": "Colossus of Rhodes",
-	"uniques": ["Free [Great Merchant] appears <upon discovering [Optics] technology>", "[+1 Gold] [in all coastal cities] <after discovering [Optics]>", "[+1] Sight <for [{Water}] units>"],
+	"uniques": ["Free [Great Merchant] appears <upon discovering [Optics] technology>", "[+1 Gold] [in all coastal cities] <after discovering [Optics] technology>", "[+1] Sight <for [{Water}] units>"],
 
 	"spyNames": ["James", "William", "Michael", "Alexander", "Benjamin", "Ethan", "Daniel", "Matthew", "David", "Joseph"],
 	"cities": ["Rhodes", "Ialysos", "Camirus", "Lindos", "Faliraki", "Lardos", "Afandou", "Archangelos", "Haraki", "Embona", "Asklipio", "Koskinou", "Kremasti", "Kalathos", "Kalavarda", "Salakos", "Siana", "Mesanagros", "Paradisi", "Pefkos", "Pylona", "Fournoi", "Lachania", "Monolithos", "Profitis Ilias", "Theologos", "Trianta", "Afantou",]
