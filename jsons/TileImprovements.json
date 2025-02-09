@@ -281,7 +281,7 @@
 	"terrainsCanBeBuiltOn": ["Forest", "Jungle"],
 	"turnsToBuild": 6,
 	"food": 1,
-	"uniques": ["[+1 Production, +1 Food] <in [Deer] tiles>", "[+1 Culture, +1 Happiness] <after discovering [Industrialization]>"],
+	"uniques": ["[+1 Production, +1 Food] <in [Deer] tiles>", "[+1 Culture] <after discovering [Industrialization]>"],
 	"techRequired": "Trapping",
 },
 //Israel
@@ -290,14 +290,11 @@
 	"uniqueTo": "Israel",
 	"terrainsCanBeBuiltOn": ["Desert", "Flood plains"],
 	"turnsToBuild": 8,
-	"food": 1,
+	"food": 2,
 	"uniques": ["Cannot be built on [Hill] tiles",
-	"[+1 Food] from [Fresh water] tiles",
 	"[+1 Food] from [non-fresh water] tiles <after discovering [Fertilizer]>",
-	"[+1 Food] <in [Flood plains] tiles>",
-	"[+1 Food] for each adjacent [Oasis]",
-	"[+2 Faith] for each adjacent [Holy site]",
-	"[+1 Culture] <after discovering [Radio]>"],
+	"[+1 Culture] for each adjacent [Oasis]",
+	"[+2 Faith] for each adjacent [Holy site]"],
 	"techRequired": "Civil Service",
 },
 //Palestine
@@ -310,8 +307,8 @@
 	"uniques": [
 	"[+1 Food] from [non-fresh water] tiles <after discovering [Fertilizer]>",
 	"[+1 Food] from [Fresh water] tiles <after discovering [Civil Service]>",
-	"[+1 Food] <in cities following our religion>",
-	"[+2 Faith, +1 Culture, +1 Food] <within [1] tiles of a [Holy site]>"],
+	"[+1 Faith] <in cities following our religion>",
+	"[+1 Faith] for each adjacent [Holy site]",
 	"techRequired": "Theology",
 },
 //Hungary
@@ -363,17 +360,13 @@
 	"name": "Pit Burial",
 	"uniqueTo": "Yamnaya",
 	"terrainsCanBeBuiltOn": ["Plains", "Grassland"],
-	"faith": 2,
-	"production": -2,
-	"food": -2,
-	"turnsToBuild": 10,
+	"faith": 1,
+	"turnsToBuild": 7,
 	"techRequired": "Bronze Working",
 	"uniques": ["Unbuildable <starting from the [Medieval era]>",
-		"[+1 Food, +1 Production] <starting from the [Medieval era]>",
-		"[+1 Culture, +1 Food, +1 Production] <after discovering [Archaeology]>",
-		"[+1 Culture] <after discovering [Flight]>",
+		"[+3 Gold] <with [2] to [2] neighboring [Pit Burial] tiles>",
+		"[+1 Faith] for each adjacent [Pasture]",
 		"Pillaging this improvement yields approximately [+75 Gold]",
-		"Cannot be built on [Land] tiles <with [1] to [6] neighboring [Pit Burial] tiles>"
 	],
 },
 {
@@ -407,8 +400,7 @@
 	"terrainsCanBeBuiltOn": ["Grassland", "Plains", "Desert", "Tundra"],
 	"uniques": ["Comment [+10 HP when healing in [Medicine Wheel] tiles]",
 	"Comment [+33% Strength when in [Medicine Wheel] tiles]",
-	"Cannot be built on [Land] tiles <with [1] to [6] neighboring [Medicine Wheel] tiles>",
-	"Can be built outside your borders"]
+	"Cannot be built on [Land] tiles <with [1] to [6] neighboring [Medicine Wheel] tiles>"]
 },
 //The Philippines
 {
@@ -417,14 +409,12 @@
 	"techRequired": "The Wheel",
 	"turnsToBuild": 6,
 	"food": 1,
-	"terrainsCanBeBuiltOn": ["Grassland", "Plains", "Desert"],
+	"terrainsCanBeBuiltOn": ["Grassland", "Plains"],
 	"uniques": [
 	"Can only be built on [Open terrain] tiles <with [1] to [6] neighboring [Resource] tiles>",
-	"[+1 Gold, +1 Production] <with [1] to [6] neighboring [Coast] tiles>",
-	"[+1 Food] <with [1] to [2] neighboring [Jungle] tiles>",
-	"[+1 Food, +1 Production] <with [3] to [6] neighboring [Jungle] tiles>",
-	"[+1 Gold] for each adjacent [Trading post]",
-	"[+1 Culture, +1 Gold] <after discovering [Flight]>"]
+	"[+1 Production] <with [1] to [6] neighboring [Coast] tiles>",
+	"[+1 Food] <with [1] to [6] neighboring [Jungle] tiles>",
+	"[+1 Production] <with [3] to [6] neighboring [Jungle] tiles>"]
 },
 //Maldives
 {
@@ -432,13 +422,13 @@
 	"uniqueTo": "Maldives",
 	"techRequired": "Acoustics",
 	"turnsToBuild": 8,
-	"culture": 1,
-	"gold": 1,
-	"terrainsCanBeBuiltOn": ["Water"],
+	"culture": 2,
+	"gold": 2,
+	"terrainsCanBeBuiltOn": ["Coast"],
 	"uniques": [
-	"[-1 Gold] <in [Ocean] tiles>",
-	"[+1 Culture, +2 Gold] <after discovering [Flight]>",
-	"[+2 Culture, +1 Happiness] <with [1] to [6] neighboring [{unimproved} {Land}] tiles>",
+	"[+2 Gold] <after discovering [Flight]>",
+	"[+2 Culture] <with [1] to [6] neighboring [{unimproved} {Land}] tiles>",
+	"Cannot be built on [Bonus resource] tiles",
 	"Cannot be built on [Water] tiles <with [1] to [6] neighboring [Bungalow Resort] tiles>"]
 },
 //Brunei
@@ -450,11 +440,10 @@
 	"turnsToBuild": 8,
 	"terrainsCanBeBuiltOn": ["Coast"],
 	"uniques": [
-	"Can only be built on [Coast] tiles <with [1] to [6] neighboring [City center] tiles>",
-	"[+1 Food] <with [1] to [6] neighboring [Work Boats] tiles>",
-	"[+1 Food] <with [1] to [1] neighboring [Water Village] tiles>",
-	"[+1 Food, +1 Happiness] <with [2] to [6] neighboring [Water Village] tiles>",
-	"[+2 Culture, +2 Gold] <after discovering [Flight]>"]
+	"[+1 Food] <with [1] to [6] neighboring [Fishing Boats] tiles>",
+	"[+1 Culture] <with [1] to [6] neighboring [Water Village] tiles>",
+	"[+1 Gold] <after discovering [Flight]>",
+	"Cannot be built on [Bonus resource] tiles"]
 },
 //Great Viet
 {
