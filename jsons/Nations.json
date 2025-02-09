@@ -5205,12 +5205,12 @@
 
 	"uniqueName": "Juche",
 	"uniques": [
-	"Comment [-100% maintenance costs for Seige, Armoured, and Nuclear Weapon units when not at war]",
+	"Comment [-100% maintenance costs for Siege, Armoured, and Nuclear Weapon units when not at war]",
 	"Comment [+1 [Happiness], +1 [Production], +1 [Culture] from [Fort] and [Citadel] improvements within 2 tiles of a [City center]]",
 	"[+1 Happiness, +1 Production, +1 Culture] from [Fort] tiles [in all cities] <within [2] tiles of a [City center]> <hidden from users>",
 	"[+1 Happiness, +1 Production, +1 Culture] from [Citadel] tiles [in all cities] <within [2] tiles of a [City center]> <hidden from users>",
 	"[-25]% construction time for [Fort] improvements",
-	"[-100]% maintenance costs <for [Seige] units> <when not at war> <hidden from users>",
+	"[-100]% maintenance costs <for [Siege] units> <when not at war> <hidden from users>",
 	"[-100]% maintenance costs <for [Armoured] units> <when not at war> <hidden from users>",
 	"[-100]% maintenance costs <for [Nuclear Bomber] units> <when not at war> <hidden from users>",
 	"[-100]% maintenance costs <for [Nuclear Missile] units> <when not at war> <hidden from users>"],
@@ -5781,10 +5781,10 @@
 	"Comment [+15% Strength for all units fighting in cities following your religion]",
 	"[+15]% Strength <for [All] units> <in cities following our religion> <hidden from users>",
 	"[+1 Science] from every [{improved} {Strategic resource}]",
-	"Comment [+50% [Production] when constructing Seige units from the Renaissance era and beyond]",
+	"Comment [+50% [Production] when constructing Siege units from the Renaissance era and beyond]",
 	"Comment [+20% [Production] when constructing Gunpowder units]",
 	"[+20]% Production when constructing [Gunpowder] units [in all cities] <hidden from users>",
-	"[+50]% Production when constructing [Seige] units [in all cities] <hidden from users>",
+	"[+50]% Production when constructing [Siege] units [in all cities] <hidden from users>",
 	"[-50]% Production when constructing [Catapult] units [in all cities] <hidden from users>",
 	"[-50]% Production when constructing [Trebuchet] units [in all cities] <hidden from users>"],
 
@@ -5816,7 +5816,7 @@
 	"innerColor": [167, 47, 55],
 
 	"uniqueName": "Colossus of Rhodes",
-	"uniques": ["Free [Great Merchant] appears <upon discovering [Optics] technology>", "[+1 Gold] [in all coastal cities] <upon discovering [Optics] technology>", "[+1] Sight <for [{Water}] units>"],
+	"uniques": ["Free [Great Merchant] appears <upon discovering [Optics] technology>", "[+1 Gold] [in all coastal cities] <after discovering [Optics]>", "[+1] Sight <for [{Water}] units>"],
 
 	"spyNames": ["James", "William", "Michael", "Alexander", "Benjamin", "Ethan", "Daniel", "Matthew", "David", "Joseph"],
 	"cities": ["Rhodes", "Ialysos", "Camirus", "Lindos", "Faliraki", "Lardos", "Afandou", "Archangelos", "Haraki", "Embona", "Asklipio", "Koskinou", "Kremasti", "Kalathos", "Kalavarda", "Salakos", "Siana", "Mesanagros", "Paradisi", "Pefkos", "Pylona", "Fournoi", "Lachania", "Monolithos", "Profitis Ilias", "Theologos", "Trianta", "Afantou",]
