@@ -5639,14 +5639,14 @@
 
 	"uniqueName": "Adaptation",
 	"uniques": [
-	"Comment [Gain a random free tech when entering a new era]",
-	"[1] free random researchable Tech(s) from the [Classical era] <upon entering the [Classical era]> <hidden from users>",
-	"[1] free random researchable Tech(s) from the [Medieval era] <upon entering the [Medieval era]> <hidden from users>",
-	"[1] free random researchable Tech(s) from the [Renaissance era] <upon entering the [Renaissance era]> <hidden from users>",
-	"[1] free random researchable Tech(s) from the [Industrial era] <upon entering the [Industrial era]> <hidden from users>",
-	"[1] free random researchable Tech(s) from the [Modern era] <upon entering the [Modern era]> <hidden from users>",
-	"[1] free random researchable Tech(s) from the [Atomic era] <upon entering the [Atomic era]> <hidden from users>",
-	"[1] free random researchable Tech(s) from the [Information era] <upon entering the [Information era]> <hidden from users>",],
+	"Comment [Gain a random free tech from the previous era when entering a new era]",
+	"[1] free random researchable Tech(s) from the [Ancient era] <upon entering the [Classical era]> <hidden from users>",
+	"[1] free random researchable Tech(s) from the [Classical era] <upon entering the [Medieval era]> <hidden from users>",
+	"[1] free random researchable Tech(s) from the [Medieval era] <upon entering the [Renaissance era]> <hidden from users>",
+	"[1] free random researchable Tech(s) from the [Renaissance era] <upon entering the [Industrial era]> <hidden from users>",
+	"[1] free random researchable Tech(s) from the [Industrial era] <upon entering the [Modern era]> <hidden from users>",
+	"[1] free random researchable Tech(s) from the [Modern era] <upon entering the [Atomic era]> <hidden from users>",
+	"[1] free random researchable Tech(s) from the [Atomic era] <upon entering the [Information era]> <hidden from users>",],
 
 	"spyNames": ["John", "Elias", "Charles", "William", "Joseph", "Clement", "James", "Nimrod", "Frank", "Thomas"],
 	"cities": ["Chota", "New Echota", "Tugaloo", "Tanasi", "Kituhwa", "Tellico", "Keowee", "Chilhowee", "Tuskegee", "Citico", "Tallassee", "Chatuga", "Hiwassee Old Town", "Nikwasi", "Echota", "Tomotley", "Toqua", "Great Tellico", "Ustanali", "Mialoquo", "Chestowee", "Tahlequah", "Etowah", "Chickamauga Town", "Turkeytown"],
