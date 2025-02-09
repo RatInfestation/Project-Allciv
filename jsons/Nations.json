@@ -5414,10 +5414,11 @@
 	"innerColor": [232, 172, 5],
 
 	"uniqueName": "The Son of Zeus",
-	"uniques": ["Comment [Gain a boost of [Science] upon conquering a city depending on the city's [Culture] and [Science] output]",
+	"uniques": ["Comment [Upon capturing a city, receive 3 times its [Culture], [Science], [Faith] and [Gold] production immediately]",
 	"Upon capturing a city, receive [3] times its [Science] production as [Science] immediately <hidden from users>",
-	"Upon capturing a city, receive [3] times its [Culture] production as [Science] immediately <hidden from users>",
-	"[+10]% [Faith] [in annexed cities]",
+	"Upon capturing a city, receive [3] times its [Culture] production as [Culture] immediately <hidden from users>",
+	"Upon capturing a city, receive [3] times its [Faith] production as [Faith] immediately <hidden from users>",
+	"Upon capturing a city, receive [3] times its [Gold] production as [Gold] immediately <hidden from users>",
 	"[Gold] cost of purchasing [Basilikoi Paides] buildings [-50]% <in [in annexed cities] cities> <hidden from users>",
 	"[+50]% Production when constructing [Basilikoi Paides] buildings [in anexed cities] <hidden from users>"],
 
