@@ -309,6 +309,7 @@
 	"[+1 Food] from [Fresh water] tiles <after discovering [Civil Service]>",
 	"[+1 Faith] <in cities following our religion>",
 	"[+1 Faith] for each adjacent [Holy site]",
+	],
 	"techRequired": "Theology",
 },
 //Hungary
