@@ -5733,25 +5733,18 @@
 	"innerColor": [252, 254, 252],
 
 	"uniqueName": "Dolphin Island",
-	"uniques": ["Comment [non-[Lakes] Water tiles will have their stats and subsequent stat additions replaced with [Culture], [Science], or [Happiness] instead]",
-	"Comment [Double [Culture] and [Science] yield from non-[Lakes] Water tiles after discovering [Ecology]]",
+	"uniques": ["Comment [non-[Lakes] Water tiles will have their base [Food] and [Production] yields replaced and gain [Culture], [Science], and [Happiness] instead]",
+	"Comment [Additional [Culture] and [Science] yield from non-[Lakes] Water tiles after discovering [Ecology]]",
 
-	"[-2 Food, -2 Gold, +1 Culture, +1 Science] from every [Coast] <hidden from users>",
-	"[-2 Food, -2 Gold, +2 Culture, +1 Science] from every [Ocean] <hidden from users>",
-	"[-2 Production, +2 Happiness] from every [Atoll] <hidden from users>",
+	"[-1 Food, +1 Culture, +1 Science] from every [Coast] <hidden from users>",
+	"[-1 Food, +1 Culture, +1 Science] from every [Ocean] <hidden from users>",
+	"[-1 Production, -1 Food, +1 Culture, +1 Science, +1 Happiness] from every [Atoll] <hidden from users>",
 
-	"[-1 Food, +1 Science] from every [Fish] <in cities with a [Lighthouse]> <hidden from users>",
-	"[-1 Food, +1 Science] from every [Coast] <in cities with a [Lighthouse]> <hidden from users>",
-	"[-1 Food, +1 Science] from every [Ocean] <in cities with a [Lighthouse]> <hidden from users>",
+	"[-1 Food, +1 Culture, +1 Science] from every [Coast] <in cities with a [Lighthouse]> <hidden from users>",
+	"[-1 Food, +1 Culture, +1 Science] from every [Ocean] <in cities with a [Lighthouse]> <hidden from users>",
 
-	"[-1 Production, +1 Happiness] from every [Water resource] <in cities with a [Harbor]> <hidden from users>",
-
-	"[+100]% Yield from every [Coast] <hidden from users> <after discovering [Ecology]>",
-	"[+100]% Yield from every [Ocean] <hidden from users> <after discovering [Ecology]>",
-
-	"[-1 Production, -1 Food, +1 Happiness, +1 Culture] from every [Water resource] <in cities with a [Seaport]> <hidden from users>",
-
-	"Cannot build [Settler] units"],
+	"[+1 Culture, +1 Science] from every [Coast] <hidden from users> <after discovering [Ecology]>",
+	"[+1 Culture, +1 Science] from every [Ocean] <hidden from users> <after discovering [Ecology]>"],
 
 	"spyNames": ["Fernão", "Gonçalo", "Amerigo", "Claude", "João", "Pedro", "Maria", "Carlos", "Ana", "Miguel"],
 	"cities": ["Vila dos Remédios"],
