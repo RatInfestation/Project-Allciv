@@ -6074,7 +6074,7 @@
 	"[+50]% [Production] [in puppeted cities] <when above [0] Happiness>",
 	"Comment [Whenever a building is constructed in puppeted cities gain a small amount of [Culture]]",
 	"Comment [Settlers may found puppeted cities]",
-	"[Settlers] units gain the [Zapatista Ability] promotion <hidden from users>",
+	"[Settler] units gain the [Zapatista Ability] promotion <hidden from users>",
 	"Gain [2] [Culture] <upon constructing [All] [in puppeted cities]> <(modified by game speed)> <hidden from users>"],
 
 	"spyNames": ["Ramona", "Emílio", "Elisa", "Moisés", "Jesús"],
