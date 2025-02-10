@@ -1,3 +1,5 @@
+Hey ya'll! It's been a while since the last update and I am sorry in advance for they take so long. But the time has come again and I would like to present an update without a clear theme with some long time civ requests! I hope you guys enjoy this update :)
+
 -PROJECT ALLCIV V0.4.0-
 51 new civilizations join the world stage...
 Faroe Islands
@@ -51,3 +53,5 @@ The Xavantes
 Kanem
 Fernando de Noronha
 The Safavids
+
+https://github.com/RatInfestation/Project-Allciv

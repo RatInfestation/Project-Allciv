@@ -500,4 +500,46 @@
 	"[+2 Culture, +1 Faith] <with [3] to [6] neighboring [Jungle] tiles>",
 	"Pillaging this improvement yields approximately [+20 Gold]"]
 },
+//Anangu
+{
+	"name": "Wiltja",
+	"uniqueTo": "Anangu",
+	"terrainsCanBeBuiltOn": ["Desert"],
+	"turnsToBuild": 4,
+	"food": 1,
+	"production": 1,
+	"techRequired": "Trapping",
+	"uniques": [
+	"Pillaging this improvement yields approximately [+5 Gold]"]
+},
+//The Yidinji
+{
+	"name": "Jimurru",
+	"uniqueTo": "The Yidinji",
+	"terrainsCanBeBuiltOn": ["Jungle"],
+	"turnsToBuild": 4,
+	"production": 1,
+	"techRequired": "Trapping",
+	"uniques": ["Comment [Military units owned by [The Yidinji] gain +2 XP every turn when in this improvement]", "[+1 Food] <after discovering [Chivalry]>", "[+2 Culture] <after discovering [Archaeology]>"],
+},
+//Wales
+{
+	"name": "Caer",
+	"uniqueTo": "Wales",
+	"terrainsCanBeBuiltOn": ["Hill"],
+	"turnsToBuild": 4,
+	"gold": 1,
+	"techRequired": "Engineering",
+	"uniques": ["[+1 Gold] for each adjacent [Fort]", "[+2 Culture, +1 Happiness] <after discovering [Flight]>", "Gives a defensive bonus of [66]%"],
+},
+//The Anglo-Saxons
+{
+	"name": "Burh",
+	"uniqueTo": "The Anglo-Saxons",
+	"terrainsCanBeBuiltOn": ["Land","Hill"],
+	"turnsToBuild": 6,
+	"gold": 1,
+	"techRequired": "Guilds",
+	"uniques": ["[+1 Production] <in [River] tiles>", "[+1 Gold] for each adjacent [Trading post]", "[+1 Gold] for each adjacent [Fishing Boats]", "[+1 Production, +1 Gold] <after discovering [Economics]>",],
+},
 ]

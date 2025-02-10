@@ -2332,4 +2332,256 @@
 			"uniques": ["[+1 Science] from [Water resource] tiles [in this city]", "Only available <if [University] is constructed in all [non-[Puppeted]] cities>", "Free Technology", "Cost increases by [30] per owned city"],
 			"requiredTech": "Education"
 		},
+		//Eora
+		{
+			"name": "Bark Canoe Harbor",
+			"uniqueTo": "Eora",
+			"replaces": "Garden",
+			"food": 2,
+			"production": 1,
+			"uniques": ["Comment [Unlocked at [Sailing]]", "[+25]% Great Person generation [in this city]", "Must be next to [Fresh water]"],
+			"hurryCostModifier": 25,
+			"maintenance": 1,
+			"requiredTech": "Sailing"
+		},
+		//Meriam
+		{
+			"name": "Stone Fish-Weir",
+			"uniqueTo": "Meriam",
+			"replaces": "Lighthouse",
+			"cost": 50,
+			"hurryCostModifier": 25,
+			"maintenance": 1,
+			"uniques": ["Must be next to [Coast]", "[+1 Food] from [Ocean] tiles [in this city]",
+				"[+1 Food, +1 Faith] from [Coast] tiles [in this city]", "[+1 Food, +1 Production] from [Fish] tiles [in this city]" ],
+			"requiredTech": "Optics"
+		},
+		//Noongar
+		{
+			"name": "Mia Mia",
+			"uniqueTo": "Noongar",
+			"replaces": "Water Mill",
+			"specialistSlots": {"Artist": 1},
+			"culture": 1,
+			"maintenance": 2,
+			"food": 2,
+			"production": 1,
+			"hurryCostModifier": 25,
+			"uniques": ["Comment [+1 [Artist] specialist slots in this city]"],
+			"requiredTech": "The Wheel"
+		},
+		//The Palawa
+		{
+			"name": "Ballawinne Quarry",
+			"uniqueTo": "The Palawa",
+			"replaces": "Stone Works",
+			"happiness": 1,
+			"production": 2,
+			"maintenance": 0,
+			"hurryCostModifier": 0,
+			"uniques": [
+				"New [Melee] units start with [10] Experience [in this city]",
+				"[+1 Production] from [Stone] tiles [in this city]",
+				"[+1 Production] from [Marble] tiles [in this city]"],
+			"requiredTech": "Calendar"
+		},
+		//Wiradjuri
+		{
+			"name": "Marara",
+			"uniqueTo": "Wiradjuri",
+			"replaces": "Circus",
+			"happiness": 2,
+			"faith": 3,
+			"uniques": ["Comment [Does not require [Horses]]", "Comment [Does not require [Ivory]]", "Only available <after founding a Pantheon>"],
+			"hurryCostModifier": 25,
+			"requiredTech": "Trapping"
+		},
+		//The Yolngu
+		{
+			"name": "Yolngu Ability",
+			"cost": 1,
+			"uniqueTo": "The Yolngu",
+			"uniques": [
+			"Cannot be purchased",
+			"Destroyed when the city is captured",
+			"Will not be displayed in Civilopedia",
+			"Unsellable",
+			"[+5]% [Culture] [in capital]"],
+		},
+		{
+			"name": "Yolngu Ability 2",
+			"cost": 1,
+			"uniqueTo": "The Yolngu",
+			"uniques": [
+			"Cannot be purchased",
+			"Destroyed when the city is captured",
+			"Will not be displayed in Civilopedia",
+			"Unsellable",
+			"[+5]% [Culture] [in capital]"],
+		},
+		{
+			"name": "Yolngu Connection",
+			"cost": 1,
+			"uniqueTo": "The Yolngu",
+			"uniques": [
+			"Cannot be purchased",
+			"Destroyed when the city is captured",
+			"Will not be displayed in Civilopedia",
+			"Unsellable"],
+		},
+		{
+			"name": "Larrakitj",
+			"uniqueTo": "The Yolngu",
+			"replaces": "Shrine",
+			"specialistSlots": {"Artist": 1},
+			"faith": 1,
+			"cost": 30,
+			"maintenance": 0,
+			"requiredTech": "Pottery",
+			"uniques": ["Comment [+1 [Artist] specialist slots in this city]", "Only available <when religion is enabled>"]
+
+		},
+		//The Zapatistas
+		{
+			"name": "Indigenous Coffee Farm",
+			"uniqueTo": "The Zapatistas",
+			"replaces": "Windmill",
+			"production": 1,
+			"food": 2,
+			"gold": 1,
+			"specialistSlots": {"Engineer": 1},
+			"hurryCostModifier": 25,
+			"maintenance": 0,
+			"uniques": ["Must not be on [Hill]", "[+10]% Production when constructing [All] buildings [in this city]"],
+			"requiredTech": "Economics"
+		},
+		//The Palmares
+		{
+			"name": "Mocambo Camp",
+			"uniqueTo": "The Palmares",
+			"replaces": "Market",
+			"gold": 0,
+			"food": 1,
+			"production": 1,
+			"happiness": 1,
+			"specialistSlots": {"Merchant": 1},
+			"hurryCostModifier": 25,
+			"percentStatBonus": {"gold": 25},
+			"uniques": ["[+1] population [in this city]"],
+			"requiredTech": "Currency"
+		},
+		//Chad
+		{
+			"name": "Salt Caravanserai",
+			"uniqueTo": "Chad",
+			"replaces": "Bank",
+			"gold": 2,
+			"specialistSlots": {"Merchant": 1},
+			"hurryCostModifier": 15,
+			"percentStatBonus": {"gold": 25},
+			"requiredBuilding": "Market",
+			"uniques": ["[+1 Gold] from [{Open terrain} {Desert}] tiles [in all cities]",
+			"[+15]% [Gold] [in this city] <in cities connected to the capital> <hidden from users>",
+			"Comment [+15% [Gold] in this city when connected to capital]",
+		 	"Provides [1] [Salt]"],
+			"requiredTech": "Banking"
+		},
+		{
+			"name": "Chad Ability",
+			"cost": 1,
+			"uniqueTo": "Chad",
+			"uniques": [
+			"Cannot be purchased",
+			"Destroyed when the city is captured",
+			"Will not be displayed in Civilopedia",
+			"Unsellable",
+			"[+2 Culture] [in this city] <in [Desert] tiles>",
+			"[-2 Culture] [in this city] <in [Desert] tiles> <within [1] tiles of a [Coast]>",
+			"[+15]% [Food] [in this city] <in [Desert] tiles>",
+			"[-15]% [Food] [in this city] <in [Desert] tiles> <within [1] tiles of a [Coast]>"],
+		},
+		//Scotland
+		{
+			"name": "Scotland Ability",
+			"cost": 1,
+			"uniqueTo": "Scotland",
+			"uniques": [
+			"Cannot be purchased",
+			"Destroyed when the city is captured",
+			"Will not be displayed in Civilopedia",
+		 	"Unsellable",
+			"[+10]% [Science] [in this city] <when above [0] Happiness> <upon declaring friendship> <for [8] turns>",
+			"[+10]% [Production] [in this city] <when above [0] Happiness> <upon declaring friendship> <for [8] turns>",
+			"[+10]% [Science] [in this city] <when above [0] Happiness> <upon declaring a defensive pact> <for [8] turns>",
+			"[+10]% [Production] [in this city] <when above [0] Happiness> <upon declaring a defensive pact> <for [8] turns>"],
+		},
+		{
+			"name": "Clan House",
+			"uniqueTo": "Scotland",
+			"replaces": "Castle",
+			"cityStrength": 7,
+			"cityHealth": 25,
+			"maintenance": 1,
+			"hurryCostModifier": 25,
+			"requiredBuilding": "Walls",
+			"requiredTech": "Chivalry",
+			"uniques": [
+			"[+10]% Production when constructing [Melee] units [in this city]",
+			"New [Military] units start with [10] Experience [in this city]",
+			"[+2 Happiness] [in this city] <with a garrison>",
+			"[+1 Culture, +1 Gold] [in this city] <after discovering [Archaeology]>",
+			"Destroyed when the city is captured"]
+		},
+		//Ireland
+		{
+			"name": "Abbey",
+			"uniqueTo": "Ireland",
+			"replaces": "Temple",
+			"specialistSlots": {"Artist": 1},
+			"faith": 2,
+			"culture": 1,
+			"maintenance": 2,
+			"hurryCostModifier": 25,
+			"requiredTech": "Philosophy",
+			"uniques": ["[+15]% Great Person generation [in this city]", "Comment [+1 [Artist] specialist slots in this city]", "Comment [Does not require [Shrine]]", "Only available <when religion is enabled>", "Destroyed when the city is captured"]
+		},
+		//The Anglo-Saxons
+		{
+			"name": "Anglo-Saxons Ability",
+			"cost": 1,
+			"uniqueTo": "Anglo-Saxons",
+			"uniques": [
+			"Cannot be purchased",
+			"Destroyed when the city is captured",
+			"Will not be displayed in Civilopedia",
+			"Unsellable",
+			"Moves to new capital when capital changes",
+			"[-100]% City-State Influence degradation <upon declaring war with a major Civilization> <for [8] turns>",
+			"Resting point for Influence with City-States is increased by [30] <upon declaring war with a major Civilization> <for [8] turns>"],
+		},
+		//Isle of Man
+		{
+			"name": "Tynwald",
+			"uniqueTo": "Isle of Man",
+			"replaces": "Amphitheater",
+			"culture": 3,
+			"specialistSlots": {"Artist": 1},
+			"requiredBuilding": "Monument",
+			"maintenance": 0,
+			"hurryCostModifier": 25,
+			"uniques": [
+			"Comment [Gain a large amount of [Culture] when completing a policy tree (modified by game speed)]",
+			"Gain [50] [Culture] <(modified by game speed)> <upon adopting [Tradition Complete]> <hidden from users>",
+			"Gain [50] [Culture] <(modified by game speed)> <upon adopting [Liberty Complete]> <hidden from users>",
+			"Gain [50] [Culture] <(modified by game speed)> <upon adopting [Honor Complete]> <hidden from users>",
+			"Gain [75] [Culture] <(modified by game speed)> <upon adopting [Piety Complete]> <hidden from users>",
+			"Gain [150] [Culture] <(modified by game speed)> <upon adopting [Patronage Complete]> <hidden from users>",
+			"Gain [150] [Culture] <(modified by game speed)> <upon adopting [Commerce Complete]> <hidden from users>",
+			"Gain [250] [Culture] <(modified by game speed)> <upon adopting [Order Complete]> <hidden from users>",
+			"Gain [250] [Culture] <(modified by game speed)> <upon adopting [Autocracy Complete]> <hidden from users>",
+			"Gain [250] [Culture] <(modified by game speed)> <upon adopting [Freedom Complete]> <hidden from users>",
+			"Gain [150] [Culture] <(modified by game speed)> <upon adopting [Rationalism Complete]> <hidden from users>",
+			"Destroyed when the city is captured"],
+			"requiredTech": "Drama and Poetry"
+		},
 ]

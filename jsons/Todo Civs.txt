@@ -1,5 +1,16 @@
 //WW1
-Malta
+Portugal X
+Italy X
+Switzerland X
+Belgium X
+Austria-Hungary X
+The UK X
+Albania X
+Serbia X
+Bulgaria X
+Montenegro X
+Dutch East Indies X
+Malta X
 
 //Colonies
 canary islands
@@ -21,35 +32,191 @@ Newfoundland
 Congo
 
 //WW2
-Nazi Germany
-Slovak Republic
+Nazi Germany 
+Slovakia 
+Czechia 
 Yugoslavia 
-Croatia
-Turkey
+Hungary
+Croatia 
+Turkey 
+Armenia 
 Empire of Japan
-Liechtenstein
-Monaco
-Andorra
-San Marino
-Vatican City
-Free City of Danzig
-Poland
-Lithuania
-Latvia
-Estonia
-Manchukuo
+Liechtenstein 
+Monaco 
+Andorra 
+Vatican City 
+Free City of Danzig 
+Poland 
+Lithuania 
+Latvia 
+Estonia 
+Manchukuo 
+Belarus 
+Czechoslovakia 
+Thailand
+Armenia 
+Artsakh
+Normandy
+Ryukyu Kingdom
+Germania
+The Ainu
+The Emishi
+Ezo
+The Ikko-ikki
+The United States of America
+East Germany
+West Germany
+Judea
+Isreal
+The Kingdom of Isreal
+Palestine
+Papal States
+Jamaica
+Malta
+Canaan
+The Gunditjmara
+The European Union
+Xiongnu
+Yamnaya
+Jomon
+Yayoi
 
-//Cold War and Beyond
-People's Republic of China
-Taiwan
-South Korea
-North Korea
+//Christmas Update PT2
+Åland Islands X
+Faroe Islands X
+Svalbard X
+Greenland X
+North Sea Empire X
+Jomvikings X
+Kalmar X
+The Sentinelese X
+Laos X
+Vietnam X
+Great Viet X
+Indonesia X
+Modern Indonesia (led by Suharto)
+The Philippines X
+Nepal X
+Bhutan X
+Tibet X
+South Korea X
+North Korea X
+Peoples Republic of China X
+Taiwan X
+Khmer X
+Cambodia
+Khmer Rouge X
+San Marino X
+New Caledonia X
+Norfolk Island X
+Timor-Leste
+Wewiku-Wehali
+Taiwan X
+Brunei X
+Maldives X
+Cook islands X
+Niue X
+Micronesia X
+Pohnpei X
+The Romani X
+Burma X
+Myanmar X
+Bengal Sultanate
+Ghurid Dynasty
+Ghaznavid Empire
+Champa Kingdom
+Srivijaya
+Majapahit
+Dali Kingdom
+Khwarazmian Empire
+North Macedonia
+Macedon X
+Macau
+Maldives X
+Turkmenistan
+Tajikistan X
+Kyrgyzstan
+Kazakhstan X
+Timurid Empire
+Uzbekistan
+Larantuka
+Sibir
+Vedic Culture
+Banjar
+Dayak
+Lanfang
+Sarawak
+Punjab 
+Shakya
+Bactria
+Qarmatians
+Oxus
+Zunbils
+Achaemenids
+Sassanids
+Wahgi
+Asmat
+Siassi ( Add Ropen as a Unique Unit like the Werewolf )
+East Turkestan
+Tagalog
+Ternate
+Yukaghir
+Nanai
+Tatars
+Yakut
+Tuva
+Uyghurs
+Dzungars
+Beixin
+Xinle
+Daxi
+Massagetae
+Gokturk
+Rouran
+Taiping Heavenly Kingdom
+Vijayanagara
+Qu'aiti
+Kathiri
+Mahra
+Yemen Vilayet
+Aden
+Kokang
+Abkhazia X
+Balochistan
+Nagaland
+South Ossetia
+Kashmir
+Assyrian Nation ( Not to be confused with Assyria lead by Ashurbanipal, which is an already existing Civ in the BNW Mod 
+Druze ( Already requested IIRC ) 
+South Yemen 
+Zanj
+Commonwealth of the Northern Mariana Islands
+Bora Bora
+Sibir
+Larantuka
+Andronovo Culture
+Sultanate of Sulu
+Bougainville X
+Chinook
+Secwepemc X
 
-
-//Norse Guys
-Åland Islands
-Falkland Islands
-Faroe Islands
+//Fishing guy
+Apache
+Timurid
+Prussia
+Tupi
+Zimbabwe
+Cherokee
+Kanem
+Burma
+Safavid
+Mughal 
+Hittite
+Tibet
+Chinook
+Wiradjuri
+Ashanti
+Swahili
 
 //Island Nations
 Maldives
@@ -67,9 +234,6 @@ Curaçao
 Bermuda
 
 //Balkans 
-Croatia (thegrislygrotto)
-Bulgaria (Basil)
-Serbia
 Bosnia and Herzegovina
 Bulgaria
 Albania
@@ -87,14 +251,36 @@ Dacians
 Achaemenid Empire
 Seljuk Empire
 
-//The British Isles
-Wales
-Ireland
-Scotland
+//The British Isles and Europe
+Wales 
+Ireland X
+Scotland X
 Isle of Man
 Jersey
 Gurnsey
-Normandy
+The Galatians
+Cornwall
+Anglo-Saxons
+Bretons
+Basques
+Brittany
+Castile
+Kingdom of León
+Emirate of Granada
+Kingdom of Navarre
+Republic of Siena
+Jerselum
+Holy Roman Empire
+West Rome
+Bohemia
+Teutonic Order
+Polish-Lithuania
+mamluk sultanate
+Tunisia
+Morroco
+Tumrids
+Georgia
+
 
 //China
 Xia Dynasty
@@ -130,26 +316,3 @@ Oman
 Bahrain
 Iraq
 Qatar
-
-//Modern Asia
-Myanmar
-Indonesia
-South Korea
-Thailand
-Philippines
-Vietnam
-Taiwan
-Cambodia
-Myanmar (Burma)
-Laos
-Nepal
-Uzbekistan
-North Korea
-Armenia
-Bhutan
-Brunei
-Kyrgyzstan
-Turkmenistan
-Timor-Leste
-Timor
-Macao

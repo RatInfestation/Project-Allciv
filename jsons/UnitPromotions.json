@@ -479,6 +479,49 @@
 		"name": "[Gholam] ability",
 		"uniques": ["[+25]% Strength <vs [City] units> <when defending>", "Heals [25] damage if it kills a unit", "[+5]% Strength <when adjacent to a [Wounded] unit>"],
 	},
+	//Meriam
+	{
+		"name": "[Mer Dancer] ability",
+		"uniques": ["[-20]% Strength for enemy [Wounded] units in adjacent [Land] tiles"],
+	},
+	//Palawa
+	{
+		"name": "Palawa Ability",
+		"uniques": ["[This Unit] heals [15] HP <upon losing at least [25] HP in a single attack>", "[This Unit] gains [5] XP <upon losing at least [25] HP in a single attack>"],
+	},
+	//Zapatista
+	{
+		"name": "Zapatista Ability",
+		"uniques": ["Founds a new puppet city <by consuming this unit>"],
+	},
+	{
+		"name": "[Insurgente] ability",
+		"uniques": ["[+10]% Strength <when fighting in [Foreign Land] tiles>", "Ignores Zone of Control", "Invisible to non-adjacent units"],
+	},
+	//Scotland
+	{
+		"name": "[Highlander] ability",
+		"uniques": ["[+20]% Strength <vs [Gunpowder] units> <when attacking>", "[+15]% Strength <vs [Fortified] units>",],
+	},
+	//The Yidinji
+	{
+		"name": "Yidinji Ability",
+		"uniques": ["[+100]% Strength <in [Jungle] tiles> <with [33]% chance> <when attacking>", "[This Unit] gains [2] XP <every [1] turns> <in [Jimurru] tiles>"],
+	},
+	//Ireland
+	{
+		"name": "Ireland Ability",
+		"uniques": ["Gain [3] [Culture] <upon being promoted> <(modified by game speed)>",],
+	},
+	//Isle of Man
+	{
+		"name": "Isle of Man Ability",
+		"uniques": [
+		"Gain [1] [Culture] <in [Friendly Land] tiles> <upon turn end> <when above [99] HP> <(modified by game speed)>",
+		"Gain [1] [Gold] <in [Friendly Land] tiles> <upon turn end> <when above [99] HP> <(modified by game speed)>",
+		"Gain [1] [Culture] <in [Annexed] cities> <upon turn end> <when above [99] HP> <(modified by game speed)>",
+		"Gain [1] [Gold] <in [Annexed] cities> <upon turn end> <when above [99] HP> <(modified by game speed)>",],
+	},
 	//Druzhina promotions
 	{
 		"name": "Royal Guard I",
