@@ -71,7 +71,7 @@
 	//Zapotecs
 	{
 	"name": "Follower of Cociyo",
-	"uniques": ["Double movement in [Plains]", "Heals [15] damage if it kills a unit", "Earn [25]% of killed [Military] unit's [Strength] as [Culture]",],
+	"uniques": ["Double movement in [Plains]", "Heals [15] damage if it kills a unit", "Earn [25]% of killed [Military] unit's [Strength] as [Culture]"],
 	},
 	//Taino
 	{
@@ -506,7 +506,7 @@
 	//The Yidinji
 	{
 		"name": "Yidinji Ability",
-		"uniques": ["[+100]% Strength <in [Jungle] tiles> <with [33]% chance> <when attacking>", "[This Unit] gains [2] XP <every [1] turns> <in [Jimurru] tiles>"],
+		"uniques": ["[+100]% Strength <in [Jungle] tiles> <with [33]% chance> <when attacking>", "[This Unit] gains [1] XP <every [1] turns> <in [Jimurru] tiles>"],
 	},
 	//Ireland
 	{
