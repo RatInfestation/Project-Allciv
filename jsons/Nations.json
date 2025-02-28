@@ -5150,35 +5150,7 @@
 	"innerColor": [208, 146, 0],
 
 	"uniqueName": "The Long March",
-	"uniques": [
-	"Comment [All healing effects doubled for 12 turns upon declaring war with a major civilization]",
-	"Comment [Completing Policy Trees increase unit HP healing by 4]",
-	"Comment [Completing Policy Trees grant +1 [Culture], +1 [Gold] from every [Manufacturing Sector]]",
-	"[All] units gain the [PRC Ability] promotion <hidden from users>",
-
-	"[+1 Gold, +1 Culture] from every [Manufacturing Sector] <upon adopting [Tradition Complete]> <hidden from users>",
-	"[+1 Gold, +1 Culture] from every [Manufacturing Sector] <upon adopting [Liberty Complete]> <hidden from users>",
-	"[+1 Gold, +1 Culture] from every [Manufacturing Sector] <(modified by game speed)> <upon adopting [Honor Complete]> <hidden from users>",
-	"[+1 Gold, +1 Culture] from every [Manufacturing Sector] <(modified by game speed)> <upon adopting [Piety Complete]> <hidden from users>",
-	"[+1 Gold, +1 Culture] from every [Manufacturing Sector] <(modified by game speed)> <upon adopting [Patronage Complete]> <hidden from users>",
-	"[+1 Gold, +1 Culture] from every [Manufacturing Sector] <(modified by game speed)> <upon adopting [Commerce Complete]> <hidden from users>",
-	"[+1 Gold, +1 Culture] from every [Manufacturing Sector] <(modified by game speed)> <upon adopting [Order Complete]> <hidden from users>",
-	"[+1 Gold, +1 Culture] from every [Manufacturing Sector] <(modified by game speed)> <upon adopting [Autocracy Complete]> <hidden from users>",
-	"[+1 Gold, +1 Culture] from every [Manufacturing Sector] <(modified by game speed)> <upon adopting [Freedom Complete]> <hidden from users>",
-	"[+1 Gold, +1 Culture] from every [Manufacturing Sector] <(modified by game speed)> <upon adopting [Rationalism Complete]> <hidden from users>",
-
-	"[+4] HP when healing <upon adopting [Tradition Complete]> <hidden from users>",
-	"[+4] HP when healing <upon adopting [Liberty Complete]> <hidden from users>",
-	"[+4] HP when healing <upon adopting [Honor Complete]> <hidden from users>",
-	"[+4] HP when healing <upon adopting [Piety Complete]> <hidden from users>",
-	"[+4] HP when healing <upon adopting [Patronage Complete]> <hidden from users>",
-	"[+4] HP when healing <upon adopting [Commerce Complete]> <hidden from users>",
-	"[+4] HP when healing <upon adopting [Order Complete]> <hidden from users>",
-	"[+4] HP when healing <upon adopting [Autocracy Complete]> <hidden from users>",
-	"[+4] HP when healing <upon adopting [Freedom Complete]> <hidden from users>",
-	"[+4] HP when healing <upon adopting [Rationalism Complete]> <hidden from users>",
-
-],
+	"uniques": ["[Gunpowder] units gain the [March] promotion","[Ranged Gunpowder] units gain the [March] promotion"],
 
 	"spyNames": ["Bai", "Xudong", "Yanqing", "Wei", "Fang", "Ming", "Jie", "Qian", "Xuesen", "Zhou"],
 	"cities": ["Beijing", "Xi'an", "Nanjing", "Luoyang", "Hangzhou", "Kaifeng", "Anyang", "Shanghai", "Chengdu", "Guangzhou", "Suzhou", "Wuhan", "Chongqing", "Zhengzhou", "Datong", "Lhasa", "Harbin", "Quanzhou", "Xining", "Changsha", "Fuzhou", "Kunming", "Nanchang", "Shenzhen", "Urumqi"],
