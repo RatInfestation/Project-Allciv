@@ -1471,7 +1471,7 @@
 	"innerColor": [190, 118, 128],
 
 	"uniqueName": "Destroyer of Bau",
-	"uniques": ["[+22]% Strength <vs [Barbarian] units> <for [Land] units>", "Resting point for Influence with City-States is increased by [5] <upon adopting [Honor]>", "[All] units gain the [Bau Domination] promotion"],
+	"uniques": ["[+22]% Strength <vs [Barbarian] units> <for [Land] units>", "Resting point for Influence with City-States is increased by [5] <after adopting [Honor]>", "[All] units gain the [Bau Domination] promotion"],
 
 	"spyNames": ["Jone", "Tevita", "Mere", "Ana", "Viliame", "Mohammed", "Peni", "Mosese", "Litia", "Sitiveni"],
 	"cities": ["Levuka", "Suva", "Bau", "Nausori", "Viseisei", "Lasakau", "Soso", "Naitasiri", "Tailevu", "Ra", "Savusavu", "Tubou", "Nasaqalau", "Seseleka", "Wainikelei", "Nasau", "Manukui", "Macuata", "Cakaudrove", "Rewa", "Tovu", "Koro", "Vatoa", "Yaroi", "Namosi", "Solo Reef"]
