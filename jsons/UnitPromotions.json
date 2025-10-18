@@ -192,7 +192,7 @@
 	//Corsica
 	{
 	"name": "[Macchieri] ability",
-	"uniques": ["[-15]% Strength for enemy [Military] units in adjacent [Hill] tiles", "[+20]% Strength when stacked with [Great General]"],
+	"uniques": ["[-15]% Strength for enemy [Military] units in adjacent [Hill] tiles", "[+20]% Strength <when stacked with a [Great General] unit>"],
 	},
 	//Comanche
 	{
