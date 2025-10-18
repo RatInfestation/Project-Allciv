@@ -148,7 +148,7 @@
 	//Fiji
 	{
 	"name": "Bau Domination",
-	"uniques": ["[This Unit] heals [25] HP <upon being promoted>", "[+1] Movement <for [This Unit] units> <for [5] turns> <upon being promoted>", "[+15]% Strength <for [This Unit] units> <for [5] turns> <upon being promoted>"],
+	"uniques": ["[This Unit] heals [25] HP <upon being promoted>", "[+1] Movement <for [This Unit] units> <for [5] turns> <after being promoted>", "[+15]% Strength <for [This Unit] units> <for [5] turns> <after being promoted>"],
 	},
 	//Australia
 	{
@@ -449,11 +449,11 @@
 	//Kazakhs
 	{
 		"name": "Kazakh Ability",
-		"uniques": ["Heals [15] damage if it kills a unit", "[+10]% Strength <for [2] turns> <upon defeating a [Military] unit>", "[+1] Movement <for [2] turns> <upon defeating a [Military] unit>"],
+		"uniques": ["Heals [15] damage if it kills a unit", "[+10]% Strength <for [2] turns> <after defeating a [Military] unit>", "[+1] Movement <for [2] turns> <after defeating a [Military] unit>"],
 	},
 	{
 		"name": "Kazakh Mounted Ability",
-		"uniques": ["Heals [30] damage if it kills a unit", "[+20]% Strength <for [2] turns> <upon defeating a [Military] unit>", "[+2] Movement <for [2] turns> <upon defeating a [Military] unit>"],
+		"uniques": ["Heals [30] damage if it kills a unit", "[+20]% Strength <for [2] turns> <after defeating a [Military] unit>", "[+2] Movement <for [2] turns> <after defeating a [Military] unit>"],
 	},
 	//Secwepemc
 	{
