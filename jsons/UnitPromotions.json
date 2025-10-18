@@ -459,6 +459,7 @@
 		"name": "Suinshi I",
 		"uniques": ["[+10]% [Strength]", "[+1] Movement"],
 	},
+	{
 	"name": "Suinshi II",
 		"uniques": ["[+20]% [Strength]", "[+2] Movement"],
 	},
