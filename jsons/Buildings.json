@@ -514,7 +514,7 @@
 			"happiness": 1,
 			"maintenance": 2,
 			"hurryCostModifier": 50,
-			"uniques": ["Remove extra unhappiness from annexed cities", "[+2 Science] <after discovering [Education]>", "Can only be built <in [in all cities] cities>"],
+			"uniques": ["Removes extra unhappiness from annexed cities", "[+2 Science] <after discovering [Education]>", "Can only be built <in [in all cities] cities>"],
 			"requiredTech": "Mathematics"
 		},
 		//Vandals
@@ -640,7 +640,7 @@
 			"replaces": "Courthouse",
 			"maintenance": 2,
 			"hurryCostModifier": 50,
-			"uniques": ["Remove extra unhappiness from annexed cities",
+			"uniques": ["Removes extra unhappiness from annexed cities",
 			"[+1 Culture, +1 Science] from every specialist [in this city]"],
 			"requiredTech": "Mathematics"
 		},
@@ -891,7 +891,7 @@
 			"replaces": "Courthouse",
 			"hurryCostModifier": 50,
 			"percentStatBonus": {"gold": 15},
-			"uniques": ["Remove extra unhappiness from annexed cities",
+			"uniques": ["Removes extra unhappiness from annexed cities",
 				"Can only be built <in [Annexed] cities>", "[+2]% growth [in capital]", "Provides 1 extra copy of each improved luxury resource near this City"],
 			"requiredTech": "Mathematics"
 		},
@@ -1543,7 +1543,7 @@
 			"replaces": "Courthouse",
 			"maintenance": 4,
 			"hurryCostModifier": 50,
-			"uniques": ["Remove extra unhappiness from annexed cities",
+			"uniques": ["Removes extra unhappiness from annexed cities",
 			"[+2 Faith, +3 Gold] [in this city] <in cities following our religion>",
 			"[+30]% Natural religion spread [in this city]"],
 			"requiredTech": "Mathematics"
@@ -1992,7 +1992,7 @@
 			"happiness": 2,
 			"maintenance": 2,
 			"hurryCostModifier": 50,
-			"uniques": ["Remove extra unhappiness from annexed cities"],
+			"uniques": ["Removes extra unhappiness from annexed cities"],
 			"requiredTech": "Mathematics"
 		},
 		//Norfolk
