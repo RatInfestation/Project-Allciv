@@ -449,11 +449,18 @@
 	//Kazakhs
 	{
 		"name": "Kazakh Ability",
-		"uniques": ["Heals [15] damage if it kills a unit", "[+10]% Strength <for [2] turns> <after defeating a [Military] unit>", "[+1] Movement <for [2] turns> <after defeating a [Military] unit>"],
+		"uniques": ["Heals [15] damage if it kills a unit", "[This Unit] gains the [Suinshi I] status for [2] turn(s) <upon defeating a [Military] unit>", "[+1] Movement <for [2] turns> <after defeating a [Military] unit>"],
 	},
 	{
 		"name": "Kazakh Mounted Ability",
-		"uniques": ["Heals [30] damage if it kills a unit", "[+20]% Strength <for [2] turns> <after defeating a [Military] unit>", "[+2] Movement <for [2] turns> <after defeating a [Military] unit>"],
+		"uniques": ["Heals [30] damage if it kills a unit", "[This Unit] gains the [Suinshi II] status for [2] turn(s) <after defeating a [Military] unit>", "[+2] Movement <for [2] turns> <after defeating a [Military] unit>"],
+	},
+	{
+		"name": "Suinshi I",
+		"uniques": ["[+10]% [Strength]", "[+1] Movement"],
+	},
+	"name": "Suinshi II",
+		"uniques": ["[+20]% [Strength]", "[+2] Movement"],
 	},
 	//Secwepemc
 	{
