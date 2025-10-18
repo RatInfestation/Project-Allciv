@@ -133,7 +133,7 @@
 	//Samoa
 	{
 	"name": "Island Navigation",
-	"uniques": ["Double movement in [Water] <in [Friendly Land] tiles> <upon discovering [Optics]>"],
+	"uniques": ["Double movement in [Water] <in [Friendly Land] tiles> <after discovering [Optics]>"],
 	},
 	//Sri Lanka
 	{
