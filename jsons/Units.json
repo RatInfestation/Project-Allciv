@@ -1284,7 +1284,7 @@
 	"upgradesTo": "Knight",
 	"obsoleteTech": "Chivalry",
 	"promotions": ["Mobility"],
-	"uniques": ["Can move after attacking", "No defensive terrain bonus", "[-33]% Strength <vs cities>", "[+50]% Strength <when attacking> <when above [95] HP>" ],
+	"uniques": ["Can move after attacking", "No defensive terrain bonus", "[-33]% Strength <vs cities> <when attacking>", "[+50]% Strength <when attacking> <when above [95] HP>" ],
 	"hurryCostModifier": 20,
 	"attackSound": "horse"
 },
