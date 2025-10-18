@@ -148,7 +148,11 @@
 	//Fiji
 	{
 	"name": "Bau Domination",
-	"uniques": ["[This Unit] heals [25] HP <upon being promoted>", "[+1] Movement <for [This Unit] units> <for [5] turns> <after being promoted>", "[+15]% Strength <for [This Unit] units> <for [5] turns> <after being promoted>"],
+	"uniques": ["[This Unit] heals [25] HP <upon being promoted>", "[This Unit] gains the [Victorious] status for [5] turn(s) <upon being promoted>"],
+	},
+	{
+		"name": "Victorious",
+		"uniques": ["[+15]% Strength", "[+1] Movement"],
 	},
 	//Australia
 	{
