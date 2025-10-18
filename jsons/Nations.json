@@ -5320,6 +5320,7 @@
 		"Comment [Permanently gain +1 [Gold] from trade routes upon entering a Golden Age]",
 		"Comment [+1 copy of luxuries improved in your capital and cities connected to your capital during a Golden Age]",
 		"Instantly gain [1] [Great Zimbabwe Trade Route] <upon entering a Golden Age> <hidden from users>",
+		"[+1 Gold] from each Trade Route <for every [Great Zimbabwe Trade Route]> <hidden from users>",
 		"Gain a free [Great Zimbabwe Ability] [in all cities connected to capital] <hidden from users>"],
 
 	"spyNames": ["Nyatsimba", "Chikura", "Mutota", "Mambo", "Dzimba", "Shona", "Tavara", "Tonga", "Robert", "Nkomo"],
