@@ -8,8 +8,8 @@
 		"hurryCostModifier": 25,
 		"maintenance": 2,
 		"uniques": ["[+10]% Production when constructing [All] buildings [in this city]",
-		"[+1 Gold] from [Camp] tiles [in this city] <in [tundra] tiles>",
-		"[+1 Production] from [Lumber mill] tiles [in this city] <in [tundra] tiles>",
+		"[+1 Gold] from [Camp] tiles [in this city] <in [Tundra] tiles>",
+		"[+1 Production] from [Lumber mill] tiles [in this city] <in [Tundra] tiles>",
 		"[-50]% construction time for [All Road] improvements <in [in this city] cities>"],
 		"requiredTech": "Economics"
 	},
@@ -22,7 +22,7 @@
 		"cityStrength": 5,
 		"cityHealth": 30,
 		"requiredBuilding": "Barracks",
-		"uniques": ["New [Military] units start with [15] Experience [in this city]","[+10]% Production when constructing [Gunpowder] units [in this city]","Destroyed when the city is captured"],
+		"uniques": ["New [Military] units start with [15] XP [in this city]","[+10]% Production when constructing [Gunpowder] units [in this city]","Destroyed when the city is captured"],
 		"requiredTech": "Steel"
 	},
 	{
@@ -277,7 +277,7 @@
 			"maintenance": 2,
 			"requiredBuilding": "Barracks",
 			"civilopediaText": [{"text": "Capoeira is a Brazilian martial art that combines elements of dance, acrobatics, and music. It originated in the 16th century during the transatlantic slave trade in Brazil. Enslaved Africans developed capoeira as a form of self-defense and resistance against their oppressors. It was disguised as a dance to avoid detection and was used to maintain cultural identity and freedom. Capoeira has since evolved into a significant cultural symbol of Brazil, representing resilience, creativity, and the fight against oppression. Today, it is practiced worldwide and is recognized as an important part of Brazilian cultural heritage."}],
-			"uniques": ["New [Military] units start with [15] Experience [in this city]",
+			"uniques": ["New [Military] units start with [15] XP [in this city]",
 			"All newly-trained [Melee] units [in this city] receive the [Capoeira] promotion", "Destroyed when the city is captured"],
 			"requiredTech": "Steel"
 		},
@@ -751,7 +751,7 @@
 			"percentStatBonus": {"science": 33},
 			"specialistSlots": {"Scientist": 2},
 			"requiredBuilding": "Library",
-			"uniques": ["[+1 Science] from [Coast] tiles [in this city]", "New [Water] units start with [15] Experience [in this city]", "[+20]% Production when constructing [Water] units [in this city]"],
+			"uniques": ["[+1 Science] from [Coast] tiles [in this city]", "New [Water] units start with [15] XP [in this city]", "[+20]% Production when constructing [Water] units [in this city]"],
 			"requiredTech": "Education"
 		},
 		//Italy
@@ -1024,7 +1024,7 @@
 			"requiredNearbyImprovedResources": ["Horses","Sheep","Cattle"],
 			"hurryCostModifier": 25,
 			"uniques": ["[+25]% Production when constructing [Mounted] units [in this city]",
-		  	"New [Mounted] units start with [10] Experience [in this city]",
+		  	"New [Mounted] units start with [10] XP [in this city]",
 				"[+1 Production] from [Cattle] tiles [in this city]",
 				"[+1 Production] from [Horses] tiles [in this city]",
 				"[+1 Production] from [Sheep] tiles [in this city]"],
@@ -1091,7 +1091,7 @@
 			"requiredNearbyImprovedResources": ["Horses","Sheep","Cattle"],
 			"hurryCostModifier": 25,
 			"uniques": ["[+15]% Production when constructing [Mounted] units [in this city]",
-				"New [Mounted] units start with [15] Experience [in this city]",
+				"New [Mounted] units start with [15] XP [in this city]",
 				"[+1 Gold] from [Pasture] tiles [in this city]",
 				"[+1 Production] from [Cattle] tiles [in this city]",
 				"[+1 Production] from [Horses] tiles [in this city]",
@@ -1410,7 +1410,7 @@
 			"maintenance": 1,
 			"Science": 2,
 			"requiredBuilding": "Barracks",
-			"uniques": ["New [Military] units start with [20] Experience [in this city]", "Destroyed when the city is captured"],
+			"uniques": ["New [Military] units start with [20] XP [in this city]", "Destroyed when the city is captured"],
 			"requiredTech": "Steel"
 		},
 		//The Ikko-ikki
@@ -1893,7 +1893,7 @@
 			"uniques": ["[+1 Food] from [Deer] tiles [in this city]",
 				"[+1 Food] from [Bananas] tiles [in this city]",
 				"[+1 Food] from [Wheat] tiles [in this city]",
-				"New [Land] units start with [10] Experience [in this city]"],
+				"New [Land] units start with [10] XP [in this city]"],
 			"requiredTech": "Pottery"
 		},
 		//New Caledonia
@@ -2194,7 +2194,7 @@
 			"uniques": [
 			"Comment [-50% cost in annexed cities]",
 			"All newly-trained [Land] units [in this city] receive the [Great Generals I] promotion",
-			"New [Military] units start with [15] Experience [in this city]", "Destroyed when the city is captured"],
+			"New [Military] units start with [15] XP [in this city]", "Destroyed when the city is captured"],
 			"requiredTech": "Bronze Working"
 		},
 		//Kazakhstan
