@@ -1284,7 +1284,7 @@
 	"upgradesTo": "Knight",
 	"obsoleteTech": "Chivalry",
 	"promotions": ["Mobility"],
-	"uniques": ["Can move after attacking", "No defensive terrain bonus", "[-33]% Strength <vs cities>", "[+50]% Strength <when attacking> <when above [95] HP>" ],
+	"uniques": ["Can move after attacking", "No defensive terrain bonus", "[-33]% Strength <vs cities> <when attacking>", "[+50]% Strength <when attacking> <when above [95] HP>" ],
 	"hurryCostModifier": 20,
 	"attackSound": "horse"
 },
@@ -1459,7 +1459,7 @@
 	"requiredTech": "Education",
 	"upgradesTo": "Ironclad",
 	"obsoleteTech": "Combustion",
-	"uniques": ["[+1] Sight", "Withdraws before melee combat <with [80]% chance>", "[+5]% Strength <in [Coast] tiles>", "[+10]% Strength <vs cities>", "[+20]% Strength when stacked with [Great Person]", "Transfer Movement to [Great Person]"],
+	"uniques": ["[+1] Sight", "Withdraws before melee combat <with [80]% chance>", "[+5]% Strength <in [Coast] tiles>", "[+10]% Strength <vs cities>", "[+20]% Strength <when stacked with a [Great Person] unit>", "Transfer Movement to [Great Person]"],
 	"hurryCostModifier": 30,
 	"attackSound": "cannon"
 },
@@ -1490,7 +1490,7 @@
 	"requiredTech": "Physics",
 	"upgradesTo": "Ironclad",
 	"obsoleteTech": "Combustion",
-	"uniques": ["[+1] Sight", "Withdraws before melee combat <with [80]% chance>", "Can remove other religions from cities <in [Friendly] tiles> <once> <after which this unit is consumed>", "[+25]% Strength when stacked with [Great General] <vs cities> <when attacking>"],
+	"uniques": ["[+1] Sight", "Withdraws before melee combat <with [80]% chance>", "Can remove other religions from cities <in [Friendly] tiles> <once> <after which this unit is consumed>", "[+25]% Strength <when stacked with a [Great General] unit> <vs cities> <when attacking>"],
 	"hurryCostModifier": 30,
 	"attackSound": "cannon"
 },
@@ -2181,7 +2181,7 @@
 	"cost": 370,
 	"requiredTech": "Pharmaceuticals",
 	"promotions": ["Cover I"],
-	"uniques": ["[+15]% Strength <when between [-1] and [-5] Happiness>", "[+20]% Strength <when between [-5] and [-10] Happiness>"],
+	"uniques": ["[+15]% Strength <when between [-1] and [-5] [Happiness]>", "[+20]% Strength <when between [-5] and [-10] [Happiness]>"],
 	"attackSound": "shot"
 },
 //Papal states

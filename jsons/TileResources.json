@@ -122,4 +122,10 @@
 		"name":"Rhodesian Tobacco",
 		"resourceType": "Luxury",
 	},
+	{
+		"name": "Great Zimbabwe Trade Route",
+		"resourceType": "Strategic",
+		"uniques": ["Cannot be traded", "Stockpiled", "Excluded from map editor", "Not shown on world screen", "Doesn't generate naturally"],
+	},
 ]
+
