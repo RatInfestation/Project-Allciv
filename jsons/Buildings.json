@@ -146,7 +146,7 @@
 		},
 		//Iceland
 		{
-			"name": "Heitt Bad",
+			"name": "Heitt Bað",
 			"replaces": "Aqueduct",
 			"uniqueTo": "Iceland",
 			"maintenance": 2,
@@ -168,7 +168,8 @@
 			"maintenance": 4,
 			"hurryCostModifier": 0,
 			"requiredTech": "Archaeology",
-			"uniques": ["Destroyed when the city is captured","[+2 Science] from [Jungle] tiles [in this city]"]
+			"uniques": ["Destroyed when the city is captured","[+2 Science] from [Jungle] tiles [in this city]"],
+			"civilopediaText": [{ "text": "Many species of animals are endemic (as in they only exist in one area) to Christmas Island due to its distance from other areas of land. Birds are plentiful on the island, with many seabirds making nests on the island. The Abbots booby only known nesting are is located on Christmas Island, and many other species of bird are only found here. Ecotourism is an important source of income on the island, due to tourists wanting to catch a glimpse of these rare birds. The locals of the island are also supportive of the tourism industry of the island, as they vastly prefer it to the more destructive and contravertial phosphate mining operations on the island." }]
 		},
 		//Norway
 		{
@@ -182,6 +183,7 @@
 			"hurryCostModifier": 25,
 			"requiredTech": "Philosophy",
 			"uniques": ["Only available <when religion is enabled>", "Destroyed when the city is captured", "[+10]% Production when constructing [{Military} {Water}] units [in this city]", "[+15]% Great Person generation [in this city]"]
+			"civilopediaText": [{ "text": "Churches come in a variety of different designs all over the world, due to the syncretic nature of Christianity. In the Nordic countries, Stave churches were built. They were made of mostly wood, in contrast to the usual stone, and have a extremely distinct silhouette. It is believed that Stave churches were originally based on earlier palisade structures, with their wooden construction being similar. Now, Stave churches are only found in Norway, with the only exceptions being an odd case of one churche being moved to Poland. Most stave churches have been replaced, whether due to newer churches replacing them or being left tin ruin due to disrepair. In recent years, Stave churches have been unfortunately subject to many fires, mostly due to arson." }]
 		},
 		//Caral-Supe
 		{
@@ -201,6 +203,7 @@
 			"[+1 Faith] per [4] population [in this city]",
 			"[-1 Production] [in all coastal cities] <in [in this city] cities>",
 			"[+1 Production] [in this city]",],
+			"civilopediaText": [{ "text": "carpal-Supe is one of the world oldest known civilisations, so its architecture is comparably to ancient Sumerian or Egyptian buildings. One of the most iconic peices af architecture present in the ruins of the Caralans are the plazas locates outside the large mounds of their cities. It is theorised that these cities held significant religious importance, giving a reason for their monumentous size. it is also possible that Caral_Supe was once the worlds most densely populated regions in antiquity, meaning they had to accomodate for, any people too." }],
 			"requiredTech": "Construction"
 		},
 		//Nazca
@@ -211,6 +214,7 @@
 			"maintenance": 0,
 			"hurryCostModifier": 0,
 			"uniques": ["[40]% Food is carried over after population increases [in this city]", "[+1 Food] from [{non-fresh water} {Farm}] tiles [in this city]"],
+			"civilopediaText": [{ "text": "Life in the desert has many difficulties, one being the lack of water. Tha Nazca's solution to this issue was the Puquios, a large underground aqueduct system. It shares many similarities with the Iranian Qanat, ot the Arab Falaj. Puquios allow for the easy transport of water across long distances without the need for constructing large pieces of infrastructure. A few of these systems are still inuse to this day, however industrial irrigation techniques and newer well systems have obsoleted the need for them in some areas, causing many Puquios in threat of neglect and disrepair." }],
 			"requiredTech": "Engineering"
 		},
 		//Marajoara
