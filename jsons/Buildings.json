@@ -240,6 +240,7 @@
 			"happiness": 3,
 			"uniques": ["[+1 Culture] from every [Barracks] <in this city>", "[+1 Culture] from every [Armory] <in this city>", "[+2 Culture] from every [Military Academy] <in this city>"],
 			"hurryCostModifier": 25,
+			"civilopediaText": [{ "text": "Ballgames are a crucial part of Mesoamarican culture and religion for most of its history. One game goes by many names by the natives of the region, ollamaliztli, pokolpok, tlachtli, pitz, but the Spanish called it Juego de Pelota. Usually, the aim of the game is between two teams trying to keep a small rubber ball inside the play field. They can only use their elbows and knees to hit the ball, and the team that is responsible of dropping the ball loses. The court has a very distinct shape, with tall slanted walls, and a peculiar I-shaped playing field, both to help the ball to bounce around and keep the players of their toes. Scoring hoops were added on newer courts. This ballgame is so ingrained in Mesoamarican culture, that in some versions of the Mesoamerican creation story, this ballgame is a crucial element to the story. The meaning of the ballgame is not fully understood, but it is believed to have significant religious connotations, as there are reports of it being used to pit prisoners of war together, and the losers are then ritually sacrificed. In the modern day, a modernised, secular version of the game is still played, called ulama."}],
 			"requiredTech": "Horseback Riding"
 		},
 		//The Zenu
@@ -251,6 +252,7 @@
 			"maintenance": 1,
 			"production": 1,
 			"uniques": ["[+1 Science] per [2] population [in this city]", "[+1 Gold] <after discovering [Bronze Working]>", "Must be next to [Fresh water]", "[+5]% [Gold] [in this city]"],
+			"civilopediaText": [{ "text": "On the many beautiful gold and ceramic artifacts left by the Zenu, textiles with intricate patterns and designs are shown. Along side needles and spindles made of bone, this shows us the beauty of Zenu textile-making. No historical pieces of woven cloth survives to this day, but the modern Zenu still carry on the practice, weaving and sewing many cloths in their distinct style."}],
 			"requiredTech": "Writing"
 		},
 		//The Hisatsinom
@@ -264,7 +266,8 @@
 			"maintenance": 2,
 			"hurryCostModifier": 25,
 			"requiredTech": "Masonry",
-			"uniques": ["Only available <when religion is enabled>", "Destroyed when the city is captured"]
+			"uniques": ["Only available <when religion is enabled>", "Destroyed when the city is captured"],
+			"civilopediaText": [{ "text": "Kivas were large round structures found in the pueblos of the Hitsatsinom. They are usually made of stone with a wooden roof, with a hole in the centre of the roof where a ladder lay, acting as the entrance. Around the sides of the Kiva, small indents containing small pictures lie. We don't know exactly what the purpose of these images are, but it is likely that it was a way to give offering so the dead. The Kiva itself was usually used for religious and political reasons, being a social gathering point tor the locals. No Kivas are in use to this day, and most of them are under either archeological supervision or under the control of the Ancestral Puebloans." }]
 		},
 		//Chile
 		{
@@ -402,7 +405,8 @@
 			"maintenance": 2,
 			"hurryCostModifier": 25,
 			"requiredTech": "Philosophy",
-			"uniques": ["Only available <when religion is enabled>", "Destroyed when the city is captured", "[-15]% Culture cost of natural border growth [in this city]", "[+15]% Great Person generation [in this city]"]
+			"uniques": ["Only available <when religion is enabled>", "Destroyed when the city is captured", "[-15]% Culture cost of natural border growth [in this city]", "[+15]% Great Person generation [in this city]"],
+			"civilopediaText": [{ "text": "Vatadages are large buildings usually built around stupas in order to protect them, as well as providing shelter to worshipers and to hide holy relics. These round stuctures are a prime example of Sri Lanka art and design, as very little outside infuence has affected these structures. Only 10 Vatadages remain to this day, but effort are being made to protect and preserve them." }]
 		},
 		//Malaysia
 		{
