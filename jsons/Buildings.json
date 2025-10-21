@@ -23,6 +23,7 @@
 		"cityHealth": 30,
 		"requiredBuilding": "Barracks",
 		"uniques": ["New [Military] units start with [15] XP [in this city]","[+10]% Production when constructing [Gunpowder] units [in this city]","Destroyed when the city is captured"],
+		"civilopediaText": [{ "text": "Casemate's are a common type of defense found in Europe and the Middle east. Originally Casemate was a term for a type of wall that was designed to withstand damage from battering rams, usually be having an inner and outer wall separated by a gap containing multiple chambers. In a more modern sense, Casemate's are used to house large artillery pieces. They were an iconic feature on many defensive lines, such as the French Maginot line and the German Atlantic Wall. In Luxembourg, some of the most famous casemates are foung in the ruins of the Bock, a large castle built to defend Luxembourg from many larger European powers. The ruins of the Bock and its casemates are now a popular tourist destination." }],
 		"requiredTech": "Steel"
 	},
 	{
@@ -35,6 +36,7 @@
 		"culture": 1,
 		"requiredBuilding": "Shrine",
 		"hurryCostModifier": 25,
+		"civilopediaText": [{ "text": "Haus Tambaran is a place of ancestor worship in Papua New Guinea. The style of which these buildings are built in is iconic, with a beautifully decorated entrance and a sweeping roof. The parliament building of Papua New Guinea is designed in this exact style, sometimes even called *the* Haus Tambaran. As Christianity rises in the country, however, the use and construction of these houses of worship have declined, nowadays only having a cultural, not a religious, influence on Papua New Guinea." }],
 		"requiredTech": "Philosophy"
 	},
 	{
@@ -46,6 +48,7 @@
 	    "hurryCostModifier": 25,
 	    "percentStatBonus": {"gold": 25},
 	    "uniques": ["[+1 Gold, +1 Culture] from [Luxury resource] tiles [in this city]"],
+		"civilopediaText": [{ "text": "Afghan rugs have been a luxury for centuries, with many people all through history having sought out them. Because of this, rug making has been rooted deeply in Afghan culture, and it has given many lots of wealth. This was, of course, heightend due to the Silk Road, which allowed traders all over Europe and Asia cess tot these rugs. Even in the modern day, Afghan rugs are considered to have incredibly high value due to their quality and designs. The large markets that sell these rugs in Mazar-e-Sharif and Kabul have existed for years, and have appeared in other cities, such as Peshawar and Islamabad in Pakistan too." }],
 	    "requiredTech": "Currency"
 	  },
 		//Cyprus
@@ -54,6 +57,7 @@
 		"uniqueTo": "Cyprus",
 		"cost": 100,
 		"uniques": ["Provides [4] [Olive Oil]","Unsellable","Destroyed when the city is captured","Unbuildable"],
+		"civilopediaText": [{ "text": "mmm..... olives" }],
 		},
 		{
 			"name": "Fortifications of Famagusta",
@@ -64,7 +68,8 @@
 			"culture": 1,
 			"hurryCostModifier": 25,
 			"requiredTech": "Masonry",
-			"uniques": ["[+1 Culture, +1 Gold] <after discovering [Flight]>"]
+			"uniques": ["[+1 Culture, +1 Gold] <after discovering [Flight]>"],
+			"civilopediaText": [{ "text": "The walls that surround the city of Famagusta are impressive in their might and their beauty. Initially build by native Cypriots, they were greatly expanded on by the Venetians, who used Famagusta as a military base. Due to these fortifications, Famagusta was the last stronghold the Venetians had when the Ottomans invaded in 1570. The city stood for a year before falling. Now, most of the walls are in good condition, with only some areas needing repair." }],
 		},
 		//Nauru
 		{
@@ -81,6 +86,7 @@
 			"requiredBuilding": "Workshop",
 			"maintenance": 2,
 			"hurryCostModifier": 0,
+			"civilopediaText": [{ "text": "The island of Nauru is rich in phosphate. In fact, phosphate found here is considered some of the purest in the world. This resulted in the British, Australian and Nauru governments wanting to exploit this source. What resulted was immense investment and wealth for Nauru, as the small Pacific island became one of the worlds largest phosphate exporters. The people of Nauru suddenly became some of the riches people in the world, however, this took a massive toll on the island. Strip minning has left the island devastated, with the majority of the island becoming unfit for life as the earth was hollowed out. Most of the island was covered in Large linestone pillars and sharp corals. So when the phosphate started to run out near the turn of the century, Nauru's economy collapsed." }],
 			"requiredTech": "Industrialization"
 		},
 		//New Zealand
@@ -94,6 +100,7 @@
 			"uniques": ["[40]% Food is carried over after population increases [in this city]",
 			"[+1 Gold] from every [Pasture]",
 			"[+1 Production, +1 Gold] from every [Sheep] <in [Pasture] tiles>"],
+			"civilopediaText": [{ "text": "A station, or a run, is a large farm dedicated to raising livestock. In New Zealand, this is mostly sheep, due to the country's hilly landscape being suited for raising them. Other countries have similar types of farm, such as the Australian station and the American ranch. Stations are ingrained into New Zealand's culture, with many songs, books and movies being made about them. " }],
 			"requiredTech": "Engineering"
 		},
 		//Hong Kong
@@ -120,7 +127,8 @@
 			"cost": 30,
 			"hurryCostModifier": 40,
 			"maintenance": 0,
-			"uniques": ["Destroyed when the city is captured"]
+			"uniques": ["Destroyed when the city is captured"],
+			"civilopediaText": [{ "text": "Inukshuks, also known as Inuksuks, are large humanoid megaliths, built by the natives of Canada. They serve a variety of uses, mostly related to navigation, since their large stature can easily mark a hunting ground or a food cache from a distance. The place with the most Inukshuks is on Baffin Island, where over 100 are located on just a small peninsula alone. Inukshuks serve as a national icon of the Canadian people, an example being their presence on the 2010 Vancouver Winter Olympics Icon." }]
 		},
 		//The Sámi
 		{
@@ -133,6 +141,7 @@
 			"uniques": ["[+1 Culture] from [Camp] tiles [in this city] <within [1] tiles of a [City center]>"],
 			"cost": 75,
 			"hurryCostModifier": 25,
+			"civilopediaText": [{ "text": "Lavvu are small temporary shelters, similar in shape to the North American Tipi. Their ease to construct, ability to have a fire in it, and resistance to the wind makes them ideal for living in cold environments. They are frequently mistaken for other similar structures, such as the Tipi. The Lavvu are arguably the main symbol of the Sami, since they provided housing for the Sami as Germany destroyed houses and infrastructure during its invasion of the Soviets, and they were a symbol of protest against the Norwegian government during the Alta controversy." }],
 			"requiredTech": "Animal Husbandry"
 		},
 		//Iceland
