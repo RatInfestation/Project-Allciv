@@ -417,7 +417,8 @@
 			"maintenance": 2,
 			"hurryCostModifier": 25,
 			"uniques": ["[+1 Production, +1 Gold] from [Water resource] tiles [in this city]", "[+1 Culture] from each Trade Route",
-				"Connects trade routes over water","Must be next to [Coast]"],
+				"Connects trade routes over water","Must be next to [Coast]"]
+			"civilopediaText": [{ "text": "Control of the seas is important for the nations of South East Asia, due to its large economic potential, and for Malaysia, it is crucial. The Straits of Mallacca have been a choke point in maritime trade throughout history, with merchant vessels being bottlenecked into the channel. This has allowed for many kingdoms, sultanates and empires to seek control of the region. So, in order to control the seas around their nation, many ports, called Dermaga in Malay, were built. This has allowed Malaysia to profit off of the trade that passes though the region, similar to how Egypt and Panama use the Suez and Panama canals." }],
 			"requiredTech": "Compass"
 		},
 		//Singapore
@@ -429,6 +430,7 @@
 			"requiredBuilding": "Theatre",
 			"uniques": ["[+2 Gold] per [1] population [in this city]", "[-33]% Food consumption by specialists [in this city]", "[Gold] cost of purchasing [Military] units [-33]% <in [in this city] cities>"],
 			"maintenance": 6,
+			"civilopediaText": [{ "text": "The Housing and Development Board (or HDB for short) is an organisation that is resonsible for building and refurbishing houses and flats in Singapore. Initially they were created in response to Singapore's growing need for a more organised central board of planning, since Singapore needs to make as much use of the land it has. Modern flats and scyscrapers are constantly being built and redeveloped, allowing for Singapore to have some of the most luxurious (and expensive) housing in the world. " }],
 			"requiredTech": "Refrigeration"
 		},
 		//Dominica
@@ -445,6 +447,7 @@
 				"Must be next to [Coast]", "[+15]% Production when constructing [Water] units [in this city]"],
 			"requiredTech": "Navigation"
 		},
+	//Tonga
 		{
 			"name": "Mala'e",
 			"replaces": "Granary",
@@ -460,6 +463,7 @@
 				"[+1 Food] from [Fishing Boats] tiles [in this city]"],
 			"requiredTech": "Pottery"
 		},
+	//Cameroon
 		{
 			"name": "CRTV Network",
 			"replaces": "Broadcast Tower",
@@ -942,7 +946,7 @@
 				"culture": 1,
 				"isNationalWonder": true,
 				"uniques": ["Militaristic City-States grant units [4] times as fast when you are at war with a common nation",
-				"[-75]% City-State Influence degradation"
+				"[-75]% City-State Influence degradation",
 				"Resting point for Influence with City-States is increased by [30]",
 				"Only available <when espionage is enabled>",
 						"New spies start with [1] level(s)",
