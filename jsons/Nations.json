@@ -5509,7 +5509,7 @@
 	"innerColor": [28, 15, 19],
 
 	"uniqueName": "Seasonal Round",
-	"uniques": ["Unimproved resources will grain a bonus stat as if they were improved if the tech required for the improvement is research",
+	"uniques": ["Unimproved resources will gain a bonus stat as if they were improved if the tech required for the improvement is research",
 	"[+20]% growth [in all cities] <with [0] to [0] neighboring [Improvement] tiles>",
 	"[+1 Food] from every [{unimproved} {non-[resource]} {Open terrain}] <after discovering [Agriculture]> <hidden from users>",
 	"[+1 Gold] from every [{unimproved} {Luxury resource}] <after discovering [Calendar]> <hidden from users>",
