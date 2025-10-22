@@ -445,6 +445,7 @@
 			"requiredBuilding": "Harbor",
 			"uniques": ["[+1 Production, +1 Gold] from [Water resource] tiles [in this city]",
 				"Must be next to [Coast]", "[+15]% Production when constructing [Water] units [in this city]"],
+			"civilopediaText": [{ "text": "In the warm seas of the Carribbean, all sorts of flora and fauna thrive. Dominica is a prime exaple of this, with multiple rare and endemic species, and it uses its rich ecosystems to enhance its tourism industry. ecotourism is an important part of Dominca's economy, so like many Carribbean islands. Many cruises (and therefore rich tourists) arrive to the island and gawk at the animals and landscapes of the region, providing a more reliable source of income to the small island."}],
 			"requiredTech": "Navigation"
 		},
 	//Tonga
@@ -461,6 +462,7 @@
 				"[+1 Food] from [Wheat] tiles [in this city]",
 				"[+1 Food] from [Ocean] tiles [in this city]",
 				"[+1 Food] from [Fishing Boats] tiles [in this city]"],
+			"civilopediaText": [{ "text": "The Mala'e are burial grounds found in Tonga. The most important Mala'e is the Mala'ekula ('Red Squared in Tongan) where the Royal Family, alongside any relatives, are buried. " }],
 			"requiredTech": "Pottery"
 		},
 	//Cameroon
@@ -488,6 +490,7 @@
 				"[+1 Food] from [Coast] tiles [in this city]", "[+1 Food] from [Fish] tiles [in this city]",
 				"[+1 Gold] from [Ocean] tiles [in this city]",
 					"[+1 Gold] from [Coast] tiles [in this city]"],
+			"civilopediaText": [{ "text": "The Colossus of Rhodes needs no introduction. one of the Seven Ancient Wonders of the World, an engineering marvel, and of course a wonder in this game! Helios was the patron God of Rhodes, so when the Island was freed by the Egyptians from a siege, the people of Rhodes decided to create a statue of their patron God. After an earthquake, however, the statue fell. The people of Rhodes did not rebuild it, as the Oracle (another wonder in this game) advised them not to. In the end, the parts of the Colossus were slowly dismantled and sold off, that by the time of the Umayyad conquest of Rhodes, no trace of the statue remained." }],
 			"requiredTech": "Optics"
 		},
 		//The Kievan Rus
@@ -513,6 +516,7 @@
 			"culture": 1,
 			"isNationalWonder": true,
 			"uniques": ["Can only be built <in [in capital] cities>", "[+1 Gold] [in all cities]", "[+25]% Great Person generation [in this city]", "[-25]% Culture cost of natural border growth [in capital]", "All newly-trained [Mounted] units [in capital] receive the [Volley] promotion", "All newly-trained [Armour] units [in capital] receive the [Volley] promotion"],
+			"civilopediaText": [{ "text": "Mukden Palace is a large palace complex, first built during the Jin dynasty, and was used through into the early Qing dynasty. It design is mostly based upon the Forbidden City in Beijing, but had some moreManchu influence, due to its proximity to Manchria and expansions made by the Manchu Qing emperors. The palace started to fall out of use during the Qing dynasty as Beijing becoming the residence of the Emperor. It now serves as a museum, like most former palaces in China" }],
 			"requiredTech": "Drama and Poetry"
 		},
 		//The Goths
