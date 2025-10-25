@@ -556,7 +556,7 @@
 			"maintenance": 2,
 			"hurryCostModifier": 25,
 			"requiredTech": "Philosophy",
-			"civilopediaText": [{ "text": "Arianism is a sect of Christianity that the Vandals notably spread across North Africa. One of the main beliefs of Arianism is that Jesus is not the son of God, but only a creation of God, similar to how Muslims perceive. This belief had lead to many political and religious crises in the early Christian world, as the faith was denounced by the Council of Niacea. Arianism lasted in Vandal and other Germanic peoples beliefs until they were dissipated and destroyed by kingdoms of alternate Christian beliefs, such as the Carolignian and Byzantine empires" }].
+			"civilopediaText": [{ "text": "Arianism is a sect of Christianity that the Vandals notably spread across North Africa. One of the main beliefs of Arianism is that Jesus is not the son of God, but only a creation of God, similar to how Muslims perceive. This belief had lead to many political and religious crises in the early Christian world, as the faith was denounced by the Council of Niacea. Arianism lasted in Vandal and other Germanic peoples beliefs until they were dissipated and destroyed by kingdoms of alternate Christian beliefs, such as the Carolignian and Byzantine empires" }],
 			"uniques": ["Only available <when religion is enabled>", "Destroyed when the city is captured"]
 		},
 		//Ukraine
