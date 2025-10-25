@@ -146,7 +146,7 @@
 		},
 		//Iceland
 		{
-			"name": "Heitt Bað",
+			"name": "Heitt Bad",
 			"replaces": "Aqueduct",
 			"uniqueTo": "Iceland",
 			"maintenance": 2,
@@ -203,7 +203,7 @@
 			"[+1 Faith] per [4] population [in this city]",
 			"[-1 Production] [in all coastal cities] <in [in this city] cities>",
 			"[+1 Production] [in this city]",],
-			"civilopediaText": [{ "text": "carpal-Supe is one of the world oldest known civilisations, so its architecture is comparably to ancient Sumerian or Egyptian buildings. One of the most iconic peices af architecture present in the ruins of the Caralans are the plazas locates outside the large mounds of their cities. It is theorised that these cities held significant religious importance, giving a reason for their monumentous size. it is also possible that Caral_Supe was once the worlds most densely populated regions in antiquity, meaning they had to accomodate for, any people too." }],
+			"civilopediaText": [{ "text": "Carpal-Supe is one of the world oldest known civilisations, so its architecture is comparably to ancient Sumerian or Egyptian buildings. One of the most iconic peices af architecture present in the ruins of the Caralans are the plazas locates outside the large mounds of their cities. It is theorised that these cities held significant religious importance, giving a reason for their monumentous size. it is also possible that Caral_Supe was once the worlds most densely populated regions in antiquity, meaning they had to accomodate for, any people too." }],
 			"requiredTech": "Construction"
 		},
 		//Nazca
@@ -349,6 +349,7 @@
 			"production": 1,
 			"hurryCostModifier": 25,
 			"uniques": ["Must be on [Coastal]"],
+			"civilopediaText": [{"text": "Nakamal are traditional meeting grounds forud in Vanuatu. They have quite a few iconic feaatures, such as having large slanted roofs that almost touch the ground and an open entrance with no doors. The exact usage of the Nakamal varies on where you are on the island of Vanuatu, but usually it is an open place of rest, mostly used for unmarried men and visitors. Recently, Nakamal have started to act more similarly as a bar or pub, selling Kava drinks. In Port Vila, the capital of Vanuatu, the assembly building of the islands chiefs is designed to mimic the same structure of a traditional Nakamal." }],
 			"requiredTech": "The Wheel"
 		},
 		//Solomon Islands
@@ -379,6 +380,7 @@
 			"hurryCostModifier": 25,
 			"uniques": ["[+1 Production] from [Water resource] tiles [in this city]",
 				"Connects trade routes over water","Must be next to [Coast]"],
+			"civilopediaText": [{ "text": "Fale Tele (or 'big house' in Samoan) is a large roung gathering spot for local communities. Many local gatherings such as funerals, festivals and meetings are usually centred around the Fale Tele. It is built exclusively out of wood andd other natural materials, with no metal and seldom stone found in the structure, like most traditional Samoan architecture. Fale Tele are known for their open interiors, also a common characteristics in Samoan architecture, with a high roof and open entrances. Modern variations of the Fale Tele exist, but they are more inspired by European building techniques, such as being rectangular instead of being round, but their role remains the same." }],
 			"requiredTech": "Theology"
 		},
 		//Fiji
@@ -540,6 +542,7 @@
 			"maintenance": 2,
 			"hurryCostModifier": 50,
 			"uniques": ["Removes extra unhappiness from annexed cities", "[+2 Science] <after discovering [Education]>", "Can only be built <in [in all cities] cities>"],
+			"civilopediaText": [{ "text": "In medieval Russia, there were many different forms of government and politics being practiced by regional kingdoms, with Novgorod choosing the Veche. It acted as a small council of representatives from different parts of Novgorod, and would discuss issues and concerns of the nation. this system is what allowed Novgorod to be referred to a republic, however it is debated whether or not the Veche was truly representative, since evidence of certain nobles, called Boyars, having significantly more prominence in the councils. In order for the Veche to be summoned for debates and discussions, a bell had to be rung, after which the Veche will convene. this resulted in the Veche Bell Towers to be symbols of Novgorod government and the Veche, eventually causing their removal when the city was conquered by the monarchy-ruled Muscovy." },
 			"requiredTech": "Mathematics"
 		},
 		//Vandals
@@ -553,6 +556,7 @@
 			"maintenance": 2,
 			"hurryCostModifier": 25,
 			"requiredTech": "Philosophy",
+			"civilopediaText": [{ "text": "Arianism is a sect of Christianity that the Vandals notably spread across North Africa. One of the main beliefs of Arianism is that Jesus is not the son of God, but only a creation of God, similar to how Muslims perceive. This belief had lead to many political and religious crises in the early Christian world, as the faith was denounced by the Council of Niacea. Arianism lasted in Vandal and other Germanic peoples beliefs until they were dissipated and destroyed by kingdoms of alternate Christian beliefs, such as the Carolignian and Byzantine empires" }].
 			"uniques": ["Only available <when religion is enabled>", "Destroyed when the city is captured"]
 		},
 		//Ukraine
